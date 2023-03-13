@@ -216,12 +216,12 @@ export const ContentWrapper = styled.div`
           a {
             color: #000;
             &:hover {
-              color: #eba800;
+              color: rgb(235, 168, 0) !important;
             }
           }
           &.is-current {
             a {
-              color: #eba800;
+              color: rgb(235, 168, 0) !important;
             }
           }
         }

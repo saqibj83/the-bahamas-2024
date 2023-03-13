@@ -68,9 +68,12 @@
     "swiper": "^7.0.6"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.14",
     "babel-plugin-styled-components": "^1.11.1",
     "firebase-tools": "^9.10.0",
     "imagemin-optipng": "^8.0.0",
-    "imagemin-svgo": "^10.0.0"
+    "imagemin-svgo": "^10.0.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
   }
 }
