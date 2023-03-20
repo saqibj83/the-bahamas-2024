@@ -3,6 +3,11 @@ import styled from "styled-components";
 const SectionWrapper = styled.section`
   padding: 75px 0 75px 0;
   background: #000;
+
+  @media (max-width: 550px) {
+    padding: 75px 0 5px 0;
+  }
+
   .primary-cta {
     text-decoration: none;
     color: #000;
@@ -12,10 +17,12 @@ const SectionWrapper = styled.section`
     padding: 15px 40px 15px;
     background: linear-gradient(
       90deg,
-      rgb(245, 191, 64),
-      rgb(255, 225, 156) 50%,
-      rgb(245, 191, 64) 100%,
-      rgb(245, 191, 64) 0px
+      rgba(190, 123, 14, 1) 0%,
+      rgba(213, 149, 42, 1) 17%,
+      rgba(203, 158, 71, 1) 35%,
+      rgba(235, 194, 113, 1) 50%,
+      rgba(199, 133, 28, 1) 90%,
+      rgba(215, 131, 0, 1) 100%
     );
     box-shadow: #000 3px 3px 6px 0;
     position: relative;
@@ -29,6 +36,24 @@ const SectionWrapper = styled.section`
     margin-bottom: 30px;
     margin-top: 50px;
   }
+  // .prime-cta .tooltiptext {
+  //   visibility: hidden;
+  //   background-color: #000000;
+  //   color: #fff;
+  //   text-align: center;
+  //   border-radius: 6px;
+  //   position: absolute;
+  //   margin-top: -62px;
+  //   margin-left: -293px;
+  //   padding: 4px;
+  //   border: 1px solid #eba800;
+  //   z-index: 90;
+  //   width: 150px;
+  // }
+
+  // .prime-cta:hover .tooltiptext {
+  //   visibility: visible;
+  // }
   .service_item {
     position: relative;
     text-align: center;
@@ -83,6 +108,12 @@ const SectionWrapper = styled.section`
     .non-mob {
       display: block;
     }
+    thead tr {
+      margin-right: 5px !important;
+    }
+    td {
+      padding: 15px 0 15px 0 !important;
+    }
     td:nth-child(1),
     th:nth-child(1) {
       width: 25px !important;
@@ -93,7 +124,6 @@ const SectionWrapper = styled.section`
       width: 55px !important;
       font-size: 10px !important;
       text-align: center;
-      padding-right: 10px;
     }
     td:nth-child(3),
     th:nth-child(3) {
@@ -108,7 +138,7 @@ const SectionWrapper = styled.section`
     }
     td:nth-child(5),
     th:nth-child(5) {
-      width: 50px !important;
+      width: 70px !important;
       font-size: 10px !important;
     }
     td:nth-child(6),
