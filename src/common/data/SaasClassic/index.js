@@ -14,7 +14,7 @@ export const MENU_ITEMS = [
     offset: "0",
   },
   {
-    label: "LIVE CHANNEL",
+    label: "LIVE CHANNELS",
     path: "#channel_section",
     offset: "0",
   },

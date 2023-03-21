@@ -66,6 +66,16 @@ export const ContactFormWrapper = styled.div`
     button {
       width: 100%;
     }
+    .email_input label {
+      padding-left: 0 !important;
+    }
+    .date_input {
+      padding: 10px 0px 5px 10px;
+      width: 115% !important;
+    }
+    span.to {
+      padding-left: 15px;
+    }
   }
   .date_input {
     background: transparent;

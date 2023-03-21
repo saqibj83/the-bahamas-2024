@@ -52,16 +52,8 @@ export const GlobalStyle = createGlobalStyle`
     h3, h4 {
       font-size: 14px;
     }
-    p {
-      font-size: 12px !important;
-    }
-    p span {
-      font-size: 14px !important;
-    }
-  li {
+ 
 
-      font-size: 14px !important;
-  }
 
   }
   .drawer-content-wrapper{

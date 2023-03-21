@@ -16,12 +16,11 @@ const SectionWrapper = styled.section`
   }
   @media (max-width: 550px) {
     .vender-logos {
-      width: 50%;
+      width: 100%;
       float: left;
       text-align: center;
       margin-bottom: 10px;
       padding: 10px;
-      height: 200px;
     }
     .line-2 {
       margin-left: 0px;

@@ -219,7 +219,8 @@ ul.social {
       background-size: contain;
     }
     .social li {
-      width: 180px;
+      width: 250px;
+    height: 100px;
     }
     a.linkFooter {
       color: #EBA800;

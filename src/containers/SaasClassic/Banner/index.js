@@ -54,7 +54,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
   return (
     <BannerWrapper id="banner_section">
       <Container>
-        {/* <Box {...row}>
+        <Box {...row}>
           <Box {...contentWrapper}>
             <NextImage className="cyprus-img" src={Cyprus} alt="cyprus image" />
           </Box>
@@ -62,7 +62,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             <Fade bottom>
               <ReactPlayer
                 url="https://www.youtube.com/embed/M21-DL5I5z0"
-                light="https://cdn.triton-series.com/wp-content/uploads/2019/12/29120652/video-banner.png"
+                // light="https://cdn.triton-series.com/wp-content/uploads/2019/12/29120652/video-banner.png"
                 playing
                 width="711px"
                 height="400px"
@@ -83,7 +83,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
               Monday 5th to Monday 19th September
             </p>
           </Box>
-        </Box> */}
+        </Box>
       </Container>
     </BannerWrapper>
   );

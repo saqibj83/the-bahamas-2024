@@ -55,7 +55,7 @@ const Footer = ({
                   <li>
                     <Link href="#channel_section">
                       <a>
-                        <i className="icon-arrow-sm"></i>Live Channel
+                        <i className="icon-arrow-sm"></i>Live Channels
                       </a>
                     </Link>
                   </li>

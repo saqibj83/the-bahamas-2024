@@ -16,10 +16,11 @@ const Bubble = keyframes`
 
 export const BannerWrapper = styled.section`
   padding: 150px 0 50px 0;
-  background-image: url(${BgIMage?.src});
+  // background-image: url(${BgIMage?.src});
+  background: #000;
   background-size: cover;
   background-position: top center;
-  height: 99vh;
+  // height: 99vh;
   overflow: hidden;
   .video-section {
     width: 100%;
