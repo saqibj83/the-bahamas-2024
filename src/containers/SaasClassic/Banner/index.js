@@ -54,7 +54,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
   return (
     <BannerWrapper id="banner_section">
       <Container>
-        <Box {...row}>
+        {/* <Box {...row}>
           <Box {...contentWrapper}>
             <NextImage className="cyprus-img" src={Cyprus} alt="cyprus image" />
           </Box>
@@ -68,21 +68,6 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 height="400px"
                 controls
               />
-              {/* <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/M21-DL5I5z0"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe> */}
-              {/* <VideoModal>
-                <NextImage src={BannerImage} alt="banner image" />
-                <PlayButton tabIndex="1000" onClick={handleVideoModal}>
-                  <Icon icon={play} size={40} />
-                </PlayButton>
-              </VideoModal> */}
             </Fade>
           </div>
           <Box {...contentWrapper}>
@@ -98,7 +83,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
               Monday 5th to Monday 19th September
             </p>
           </Box>
-        </Box>
+        </Box> */}
       </Container>
     </BannerWrapper>
   );

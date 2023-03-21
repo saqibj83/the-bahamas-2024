@@ -19,6 +19,7 @@ export const BannerWrapper = styled.section`
   background-image: url(${BgIMage?.src});
   background-size: cover;
   background-position: top center;
+  height: 99vh;
   overflow: hidden;
   .video-section {
     width: 100%;
