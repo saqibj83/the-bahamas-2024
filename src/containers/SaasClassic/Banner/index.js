@@ -55,9 +55,9 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
     <BannerWrapper id="banner_section">
       <Container>
         <Box {...row}>
-          <Box {...contentWrapper}>
+          {/* <Box {...contentWrapper}>
             <NextImage className="cyprus-img" src={Cyprus} alt="cyprus image" />
-          </Box>
+          </Box> */}
           <div className="video-section">
             <Fade bottom>
               <ReactPlayer
