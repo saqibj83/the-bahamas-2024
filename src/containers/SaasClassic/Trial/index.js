@@ -8,12 +8,8 @@ import NextImage from "common/components/NextImage";
 import Container from "common/components/UI/Container";
 
 import SectionWrapper from "./trial.style";
-import VendorLogos from "common/assets/image/saasClassic/gg-h.png";
-import VendorLogos1 from "common/assets/image/saasClassic/marit.png";
-import VendorLogos2 from "common/assets/image/saasClassic/jacobco-h.png";
-import VendorLogos3 from "common/assets/image/saasClassic/secretlab.png";
-import VendorLogos4 from "common/assets/image/saasClassic/inventional.png";
-import VendorLogos5 from "common/assets/image/saasClassic/luxon.png";
+import VendorLogos from "common/assets/image/saasClassic/gg-h.svg";
+import VendorLogos1 from "common/assets/image/saasClassic/logo/pokerstake.svg";
 
 const TrialSection = ({
   row,
@@ -34,32 +30,71 @@ const TrialSection = ({
             <Heading {...title} content="Our Sponsors and Partners" />
 
             <Box className="vender-logos">
-              <NextImage src={VendorLogos} alt="GG Poker" />
               <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
                 TITLE SPONSOR
               </h3>
+              <NextImage src={VendorLogos} alt="GG Poker" />
             </Box>
+
             <Box className="vender-logos">
-              <NextImage src={VendorLogos1} alt="Marit Poker" />
               <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
-                OFFICIAL Venue
+                OFFICIAL STAKING PARTNER
               </h3>
+              <img
+                src="https://cdn.triton-series.com/wp-content/uploads/2019/12/07141554/poker.png"
+                alt="Poker Stake"
+                style={{
+                  display: "inline",
+                  width: "250px",
+                }}
+              />
             </Box>
-            <Box className="vender-logos">
-              <NextImage src={VendorLogos2} alt="J&Co." />
+            <Box className="vender-logos" style={{ marginBottom: "40px" }}>
               <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
                 OFFICIAL TIMEKEEPER
               </h3>
+              <img
+                src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172617/jacobco-h.svg"
+                alt="J&Co."
+                style={{
+                  display: "inline",
+                  width: "100px",
+                  paddingTop: "20px",
+                }}
+              />
             </Box>
-            <Box className="vender-logos ">
-              <NextImage src={VendorLogos3} alt="secretlab" />
+
+            <Box className="sponsor-2">
+              <div className="sponsor" style={{ width: "400px" }}>
+                {" "}
+                <img
+                  src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172618/secretlab.svg"
+                  alt="Dire Pay"
+                  style={{
+                    display: "inline",
+                    paddingTop: "50px",
+                  }}
+                />
+              </div>
+              <div className="sponsor" style={{ width: "400px" }}>
+                {" "}
+                <img
+                  src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172617/shamballa.svg"
+                  alt="Raise Your Edge"
+                  style={{
+                    display: "inline",
+                    paddingTop: "20px",
+                  }}
+                />
+              </div>
             </Box>
-            <Box className="vender-logos">
+
+            {/* <Box className="vender-logos">
               <NextImage src={VendorLogos4} alt="inventional" />
             </Box>
             <Box className="vender-logos">
               <NextImage src={VendorLogos5} alt="Luxon" />
-            </Box>
+            </Box> */}
           </Box>
         </Box>
       </Container>
