@@ -362,7 +362,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   <h5>Date</h5>
                 </th>
                 <th>
-                  <h5></h5>
+                  <h5>Day</h5>
                 </th>
                 <th>
                   <h5>Event</h5>
@@ -385,7 +385,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Wednesday <br /> 10 May 2023
                 </td>
                 <td>1</td>
-                <td>GG Super Million$ Live</td>
+                <td>#1 GG Super Million$ Live</td>
                 <td>$25,000</td>
                 <td>250,000</td>
                 <td>40 MIN </td>
@@ -396,7 +396,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Thursday <br /> 11 May 2023
                 </td>
                 <td>2</td>
-                <td>GG Super Million$ Live</td>
+                <td>#1 GG Super Million$ Live</td>
                 <td>$25,000</td>
                 <td>250,000</td>
                 <td>40 MIN </td>
@@ -407,7 +407,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Thursday <br /> 11 May 2023
                 </td>
                 <td>1</td>
-                <td>NLH - 7 Handed</td>
+                <td>#2 NLH - 7 Handed</td>
                 <td>$20,000</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
@@ -418,7 +418,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Friday <br /> 12 May 2023
                 </td>
                 <td>2</td>
-                <td>NLH - 7 Handed</td>
+                <td>#2 NLH - 7 Handed</td>
                 <td>$20,000</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
@@ -429,7 +429,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Friday <br /> 12 May 2023
                 </td>
                 <td>1</td>
-                <td>NLH - 6 Handed - Mystery Bounty</td>
+                <td>#3 NLH - 6 Handed - Mystery Bounty</td>
                 <td>$30,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
@@ -440,7 +440,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Saturday <br /> 13 May 2023
                 </td>
                 <td>2</td>
-                <td>NLH - 6 Handed - Mystery Bounty</td>
+                <td>#3 NLH - 6 Handed - Mystery Bounty</td>
                 <td>$30,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
@@ -451,7 +451,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Saturday <br /> 13 May 2023
                 </td>
                 <td>1</td>
-                <td>NLH - 8 Handed</td>
+                <td>#5 NLH - 8 Handed</td>
                 <td>$40,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
@@ -462,7 +462,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sunday <br /> 14 May 2023
                 </td>
                 <td>2</td>
-                <td>NLH - 8 Handed</td>
+                <td>#5 NLH - 8 Handed</td>
                 <td>$40,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
@@ -473,7 +473,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sunday <br /> 14 May 2023
                 </td>
                 <td>1</td>
-                <td>NLH - 7 Handed</td>
+                <td>#6 NLH - 7 Handed</td>
                 <td>$50,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
@@ -484,7 +484,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Monday <br /> 15 May 2023
                 </td>
                 <td>2</td>
-                <td>NLH - 7 Handed</td>
+                <td>#6 NLH - 7 Handed</td>
                 <td>$50,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
@@ -495,7 +495,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Monday <br /> 15 May 2023
                 </td>
                 <td>SINGLE</td>
-                <td>NLH - TURBO</td>
+                <td>#7 NLH - TURBO</td>
                 <td>$25,000</td>
                 <td>200,000</td>
                 <td>20 MIN </td>
@@ -506,7 +506,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Tuesday <br /> 16 May 2023
                 </td>
                 <td>1</td>
-                <td>NLH - 8 Handed</td>
+                <td>#8 NLH - 8 Handed</td>
                 <td>$75,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
@@ -517,18 +517,18 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Wednesday <br /> 17 May 2023
                 </td>
                 <td>2</td>
-                <td>NLH - 8 Handed</td>
+                <td>#8 NLH - 8 Handed</td>
                 <td>$75,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
               </tr>
               <tr>
-                <td>2:00 PM</td>
+                <td>1:00 PM</td>
                 <td>
                   Thursday <br /> 18 May 2023
                 </td>
                 <td>1</td>
-                <td>NLH - Luxon Invitational</td>
+                <td>#9 NLH - Luxon Invitational</td>
                 <td>$200,000</td>
                 <td>300,000</td>
                 <td>50 MIN </td>
@@ -539,7 +539,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Friday <br /> 19 May 2023
                 </td>
                 <td>2</td>
-                <td>NLH - Luxon Invitational</td>
+                <td>#9 NLH - Luxon Invitational</td>
                 <td>$200,000</td>
                 <td>300,000</td>
                 <td>50 MIN </td>
@@ -550,7 +550,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Friday <br /> 19 May 2023
                 </td>
                 <td>1</td>
-                <td>Pot Limit Omaha</td>
+                <td>#10 Pot Limit Omaha</td>
                 <td>$25,000</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
@@ -561,7 +561,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Saturday <br /> 20 May 2023
                 </td>
                 <td>FT</td>
-                <td>NLH - Luxon Invitational</td>
+                <td>#9 NLH - Luxon Invitational</td>
                 <td>$200,000</td>
                 <td>300,000</td>
                 <td>50 MIN </td>
@@ -572,18 +572,18 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Saturday <br /> 20 May 2023
                 </td>
                 <td>2</td>
-                <td>Pot Limit Omaha</td>
+                <td>#10 Pot Limit Omaha</td>
                 <td>$25,000</td>
                 <td>200,000</td>
                 <td>30 MIN</td>
               </tr>
               <tr>
-                <td>4:00 PM</td>
+                <td>2:00 PM</td>
                 <td>
                   Saturday <br /> 20 May 2023
                 </td>
                 <td>1</td>
-                <td>NLH - Main Event</td>
+                <td>#11 NLH - Main Event</td>
                 <td>$100,000</td>
                 <td>250,000</td>
                 <td>50 Min </td>
@@ -594,7 +594,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sunday <br /> 21 May 2023
                 </td>
                 <td>2</td>
-                <td>NLH - Main Event</td>
+                <td>#11 NLH - Main Event</td>
                 <td>$100,000</td>
                 <td>250,000</td>
                 <td>50 Min </td>
@@ -605,7 +605,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sunday <br /> 21 May 2023
                 </td>
                 <td>SINGLE</td>
-                <td>NLH - TURBO</td>
+                <td>#12 NLH - TURBO</td>
                 <td>$50,000</td>
                 <td>200,000</td>
                 <td>20 Min </td>
@@ -616,18 +616,18 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Monday <br /> 22 May 2023
                 </td>
                 <td>FT</td>
-                <td>NLH - Main Event</td>
+                <td>#11 NLH - Main Event</td>
                 <td>$100,000</td>
                 <td>250,000</td>
                 <td>50 Min </td>
               </tr>
               <tr>
-                <td>2:00 PM</td>
+                <td>3:00 PM</td>
                 <td>
                   Monday <br /> 22 May 2023
                 </td>
                 <td>1</td>
-                <td>Pot Limit Omaha</td>
+                <td>#13 Pot Limit Omaha</td>
                 <td>$30,000</td>
                 <td>200,000</td>
                 <td>30 Min </td>
@@ -638,18 +638,18 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Tuesday <br /> 23 May 2023
                 </td>
                 <td>2</td>
-                <td>Pot Limit Omaha</td>
+                <td>#13 Pot Limit Omaha</td>
                 <td>$30,000</td>
                 <td>200,000</td>
                 <td>30 Min </td>
               </tr>
               <tr>
-                <td>3:00 PM</td>
+                <td>2:00 PM</td>
                 <td>
                   Tuesday <br /> 23 May 2023
                 </td>
                 <td>1</td>
-                <td>Short Deck Ante-Only (2 Bullets)</td>
+                <td>#15 Short Deck Ante-Only (2 Bullets)</td>
                 <td>$25,000</td>
                 <td>
                   150,000 <span style={{ textTransform: "lowercase" }}>x2</span>
@@ -662,7 +662,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Wednesday <br /> 24 May 2023
                 </td>
                 <td>2</td>
-                <td>Short Deck Ante-Only (2 Bullets)</td>
+                <td>#15 Short Deck Ante-Only (2 Bullets)</td>
                 <td>$25,000</td>
                 <td>
                   150,000 <span style={{ textTransform: "lowercase" }}>x2</span>
@@ -670,12 +670,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>35 Min </td>
               </tr>
               <tr>
-                <td>5:00 PM</td>
+                <td>4:00 PM</td>
                 <td>
                   Wednesday <br /> 24 May 2023
                 </td>
                 <td>1</td>
-                <td>SD - Main Event</td>
+                <td>16 SD - Main Event</td>
                 <td>$50,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
@@ -688,7 +688,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Thursday <br /> 25 May 2023
                 </td>
                 <td>2</td>
-                <td>SD - Main Event</td>
+                <td>16 SD - Main Event</td>
                 <td>$50,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
@@ -701,7 +701,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Thursday <br /> 25 May 2023
                 </td>
                 <td>1</td>
-                <td>Short Deck Ante-Only</td>
+                <td>#17 Short Deck Ante-Only</td>
                 <td>$20,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
@@ -723,7 +723,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   <h5>Date</h5>
                 </th>
                 <th>
-                  <h5></h5>
+                  <h5>DAY</h5>
                 </th>
                 <th>
                   <h5>Event</h5>
@@ -746,7 +746,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Wed <br /> 10 May
                 </td>
                 <td>1</td>
-                <td>GG Super Million$ Live</td>
+                <td>#1 GG Super Million$ Live</td>
                 <td>$25K</td>
                 <td>250K</td>
                 <td>40 MIN </td>
@@ -757,7 +757,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Thu <br /> 11 May
                 </td>
                 <td>2</td>
-                <td>GG Super Million$ Live</td>
+                <td>#1 GG Super Million$ Live</td>
                 <td>$25K</td>
                 <td>250K</td>
                 <td>40 MIN </td>
@@ -768,7 +768,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Thu <br /> 11 May
                 </td>
                 <td>1</td>
-                <td>NLH - 7 Handed</td>
+                <td>#2 NLH - 7 Handed</td>
                 <td>$20K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
@@ -779,7 +779,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Fri <br /> 12 May
                 </td>
                 <td>2</td>
-                <td>NLH - 7 Handed</td>
+                <td>#2 NLH - 7 Handed</td>
                 <td>$20K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
@@ -790,7 +790,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Fri <br /> 12 May
                 </td>
                 <td>1</td>
-                <td>NLH - 6 Handed - Mystery Bounty</td>
+                <td>#3 NLH - 6 Handed - Mystery Bounty</td>
                 <td>$30K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
@@ -801,7 +801,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sat <br /> 13 May
                 </td>
                 <td>2</td>
-                <td>NLH - 6 Handed - Mystery Bounty</td>
+                <td>#3 NLH - 6 Handed - Mystery Bounty</td>
                 <td>$30K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
@@ -812,7 +812,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sat <br /> 13 May
                 </td>
                 <td>1</td>
-                <td>NLH - 8 Handed</td>
+                <td>#5 NLH - 8 Handed</td>
                 <td>$40K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
@@ -823,7 +823,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sun <br /> 14 May
                 </td>
                 <td>2</td>
-                <td>NLH - 8 Handed</td>
+                <td>#5 NLH - 8 Handed</td>
                 <td>$40K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
@@ -834,7 +834,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sun <br /> 14 May
                 </td>
                 <td>1</td>
-                <td>NLH - 7 Handed</td>
+                <td>#6 NLH - 7 Handed</td>
                 <td>$50K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
@@ -845,7 +845,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Mon <br /> 15 May
                 </td>
                 <td>2</td>
-                <td>NLH - 7 Handed</td>
+                <td>#6 NLH - 7 Handed</td>
                 <td>$50K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
@@ -856,7 +856,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Mon <br /> 15 May
                 </td>
                 <td>SINGLE</td>
-                <td>NLH - TURBO</td>
+                <td>#7 NLH - TURBO</td>
                 <td>$25K</td>
                 <td>200K</td>
                 <td>20 MIN </td>
@@ -867,7 +867,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Tue <br /> 16 May
                 </td>
                 <td>1</td>
-                <td>NLH - 8 Handed</td>
+                <td>#8 NLH - 8 Handed</td>
                 <td>$75K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
@@ -878,18 +878,18 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Wed <br /> 17 May
                 </td>
                 <td>2</td>
-                <td>NLH - 8 Handed</td>
+                <td>#8 NLH - 8 Handed</td>
                 <td>$75K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
               </tr>
               <tr>
-                <td>2:00 PM</td>
+                <td>1:00 PM</td>
                 <td>
                   Thu <br /> 18 May
                 </td>
                 <td>1</td>
-                <td>NLH - Luxon Invitational</td>
+                <td>#9 NLH - Luxon Invitational</td>
                 <td>$200K</td>
                 <td>300K</td>
                 <td>50 MIN </td>
@@ -900,7 +900,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Fri <br /> 19 May
                 </td>
                 <td>2</td>
-                <td>NLH - Luxon Invitational</td>
+                <td>#9 NLH - Luxon Invitational</td>
                 <td>$200K</td>
                 <td>300K</td>
                 <td>50 MIN </td>
@@ -911,7 +911,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Fri <br /> 19 May
                 </td>
                 <td>1</td>
-                <td>Pot Limit Omaha</td>
+                <td>#10 Pot Limit Omaha</td>
                 <td>$25K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
@@ -922,7 +922,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sat <br /> 20 May
                 </td>
                 <td>FT</td>
-                <td>NLH - Luxon Invitational</td>
+                <td>#9 NLH - Luxon Invitational</td>
                 <td>$200K</td>
                 <td>300K</td>
                 <td>50 MIN </td>
@@ -933,18 +933,18 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sat <br /> 20 May
                 </td>
                 <td>2</td>
-                <td>Pot Limit Omaha</td>
+                <td>#10 Pot Limit Omaha</td>
                 <td>$25K</td>
                 <td>200K</td>
                 <td>30 MIN</td>
               </tr>
               <tr>
-                <td>4:00 PM</td>
+                <td>2:00 PM</td>
                 <td>
                   Sat <br /> 20 May
                 </td>
                 <td>1</td>
-                <td>NLH - Main Event</td>
+                <td>#11 NLH - Main Event</td>
                 <td>$100K</td>
                 <td>250K</td>
                 <td>50 Min </td>
@@ -955,7 +955,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sun <br /> 21 May
                 </td>
                 <td>2</td>
-                <td>NLH - Main Event</td>
+                <td>#11 NLH - Main Event</td>
                 <td>$100K</td>
                 <td>250K</td>
                 <td>50 Min </td>
@@ -966,7 +966,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sun <br /> 21 May
                 </td>
                 <td>SINGLE</td>
-                <td>NLH - TURBO</td>
+                <td>#12 NLH - TURBO</td>
                 <td>$50K</td>
                 <td>200K</td>
                 <td>20 Min </td>
@@ -977,18 +977,18 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Mon <br /> 22 May
                 </td>
                 <td>FT</td>
-                <td>NLH - Main Event</td>
+                <td>#11 NLH - Main Event</td>
                 <td>$100K</td>
                 <td>250K</td>
                 <td>50 Min </td>
               </tr>
               <tr>
-                <td>2:00 PM</td>
+                <td>3:00 PM</td>
                 <td>
                   Mon <br /> 22 May
                 </td>
                 <td>1</td>
-                <td>Pot Limit Omaha</td>
+                <td>#13 Pot Limit Omaha</td>
                 <td>$30K</td>
                 <td>200K</td>
                 <td>30 Min </td>
@@ -999,18 +999,18 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Tue <br /> 23 May
                 </td>
                 <td>2</td>
-                <td>Pot Limit Omaha</td>
+                <td>#13 Pot Limit Omaha</td>
                 <td>$30K</td>
                 <td>200K</td>
                 <td>30 Min </td>
               </tr>
               <tr>
-                <td>3:00 PM</td>
+                <td>2:00 PM</td>
                 <td>
                   Tue <br /> 23 May
                 </td>
                 <td>1</td>
-                <td>Short Deck Ante-Only (2 Bullets)</td>
+                <td>#15 Short Deck Ante-Only (2 Bullets)</td>
                 <td>$25K</td>
                 <td>
                   150K <span style={{ textTransform: "lowercase" }}>x2</span>
@@ -1023,7 +1023,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Wed <br /> 24 May
                 </td>
                 <td>2</td>
-                <td>Short Deck Ante-Only (2 Bullets)</td>
+                <td>#15 Short Deck Ante-Only (2 Bullets)</td>
                 <td>$25K</td>
                 <td>
                   150K <span style={{ textTransform: "lowercase" }}>x2</span>
@@ -1031,12 +1031,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>35 Min </td>
               </tr>
               <tr>
-                <td>5:00 PM</td>
+                <td>4:00 PM</td>
                 <td>
                   Wed <br /> 24 May
                 </td>
                 <td>1</td>
-                <td>SD - Main Event</td>
+                <td>#16 SD - Main Event</td>
                 <td>$50K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3</span>
@@ -1049,7 +1049,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Thu <br /> 25 May
                 </td>
                 <td>2</td>
-                <td>SD - Main Event</td>
+                <td>#16 SD - Main Event</td>
                 <td>$50K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3</span>
@@ -1062,7 +1062,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Thu <br /> 25 May
                 </td>
                 <td>1</td>
-                <td>Short Deck Ante-Only</td>
+                <td>#17 Short Deck Ante-Only</td>
                 <td>$20K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3</span>
