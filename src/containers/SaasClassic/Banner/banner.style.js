@@ -18,14 +18,12 @@ export const BannerWrapper = styled.section`
   padding: 100px 0 50px 0;
   background-image: url(${BgIMage?.src});
 
-  background-size: cover;
-  background-position: top center;
   background-size: contain;
   background-position: top center;
   overflow: hidden;
   background-repeat: no-repeat;
   background-color: #000;
-  overflow: hidden;
+  min-height: 1100px;
   .video-section {
     width: 100%;
     display: flex;
@@ -41,6 +39,8 @@ export const BannerWrapper = styled.section`
   }
   @media (max-width: 575px) {
     padding: 120px 0 0 0;
+    background-size: cover;
+    min-height: 900px;
     .react-reveal > div {
       width: 400px !important;
       height: 225px !important;
@@ -51,7 +51,7 @@ export const BannerWrapper = styled.section`
     font-size: 18px;
     line-height: 30px;
     color: #fff;
-    padding-top: 60px;
+    padding-top: 20px;
   }
 
   img {
