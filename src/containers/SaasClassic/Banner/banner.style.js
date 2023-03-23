@@ -51,7 +51,7 @@ export const BannerWrapper = styled.section`
     font-size: 18px;
     line-height: 30px;
     color: #fff;
-    padding-top: 20px;
+    padding-top: 40px;
   }
 
   img {
