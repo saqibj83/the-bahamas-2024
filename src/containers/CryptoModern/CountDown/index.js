@@ -42,14 +42,6 @@ const CountDownSection = () => {
               </button>
             </a>
           </Link>
-          <Link href="https://www.facebook.com/TritonPoker/">
-            <a target="_blank">
-              <button class="btn btn-facebook">
-                <Icon size={30} icon={facebook} />
-                <span>Facebook</span>
-              </button>
-            </a>
-          </Link>
         </ContentWrapper>
       </Container>
     </SectionWrapper>

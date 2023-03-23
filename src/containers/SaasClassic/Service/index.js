@@ -23,7 +23,7 @@ import Event12 from "common/assets/image/booklet/event-12.jpg";
 import Event13 from "common/assets/image/booklet/event-13.jpg";
 import Event14 from "common/assets/image/booklet/event-14.jpg";
 import Event15 from "common/assets/image/booklet/event-15.jpg";
-import Coin from "common/assets/image/saasClassic/inventional-1.png";
+import Coin from "common/assets/image/saasClassic/luxon.png";
 
 const CloseModalButton = () => (
   <Button
@@ -341,10 +341,10 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         </Box>
         <Box>
           <div className="prime-cta">
-            <Link href="https://click.triton-series.com/Coin-Rivet-Invitational">
+            <Link href="https://luxon-invitational.triton-series.com/">
               <a target="_blank">
                 <Button
-                  title="COIN RIVET INVITATIONAL HOMEPAGE"
+                  title="LUXON INVITATIONAL HOMEPAGE"
                   className="primary-cta"
                 />
               </a>
