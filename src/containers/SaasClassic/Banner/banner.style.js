@@ -15,12 +15,16 @@ const Bubble = keyframes`
 `;
 
 export const BannerWrapper = styled.section`
-  padding: 150px 0 50px 0;
+  padding: 100px 0 50px 0;
   background-image: url(${BgIMage?.src});
 
   background-size: cover;
   background-position: top center;
-  // height: 99vh;
+  background-size: contain;
+  background-position: top center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-color: #000;
   overflow: hidden;
   .video-section {
     width: 100%;
@@ -41,6 +45,13 @@ export const BannerWrapper = styled.section`
       width: 400px !important;
       height: 225px !important;
     }
+  }
+  .text-st {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    padding-top: 60px;
   }
 
   img {

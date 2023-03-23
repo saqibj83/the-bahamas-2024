@@ -8,7 +8,7 @@ import Button from "common/components/Button";
 import NextImage from "common/components/NextImage";
 import Container from "common/components/UI/Container";
 import { BannerWrapper, VideoWrapper } from "./banner.style";
-import Cyprus from "common/assets/image/saasClassic/cyprus-logo.png";
+import Cyprus from "common/assets/image/saasClassic/logo2.png";
 
 // close button for modal
 const CloseModalButton = () => (
@@ -55,9 +55,14 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
     <BannerWrapper id="banner_section">
       <Container>
         <Box {...row}>
-          {/* <Box {...contentWrapper}>
-            <NextImage className="cyprus-img" src={Cyprus} alt="cyprus image" />
-          </Box> */}
+          <Box {...contentWrapper} className="text-center">
+            <NextImage
+              className="cyprus-img"
+              src={Cyprus}
+              alt="cyprus image"
+              style={{ display: "inline" }}
+            />
+          </Box>
           <div className="video-section">
             <Fade bottom>
               <ReactPlayer
@@ -71,14 +76,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             </Fade>
           </div>
           <Box {...contentWrapper}>
-            <p
-              style={{
-                textAlign: "center",
-                color: "#fff",
-                fontSize: "18px",
-                lineHeight: "30px",
-              }}
-            >
+            <p className="text-st">
               At the Merit Royal Diamond Hotel <br />
               WEDNESDAY 10th to THURSDAY 25th MAY
             </p>
@@ -111,7 +109,7 @@ BannerSection.defaultProps = {
   },
   contentWrapper: {
     width: ["100%", "100%", "80%", "55%", "50%"],
-    mb: "40px",
+    mb: "20px",
   },
   title: {
     fontSize: ["24px", "32px", "40px", "42px", "46px"],
