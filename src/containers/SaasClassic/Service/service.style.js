@@ -11,6 +11,10 @@ const SectionWrapper = styled.section`
     text-align: center;
     margin-bottom: 30px;
     margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
   }
   .prime-cta .tooltiptext {
     visibility: hidden;
@@ -20,7 +24,6 @@ const SectionWrapper = styled.section`
     border-radius: 6px;
     position: absolute;
     margin-top: -37px;
-    margin-left: -300px;
     padding: 4px;
     border: 1px solid #eba800;
     z-index: 90;
@@ -90,6 +93,7 @@ const SectionWrapper = styled.section`
     .non-desktop {
       display: none;
     }
+
     .non-mobile {
       display: block;
     }
