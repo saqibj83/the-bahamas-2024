@@ -7,7 +7,28 @@ const SectionWrapper = styled.section`
   @media (max-width: 550px) {
     padding: 75px 0 5px 0;
   }
-
+  .prime-cta {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+  .prime-cta .tooltiptext {
+    visibility: hidden;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    margin-top: -62px;
+    margin-left: -293px;
+    padding: 4px;
+    border: 1px solid #eba800;
+    z-index: 90;
+    width: 150px;
+  }
+  .prime-cta:hover .tooltiptext {
+    visibility: visible;
+  }
   .primary-cta {
     text-decoration: none;
     color: #000;
@@ -31,29 +52,7 @@ const SectionWrapper = styled.section`
     transform: scale(1);
     transition: transform 0.2s ease-in-out;
   }
-  .prime-cta {
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 50px;
-  }
-  // .prime-cta .tooltiptext {
-  //   visibility: hidden;
-  //   background-color: #000000;
-  //   color: #fff;
-  //   text-align: center;
-  //   border-radius: 6px;
-  //   position: absolute;
-  //   margin-top: -62px;
-  //   margin-left: -293px;
-  //   padding: 4px;
-  //   border: 1px solid #eba800;
-  //   z-index: 90;
-  //   width: 150px;
-  // }
 
-  // .prime-cta:hover .tooltiptext {
-  //   visibility: visible;
-  // }
   .service_item {
     position: relative;
     text-align: center;

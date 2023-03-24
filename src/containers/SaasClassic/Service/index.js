@@ -327,7 +327,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         </Box>
         <Box>
           <div className="prime-cta" style={{ marginTop: "-40px" }}>
-            <Link href="https://cyprus-event.vercel.app/">
+            <Link href="https://cyprus.triton-series.com">
               <a target="_blank">
                 <NextImage
                   className="img-cta"
@@ -1072,8 +1072,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
             </tbody>
           </table>
         </Box>
-        <Box>
-          <div className="prime-cta">
+        <Box className="text-center">
+          {/* <div className="prime-cta">
             <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/26184726/Cyprus-Booklet-TOURNAMENT-SCHEDULE.pdf">
               <a>
                 <Button
@@ -1082,7 +1082,11 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 />
               </a>
             </Link>
-          </div>
+          </div> */}
+          {/* <div className="primary-cta" style={{ marginTop: "10px" }}>
+            DOWNLOAD TOURNAMENT STRUCTURES
+            <span className="tooltiptext">Coming Soon</span>
+          </div> */}
         </Box>
       </Container>
     </SectionWrapper>
