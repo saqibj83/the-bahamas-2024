@@ -19,7 +19,7 @@ const SectionWrapper = styled.section`
     text-align: center;
     border-radius: 6px;
     position: absolute;
-    margin-top: -40px;
+    margin-top: -37px;
     margin-left: -300px;
     padding: 4px;
     border: 1px solid #eba800;
