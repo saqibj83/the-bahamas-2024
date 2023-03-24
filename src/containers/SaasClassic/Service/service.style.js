@@ -19,8 +19,8 @@ const SectionWrapper = styled.section`
     text-align: center;
     border-radius: 6px;
     position: absolute;
-    margin-top: -62px;
-    margin-left: -293px;
+    margin-top: -40px;
+    margin-left: -300px;
     padding: 4px;
     border: 1px solid #eba800;
     z-index: 90;
