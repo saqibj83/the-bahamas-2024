@@ -27,7 +27,7 @@ const SaasClassic = () => {
           <title>Triton Poker Series | Cyprus 2023 </title>
           <meta
             name="Description"
-            content="Triton Super High Roller Series 2022"
+            content="Triton Super High Roller Series 2023"
           />
           <meta name="theme-color" content="#ec5555" />
           <meta
