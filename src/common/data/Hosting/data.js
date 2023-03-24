@@ -446,11 +446,6 @@ export const DOMAIN_NAMES = [
     name: "Event 3",
   },
   {
-    label: "Event 4",
-    value: "event4",
-    name: "Event 4",
-  },
-  {
     label: "Event 5",
     value: "event5",
     name: "Event 5",
@@ -493,7 +488,22 @@ export const DOMAIN_NAMES = [
   {
     label: "Event 13",
     value: "event13",
-    name: "Event 14",
+    name: "Event 13",
+  },
+  {
+    label: "Event 15",
+    value: "event15",
+    name: "Event 15",
+  },
+  {
+    label: "Event 16",
+    value: "event16",
+    name: "Event 16",
+  },
+  {
+    label: "Event 17",
+    value: "event17",
+    name: "Event 17",
   },
 ];
 
