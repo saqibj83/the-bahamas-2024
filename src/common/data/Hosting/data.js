@@ -426,9 +426,9 @@ export const DOMAIN_NAMES = [
     name: "More than 1 Event",
   },
   {
-    label: "All Event",
+    label: "All Events",
     value: "all",
-    name: " All Event",
+    name: " All Events",
   },
   {
     label: "Event 1",

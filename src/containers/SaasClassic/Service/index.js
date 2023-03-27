@@ -327,7 +327,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         </Box>
         <Box>
           <div className="prime-cta" style={{ marginTop: "-40px" }}>
-            <Link href="https://cyprus.triton-series.com">
+            <Link href="https://luxon-invitational.triton-series.com/">
               <a target="_blank">
                 <NextImage
                   className="img-cta"
