@@ -35,12 +35,6 @@ const TrialSection = ({
               </h3>
               <NextImage src={VendorLogos} alt="GG Poker" />
             </Box>
-            <Box className="vender-logos">
-              <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
-                OFFICIAL VENUE
-              </h3>
-              <NextImage src={VendorLogos1} alt="Merit" />
-            </Box>
 
             <Box className="vender-logos">
               <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
@@ -54,6 +48,10 @@ const TrialSection = ({
                   width: "250px",
                 }}
               />
+              <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
+                OFFICIAL VENUE
+              </h3>
+              <NextImage src={VendorLogos1} alt="Merit" />
             </Box>
             <Box className="vender-logos" style={{ marginBottom: "40px" }}>
               <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
