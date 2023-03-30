@@ -9,7 +9,7 @@ import Container from "common/components/UI/Container";
 
 import SectionWrapper from "./trial.style";
 import VendorLogos from "common/assets/image/saasClassic/gg-h.svg";
-import VendorLogos1 from "common/assets/image/saasClassic/logo/pokerstake.svg";
+import VendorLogos1 from "common/assets/image/saasClassic/marit.png";
 
 const TrialSection = ({
   row,
@@ -34,6 +34,12 @@ const TrialSection = ({
                 TITLE SPONSOR
               </h3>
               <NextImage src={VendorLogos} alt="GG Poker" />
+            </Box>
+            <Box className="vender-logos">
+              <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
+                OFFICIAL VENUE
+              </h3>
+              <NextImage src={VendorLogos1} alt="Merit" />
             </Box>
 
             <Box className="vender-logos">
