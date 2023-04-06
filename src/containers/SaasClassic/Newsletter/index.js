@@ -54,7 +54,7 @@ const Newsletter = ({
       <Container>
         <Box style={{ paddingTop: "100px" }}>
           <Heading
-            style={{ marginBottom: "50px" }}
+            style={{ marginBottom: "80px" }}
             {...title}
             content="WANT TO JOIN THE ACTION? 
 "
