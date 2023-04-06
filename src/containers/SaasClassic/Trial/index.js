@@ -30,14 +30,14 @@ const TrialSection = ({
           <Box {...textArea}>
             <Heading {...title} content="Our Sponsors and Partners" />
 
-            <Box className="vender-logos">
+            <Box className="vender-logos" style={{ padding: "0 30px" }}>
               <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
                 TITLE SPONSOR
               </h3>
               <NextImage src={VendorLogos} alt="GG Poker" />
             </Box>
 
-            <Box className="vender-logos">
+            <Box className="vender-logos" style={{ padding: "0 22px" }}>
               <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
                 OFFICIAL STAKING PARTNER
               </h3>
@@ -50,13 +50,16 @@ const TrialSection = ({
                 }}
               />
             </Box>
-            <Box className="vender-logos">
+            <Box className="vender-logos" style={{ padding: "0 30px" }}>
               <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
                 OFFICIAL VENUE
               </h3>
               <NextImage src={VendorLogos1} alt="Merit" />
             </Box>
-            <Box className="vender-logos" style={{ marginBottom: "40px" }}>
+            <Box
+              className="vender-logos"
+              style={{ marginBottom: "40px", marginRigh: "50px" }}
+            >
               <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
                 OFFICIAL TIMEKEEPER
               </h3>
@@ -65,7 +68,7 @@ const TrialSection = ({
                 alt="J&Co."
                 style={{
                   display: "inline",
-                  width: "100px",
+                  width: "76px",
                   paddingTop: "20px",
                 }}
               />
@@ -96,7 +99,7 @@ const TrialSection = ({
               </div>
               <div
                 className="sponsor"
-                style={{ width: "300px", paddingTop: "15px" }}
+                style={{ width: "300px", paddingTop: "25px" }}
               >
                 <NextImage src={VendorLogos2} alt="Luxon" />
               </div>

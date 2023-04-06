@@ -23,7 +23,7 @@ const SectionWrapper = styled.section`
   }
 
   .sponsor img {
-    width: 200px;
+    width: 150px !important;
     text-align: certer;
   }
   @media (max-width: 550px) {
@@ -41,7 +41,7 @@ const SectionWrapper = styled.section`
     width: 25%;
     float: left;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 0;
   }
   .line-2 {
     margin-left: 15%;
