@@ -142,7 +142,7 @@ TrialSection.defaultProps = {
     fontWeight: "700",
     color: "#fff",
     letterSpacing: "-0.025em",
-    mb: "28px",
+    mb: "80px",
     textAlign: "center",
     lineHeight: "1.25",
   },
