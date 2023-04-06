@@ -38,7 +38,7 @@ const SectionWrapper = styled.section`
   }
 
   .vender-logos {
-    width: 33%;
+    width: 25%;
     float: left;
     text-align: center;
     margin-bottom: 30px;

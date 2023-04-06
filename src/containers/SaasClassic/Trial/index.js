@@ -10,6 +10,7 @@ import Container from "common/components/UI/Container";
 import SectionWrapper from "./trial.style";
 import VendorLogos from "common/assets/image/saasClassic/gg-h.svg";
 import VendorLogos1 from "common/assets/image/saasClassic/marit.png";
+import VendorLogos2 from "common/assets/image/saasClassic/luxon-pay-h.png";
 
 const TrialSection = ({
   row,
@@ -48,6 +49,8 @@ const TrialSection = ({
                   width: "250px",
                 }}
               />
+            </Box>
+            <Box className="vender-logos">
               <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
                 OFFICIAL VENUE
               </h3>
@@ -69,7 +72,7 @@ const TrialSection = ({
             </Box>
 
             <Box className="sponsor-2">
-              <div className="sponsor" style={{ width: "400px" }}>
+              <div className="sponsor" style={{ width: "300px" }}>
                 {" "}
                 <img
                   src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172618/secretlab.svg"
@@ -80,7 +83,7 @@ const TrialSection = ({
                   }}
                 />
               </div>
-              <div className="sponsor" style={{ width: "400px" }}>
+              <div className="sponsor" style={{ width: "300px" }}>
                 {" "}
                 <img
                   src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172617/shamballa.svg"
@@ -91,14 +94,17 @@ const TrialSection = ({
                   }}
                 />
               </div>
+              <div
+                className="sponsor"
+                style={{ width: "300px", paddingTop: "15px" }}
+              >
+                <NextImage src={VendorLogos2} alt="Luxon" />
+              </div>
             </Box>
 
             {/* <Box className="vender-logos">
               <NextImage src={VendorLogos4} alt="inventional" />
-            </Box>
-            <Box className="vender-logos">
-              <NextImage src={VendorLogos5} alt="Luxon" />
-            </Box> */}
+            </Box>*/}
           </Box>
         </Box>
       </Container>
