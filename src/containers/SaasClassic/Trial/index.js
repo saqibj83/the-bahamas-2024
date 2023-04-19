@@ -75,7 +75,7 @@ const TrialSection = ({
             </Box>
 
             <Box className="sponsor-2">
-              <div className="sponsor" style={{ width: "300px" }}>
+              <div className="sponsor">
                 {" "}
                 <img
                   src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172618/secretlab.svg"
@@ -86,7 +86,7 @@ const TrialSection = ({
                   }}
                 />
               </div>
-              <div className="sponsor" style={{ width: "300px" }}>
+              <div className="sponsor">
                 {" "}
                 <img
                   src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172617/shamballa.svg"
@@ -102,6 +102,18 @@ const TrialSection = ({
                 style={{ width: "300px", paddingTop: "25px" }}
               >
                 <NextImage src={VendorLogos2} alt="Luxon" />
+              </div>
+              <div className="sponsor">
+                {" "}
+                <img
+                  src="https://cdn.triton-series.com/wp-content/uploads/2019/12/19145823/bookmaker.png"
+                  alt="Raise Your Edge"
+                  style={{
+                    display: "inline",
+                    paddingTop: "30px",
+                    width: "200px !important",
+                  }}
+                />
               </div>
             </Box>
 

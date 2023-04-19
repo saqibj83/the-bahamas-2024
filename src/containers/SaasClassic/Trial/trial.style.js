@@ -26,6 +26,9 @@ const SectionWrapper = styled.section`
     width: 150px !important;
     text-align: certer;
   }
+  .sponsor {
+    width: 24%;
+  }
   @media (max-width: 550px) {
     padding: 65px 0 0 0;
     .sponsor {
@@ -34,6 +37,9 @@ const SectionWrapper = styled.section`
     }
     .sponsors-logo {
       grid-template-columns: 1fr;
+    }
+    .sponsor {
+      width: 100%;
     }
   }
 
