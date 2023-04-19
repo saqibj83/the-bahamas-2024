@@ -82,7 +82,7 @@ const TrialSection = ({
                   alt="Dire Pay"
                   style={{
                     display: "inline",
-                    paddingTop: "50px",
+                    paddingTop: "60px",
                   }}
                 />
               </div>
@@ -122,7 +122,7 @@ const TrialSection = ({
                   alt="Raise Your Edge"
                   style={{
                     display: "inline",
-                    paddingTop: "30px",
+                    paddingTop: "20px",
                     width: "200px !important",
                   }}
                 />
