@@ -29,12 +29,13 @@ const TrialSection = ({
         <Box {...row}>
           <Box {...textArea}>
             <Heading {...title} content="Our Sponsors and Partners" />
-
-            <Box className="vender-logos" style={{ padding: "0 30px" }}>
-              <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
-                TITLE SPONSOR
-              </h3>
-              <NextImage src={VendorLogos} alt="GG Poker" />
+            <Box className="sponsor-2">
+              <Box className="vender-logos" style={{ padding: "0 30px" }}>
+                <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
+                  TITLE SPONSOR
+                </h3>
+                <NextImage src={VendorLogos} alt="GG Poker" />
+              </Box>
             </Box>
 
             <Box className="vender-logos" style={{ padding: "0 22px" }}>
@@ -73,6 +74,23 @@ const TrialSection = ({
                 }}
               />
             </Box>
+            <Box
+              className="vender-logos"
+              style={{ marginBottom: "40px", marginRigh: "50px" }}
+            >
+              <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
+                Official Sportsbook Partner
+              </h3>
+              <img
+                src="https://cdn.triton-series.com/wp-content/uploads/2019/12/19145823/bookmaker.png"
+                alt="J&Co."
+                style={{
+                  display: "inline",
+                  width: "200px",
+                  paddingTop: "20px",
+                }}
+              />
+            </Box>
 
             <Box className="sponsor-2">
               <div className="sponsor">
@@ -97,24 +115,10 @@ const TrialSection = ({
                   }}
                 />
               </div>
-              <div
-                className="sponsor"
-                style={{ width: "300px", paddingTop: "25px" }}
-              >
+              <div className="sponsor" style={{ paddingTop: "25px" }}>
                 <NextImage src={VendorLogos2} alt="Luxon" />
               </div>
-              <div className="sponsor">
-                {" "}
-                <img
-                  src="https://cdn.triton-series.com/wp-content/uploads/2019/12/19145823/bookmaker.png"
-                  alt="Raise Your Edge"
-                  style={{
-                    display: "inline",
-                    paddingTop: "30px",
-                    width: "200px !important",
-                  }}
-                />
-              </div>
+
               <div className="sponsor">
                 {" "}
                 <img

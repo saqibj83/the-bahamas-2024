@@ -27,7 +27,7 @@ const SectionWrapper = styled.section`
     text-align: certer;
   }
   .sponsor {
-    width: 33%;
+    width: 25%;
   }
   @media (max-width: 550px) {
     padding: 65px 0 0 0;
