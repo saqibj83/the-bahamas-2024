@@ -41,6 +41,15 @@ const SectionWrapper = styled.section`
     .sponsor {
       width: 100%;
     }
+    .vender-logos {
+      margin-bottom: 10px !important;
+    }
+    .sponsor img {
+      padding-top: 10px !important;
+    }
+    .sponsor-2 {
+      margin-bottom: 10px !important;
+    }
   }
 
   .vender-logos {

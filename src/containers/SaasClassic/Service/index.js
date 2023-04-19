@@ -405,7 +405,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Wednesday <br /> 10 May 2023
                 </td>
                 <td>1</td>
-                <td>#1 GG Super Million$ Live</td>
+                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
+                  #1 GG Super Million$ Live
+                </td>
                 <td>$25,000</td>
                 <td>250,000</td>
                 <td>40 MIN </td>
