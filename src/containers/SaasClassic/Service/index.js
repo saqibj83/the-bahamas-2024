@@ -9,20 +9,21 @@ import { openModal, closeModal } from "@redq/reuse-modal";
 import Button from "common/components/Button";
 import NextImage from "common/components/NextImage";
 import { SERVICE_ITEMS } from "common/data/SaasClassic";
-import Event1 from "common/assets/image/booklet/event-1.jpg";
-import Event2 from "common/assets/image/booklet/event-2.jpg";
-import Event3 from "common/assets/image/booklet/event-3.jpg";
-import Event5 from "common/assets/image/booklet/event-5.jpg";
-import Event6 from "common/assets/image/booklet/event-6.jpg";
-import Event7 from "common/assets/image/booklet/event-7.jpg";
-import Event8 from "common/assets/image/booklet/event-8.jpg";
-import Event9 from "common/assets/image/booklet/event-9.jpg";
-import Event10 from "common/assets/image/booklet/event-10.jpg";
-import Event11 from "common/assets/image/booklet/event-11.jpg";
-import Event12 from "common/assets/image/booklet/event-12.jpg";
-import Event13 from "common/assets/image/booklet/event-13.jpg";
-import Event14 from "common/assets/image/booklet/event-14.jpg";
-import Event15 from "common/assets/image/booklet/event-15.jpg";
+import Event1 from "common/assets/image/booklet/event-1.png";
+import Event2 from "common/assets/image/booklet/event-2.png";
+import Event3 from "common/assets/image/booklet/event-3.png";
+import Event5 from "common/assets/image/booklet/event-5.png";
+import Event6 from "common/assets/image/booklet/event-6.png";
+import Event7 from "common/assets/image/booklet/event-7.png";
+import Event8 from "common/assets/image/booklet/event-8.png";
+import Event9 from "common/assets/image/booklet/event-9.png";
+import Event10 from "common/assets/image/booklet/event-10.png";
+import Event11 from "common/assets/image/booklet/event-11.png";
+import Event12 from "common/assets/image/booklet/event-12.png";
+import Event13 from "common/assets/image/booklet/event-13.png";
+import Event15 from "common/assets/image/booklet/event-15.png";
+import Event16 from "common/assets/image/booklet/event-16.png";
+import Event17 from "common/assets/image/booklet/event-16.png";
 import Coin from "common/assets/image/saasClassic/luxon.png";
 
 const CloseModalButton = () => (
@@ -45,8 +46,9 @@ const EventTen = () => <NextImage src={Event10} alt="Event - 10" />;
 const EventEleven = () => <NextImage src={Event11} alt="Event - 11" />;
 const EventTwelve = () => <NextImage src={Event12} alt="Event - 12" />;
 const EventThirteen = () => <NextImage src={Event13} alt="Event - 13" />;
-const EventFourteen = () => <NextImage src={Event14} alt="Event - 14 " />;
 const EventFifteen = () => <NextImage src={Event15} alt="Event - 15 " />;
+const EventSixteen = () => <NextImage src={Event16} alt="Event - 16 " />;
+const EventSeventeen = () => <NextImage src={Event17} alt="Event - 17 " />;
 
 const ServiceSection = ({ secTitleWrapper, secHeading }) => {
   // modal handler
@@ -277,25 +279,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
     });
   };
 
-  const EventModal14 = () => {
-    openModal({
-      config: {
-        className: "video-modal",
-        disableDragging: true,
-        default: {
-          width: "100%",
-          height: "100%",
-          x: 0,
-          y: 0,
-        },
-      },
-      component: EventFourteen,
-      componentProps: {},
-      closeComponent: CloseModalButton,
-      closeOnClickOutside: true,
-    });
-  };
-
   const EventModal15 = () => {
     openModal({
       config: {
@@ -309,6 +292,43 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         },
       },
       component: EventFifteen,
+      componentProps: {},
+      closeComponent: CloseModalButton,
+      closeOnClickOutside: true,
+    });
+  };
+
+  const EventModal16 = () => {
+    openModal({
+      config: {
+        className: "video-modal",
+        disableDragging: true,
+        default: {
+          width: "100%",
+          height: "100%",
+          x: 0,
+          y: 0,
+        },
+      },
+      component: EventSixteen,
+      componentProps: {},
+      closeComponent: CloseModalButton,
+      closeOnClickOutside: true,
+    });
+  };
+  const EventModal17 = () => {
+    openModal({
+      config: {
+        className: "video-modal",
+        disableDragging: true,
+        default: {
+          width: "100%",
+          height: "100%",
+          x: 0,
+          y: 0,
+        },
+      },
+      component: EventSeventeen,
       componentProps: {},
       closeComponent: CloseModalButton,
       closeOnClickOutside: true,
@@ -1074,7 +1094,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         </Box>
         <Box>
           <div className="prime-cta">
-            <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/19135341/TritonPoker-2023-Cyprus-EventStructure-180423.2_RGB_compressed.pdf">
+            <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/19175313/Cyprus-Event-Structure.pdf">
               <a target="_blank">
                 <div className="primary-cta" style={{ marginTop: "10px" }}>
                   DOWNLOAD TOURNAMENT STRUCTURES
