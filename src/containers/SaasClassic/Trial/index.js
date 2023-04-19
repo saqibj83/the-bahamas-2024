@@ -115,6 +115,18 @@ const TrialSection = ({
                   }}
                 />
               </div>
+              <div className="sponsor">
+                {" "}
+                <img
+                  src="https://cdn.triton-series.com/wp-content/uploads/2019/12/19151356/gto1.png"
+                  alt="Raise Your Edge"
+                  style={{
+                    display: "inline",
+                    paddingTop: "30px",
+                    width: "200px !important",
+                  }}
+                />
+              </div>
             </Box>
 
             {/* <Box className="vender-logos">
