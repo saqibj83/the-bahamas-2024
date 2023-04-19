@@ -1074,19 +1074,20 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         </Box>
         <Box>
           <div className="prime-cta">
-            {/* <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/01102543/NEW-Vietnam-Booklet-v6-.pdf">
+            <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/19135341/TritonPoker-2023-Cyprus-EventStructure-180423.2_RGB_compressed.pdf">
               <a target="_blank">
                 <div className="primary-cta" style={{ marginTop: "10px" }}>
                   DOWNLOAD TOURNAMENT STRUCTURES
                 </div>
               </a>
-            </Link> */}
+            </Link>
+          </div>
 
-            <div className="primary-cta" style={{ marginTop: "10px" }}>
+          {/* <div className="primary-cta" style={{ marginTop: "10px" }}>
               DOWNLOAD TOURNAMENT STRUCTURES
             </div>
             <span class="tooltiptext">Coming Soon</span>
-          </div>
+          </div> */}
         </Box>
       </Container>
     </SectionWrapper>
