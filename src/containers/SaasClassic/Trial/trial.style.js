@@ -40,6 +40,7 @@ const SectionWrapper = styled.section`
     }
     .sponsor {
       width: 100%;
+      height: 110px;
     }
     .vender-logos {
       margin-bottom: 10px !important;
