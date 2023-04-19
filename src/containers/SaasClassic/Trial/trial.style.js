@@ -40,7 +40,12 @@ const SectionWrapper = styled.section`
     }
     .sponsor {
       width: 100%;
-      height: 110px;
+      height: 120px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: baseline;
     }
     .vender-logos {
       margin-bottom: 10px !important;
