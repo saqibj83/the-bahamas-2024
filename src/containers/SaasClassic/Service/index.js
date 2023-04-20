@@ -23,7 +23,7 @@ import Event12 from "common/assets/image/booklet/event-12.png";
 import Event13 from "common/assets/image/booklet/event-13.png";
 import Event15 from "common/assets/image/booklet/event-15.png";
 import Event16 from "common/assets/image/booklet/event-16.png";
-import Event17 from "common/assets/image/booklet/event-16.png";
+import Event17 from "common/assets/image/booklet/event-17.png";
 import Coin from "common/assets/image/saasClassic/luxon.png";
 
 const CloseModalButton = () => (
