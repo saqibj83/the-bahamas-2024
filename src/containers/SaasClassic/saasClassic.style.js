@@ -156,17 +156,19 @@ export const GlobalStyle = createGlobalStyle`
       align-items: center !important;
       justify-content: center !important;
       animation: ${FadeUp} .7s ease-out forwards !important;
+      flex-wrap: wrap;
     }
   }
   @media (max-width: 1500px) {
     .video-modal {
-      padding-top: 300px;
+      padding-top: 0;
     }
   }
 
   @media (max-width: 550px) {
     .video-modal {
       padding-top: 0 !important;
+      padding: 0px;
     }
   }
   .reuseModalOverlay,
