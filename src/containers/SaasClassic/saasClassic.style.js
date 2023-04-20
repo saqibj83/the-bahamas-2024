@@ -149,7 +149,7 @@ export const GlobalStyle = createGlobalStyle`
     border: 0 !important;
     animation: ${Fade} .5s ease-out forwards !important;
     overflow-y:auto;
-    padding-top:350px;
+    padding-top:0;
 
     .innerRndComponent{
       display: flex !important;
@@ -161,7 +161,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   @media (max-width: 1500px) {
     .video-modal {
-      padding-top: 0;
+      padding-top: 0 !important;
     }
   }
 
