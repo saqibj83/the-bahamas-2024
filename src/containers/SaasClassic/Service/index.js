@@ -1222,7 +1222,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
             <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/19175313/Cyprus-Event-Structure.pdf">
               <a target="_blank">
                 <div className="primary-cta" style={{ marginTop: "10px" }}>
-                  DOWNLOAD TOURNAMENT STRUCTURES
+                  TOURNAMENT STRUCTURES
                 </div>
               </a>
             </Link>

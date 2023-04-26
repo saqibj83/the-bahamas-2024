@@ -4,9 +4,6 @@ const SectionWrapper = styled.section`
   padding: 75px 0 75px 0;
   background: #000;
 
-  @media (max-width: 550px) {
-    padding: 75px 0 5px 0;
-  }
   .prime-cta {
     text-align: center;
     margin-bottom: 30px;
@@ -35,7 +32,8 @@ const SectionWrapper = styled.section`
   .primary-cta {
     text-decoration: none;
     color: #000;
-    margin: -40px 20px 20px;
+    margin: 20px 20px;
+    min-width: 350px;
     font-size: 18px;
     text-transform: uppercase;
     padding: 15px 40px 15px;
@@ -55,7 +53,15 @@ const SectionWrapper = styled.section`
     transform: scale(1);
     transition: transform 0.2s ease-in-out;
   }
-
+  @media (max-width: 550px) {
+    padding: 75px 0 5px 0;
+    .prime-cta {
+      flex-direction: column;
+    }
+    .primary-cta {
+      margin: 0px;
+    }
+  }
   .service_item {
     position: relative;
     text-align: center;
