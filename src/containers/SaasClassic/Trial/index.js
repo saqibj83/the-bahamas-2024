@@ -115,7 +115,10 @@ const TrialSection = ({
                   }}
                 />
               </div>
-              <div className="sponsor" style={{ paddingTop: "30px" }}>
+              <div
+                className="sponsor"
+                style={{ paddingTop: "30px", display: "inline" }}
+              >
                 <NextImage src={VendorLogos2} alt="Luxon" />
               </div>
 

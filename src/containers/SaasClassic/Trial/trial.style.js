@@ -25,6 +25,7 @@ const SectionWrapper = styled.section`
   .sponsor img {
     width: 150px !important;
     text-align: certer;
+    display: inline;
   }
   .sponsor {
     width: 25%;
