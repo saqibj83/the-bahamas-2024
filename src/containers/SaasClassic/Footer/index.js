@@ -150,6 +150,7 @@ const Footer = ({
                   style={{
                     fontSize: "16px",
                     float: "left",
+                    color: "#fff",
                   }}
                 >
                   <i className="icon-map-pin"></i> 85, Fenlex House, St. John
