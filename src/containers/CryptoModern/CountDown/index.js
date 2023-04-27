@@ -26,7 +26,7 @@ const CountDownSection = () => {
             </div>
           </Fade> */}
           <h2>LIVE CHANNELS</h2>
-          <Link href="https://twitch.tv/tritonpoker">
+          <Link href="https://twitch.tv/tritonpoker" legacyBehavior>
             <a target="_blank">
               <button class="btn btn-twitch">
                 <Icon size={30} icon={twitch} />
@@ -34,7 +34,7 @@ const CountDownSection = () => {
               </button>
             </a>
           </Link>
-          <Link href="https://www.youtube.com/c/TritonPoker/">
+          <Link href="https://www.youtube.com/c/TritonPoker/" legacyBehavior>
             <a target="_blank">
               <button class="btn btn-youtube">
                 <Icon size={30} icon={youtube} />

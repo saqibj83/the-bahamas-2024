@@ -44,7 +44,10 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                 complimentary accommodation at the Merit Royal Diamond Hotel
               </li>
               <li>
-                <Link href="https://triton-series.com/accommodation-terms-conditions/">
+                <Link
+                  href="https://triton-series.com/accommodation-terms-conditions/"
+                  legacyBehavior
+                >
                   <a>Click here for accommodation terms and conditions</a>
                 </Link>
               </li>
@@ -74,7 +77,10 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
               <li>
                 • Visa is not required for nationals of the countries listed
                 here &nbsp;
-                <Link href="https://mfa.gov.cy/no-visa-requirement.html ">
+                <Link
+                  href="https://mfa.gov.cy/no-visa-requirement.html "
+                  legacyBehavior
+                >
                   <a target="_blank">
                     https://mfa.gov.cy/no-visa-requirement.html{" "}
                   </a>
@@ -84,7 +90,10 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
               <li>
                 • Visa is required for nationals of the countries listed here
                 &nbsp;
-                <Link href="https://mfa.gov.cy/requiring-visa-to-enter.html  ">
+                <Link
+                  href="https://mfa.gov.cy/requiring-visa-to-enter.html  "
+                  legacyBehavior
+                >
                   <a target="_blank">
                     https://mfa.gov.cy/requiring-visa-to-enter.html{" "}
                   </a>

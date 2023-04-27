@@ -358,7 +358,10 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         </Box>
         <Box>
           <div className="prime-cta" style={{ marginTop: "-40px" }}>
-            <Link href="https://luxon-invitational.triton-series.com/">
+            <Link
+              href="https://luxon-invitational.triton-series.com/"
+              legacyBehavior
+            >
               <a target="_blank">
                 <NextImage
                   className="img-cta"
@@ -372,7 +375,10 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         </Box>
         <Box>
           <div className="prime-cta">
-            <Link href="https://luxon-invitational.triton-series.com/">
+            <Link
+              href="https://luxon-invitational.triton-series.com/"
+              legacyBehavior
+            >
               <a target="_blank">
                 <Button
                   title="LUXON INVITATIONAL HOMEPAGE"
@@ -1219,14 +1225,20 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         </Box>
         <Box>
           <div className="prime-cta">
-            <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/19175313/Cyprus-Event-Structure.pdf">
+            <Link
+              href="https://cdn.triton-series.com/wp-content/uploads/2019/12/19175313/Cyprus-Event-Structure.pdf"
+              legacyBehavior
+            >
               <a target="_blank">
                 <div className="primary-cta" style={{ marginTop: "10px" }}>
                   TOURNAMENT STRUCTURES
                 </div>
               </a>
             </Link>
-            <Link href="https://triton-series.com/tournament-rules/">
+            <Link
+              href="https://triton-series.com/tournament-rules/"
+              legacyBehavior
+            >
               <a target="_blank">
                 <div className="primary-cta" style={{ marginTop: "10px" }}>
                   TOURNAMENT RULES

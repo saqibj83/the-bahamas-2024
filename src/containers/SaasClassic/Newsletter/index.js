@@ -154,7 +154,7 @@ const Newsletter = ({
                     minDate={startDate}
                   />
                   <Box>
-                    <p
+                    <div
                       style={{
                         color: "#EBA800",
                         color: "rgb(235, 168, 0)",
@@ -163,7 +163,7 @@ const Newsletter = ({
                       }}
                     >
                       {message}
-                    </p>
+                    </div>
                     <Button
                       {...buttonStyle}
                       title="Send    "

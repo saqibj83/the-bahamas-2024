@@ -37,7 +37,7 @@ const Footer = ({
                 <span className="footer-nav__col-title">SITEMAP</span>
                 <ul>
                   <li>
-                    <Link href="#banner_section">
+                    <Link href="#banner_section" legacyBehavior>
                       <a>
                         <i className="icon-arrow-sm"></i>
                         Home
@@ -45,7 +45,7 @@ const Footer = ({
                     </Link>
                   </li>
                   <li>
-                    <Link href="#event_section">
+                    <Link href="#event_section" legacyBehavior>
                       <a>
                         <i className="icon-arrow-sm"></i>
                         Event schedule
@@ -53,21 +53,21 @@ const Footer = ({
                     </Link>
                   </li>
                   <li>
-                    <Link href="#channel_section">
+                    <Link href="#channel_section" legacyBehavior>
                       <a>
                         <i className="icon-arrow-sm"></i>Live Channels
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="#venue">
+                    <Link href="#venue" legacyBehavior>
                       <a>
                         <i className="icon-arrow-sm"></i>Venue
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="#sponsor_section">
+                    <Link href="#sponsor_section" legacyBehavior>
                       <a>
                         <i className="icon-arrow-sm"></i>Sponsors
                       </a>
@@ -146,7 +146,7 @@ const Footer = ({
               </div>
               <div className="footer-nav_cotact mt-8">
                 <span className="footer-nav__col-title">CONTACT</span>
-                <p
+                <div
                   style={{
                     fontSize: "16px",
                     float: "left",
@@ -154,7 +154,7 @@ const Footer = ({
                 >
                   <i className="icon-map-pin"></i> 85, Fenlex House, St. John
                   Street, Valleta, VLT1165, Malta
-                </p>
+                </div>
                 <ul>
                   <li>
                     <i className="icon-mail"></i>
@@ -183,32 +183,35 @@ const Footer = ({
 
             <div className="w-full md:w-1/2 lg:w-1/2 px-2 mb-4">
               <ul className="social">
-                <Link href="https://facebook.com/tritonpoker">
+                <Link href="https://facebook.com/tritonpoker" legacyBehavior>
                   <a target="_blank">
                     <li className="facebook"></li>
                   </a>
                 </Link>
-                <Link href="https://twitter.com/tritonpoker">
+                <Link href="https://twitter.com/tritonpoker" legacyBehavior>
                   <a target="_blank">
                     <li className="twitter"></li>
                   </a>
                 </Link>
-                <Link href="https://instagram.com/tritonpokerseries">
+                <Link
+                  href="https://instagram.com/tritonpokerseries"
+                  legacyBehavior
+                >
                   <a target="_blank">
                     <li className="instagram"></li>
                   </a>
                 </Link>
-                <Link href="https://www.twitch.tv/tritonpoker">
+                <Link href="https://www.twitch.tv/tritonpoker" legacyBehavior>
                   <a target="_blank">
                     <li className="twitch"></li>
                   </a>
                 </Link>
-                <Link href="https://youtube.com/tritonpoker">
+                <Link href="https://youtube.com/tritonpoker" legacyBehavior>
                   <a target="_blank">
                     <li className="youtube"></li>
                   </a>
                 </Link>
-                <Link href="https://discord.gg/tritonpoker">
+                <Link href="https://discord.gg/tritonpoker" legacyBehavior>
                   <a target="_blank">
                     <li className="discord"></li>
                   </a>
@@ -221,17 +224,26 @@ const Footer = ({
           <span>&copy; All rights reserved. Triton Series 2023</span>
 
           <div>
-            <Link href="https://triton-series.com/privacy-policy/">
+            <Link
+              href="https://triton-series.com/privacy-policy/"
+              legacyBehavior
+            >
               <a target="_blank" className="linkFooter">
                 Privacy Policy
               </a>
             </Link>
-            <Link href="https://triton-series.com/terms-and-conditions/">
+            <Link
+              href="https://triton-series.com/terms-and-conditions/"
+              legacyBehavior
+            >
               <a target="_blank" className="linkFooter">
                 Terms and Conditions
               </a>
             </Link>
-            <Link href="https://triton-series.com/about-paul-phua">
+            <Link
+              href="https://triton-series.com/about-paul-phua"
+              legacyBehavior
+            >
               <a target="_blank" className="linkFooter">
                 About Paul Phua
               </a>

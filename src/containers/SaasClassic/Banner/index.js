@@ -76,10 +76,10 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             </Fade>
           </div>
           <Box {...contentWrapper}>
-            <p className="text-st">
+            <div className="text-st">
               At the Merit Royal Diamond Hotel <br />
               WEDNESDAY 10th to THURSDAY 25th MAY
-            </p>
+            </div>
           </Box>
         </Box>
       </Container>

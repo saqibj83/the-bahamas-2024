@@ -50,7 +50,10 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
               menuItems={MENU_ITEMS}
               offset={-70}
             />
-            <Link href="https://triton-series.com/media-application/">
+            <Link
+              href="https://triton-series.com/media-application/"
+              legacyBehavior
+            >
               <a className="navbar_button" target="_blank">
                 <Button {...button} title="MEDIA APPLICATION" />
               </a>
@@ -68,7 +71,10 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                 drawerClose={true}
                 offset={-100}
               />
-              <Link href="https://triton-series.com/media-application/">
+              <Link
+                href="https://triton-series.com/media-application/"
+                legacyBehavior
+              >
                 <a className="navbar_drawer_button" target="_blank">
                   <Button
                     {...button}
