@@ -419,389 +419,335 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Wednesday <br /> 10 May 2023
+                  Thursday <br /> 27 July 2023
                 </td>
                 <td>1</td>
-                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #1 GG Super Million$ Live
-                </td>
-                <td>$25,000</td>
+                <td>GG Super Million$ Live</td>
+                <td>£20,000</td>
                 <td>250,000</td>
                 <td>40 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Thursday <br /> 11 May 2023
+                  Friday <br /> 28 July 2023
                 </td>
                 <td>2</td>
-                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #1 GG Super Million$ Live
-                </td>
-                <td>$25,000</td>
+                <td>GG Super Million$ Live</td>
+                <td>£20,000</td>
                 <td>250,000</td>
                 <td>40 MIN </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
                 <td>
-                  Thursday <br /> 11 May 2023
+                  Friday <br /> 28 July 2023
                 </td>
                 <td>1</td>
-                <td onClick={EventModal2} style={{ cursor: "pointer" }}>
-                  #2 NLH - 7 Handed
-                </td>
-                <td>$20,000</td>
+                <td>NLH - 7 Handed</td>
+                <td>£20,000</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Friday <br /> 12 May 2023
+                  Saturday <br /> 29 July 2023
                 </td>
                 <td>2</td>
-                <td onClick={EventModal2} style={{ cursor: "pointer" }}>
-                  #2 NLH - 7 Handed
-                </td>
-                <td>$20,000</td>
+                <td>NLH - 7 Handed</td>
+                <td>£20,000</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
                 <td>
-                  Friday <br /> 12 May 2023
+                  Saturday <br /> 29 July 2023
                 </td>
                 <td>1</td>
-                <td onClick={EventModal3} style={{ cursor: "pointer" }}>
-                  #3 NLH - 6 Handed - Mystery Bounty
-                </td>
-                <td>$30,000</td>
+                <td>NLH - 6 Handed - Mystery Bounty</td>
+                <td>£30,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Saturday <br /> 13 May 2023
+                  Sunday <br /> 30 July 2023
                 </td>
                 <td>2</td>
-                <td onClick={EventModal3} style={{ cursor: "pointer" }}>
-                  #3 NLH - 6 Handed - Mystery Bounty
-                </td>
-                <td>$30,000</td>
+                <td>NLH - 6 Handed - Mystery Bounty</td>
+                <td>£30,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
                 <td>
-                  Saturday <br /> 13 May 2023
+                  Sunday <br /> 30 July 2023
                 </td>
                 <td>1</td>
-                <td onClick={EventModal5} style={{ cursor: "pointer" }}>
-                  #5 NLH - 8 Handed
-                </td>
-                <td>$40,000</td>
+                <td>NLH - 8 Handed</td>
+                <td>£40,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Sunday <br /> 14 May 2023
+                  Monday <br /> 31 July 2023
                 </td>
                 <td>2</td>
-                <td onClick={EventModal5} style={{ cursor: "pointer" }}>
-                  #5 NLH - 8 Handed
-                </td>
-                <td>$40,000</td>
+                <td>NLH - 8 Handed</td>
+                <td>£40,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
                 <td>
-                  Sunday <br /> 14 May 2023
+                  Monday <br /> 31 July 2023
                 </td>
                 <td>1</td>
-                <td onClick={EventModal6} style={{ cursor: "pointer" }}>
-                  #6 NLH - 7 Handed
-                </td>
-                <td>$50,000</td>
+                <td>NLH - 7 Handed</td>
+                <td>£50,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Monday <br /> 15 May 2023
+                  Tuesday <br /> 1 August 2023
                 </td>
                 <td>2</td>
-                <td onClick={EventModal6} style={{ cursor: "pointer" }}>
-                  #6 NLH - 7 Handed
-                </td>
-                <td>$50,000</td>
+                <td>NLH - 7 Handed</td>
+                <td>£50,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
               </tr>
               <tr>
                 <td>4:00 PM</td>
                 <td>
-                  Monday <br /> 15 May 2023
+                  Tuesday <br /> 1 August 2023
+                </td>
+                <td>1</td>
+                <td>NLH - 8 Handed</td>
+                <td>£75,000</td>
+                <td>200,000</td>
+                <td>40 MIN </td>
+              </tr>
+              <tr>
+                <td>1:00 PM</td>
+                <td>
+                  Wednesday <br /> 2 August 2023
+                </td>
+                <td>2</td>
+                <td>NLH - 8 Handed</td>
+                <td>£75,000</td>
+                <td>200,000</td>
+                <td>40 MIN </td>
+              </tr>
+              <tr>
+                <td>4:00 PM</td>
+                <td>
+                  Wednesday <br /> 2 August 2023
                 </td>
                 <td>SINGLE</td>
-                <td onClick={EventModal7} style={{ cursor: "pointer" }}>
-                  #7 NLH - TURBO
-                </td>
-                <td>$25,000</td>
+                <td>NLH - TURBO</td>
+                <td>£25,000</td>
                 <td>200,000</td>
                 <td>20 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Tuesday <br /> 16 May 2023
+                  Thursday <br /> 3 August 2023
                 </td>
                 <td>1</td>
-                <td onClick={EventModal8} style={{ cursor: "pointer" }}>
-                  #8 NLH - 8 Handed
-                </td>
-                <td>$75,000</td>
-                <td>200,000</td>
-                <td>40 MIN </td>
-              </tr>
-              <tr>
-                <td>1:00 PM</td>
-                <td>
-                  Wednesday <br /> 17 May 2023
-                </td>
-                <td>2</td>
-                <td onClick={EventModal8} style={{ cursor: "pointer" }}>
-                  #8 NLH - 8 Handed
-                </td>
-                <td>$75,000</td>
-                <td>200,000</td>
-                <td>40 MIN </td>
-              </tr>
-              <tr>
-                <td>1:00 PM</td>
-                <td>
-                  Thursday <br /> 18 May 2023
-                </td>
-                <td>1</td>
-                <td onClick={EventModal9} style={{ cursor: "pointer" }}>
-                  #9 NLH - Luxon Invitational
-                </td>
-                <td>$200,000</td>
+                <td>NLH - Invitational Event</td>
+                <td>£250,000</td>
                 <td>300,000</td>
                 <td>50 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Friday <br /> 19 May 2023
+                  Friday <br /> 4 August 2023
                 </td>
                 <td>2</td>
-                <td onClick={EventModal9} style={{ cursor: "pointer" }}>
-                  #9 NLH - Luxon Invitational
-                </td>
-                <td>$200,000</td>
+                <td>NLH - Invitational Event</td>
+                <td>£250,000</td>
                 <td>300,000</td>
                 <td>50 MIN </td>
               </tr>
               <tr>
                 <td>4:00 PM</td>
                 <td>
-                  Friday <br /> 19 May 2023
+                  Friday <br /> 4 August 2023
                 </td>
                 <td>1</td>
-                <td onClick={EventModal10} style={{ cursor: "pointer" }}>
-                  #10 Pot Limit Omaha
-                </td>
-                <td>$25,000</td>
+                <td>Pot Limit Omaha</td>
+                <td>£20,000</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Saturday <br /> 20 May 2023
+                  Saturday <br /> 5 August 2023
                 </td>
                 <td>FT</td>
-                <td onClick={EventModal9} style={{ cursor: "pointer" }}>
-                  #9 NLH - Luxon Invitational
-                </td>
-                <td>$200,000</td>
+                <td>NLH - Invitational Event</td>
+                <td>£250,000</td>
                 <td>300,000</td>
                 <td>50 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Saturday <br /> 20 May 2023
+                  Saturday <br /> 5 August 2023
                 </td>
                 <td>2</td>
-                <td onClick={EventModal10} style={{ cursor: "pointer" }}>
-                  #10 Pot Limit Omaha
-                </td>
-                <td>$25,000</td>
+                <td>Pot Limit Omaha</td>
+                <td>£20,000</td>
                 <td>200,000</td>
-                <td>30 MIN</td>
+                <td>30 MIN </td>
               </tr>
               <tr>
                 <td>2:00 PM</td>
                 <td>
-                  Saturday <br /> 20 May 2023
+                  Saturday <br /> 5 August 2023
                 </td>
                 <td>1</td>
-                <td onClick={EventModal11} style={{ cursor: "pointer" }}>
-                  #11 NLH - Main Event
-                </td>
-                <td>$100,000</td>
+                <td>NLH - Main Event</td>
+                <td>£100,000</td>
                 <td>250,000</td>
-                <td>50 Min </td>
+                <td>50 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Sunday <br /> 21 May 2023
+                  Sunday <br /> 6 August 2023
                 </td>
                 <td>2</td>
-                <td onClick={EventModal11} style={{ cursor: "pointer" }}>
-                  #11 NLH - Main Event
-                </td>
-                <td>$100,000</td>
+                <td>NLH - Main Event</td>
+                <td>£100,000</td>
                 <td>250,000</td>
-                <td>50 Min </td>
+                <td>50 MIN</td>
               </tr>
               <tr>
                 <td>4:00 PM</td>
                 <td>
-                  Sunday <br /> 21 May 2023
+                  Sunday <br /> 6 August 2023
                 </td>
                 <td>SINGLE</td>
-                <td onClick={EventModal12} style={{ cursor: "pointer" }}>
-                  #12 NLH - TURBO
-                </td>
-                <td>$50,000</td>
+                <td>NLH - TURBO</td>
+                <td>£50,000</td>
                 <td>200,000</td>
-                <td>20 Min </td>
+                <td>20 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Monday <br /> 22 May 2023
+                  Monday <br /> 7 August 2023
                 </td>
                 <td>FT</td>
-                <td onClick={EventModal11} style={{ cursor: "pointer" }}>
-                  #11 NLH - Main Event
-                </td>
-                <td>$100,000</td>
+                <td>NLH - Main Event</td>
+                <td>£100,000</td>
                 <td>250,000</td>
-                <td>50 Min </td>
+                <td>50 MIN </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
                 <td>
-                  Monday <br /> 22 May 2023
+                  Monday <br /> 7 August 2023
                 </td>
                 <td>1</td>
-                <td onClick={EventModal13} style={{ cursor: "pointer" }}>
-                  #13 Pot Limit Omaha
+                <td>Short Deck Ante-Only</td>
+                <td>£30,000</td>
+                <td>
+                  100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
-                <td>$30,000</td>
-                <td>200,000</td>
-                <td>30 Min </td>
+                <td>35 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Tuesday <br /> 23 May 2023
+                  Tuesday <br /> 8 August 2023
                 </td>
                 <td>2</td>
-                <td onClick={EventModal13} style={{ cursor: "pointer" }}>
-                  #13 Pot Limit Omaha
+                <td>Short Deck Ante-Only</td>
+                <td>£30,000</td>
+                <td>
+                  100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
-                <td>$30,000</td>
-                <td>200,000</td>
-                <td>30 Min </td>
+                <td>35 MIN </td>
               </tr>
               <tr>
-                <td>2:00 PM</td>
+                <td>3:00 PM</td>
                 <td>
-                  Tuesday <br /> 23 May 2023
+                  Tuesday <br /> 8 August 2023
                 </td>
                 <td>1</td>
-                <td onClick={EventModal15} style={{ cursor: "pointer" }}>
-                  #15 Short Deck Ante-Only (2 Bullets)
-                </td>
-                <td>$25,000</td>
+                <td>Short Deck Ante-Only (2 Bullets)</td>
+                <td>£50,000</td>
                 <td>
-                  150,000 <span style={{ textTransform: "lowercase" }}>x2</span>
+                  100,000 <span style={{ textTransform: "lowercase" }}>x2</span>
                 </td>
-                <td>35 Min </td>
+                <td>40 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Wednesday <br /> 24 May 2023
+                  Wednesday <br /> 9 August 2023
                 </td>
                 <td>2</td>
-                <td onClick={EventModal15} style={{ cursor: "pointer" }}>
-                  #15 Short Deck Ante-Only (2 Bullets)
-                </td>
-                <td>$25,000</td>
+                <td>Short Deck Ante-Only (2 Bullets)</td>
+                <td>£50,000</td>
                 <td>
-                  150,000 <span style={{ textTransform: "lowercase" }}>x2</span>
+                  100,000 <span style={{ textTransform: "lowercase" }}>x2</span>
                 </td>
-                <td>35 Min </td>
+                <td>40 MIN </td>
               </tr>
               <tr>
                 <td>4:00 PM</td>
                 <td>
-                  Wednesday <br /> 24 May 2023
+                  Wednesday <br /> 9 August 2023
                 </td>
                 <td>1</td>
-                <td onClick={EventModal16} style={{ cursor: "pointer" }}>
-                  #16 SD - Main Event
-                </td>
-                <td>$50,000</td>
+                <td>SD - Main Event</td>
+                <td>£100,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
-                <td>45 Min </td>
+                <td>45 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Thursday <br /> 25 May 2023
+                  Thursday <br /> 10 August 2023
                 </td>
                 <td>2</td>
-                <td onClick={EventModal16} style={{ cursor: "pointer" }}>
-                  #16 SD - Main Event
-                </td>
-                <td>$50,000</td>
+                <td>SD - Main Event</td>
+                <td>£100,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
-                <td>45 Min </td>
+                <td>45 MIN </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
                 <td>
-                  Thursday <br /> 25 May 2023
+                  Thursday <br /> 10 August 2023
                 </td>
-                <td>Single</td>
-                <td onClick={EventModal17} style={{ cursor: "pointer" }}>
-                  #17 Short Deck Ante-Only
-                </td>
-                <td>$20,000</td>
+                <td>SINGLE</td>
+                <td>Short Deck Ante-Only</td>
+                <td>£20,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
-                <td>25 Min</td>
+                <td>25 MIN</td>
               </tr>
             </tbody>
           </table>
@@ -838,387 +784,335 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Wed <br /> 10 May
+                  THU <br /> 27 July
                 </td>
                 <td>1</td>
-                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #1 GG Super Million$ Live
-                </td>
-                <td>$25K</td>
+                <td>GG Super Million$ Live</td>
+                <td>£20K</td>
                 <td>250K</td>
                 <td>40 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Thu <br /> 11 May
+                  FRI <br /> 28 July
                 </td>
                 <td>2</td>
-                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #1 GG Super Million$ Live
-                </td>
-                <td>$25K</td>
+                <td>GG Super Million$ Live</td>
+                <td>£20K</td>
                 <td>250K</td>
                 <td>40 MIN </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
                 <td>
-                  Thu <br /> 11 May
+                  FRI <br /> 28 July
                 </td>
                 <td>1</td>
-                <td onClick={EventModal2} style={{ cursor: "pointer" }}>
-                  #2 NLH - 7 Handed
-                </td>
-                <td>$20K</td>
+                <td>NLH - 7 Handed</td>
+                <td>£20K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Fri <br /> 12 May
+                  SAT <br /> 29 July
                 </td>
                 <td>2</td>
-                <td onClick={EventModal2} style={{ cursor: "pointer" }}>
-                  #2 NLH - 7 Handed
-                </td>
-                <td>$20K</td>
+                <td>NLH - 7 Handed</td>
+                <td>£20K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
                 <td>
-                  Fri <br /> 12 May
+                  SAT <br /> 29 July
                 </td>
                 <td>1</td>
-                <td onClick={EventModal3} style={{ cursor: "pointer" }}>
-                  #3 NLH - 6 Handed - Mystery Bounty
-                </td>
-                <td>$30K</td>
+                <td>NLH - 6 Handed - Mystery Bounty</td>
+                <td>£30K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Sat <br /> 13 May
+                  SUN <br /> 30 July
                 </td>
                 <td>2</td>
-                <td onClick={EventModal3} style={{ cursor: "pointer" }}>
-                  #3 NLH - 6 Handed - Mystery Bounty
-                </td>
-                <td>$30K</td>
+                <td>NLH - 6 Handed - Mystery Bounty</td>
+                <td>£30K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
                 <td>
-                  Sat <br /> 13 May
+                  SUN <br /> 30 July
                 </td>
                 <td>1</td>
-                <td onClick={EventModal5} style={{ cursor: "pointer" }}>
-                  #5 NLH - 8 Handed
-                </td>
-                <td>$40K</td>
+                <td>NLH - 8 Handed</td>
+                <td>£40K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Sun <br /> 14 May
+                  MON <br /> 31 July
                 </td>
                 <td>2</td>
-                <td onClick={EventModal5} style={{ cursor: "pointer" }}>
-                  #5 NLH - 8 Handed
-                </td>
-                <td>$40K</td>
+                <td>NLH - 8 Handed</td>
+                <td>£40K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
                 <td>
-                  Sun <br /> 14 May
+                  MON <br /> 31 July
                 </td>
                 <td>1</td>
-                <td onClick={EventModal6} style={{ cursor: "pointer" }}>
-                  #6 NLH - 7 Handed
-                </td>
-                <td>$50K</td>
+                <td>NLH - 7 Handed</td>
+                <td>£50K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Mon <br /> 15 May
+                  TUE <br /> 1 August
                 </td>
                 <td>2</td>
-                <td onClick={EventModal6} style={{ cursor: "pointer" }}>
-                  #6 NLH - 7 Handed
-                </td>
-                <td>$50K</td>
+                <td>NLH - 7 Handed</td>
+                <td>£50K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
               </tr>
               <tr>
                 <td>4:00 PM</td>
                 <td>
-                  Mon <br /> 15 May
+                  TUE <br /> 1 August
+                </td>
+                <td>1</td>
+                <td>NLH - 8 Handed</td>
+                <td>£75K</td>
+                <td>200K</td>
+                <td>40 MIN </td>
+              </tr>
+              <tr>
+                <td>1:00 PM</td>
+                <td>
+                  WED <br /> 2 August
+                </td>
+                <td>2</td>
+                <td>NLH - 8 Handed</td>
+                <td>£75K</td>
+                <td>200K</td>
+                <td>40 MIN </td>
+              </tr>
+              <tr>
+                <td>4:00 PM</td>
+                <td>
+                  WED <br /> 2 August
                 </td>
                 <td>SINGLE</td>
-                <td onClick={EventModal7} style={{ cursor: "pointer" }}>
-                  #7 NLH - TURBO
-                </td>
-                <td>$25K</td>
+                <td>NLH - TURBO</td>
+                <td>£25K</td>
                 <td>200K</td>
                 <td>20 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Tue <br /> 16 May
+                  THU <br /> 3 August
                 </td>
                 <td>1</td>
-                <td onClick={EventModal8} style={{ cursor: "pointer" }}>
-                  #8 NLH - 8 Handed
-                </td>
-                <td>$75K</td>
-                <td>200K</td>
-                <td>40 MIN </td>
-              </tr>
-              <tr>
-                <td>1:00 PM</td>
-                <td>
-                  Wed <br /> 17 May
-                </td>
-                <td>2</td>
-                <td onClick={EventModal8} style={{ cursor: "pointer" }}>
-                  #8 NLH - 8 Handed
-                </td>
-                <td>$75K</td>
-                <td>200K</td>
-                <td>40 MIN </td>
-              </tr>
-              <tr>
-                <td>1:00 PM</td>
-                <td>
-                  Thu <br /> 18 May
-                </td>
-                <td>1</td>
-                <td onClick={EventModal9} style={{ cursor: "pointer" }}>
-                  #9 NLH - Luxon Invitational
-                </td>
-                <td>$200K</td>
+                <td>NLH - Invitational Event</td>
+                <td>£250K</td>
                 <td>300K</td>
                 <td>50 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Fri <br /> 19 May
+                  FRI <br /> 4 August
                 </td>
                 <td>2</td>
-                <td onClick={EventModal9} style={{ cursor: "pointer" }}>
-                  #9 NLH - Luxon Invitational
-                </td>
-                <td>$200K</td>
+                <td>NLH - Invitational Event</td>
+                <td>£250K</td>
                 <td>300K</td>
                 <td>50 MIN </td>
               </tr>
               <tr>
                 <td>4:00 PM</td>
                 <td>
-                  Fri <br /> 19 May
+                  FRI <br /> 4 August
                 </td>
                 <td>1</td>
-                <td onClick={EventModal10} style={{ cursor: "pointer" }}>
-                  #10 Pot Limit Omaha
-                </td>
-                <td>$25K</td>
+                <td>Pot Limit Omaha</td>
+                <td>£20K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Sat <br /> 20 May
+                  SAT <br /> 5 August
                 </td>
                 <td>FT</td>
-                <td>#9 NLH - Luxon Invitational</td>
-                <td>$200K</td>
+                <td>NLH - Invitational Event</td>
+                <td>£250K</td>
                 <td>300K</td>
                 <td>50 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Sat <br /> 20 May
+                  SAT <br /> 5 August
                 </td>
                 <td>2</td>
-                <td onClick={EventModal10} style={{ cursor: "pointer" }}>
-                  #10 Pot Limit Omaha
-                </td>
-                <td>$25K</td>
+                <td>Pot Limit Omaha</td>
+                <td>£20K</td>
                 <td>200K</td>
-                <td>30 MIN</td>
+                <td>30 MIN </td>
               </tr>
               <tr>
                 <td>2:00 PM</td>
                 <td>
-                  Sat <br /> 20 May
+                  SAT <br /> 5 August
                 </td>
                 <td>1</td>
-                <td onClick={EventModal11} style={{ cursor: "pointer" }}>
-                  #11 NLH - Main Event
-                </td>
-                <td>$100K</td>
+                <td>NLH - Main Event</td>
+                <td>£100K</td>
                 <td>250K</td>
-                <td>50 Min </td>
+                <td>50 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Sun <br /> 21 May
+                  SUN <br /> 6 August
                 </td>
                 <td>2</td>
-                <td onClick={EventModal11} style={{ cursor: "pointer" }}>
-                  #11 NLH - Main Event
-                </td>
-                <td>$100K</td>
+                <td>NLH - Main Event</td>
+                <td>£100K</td>
                 <td>250K</td>
-                <td>50 Min </td>
+                <td>50 MIN</td>
               </tr>
               <tr>
                 <td>4:00 PM</td>
                 <td>
-                  Sun <br /> 21 May
+                  SUN <br /> 6 August
                 </td>
                 <td>SINGLE</td>
-                <td onClick={EventModal12} style={{ cursor: "pointer" }}>
-                  #12 NLH - TURBO
-                </td>
-                <td>$50K</td>
+                <td>NLH - TURBO</td>
+                <td>£50K</td>
                 <td>200K</td>
-                <td>20 Min </td>
+                <td>20 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Mon <br /> 22 May
+                  MON <br /> 7 August
                 </td>
                 <td>FT</td>
-                <td onClick={EventModal11} style={{ cursor: "pointer" }}>
-                  #11 NLH - Main Event
-                </td>
-                <td>$100K</td>
+                <td>NLH - Main Event</td>
+                <td>£100K</td>
                 <td>250K</td>
-                <td>50 Min </td>
+                <td>50 MIN </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
                 <td>
-                  Mon <br /> 22 May
+                  MON <br /> 7 August
                 </td>
                 <td>1</td>
-                <td onClick={EventModal13} style={{ cursor: "pointer" }}>
-                  #13 Pot Limit Omaha
+                <td>Short Deck Ante-Only</td>
+                <td>£30K</td>
+                <td>
+                  100K <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
-                <td>$30K</td>
-                <td>200K</td>
-                <td>30 Min </td>
+                <td>35 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Tue <br /> 23 May
+                  TUE <br /> 8 August
                 </td>
                 <td>2</td>
-                <td onClick={EventModal13} style={{ cursor: "pointer" }}>
-                  #13 Pot Limit Omaha
+                <td>Short Deck Ante-Only</td>
+                <td>£30K</td>
+                <td>
+                  100K <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
-                <td>$30K</td>
-                <td>200K</td>
-                <td>30 Min </td>
+                <td>35 MIN </td>
               </tr>
               <tr>
-                <td>2:00 PM</td>
+                <td>3:00 PM</td>
                 <td>
-                  Tue <br /> 23 May
+                  TUE <br /> 8 August
                 </td>
                 <td>1</td>
-                <td onClick={EventModal15} style={{ cursor: "pointer" }}>
-                  #15 Short Deck Ante-Only (2 Bullets)
-                </td>
-                <td>$25K</td>
+                <td>Short Deck Ante-Only (2 Bullets)</td>
+                <td>£50K</td>
                 <td>
-                  150K <span style={{ textTransform: "lowercase" }}>x2</span>
+                  100K <span style={{ textTransform: "lowercase" }}>x2</span>
                 </td>
-                <td>35 Min </td>
+                <td>40 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Wed <br /> 24 May
+                  WED <br /> 9 August
                 </td>
                 <td>2</td>
-                <td onClick={EventModal15} style={{ cursor: "pointer" }}>
-                  #15 Short Deck Ante-Only (2 Bullets)
-                </td>
-                <td>$25K</td>
+                <td>Short Deck Ante-Only (2 Bullets)</td>
+                <td>£50K</td>
                 <td>
-                  150K <span style={{ textTransform: "lowercase" }}>x2</span>
+                  100K <span style={{ textTransform: "lowercase" }}>x2</span>
                 </td>
-                <td>35 Min </td>
+                <td>40 MIN </td>
               </tr>
               <tr>
                 <td>4:00 PM</td>
                 <td>
-                  Wed <br /> 24 May
+                  WED <br /> 9 August
                 </td>
                 <td>1</td>
-                <td onClick={EventModal16} style={{ cursor: "pointer" }}>
-                  #16 SD - Main Event
-                </td>
-                <td>$50K</td>
+                <td>SD - Main Event</td>
+                <td>£100K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
-                <td>45 Min </td>
+                <td>45 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Thu <br /> 25 May
+                  THU <br /> 10 August
                 </td>
                 <td>2</td>
-                <td onClick={EventModal16} style={{ cursor: "pointer" }}>
-                  #16 SD - Main Event
-                </td>
-                <td>$50K</td>
+                <td>SD - Main Event</td>
+                <td>£100K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
-                <td>45 Min </td>
+                <td>45 MIN </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
                 <td>
-                  Thu <br /> 25 May
+                  THU <br /> 10 August
                 </td>
-                <td>Single</td>
-                <td onClick={EventModal17} style={{ cursor: "pointer" }}>
-                  #17 Short Deck Ante-Only
-                </td>
-                <td>$20K</td>
+                <td>SINGLE</td>
+                <td>Short Deck Ante-Only</td>
+                <td>£20K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
-                <td>25 Min</td>
+                <td>25 MIN</td>
               </tr>
             </tbody>
           </table>
