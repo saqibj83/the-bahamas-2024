@@ -123,14 +123,13 @@ const TrialSection = ({
               </div>
 
               <div className="sponsor">
-                {" "}
                 <img
                   src="https://cdn.triton-series.com/wp-content/uploads/2019/12/19151356/gto1.png"
-                  alt="Raise Your Edge"
+                  alt="g"
                   style={{
                     display: "inline",
                     paddingTop: "20px",
-                    width: "200px !important",
+                    width: "200px",
                   }}
                 />
               </div>
