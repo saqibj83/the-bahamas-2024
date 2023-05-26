@@ -77,8 +77,8 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
           </div>
           <Box {...contentWrapper}>
             <div className="text-st">
-              At the Merit Royal Diamond Hotel <br />
-              WEDNESDAY 10th to THURSDAY 25th MAY
+              JW MARRIOTT GROSVENOR HOUSE <br />
+              THURSDAY 27th to THURSDAY 10th MAY
             </div>
           </Box>
         </Box>

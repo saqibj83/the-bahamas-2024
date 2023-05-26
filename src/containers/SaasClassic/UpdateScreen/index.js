@@ -24,7 +24,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
         <Tabs className="update-screen-tab">
           <TabPane tab="Venue" key="1">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d13016.288956205337!2d33.2107858!3d35.3538535!3m2!1i1024!2i768!4f13.1!3m2!1m1!2sMerit%20Royal%20Diamond%20Hotel%20%26%20Spa!5e0!3m2!1sen!2s!4v1661327645450!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9932.772239254875!2d-0.1552706!3d51.509674!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760533d54bc165%3A0xbd82f4f5c122c765!2sJW%20Marriott%20Grosvenor%20House%20London!5e0!3m2!1sen!2s!4v1685068324584!5m2!1sen!2s"
               width="100%"
               height="450"
               style={{ border: "0" }}
@@ -35,14 +35,15 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
           </TabPane>
           <TabPane tab="Accommodation" key="2">
             <ul>
-              <li>Arrival: 9th of May 2023</li>
-              <li>Departure: 26th of May 2023</li>
-              <li>
+              <li>Arrival: 26th of July 2023</li>
+              <li>Departure: 11th of August 2023</li>
+              <li>ACCOMMODATION: INTERCONTINENTAL LONDON PARK LANE</li>
+              {/* <li>
                 During Triton Series CYPRUS complimentary accommodation is
                 offered to players who will qualify for the USD 300K combined
                 spend in tournament buy-ins. We are pleased to offer
-                complimentary accommodation at the Merit Royal Diamond Hotel
-              </li>
+                complimentary accommodations at the Merit Royal Diamond Hotel
+              </li> */}
               <li>
                 <Link
                   href="https://triton-series.com/accommodation-terms-conditions/"
@@ -54,53 +55,42 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
             </ul>
           </TabPane>
           <TabPane tab="Travel Information" key="3">
-            <h2>Entering Cyprus</h2>
             <h3 className="mb-3"> Arrival & Transfers</h3>
             <p className="mb-3">
-              <strong> Ercan International Airport (ECN)</strong> is the primary
-              entry point to the Turkish Republic of North Cyprus (TRNC) via
-              Istanbul, Turkey. It’s a 50 minute drive to Merit Royal Diamond
-              Hotel.
+              The hotel is easily accessible to several international airports.
+              Heathrow Airport is located 45 minutes by car, 55 minutes via the
+              Piccadilly line underground or 30 minutes by Heathrow Express
+              train. Gatwick Airport is located 90 minutes by car or 45 minutes
+              by train.
             </p>
-            <p>
-              <strong>Larnaca International Airport (LCA)</strong> is the
-              primary entry point to the Republic of Cyprus. Travellers arriving
-              in LCA will need to cross the border from South to TRNC to get to
-              Merit Royal Diamond Hotel via land transport which takes 1.5
-              hours, and will need to depart the same way.
-            </p>
-            <ul style={{ paddingLeft: "50px" }}>
+            <ul style={{ paddingLeft: "20px" }}>
               <li>
-                • Visa is not required for most travellers travelling into TRNC
-                via ECN except Nigeria, Syria, and Armenia.
-              </li>
-              <li>
-                • Visa is not required for nationals of the countries listed
-                here &nbsp;
+                VISA INFORMATION: Passport holders of most countries require a
+                visa to enter the United Kingdom. To check your if you require a
+                UK visa, please visit &nbsp;
+                <Link href="https://www.gov.uk/check-uk-visa/y " legacyBehavior>
+                  <a target="_blank">https://www.gov.uk/check-uk-visa/y</a>
+                </Link>{" "}
+                &nbsp; Once you know your visa requirement, you may apply for a
+                UK at &nbsp;
                 <Link
-                  href="https://mfa.gov.cy/no-visa-requirement.html "
+                  href="https://visas-immigration.service.gov.uk/product/uk-visit-visa "
                   legacyBehavior
                 >
                   <a target="_blank">
-                    https://mfa.gov.cy/no-visa-requirement.html{" "}
+                    https://visas-immigration.service.gov.uk/product/uk-visit-visa
                   </a>
                 </Link>{" "}
-                &nbsp; travelling into the Republic of Cyprus via LCA
-              </li>
-              <li>
-                • Visa is required for nationals of the countries listed here
-                &nbsp;
-                <Link
-                  href="https://mfa.gov.cy/requiring-visa-to-enter.html  "
-                  legacyBehavior
-                >
-                  <a target="_blank">
-                    https://mfa.gov.cy/requiring-visa-to-enter.html{" "}
-                  </a>
-                </Link>{" "}
-                &nbsp; travelling into the Republic of Cyprus via LCA
+                &nbsp; The online visa application will guide you through the
+                payment options and will email you a receipt once your complete
+                the payment. For further information on Visa Application
+                Procedure, please visit &nbsp;
+                <Link href="https://www.gov.uk/check-uk-visa " legacyBehavior>
+                  <a target="_blank">https://www.gov.uk/check-uk-visa</a>
+                </Link>
               </li>
             </ul>
+            <p></p>
           </TabPane>
         </Tabs>
       </Container>
