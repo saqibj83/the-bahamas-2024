@@ -359,7 +359,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         <Box>
           <div className="prime-cta" style={{ marginTop: "-40px" }}>
             <Link
-              href="https://luxon-invitational.triton-series.com/"
+              href="https://london-invitational.triton-series.com/"
               legacyBehavior
             >
               <a target="_blank">
@@ -376,7 +376,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         <Box>
           <div className="prime-cta">
             <Link
-              href="https://luxon-invitational.triton-series.com/"
+              href="https://london-invitational.triton-series.com/"
               legacyBehavior
             >
               <a target="_blank">
@@ -1119,7 +1119,11 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         </Box>
         <Box>
           <div className="prime-cta">
-            <Link
+            <div className="primary-cta" style={{ marginTop: "10px" }}>
+              DOWNLOAD TOURNAMENT STRUCTURES
+            </div>
+            <span class="tooltiptext">Coming Soon</span>
+            {/* <Link
               href="https://cdn.triton-series.com/wp-content/uploads/2019/12/19175313/Cyprus-Event-Structure.pdf"
               legacyBehavior
             >
@@ -1128,7 +1132,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   TOURNAMENT STRUCTURES
                 </div>
               </a>
-            </Link>
+            </Link> */}
             <Link
               href="https://triton-series.com/tournament-rules/"
               legacyBehavior
@@ -1140,12 +1144,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               </a>
             </Link>
           </div>
-
-          {/* <div className="primary-cta" style={{ marginTop: "10px" }}>
-              DOWNLOAD TOURNAMENT STRUCTURES
-            </div>
-            <span class="tooltiptext">Coming Soon</span>
-          </div> */}
         </Box>
       </Container>
     </SectionWrapper>
