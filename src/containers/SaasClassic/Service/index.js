@@ -466,7 +466,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Saturday <br /> 29 July 2023
                 </td>
                 <td>1</td>
-                <td>#3 NLH - 6 Handed - Mystery Bounty</td>
+                <td>#3 NLH - 7 Handed - Mystery Bounty</td>
                 <td>£30,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
@@ -477,7 +477,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sunday <br /> 30 July 2023
                 </td>
                 <td>2</td>
-                <td>#3 NLH - 6 Handed - Mystery Bounty</td>
+                <td>#3 NLH - 7 Handed - Mystery Bounty</td>
                 <td>£30,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
@@ -516,7 +516,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>40 MIN </td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>12:00 PM</td>
                 <td>
                   Tuesday <br /> 1 August 2023
                 </td>
@@ -527,13 +527,13 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>40 MIN </td>
               </tr>
               <tr>
-                <td>4:00 PM</td>
+                <td>3:00 PM</td>
                 <td>
                   Tuesday <br /> 1 August 2023
                 </td>
                 <td>1</td>
                 <td>#7 NLH - 8 Handed</td>
-                <td>£75,000</td>
+                <td>£150,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
               </tr>
@@ -544,7 +544,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#7 NLH - 8 Handed</td>
-                <td>£75,000</td>
+                <td>£150,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
               </tr>
@@ -554,7 +554,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Wednesday <br /> 2 August 2023
                 </td>
                 <td>SINGLE</td>
-                <td>#8 NLH - TURBO</td>
+                <td>#8 NLH - TURBO (5k Bounty)</td>
                 <td>£25,000</td>
                 <td>200,000</td>
                 <td>20 MIN </td>
@@ -566,7 +566,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#9 NLH - Invitational Event</td>
-                <td>£250,000</td>
+                <td>£200,000</td>
                 <td>300,000</td>
                 <td>50 MIN </td>
               </tr>
@@ -577,7 +577,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#9 NLH - Invitational Event</td>
-                <td>£250,000</td>
+                <td>£200,000</td>
                 <td>300,000</td>
                 <td>50 MIN </td>
               </tr>
@@ -599,7 +599,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>FT</td>
                 <td>#9 NLH - Invitational Event</td>
-                <td>£250,000</td>
+                <td>£200,000</td>
                 <td>300,000</td>
                 <td>50 MIN </td>
               </tr>
@@ -615,7 +615,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>30 MIN </td>
               </tr>
               <tr>
-                <td>2:00 PM</td>
+                <td>3:00 PM</td>
                 <td>
                   Saturday <br /> 5 August 2023
                 </td>
@@ -664,12 +664,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Monday <br /> 7 August 2023
                 </td>
                 <td>1</td>
-                <td>#13 Short Deck Ante-Only</td>
-                <td>£30,000</td>
+                <td>#13 NLH - 8-Handed</td>
+                <td>£50,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
-                <td>35 MIN </td>
+                <td>40 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -677,12 +677,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Tuesday <br /> 8 August 2023
                 </td>
                 <td>2</td>
-                <td>#13 Short Deck Ante-Only</td>
-                <td>£30,000</td>
+                <td>#13 NLH - 8-Handed</td>
+                <td>£50,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
-                <td>35 MIN </td>
+                <td>40 MIN </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
@@ -690,12 +690,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Tuesday <br /> 8 August 2023
                 </td>
                 <td>1</td>
-                <td>#15 Short Deck Ante-Only (2 Bullets)</td>
-                <td>£50,000</td>
+                <td>#15 Short Deck Ante-Only</td>
+                <td>£25,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x2</span>
                 </td>
-                <td>40 MIN </td>
+                <td>35 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -703,12 +703,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Wednesday <br /> 9 August 2023
                 </td>
                 <td>2</td>
-                <td>#15 Short Deck Ante-Only (2 Bullets)</td>
-                <td>£50,000</td>
+                <td>#15 Short Deck Ante-Only</td>
+                <td>£25,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x2</span>
                 </td>
-                <td>40 MIN </td>
+                <td>35 MIN </td>
               </tr>
               <tr>
                 <td>4:00 PM</td>
@@ -717,7 +717,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#16 SD - Main Event</td>
-                <td>£100,000</td>
+                <td>£50,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
@@ -730,7 +730,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#16 SD - Main Event</td>
-                <td>£100,000</td>
+                <td>£50,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
@@ -831,7 +831,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   SAT <br /> 29 July
                 </td>
                 <td>1</td>
-                <td>#3 NLH - 6 Handed - Mystery Bounty</td>
+                <td>#3 NLH - 7 Handed - Mystery Bounty</td>
                 <td>£30K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
@@ -842,7 +842,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   SUN <br /> 30 July
                 </td>
                 <td>2</td>
-                <td>#3 NLH - 6 Handed - Mystery Bounty</td>
+                <td>#3 NLH - 7 Handed - Mystery Bounty</td>
                 <td>£30K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
@@ -881,7 +881,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>40 MIN </td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>12:00 PM</td>
                 <td>
                   TUE <br /> 1 August
                 </td>
@@ -892,13 +892,13 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>40 MIN </td>
               </tr>
               <tr>
-                <td>4:00 PM</td>
+                <td>3:00 PM</td>
                 <td>
                   TUE <br /> 1 August
                 </td>
                 <td>1</td>
                 <td>#7 NLH - 8 Handed</td>
-                <td>£75K</td>
+                <td>£150K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
               </tr>
@@ -909,7 +909,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#7 NLH - 8 Handed</td>
-                <td>£75K</td>
+                <td>£150K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
               </tr>
@@ -919,7 +919,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   WED <br /> 2 August
                 </td>
                 <td>SINGLE</td>
-                <td>#8 NLH - TURBO</td>
+                <td>#8 NLH - TURBO (5k Bounty)</td>
                 <td>£25K</td>
                 <td>200K</td>
                 <td>20 MIN </td>
@@ -931,7 +931,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#9 NLH - Invitational Event</td>
-                <td>£250K</td>
+                <td>£200K</td>
                 <td>300K</td>
                 <td>50 MIN </td>
               </tr>
@@ -942,7 +942,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#9 NLH - Invitational Event</td>
-                <td>£250K</td>
+                <td>£200K</td>
                 <td>300K</td>
                 <td>50 MIN </td>
               </tr>
@@ -964,7 +964,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>FT</td>
                 <td>#9 NLH - Invitational Event</td>
-                <td>£250K</td>
+                <td>£200K</td>
                 <td>300K</td>
                 <td>50 MIN </td>
               </tr>
@@ -980,7 +980,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>30 MIN </td>
               </tr>
               <tr>
-                <td>2:00 PM</td>
+                <td>3:00 PM</td>
                 <td>
                   SAT <br /> 5 August
                 </td>
@@ -1029,12 +1029,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   MON <br /> 7 August
                 </td>
                 <td>1</td>
-                <td>#13 Short Deck Ante-Only</td>
-                <td>£30K</td>
+                <td>#13 NLH - 8-Handed</td>
+                <td>£50K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
-                <td>35 MIN </td>
+                <td>40 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -1042,12 +1042,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   TUE <br /> 8 August
                 </td>
                 <td>2</td>
-                <td>#13 Short Deck Ante-Only</td>
-                <td>£30K</td>
+                <td>#13 NLH - 8-Handed</td>
+                <td>£50K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
-                <td>35 MIN </td>
+                <td>40 MIN </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
@@ -1055,12 +1055,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   TUE <br /> 8 August
                 </td>
                 <td>1</td>
-                <td>#15 Short Deck Ante-Only (2 Bullets)</td>
-                <td>£50K</td>
+                <td>#15 Short Deck Ante-Only </td>
+                <td>£25K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x2</span>
                 </td>
-                <td>40 MIN </td>
+                <td>35 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -1068,12 +1068,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   WED <br /> 9 August
                 </td>
                 <td>2</td>
-                <td>#15 Short Deck Ante-Only (2 Bullets)</td>
-                <td>£50K</td>
+                <td>#15 Short Deck Ante-Only </td>
+                <td>£25K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x2</span>
                 </td>
-                <td>40 MIN </td>
+                <td>35 MIN </td>
               </tr>
               <tr>
                 <td>4:00 PM</td>
@@ -1082,7 +1082,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#16 SD - Main Event</td>
-                <td>£100K</td>
+                <td>£50K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
@@ -1095,7 +1095,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#16 SD - Main Event</td>
-                <td>£100K</td>
+                <td>£50K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
