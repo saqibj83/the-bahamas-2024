@@ -365,7 +365,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               <a target="_blank">
                 <NextImage
                   className="img-cta"
-                  style={{ cursor: "pointer" }}
+                  style={{ cursor: "pointer", display: "inline" }}
                   src={Coin}
                   alt="Event - 1"
                 />

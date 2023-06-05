@@ -9,6 +9,7 @@ import NextImage from "common/components/NextImage";
 import Container from "common/components/UI/Container";
 import { BannerWrapper, VideoWrapper } from "./banner.style";
 import Cyprus from "common/assets/image/saasClassic/logo2.png";
+import Video from "common/assets/image/video.jpg";
 
 // close button for modal
 const CloseModalButton = () => (
@@ -64,7 +65,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             />
           </Box>
           <div className="video-section">
-            <Fade bottom>
+            {/* <Fade bottom>
               <ReactPlayer
                 url="https://www.youtube.com/embed/-CQ7dEEIh28"
                 // light="https://cdn.triton-series.com/wp-content/uploads/2019/12/29120652/video-banner.png"
@@ -73,12 +74,17 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 height="400px"
                 controls
               />
-            </Fade>
+            </Fade> */}
+            <NextImage
+              src={Video}
+              alt="Video image"
+              style={{ display: "inline" }}
+            />
           </div>
           <Box {...contentWrapper}>
             <div className="text-st">
               JW MARRIOTT GROSVENOR HOUSE <br />
-              THURSDAY 27th to THURSDAY 10th MAY
+              THURSDAY 27th to THURSDAY 10th AUGUST
             </div>
           </Box>
         </Box>
