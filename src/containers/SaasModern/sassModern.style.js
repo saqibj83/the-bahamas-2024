@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   body{
@@ -171,7 +171,7 @@ export const ContentWrapper = styled.div`
           }
         }
         a {
-          padding: 5px;
+          padding: 5px 20px;
           font-size: 16px;
           font-weight: 400;
           color: #fff;
