@@ -1,5 +1,6 @@
 import styled, { keyframes } from "styled-components";
 import BgIMage from "common/assets/image/main-bg.jpeg";
+import MobIMage from "common/assets/image/mobile-bg.png";
 
 const Bubble = keyframes`
   0% {
@@ -38,6 +39,7 @@ export const BannerWrapper = styled.section`
   @media (max-width: 575px) {
     padding: 120px 0 0 0;
     background-size: contain;
+    background-image: url(${MobIMage?.src});
     .react-reveal > div {
       width: 400px !important;
       height: 225px !important;
