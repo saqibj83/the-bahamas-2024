@@ -8,11 +8,11 @@ export const MENU_ITEMS = [
     path: "#banner_section",
     offset: "0",
   },
-  {
-    label: "EVENT SCHEDULE",
-    path: "#event_section",
-    offset: "0",
-  },
+  // {
+  //   label: "EVENT SCHEDULE",
+  //   path: "#event_section",
+  //   offset: "0",
+  // },
   {
     label: "LIVE CHANNELS",
     path: "#channel_section",
