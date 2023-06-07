@@ -171,7 +171,7 @@ export const ContentWrapper = styled.div`
           }
         }
         a {
-          padding: 5px 20px;
+          padding: 5px 40px;
           font-size: 16px;
           font-weight: 400;
           color: #fff;
