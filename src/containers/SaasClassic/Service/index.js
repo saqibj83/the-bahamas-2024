@@ -349,13 +349,13 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
   return (
     <SectionWrapper id="event_section">
       <Container>
-        <Box {...secTitleWrapper}>
+        {/* <Box {...secTitleWrapper}>
           <Heading
             {...secHeading}
             content=" EVENT SCHEDULE
             "
           />
-        </Box>
+        </Box> */}
         <Box>
           <div className="prime-cta" style={{ marginTop: "-40px" }}>
             <Link
@@ -388,7 +388,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
             </Link>
           </div>
         </Box>
-        <Box className="non-desktop">
+        {/* <Box className="non-desktop">
           <table className="tble">
             <thead>
               <tr>
@@ -751,9 +751,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               </tr>
             </tbody>
           </table>
-        </Box>
+        </Box> */}
 
-        <Box className="non-mobile">
+        {/* <Box className="non-mobile">
           <table>
             <thead>
               <tr>
@@ -1116,14 +1116,14 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               </tr>
             </tbody>
           </table>
-        </Box>
+        </Box> */}
         <Box>
-          <div className="prime-cta">
+          {/* <div className="prime-cta">
             <div className="primary-cta" style={{ marginTop: "10px" }}>
               DOWNLOAD TOURNAMENT STRUCTURES
             </div>
             <span class="tooltiptext">Coming Soon</span>
-            {/* <Link
+            <Link
               href="https://cdn.triton-series.com/wp-content/uploads/2019/12/19175313/Cyprus-Event-Structure.pdf"
               legacyBehavior
             >
@@ -1132,7 +1132,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   TOURNAMENT STRUCTURES
                 </div>
               </a>
-            </Link> */}
+            </Link>
             <Link
               href="https://triton-series.com/tournament-rules/"
               legacyBehavior
@@ -1143,7 +1143,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </div>
               </a>
             </Link>
-          </div>
+          </div> */}
         </Box>
       </Container>
     </SectionWrapper>
