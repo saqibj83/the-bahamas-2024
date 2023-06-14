@@ -666,9 +666,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>1</td>
                 <td>#13 NLH - 8-Handed</td>
                 <td>£50,000</td>
-                <td>
-                  100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
-                </td>
+                <td>200,000</td>
                 <td>40 MIN </td>
               </tr>
               <tr>
@@ -679,9 +677,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>2</td>
                 <td>#13 NLH - 8-Handed</td>
                 <td>£50,000</td>
-                <td>
-                  100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
-                </td>
+                <td>200,000</td>
                 <td>40 MIN </td>
               </tr>
               <tr>
@@ -693,7 +689,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>#15 Short Deck Ante-Only</td>
                 <td>£25,000</td>
                 <td>
-                  100,000 <span style={{ textTransform: "lowercase" }}>x2</span>
+                  150,000 <span style={{ textTransform: "lowercase" }}>x2</span>
                 </td>
                 <td>35 MIN </td>
               </tr>
@@ -706,7 +702,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>#15 Short Deck Ante-Only</td>
                 <td>£25,000</td>
                 <td>
-                  100,000 <span style={{ textTransform: "lowercase" }}>x2</span>
+                  150,000 <span style={{ textTransform: "lowercase" }}>x2</span>
                 </td>
                 <td>35 MIN </td>
               </tr>
@@ -1031,9 +1027,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>1</td>
                 <td>#13 NLH - 8-Handed</td>
                 <td>£50K</td>
-                <td>
-                  100K <span style={{ textTransform: "lowercase" }}>x3</span>
-                </td>
+                <td>200K</td>
                 <td>40 MIN </td>
               </tr>
               <tr>
@@ -1044,9 +1038,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>2</td>
                 <td>#13 NLH - 8-Handed</td>
                 <td>£50K</td>
-                <td>
-                  100K <span style={{ textTransform: "lowercase" }}>x3</span>
-                </td>
+                <td>200K</td>
                 <td>40 MIN </td>
               </tr>
               <tr>
@@ -1058,7 +1050,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>#15 Short Deck Ante-Only </td>
                 <td>£25K</td>
                 <td>
-                  100K <span style={{ textTransform: "lowercase" }}>x2</span>
+                  150K <span style={{ textTransform: "lowercase" }}>x2</span>
                 </td>
                 <td>35 MIN </td>
               </tr>
@@ -1071,7 +1063,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>#15 Short Deck Ante-Only </td>
                 <td>£25K</td>
                 <td>
-                  100K <span style={{ textTransform: "lowercase" }}>x2</span>
+                  150K <span style={{ textTransform: "lowercase" }}>x2</span>
                 </td>
                 <td>35 MIN </td>
               </tr>
@@ -1120,7 +1112,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         <Box>
           <div className="prime-cta">
             <div className="primary-cta" style={{ marginTop: "10px" }}>
-              DOWNLOAD TOURNAMENT STRUCTURES
+              TOURNAMENT STRUCTURES
             </div>
             <span class="tooltiptext">Coming Soon</span>
             {/* <Link
