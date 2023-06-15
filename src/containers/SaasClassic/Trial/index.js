@@ -11,6 +11,7 @@ import SectionWrapper from "./trial.style";
 import VendorLogos from "common/assets/image/saasClassic/gg-h.svg";
 import VendorLogos1 from "common/assets/image/saasClassic/marit.png";
 import VendorLogos2 from "common/assets/image/saasClassic/luxon-pay-h.png";
+import VendorLogos3 from "common/assets/image/saasClassic/ambassadeurs.svg";
 
 const TrialSection = ({
   row,
@@ -30,89 +31,50 @@ const TrialSection = ({
           <Box {...textArea}>
             <Heading {...title} content="Our Sponsors and Partners" />
 
-            <Box className="vender-logos" style={{ padding: "0 30px" }}>
-              <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
-                TITLE SPONSOR
-              </h3>
-              <NextImage src={VendorLogos} alt="GG Poker" />
-            </Box>
-
-            <Box className="vender-logos" style={{ padding: "0 22px" }}>
-              <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
-                OFFICIAL STAKING PARTNER
-              </h3>
-              <img
-                src="https://cdn.triton-series.com/wp-content/uploads/2019/12/07141554/poker.png"
-                alt="Poker Stake"
-                style={{
-                  display: "inline",
-                  width: "250px",
-                }}
-              />
-            </Box>
-
-            <Box
-              className="vender-logos"
-              style={{ marginBottom: "40px", marginRigh: "50px" }}
-            >
-              <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
-                OFFICIAL TIMEKEEPER
-              </h3>
-              <img
-                src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172617/jacobco-h.svg"
-                alt="J&Co."
-                style={{
-                  display: "inline",
-                  width: "76px",
-                  paddingTop: "20px",
-                }}
-              />
-            </Box>
-            <Box
-              className="vender-logos"
-              style={{ marginBottom: "40px", marginRigh: "50px" }}
-            >
-              <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
-                Official Sportsbook Partner
-              </h3>
-              <img
-                src="https://cdn.triton-series.com/wp-content/uploads/2019/12/19145823/bookmaker.png"
-                alt="J&Co."
-                style={{
-                  display: "inline",
-                  width: "200px",
-                  paddingTop: "20px",
-                }}
-              />
-            </Box>
-
-            <Box className="sponsor-2">
-              <div className="sponsor">
-                {" "}
+            <div className="sponsor-2">
+              <Box className="sponsor" style={{ padding: "0 30px" }}>
+                <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
+                  TITLE SPONSOR
+                </h3>
+                <NextImage src={VendorLogos} alt="GG Poker" />
+              </Box>
+              <Box className="sponsor" style={{ padding: "0 22px" }}>
+                <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
+                  OFFICIAL STAKING PARTNER
+                </h3>
                 <img
-                  src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172618/secretlab.svg"
-                  alt="Dire Pay"
+                  src="https://cdn.triton-series.com/wp-content/uploads/2019/12/07141554/poker.png"
+                  alt="Poker Stake"
                   style={{
                     display: "inline",
-                    paddingTop: "60px",
+                    width: "250px",
                   }}
                 />
-              </div>
-              <div className="sponsor">
-                {" "}
+              </Box>
+              <Box
+                className="sponsor"
+                style={{ marginBottom: "40px", marginRigh: "50px" }}
+              >
+                <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
+                  OFFICIAL TIMEKEEPER
+                </h3>
                 <img
-                  src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172617/shamballa.svg"
-                  alt="Raise Your Edge"
+                  src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172617/jacobco-h.svg"
+                  alt="J&Co."
                   style={{
                     display: "inline",
+                    width: "76px",
                     paddingTop: "20px",
                   }}
                 />
-              </div>
-              <div
-                className="sponsor"
-                style={{ paddingTop: "30px", display: "inline" }}
-              >
+              </Box>
+            </div>
+
+            <Box className="sponsor-2">
+              {/* <div className="sponsor" style={{ display: "inline" }}>
+                <NextImage src={VendorLogos3} alt="ambassadeurs" />
+              </div> */}
+              <div className="sponsor" style={{ display: "inline" }}>
                 <NextImage src={VendorLogos2} alt="Luxon" />
               </div>
 
@@ -122,14 +84,14 @@ const TrialSection = ({
                   alt="g"
                   style={{
                     display: "inline",
-                    paddingTop: "20px",
+                    paddingTop: "10px",
                     width: "200px",
                   }}
                 />
               </div>
             </Box>
 
-            {/* <Box className="vender-logos">
+            {/* <Box className="sponsor">
               <NextImage src={VendorLogos4} alt="inventional" />
             </Box>*/}
           </Box>

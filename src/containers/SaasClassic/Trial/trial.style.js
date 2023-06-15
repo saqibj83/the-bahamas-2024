@@ -23,12 +23,12 @@ const SectionWrapper = styled.section`
   }
 
   .sponsor img {
-    width: 150px;
+    width: 200px;
     text-align: certer;
     display: inline;
   }
   .sponsor {
-    width: 25%;
+    width: 32%;
   }
   @media (max-width: 550px) {
     padding: 65px 0 0 0;
