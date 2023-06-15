@@ -41,8 +41,8 @@ const SectionWrapper = styled.section`
     }
     .sponsor {
       width: 100%;
-      height: 120px;
-      display: flex;
+      height: auto;
+      display: block;
       flex-direction: row;
       flex-wrap: nowrap;
       justify-content: center;
@@ -52,7 +52,8 @@ const SectionWrapper = styled.section`
       margin-bottom: 10px !important;
     }
     .sponsor img {
-      padding-top: 10px !important;
+      padding-top: 30px !important;
+      margin-bottom: 20px;
     }
     .sponsor-2 {
       margin-bottom: 10px !important;

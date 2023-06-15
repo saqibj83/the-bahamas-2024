@@ -51,10 +51,7 @@ const TrialSection = ({
                   }}
                 />
               </Box>
-              <Box
-                className="sponsor"
-                style={{ marginBottom: "40px", marginRigh: "50px" }}
-              >
+              <Box className="sponsor" style={{ marginRigh: "50px" }}>
                 <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
                   OFFICIAL TIMEKEEPER
                 </h3>
@@ -84,7 +81,6 @@ const TrialSection = ({
                   alt="g"
                   style={{
                     display: "inline",
-                    paddingTop: "10px",
                     width: "200px",
                   }}
                 />
