@@ -1109,7 +1109,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
             </tbody>
           </table>
         </Box>
-        <Box>
+        <Box className="cta-btn">
           <div className="prime-cta">
             <div
               className="primary-cta"
@@ -1118,7 +1118,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               TOURNAMENT STRUCTURES
             </div>
             <span class="tooltiptext">Coming Soon</span>
-            {/* <Link
+          </div>
+          {/* <Link
               href="https://cdn.triton-series.com/wp-content/uploads/2019/12/19175313/Cyprus-Event-Structure.pdf"
               legacyBehavior
             >
@@ -1128,17 +1129,16 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </div>
               </a>
             </Link> */}
-            <div
-              className="primary-cta"
-              style={{ marginTop: "10px", width: "340px" }}
+          <div
+            className="prime-cta1"
+            style={{ marginTop: "10px", width: "340px" }}
+          >
+            <Link
+              href="https://triton-series.com/tournament-rules/"
+              legacyBehavior
             >
-              <Link
-                href="https://triton-series.com/tournament-rules/"
-                legacyBehavior
-              >
-                <a target="_blank">TOURNAMENT RULES</a>
-              </Link>
-            </div>
+              <a target="_blank">TOURNAMENT RULES</a>
+            </Link>
           </div>
         </Box>
       </Container>

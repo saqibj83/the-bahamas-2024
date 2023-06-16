@@ -3,11 +3,47 @@ import styled from "styled-components";
 const SectionWrapper = styled.section`
   padding: 75px 0 75px 0;
   background: #000;
+  .prime-cta1 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-decoration: none;
+    color: #000;
+    margin: 20px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 15px 40px 15px;
+    background: linear-gradient(
+      90deg,
+      rgba(190, 123, 14, 1) 0%,
+      rgba(213, 149, 42, 1) 17%,
+      rgba(203, 158, 71, 1) 35%,
+      rgba(235, 194, 113, 1) 50%,
+      rgba(199, 133, 28, 1) 90%,
+      rgba(215, 131, 0, 1) 100%
+    );
+    box-shadow: #000 3px 3px 6px 0;
+    position: relative;
+    overflow: hidden;
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+    height: 60px;
+  }
+  .cta-btn {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
 
   .prime-cta {
     text-align: center;
     margin-bottom: 30px;
-    margin-top: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -52,6 +88,7 @@ const SectionWrapper = styled.section`
     display: inline-block;
     transform: scale(1);
     transition: transform 0.2s ease-in-out;
+    height: 60px;
   }
   @media (max-width: 550px) {
     padding: 75px 0 5px 0;
