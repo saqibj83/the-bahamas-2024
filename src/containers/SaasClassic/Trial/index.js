@@ -72,7 +72,11 @@ const TrialSection = ({
                 <NextImage src={VendorLogos3} alt="ambassadeurs" />
               </div> */}
               <div className="sponsor" style={{ display: "inline" }}>
-                <NextImage src={VendorLogos2} alt="Luxon" />
+                <NextImage
+                  src={VendorLogos2}
+                  alt="Luxon"
+                  style={{ width: "160px" }}
+                />
               </div>
 
               <div className="sponsor">

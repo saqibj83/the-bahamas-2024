@@ -1111,7 +1111,10 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         </Box>
         <Box>
           <div className="prime-cta">
-            <div className="primary-cta" style={{ marginTop: "10px" }}>
+            <div
+              className="primary-cta"
+              style={{ marginTop: "10px", width: "340px" }}
+            >
               TOURNAMENT STRUCTURES
             </div>
             <span class="tooltiptext">Coming Soon</span>
@@ -1130,7 +1133,10 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               legacyBehavior
             >
               <a target="_blank">
-                <div className="primary-cta" style={{ marginTop: "10px" }}>
+                <div
+                  className="primary-cta"
+                  style={{ marginTop: "10px", width: "340px" }}
+                >
                   TOURNAMENT RULES
                 </div>
               </a>
