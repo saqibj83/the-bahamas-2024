@@ -1128,19 +1128,17 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </div>
               </a>
             </Link> */}
-            <Link
-              href="https://triton-series.com/tournament-rules/"
-              legacyBehavior
+            <div
+              className="primary-cta"
+              style={{ marginTop: "10px", width: "340px" }}
             >
-              <a target="_blank">
-                <div
-                  className="primary-cta"
-                  style={{ marginTop: "10px", width: "340px" }}
-                >
-                  TOURNAMENT RULES
-                </div>
-              </a>
-            </Link>
+              <Link
+                href="https://triton-series.com/tournament-rules/"
+                legacyBehavior
+              >
+                <a target="_blank">TOURNAMENT RULES</a>
+              </Link>
+            </div>
           </div>
         </Box>
       </Container>
