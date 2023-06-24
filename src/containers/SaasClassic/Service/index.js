@@ -982,7 +982,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#11 NLH - Main Event</td>
-                <td>$150</td>
+                <td>$125k</td>
                 <td>250K</td>
                 <td>50 MIN </td>
               </tr>

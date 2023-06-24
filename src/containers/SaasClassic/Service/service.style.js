@@ -98,6 +98,12 @@ const SectionWrapper = styled.section`
     .primary-cta {
       margin: 0px;
     }
+    .cta-btn {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   }
   .service_item {
     position: relative;
