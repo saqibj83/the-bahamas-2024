@@ -70,17 +70,14 @@ const TrialSection = ({
 
             <Box className="sponsor-2">
               <div className="sponsor1" style={{ display: "inline" }}>
-                <NextImage
-                  src={VendorLogos2}
-                  alt="Luxon"
-                  style={{ width: "170px" }}
-                />
+                <NextImage src={VendorLogos2} alt="Luxon" />
               </div>
-              <div
-                className="sponsor1"
-                style={{ display: "inline", width: "130px" }}
-              >
-                <NextImage src={VendorLogos4} alt="bombay" />
+              <div className="sponsor1" style={{ display: "inline" }}>
+                <NextImage
+                  src={VendorLogos4}
+                  style={{ width: "140px" }}
+                  alt="bombay"
+                />
               </div>
               <div className="sponsor1" style={{ display: "inline" }}>
                 <NextImage src={VendorLogos3} alt="ambassadeurs" />
