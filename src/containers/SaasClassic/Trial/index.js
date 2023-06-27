@@ -11,7 +11,7 @@ import SectionWrapper from "./trial.style";
 import VendorLogos from "common/assets/image/saasClassic/gg-h.svg";
 import VendorLogos1 from "common/assets/image/saasClassic/marit.png";
 import VendorLogos2 from "common/assets/image/saasClassic/luxon-pay-h.png";
-import VendorLogos3 from "common/assets/image/saasClassic/ambassadeurs.svg";
+import VendorLogos3 from "common/assets/image/saasClassic/ambassadeurs.png";
 
 const TrialSection = ({
   row,
@@ -47,7 +47,7 @@ const TrialSection = ({
                   alt="Poker Stake"
                   style={{
                     display: "inline",
-                    width: "250px",
+                    width: "270px",
                   }}
                 />
               </Box>
@@ -60,7 +60,7 @@ const TrialSection = ({
                   alt="J&Co."
                   style={{
                     display: "inline",
-                    width: "76px",
+                    width: "90px",
                     paddingTop: "20px",
                   }}
                 />
@@ -68,24 +68,22 @@ const TrialSection = ({
             </div>
 
             <Box className="sponsor-2">
-              {/* <div className="sponsor" style={{ display: "inline" }}>
-                <NextImage src={VendorLogos3} alt="ambassadeurs" />
-              </div> */}
               <div className="sponsor" style={{ display: "inline" }}>
                 <NextImage
                   src={VendorLogos2}
                   alt="Luxon"
-                  style={{ width: "160px" }}
+                  style={{ width: "190px" }}
                 />
               </div>
-
+              <div className="sponsor" style={{ display: "inline" }}>
+                <NextImage src={VendorLogos3} alt="ambassadeurs" />
+              </div>
               <div className="sponsor">
                 <img
                   src="https://cdn.triton-series.com/wp-content/uploads/2019/12/19151356/gto1.png"
                   alt="g"
                   style={{
                     display: "inline",
-                    width: "200px",
                   }}
                 />
               </div>

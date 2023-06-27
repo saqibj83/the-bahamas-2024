@@ -23,7 +23,7 @@ const SectionWrapper = styled.section`
   }
 
   .sponsor img {
-    width: 200px;
+    width: 230px;
     text-align: certer;
     display: inline;
   }
