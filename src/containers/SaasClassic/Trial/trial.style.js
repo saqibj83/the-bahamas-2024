@@ -30,11 +30,24 @@ const SectionWrapper = styled.section`
   .sponsor {
     width: 32%;
   }
+  .sponsor1 img {
+    width: 200px;
+    text-align: certer;
+    display: inline;
+  }
+  .sponsor1 {
+    width: 25%;
+  }
   @media (max-width: 550px) {
     padding: 65px 0 0 0;
     .sponsor {
       width: 100%;
       text-align: certer;
+    }
+    .sponsor1 {
+      width: 100%;
+      text-align: certer;
+      margin-top: 50px;
     }
     .sponsors-logo {
       grid-template-columns: 1fr;

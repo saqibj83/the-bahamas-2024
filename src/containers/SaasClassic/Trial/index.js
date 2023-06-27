@@ -12,6 +12,7 @@ import VendorLogos from "common/assets/image/saasClassic/gg-h.svg";
 import VendorLogos1 from "common/assets/image/saasClassic/marit.png";
 import VendorLogos2 from "common/assets/image/saasClassic/luxon-pay-h.png";
 import VendorLogos3 from "common/assets/image/saasClassic/lesambassadeurs_lesambassadeurs.svg";
+import VendorLogos4 from "common/assets/image/saasClassic/bombay.svg";
 
 const TrialSection = ({
   row,
@@ -68,17 +69,23 @@ const TrialSection = ({
             </div>
 
             <Box className="sponsor-2">
-              <div className="sponsor" style={{ display: "inline" }}>
+              <div className="sponsor1" style={{ display: "inline" }}>
                 <NextImage
                   src={VendorLogos2}
                   alt="Luxon"
-                  style={{ width: "190px" }}
+                  style={{ width: "170px" }}
                 />
               </div>
-              <div className="sponsor" style={{ display: "inline" }}>
+              <div
+                className="sponsor1"
+                style={{ display: "inline", width: "130px" }}
+              >
+                <NextImage src={VendorLogos4} alt="bombay" />
+              </div>
+              <div className="sponsor1" style={{ display: "inline" }}>
                 <NextImage src={VendorLogos3} alt="ambassadeurs" />
               </div>
-              <div className="sponsor">
+              <div className="sponsor1">
                 <img
                   src="https://cdn.triton-series.com/wp-content/uploads/2019/12/19151356/gto1.png"
                   alt="g"
