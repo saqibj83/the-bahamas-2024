@@ -11,7 +11,7 @@ import SectionWrapper from "./trial.style";
 import VendorLogos from "common/assets/image/saasClassic/gg-h.svg";
 import VendorLogos1 from "common/assets/image/saasClassic/marit.png";
 import VendorLogos2 from "common/assets/image/saasClassic/luxon-pay-h.png";
-import VendorLogos3 from "common/assets/image/saasClassic/ambassadeurs.png";
+import VendorLogos3 from "common/assets/image/saasClassic/lesambassadeurs_lesambassadeurs.svg";
 
 const TrialSection = ({
   row,
