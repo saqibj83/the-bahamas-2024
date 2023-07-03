@@ -239,7 +239,6 @@ export const ContentWrapper = styled.div`
       display: none;
     }
     .main_menu {
-      margin-right: 40px;
       li {
         display: inline-block;
         padding-left: 5px;
@@ -247,16 +246,14 @@ export const ContentWrapper = styled.div`
         &:first-child {
           padding-left: 0;
         }
-        &:last-child {
-          padding-right: 0;
-        }
+
         &.is-current {
           a {
             color: #eba800 !important;
           }
         }
         a {
-          padding: 5px 15px;
+          padding: 5px 8px;
           font-size: 18px;
           font-weight: 400;
           color: #fff;
