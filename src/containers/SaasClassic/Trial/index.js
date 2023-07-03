@@ -71,7 +71,14 @@ const TrialSection = ({
                 <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
                   Venue Partner
                 </h3>
-                <NextImage src={VendorLogos3} alt="ambassadeurs" />
+                <NextImage
+                  src={VendorLogos3}
+                  alt="ambassadeurs"
+                  style={{
+                    display: "inline",
+                    paddingTop: "20px",
+                  }}
+                />
               </Box>
             </div>
 
