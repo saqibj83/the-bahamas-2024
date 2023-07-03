@@ -31,54 +31,65 @@ const TrialSection = ({
         <Box {...row}>
           <Box {...textArea}>
             <Heading {...title} content="Our Sponsors and Partners" />
-
             <div className="sponsor-2">
               <Box className="sponsor" style={{ padding: "0 30px" }}>
                 <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
                   TITLE SPONSOR
                 </h3>
-                <NextImage src={VendorLogos} alt="GG Poker" />
+                <div className="logoh">
+                  <NextImage src={VendorLogos} alt="GG Poker" />
+                </div>
               </Box>
+            </div>
+
+            <div className="sponsor-2">
               <Box className="sponsor" style={{ padding: "0 22px" }}>
                 <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
                   OFFICIAL STAKING PARTNER
                 </h3>
-                <img
-                  src="https://cdn.triton-series.com/wp-content/uploads/2019/12/07141554/poker.png"
-                  alt="Poker Stake"
-                  style={{
-                    display: "inline",
-                    width: "270px",
-                  }}
-                />
+                <div className="logoh">
+                  {" "}
+                  <img
+                    src="https://cdn.triton-series.com/wp-content/uploads/2019/12/07141554/poker.png"
+                    alt="Poker Stake"
+                    style={{
+                      display: "inline",
+                      width: "270px",
+                    }}
+                  />
+                </div>
               </Box>
-
               <Box className="sponsor" style={{ marginRigh: "50px" }}>
                 <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
                   OFFICIAL TIMEKEEPER
                 </h3>
-                <img
-                  src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172617/jacobco-h.svg"
-                  alt="J&Co."
-                  style={{
-                    display: "inline",
-                    width: "90px",
-                    paddingTop: "20px",
-                  }}
-                />
+                <div className="logoh">
+                  {" "}
+                  <img
+                    src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172617/jacobco-h.svg"
+                    alt="J&Co."
+                    style={{
+                      display: "inline",
+                      width: "90px",
+                    }}
+                  />
+                </div>
               </Box>
-              <Box className="sponsor" style={{ marginRigh: "50px" }}>
+
+              <Box className="sponsor1">
                 <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
                   Venue Partner
                 </h3>
-                <NextImage
-                  src={VendorLogos3}
-                  alt="ambassadeurs"
-                  style={{
-                    display: "inline",
-                    paddingTop: "20px",
-                  }}
-                />
+                <div className="logoh">
+                  {" "}
+                  <NextImage
+                    src={VendorLogos3}
+                    alt="ambassadeurs"
+                    style={{
+                      display: "inline",
+                    }}
+                  />
+                </div>
               </Box>
             </div>
 
@@ -89,7 +100,7 @@ const TrialSection = ({
               <div className="sponsor1" style={{ display: "inline" }}>
                 <NextImage
                   src={VendorLogos4}
-                  style={{ width: "140px" }}
+                  style={{ width: "135px" }}
                   alt="bombay"
                 />
               </div>

@@ -28,7 +28,7 @@ const SectionWrapper = styled.section`
     display: inline;
   }
   .sponsor {
-    width: 25%;
+    width: 32%;
   }
   .sponsor1 img {
     width: 200px;
@@ -36,7 +36,17 @@ const SectionWrapper = styled.section`
     display: inline;
   }
   .sponsor1 {
-    width: 25%;
+    width: 32%;
+  }
+  .logoh {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  h3 {
+    margin-bottom: 20px;
   }
   @media (max-width: 550px) {
     padding: 65px 0 0 0;
