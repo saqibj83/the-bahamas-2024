@@ -28,7 +28,7 @@ const SectionWrapper = styled.section`
     display: inline;
   }
   .sponsor {
-    width: 32%;
+    width: 25%;
   }
   .sponsor1 img {
     width: 200px;
