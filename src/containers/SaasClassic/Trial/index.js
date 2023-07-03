@@ -52,6 +52,7 @@ const TrialSection = ({
                   }}
                 />
               </Box>
+
               <Box className="sponsor" style={{ marginRigh: "50px" }}>
                 <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
                   OFFICIAL TIMEKEEPER
@@ -66,6 +67,12 @@ const TrialSection = ({
                   }}
                 />
               </Box>
+              <Box className="sponsor" style={{ marginRigh: "50px" }}>
+                <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
+                  Venue Partne
+                </h3>
+                <NextImage src={VendorLogos3} alt="ambassadeurs" />
+              </Box>
             </div>
 
             <Box className="sponsor-2">
@@ -79,9 +86,7 @@ const TrialSection = ({
                   alt="bombay"
                 />
               </div>
-              <div className="sponsor1" style={{ display: "inline" }}>
-                <NextImage src={VendorLogos3} alt="ambassadeurs" />
-              </div>
+
               <div className="sponsor1">
                 <img
                   src="https://cdn.triton-series.com/wp-content/uploads/2019/12/19151356/gto1.png"
