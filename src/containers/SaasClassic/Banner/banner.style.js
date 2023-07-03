@@ -51,6 +51,10 @@ export const BannerWrapper = styled.section`
     line-height: 30px;
     color: #fff;
     padding-top: 40px;
+    & span {
+      font-size: 20px;
+      font-weight: bold;
+    }
   }
 
   img {
