@@ -69,7 +69,7 @@ const TrialSection = ({
               </Box>
               <Box className="sponsor" style={{ marginRigh: "50px" }}>
                 <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
-                  Venue Partne
+                  Venue Partner
                 </h3>
                 <NextImage src={VendorLogos3} alt="ambassadeurs" />
               </Box>
