@@ -86,7 +86,8 @@ const Newsletter = ({
                     <label htmlFor="">MESSAGE</label>
                   </Box>
                   <textarea
-                    name="textarea-804"
+                    name="message"
+                    label="Message"
                     cols="40"
                     rows="5"
                     class="email_input"
