@@ -51,7 +51,7 @@ const TrialSection = ({
                 </h3>
                 <div className="logoh">
                   {" "}
-                  <a href="https://www.pokerstake.com/" target="_blank">
+                  <a href="https://pokerstake.com/" target="_blank">
                     <img
                       src="https://cdn.triton-series.com/wp-content/uploads/2019/12/07141554/poker.png"
                       alt="Poker Stake"
