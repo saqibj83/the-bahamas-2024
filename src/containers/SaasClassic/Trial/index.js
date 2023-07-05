@@ -37,7 +37,9 @@ const TrialSection = ({
                   TITLE SPONSOR
                 </h3>
                 <div className="logoh">
-                  <NextImage src={VendorLogos} alt="GG Poker" />
+                  <a href="https://en.ggpoker.com/" target="_blank">
+                    <NextImage src={VendorLogos} alt="GG Poker" />
+                  </a>
                 </div>
               </Box>
             </div>
@@ -49,14 +51,16 @@ const TrialSection = ({
                 </h3>
                 <div className="logoh">
                   {" "}
-                  <img
-                    src="https://cdn.triton-series.com/wp-content/uploads/2019/12/07141554/poker.png"
-                    alt="Poker Stake"
-                    style={{
-                      display: "inline",
-                      width: "270px",
-                    }}
-                  />
+                  <a href="https://www.pokerstake.com/" target="_blank">
+                    <img
+                      src="https://cdn.triton-series.com/wp-content/uploads/2019/12/07141554/poker.png"
+                      alt="Poker Stake"
+                      style={{
+                        display: "inline",
+                        width: "270px",
+                      }}
+                    />
+                  </a>
                 </div>
               </Box>
               <Box className="sponsor" style={{ marginRigh: "50px" }}>
@@ -65,14 +69,16 @@ const TrialSection = ({
                 </h3>
                 <div className="logoh">
                   {" "}
-                  <img
-                    src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172617/jacobco-h.svg"
-                    alt="J&Co."
-                    style={{
-                      display: "inline",
-                      width: "90px",
-                    }}
-                  />
+                  <a href="https://jacobandco.com/" target="_blank">
+                    <img
+                      src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172617/jacobco-h.svg"
+                      alt="J&Co."
+                      style={{
+                        display: "inline",
+                        width: "90px",
+                      }}
+                    />
+                  </a>
                 </div>
               </Box>
 
@@ -82,37 +88,46 @@ const TrialSection = ({
                 </h3>
                 <div className="logoh">
                   {" "}
-                  <NextImage
-                    src={VendorLogos3}
-                    alt="ambassadeurs"
-                    style={{
-                      display: "inline",
-                    }}
-                  />
+                  <a href="https://lesambassadeurs.com/" target="_blank">
+                    <NextImage
+                      src={VendorLogos3}
+                      alt="ambassadeurs"
+                      style={{
+                        display: "inline",
+                      }}
+                    />
+                  </a>
                 </div>
               </Box>
             </div>
 
             <Box className="sponsor-2">
               <div className="sponsor1" style={{ display: "inline" }}>
-                <NextImage src={VendorLogos2} alt="Luxon" />
+                <a href="https://luxon.com/" target="_blank">
+                  <NextImage src={VendorLogos2} alt="Luxon" />
+                </a>
               </div>
               <div className="sponsor1" style={{ display: "inline" }}>
-                <NextImage
-                  src={VendorLogos4}
-                  style={{ width: "135px" }}
-                  alt="bombay"
-                />
+                <a href="https://bombay.io/" target="_blank">
+                  <NextImage
+                    src={VendorLogos4}
+                    style={{ width: "135px" }}
+                    alt="bombay"
+                  />
+                </a>
               </div>
 
               <div className="sponsor1">
-                <img
-                  src="https://cdn.triton-series.com/wp-content/uploads/2019/12/19151356/gto1.png"
-                  alt="g"
-                  style={{
-                    display: "inline",
-                  }}
-                />
+                <a href="https://gtowizard.com/en/" target="_blank">
+                  {" "}
+                  <img
+                    src="https://cdn.triton-series.com/wp-content/uploads/2019/12/19151356/gto1.png"
+                    alt="g"
+                    style={{
+                      display: "inline",
+                    }}
+                  />
+                </a>
               </div>
             </Box>
 
