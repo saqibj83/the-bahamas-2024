@@ -1121,7 +1121,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
           </div> */}
           <div className="prime-cta">
             <Link
-              href="https://triton-aws-s3-images-bucket.s3.ap-southeast-1.amazonaws.com/London_Booklet_Event_Structure_58708d1447.pdf"
+              href="https://cdn.triton-series.com/wp-content/uploads/2019/12/06153733/TritonPoker-2023-London-Booklet-EventStructure.pdf"
               legacyBehavior
             >
               <a target="_blank">
