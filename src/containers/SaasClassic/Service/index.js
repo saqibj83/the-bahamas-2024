@@ -422,7 +422,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Thursday <br /> 27 July 2023
                 </td>
                 <td>1</td>
-                <td>#1 GGMillion$ Live</td>
+                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
+                  #1 GGMillion$ Live
+                </td>
                 <td>$25,000</td>
                 <td>250,000</td>
                 <td>40 MIN </td>
@@ -433,7 +435,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Friday <br /> 28 July 2023
                 </td>
                 <td>2</td>
-                <td>#1 GGMillion$ Live</td>
+                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
+                  #1 GGMillion$ Live
+                </td>
                 <td>$25,000</td>
                 <td>250,000</td>
                 <td>40 MIN </td>
@@ -444,7 +448,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Friday <br /> 28 July 2023
                 </td>
                 <td>1</td>
-                <td>#2 NLH - 7 Handed</td>
+                <td onClick={EventModal2} style={{ cursor: "pointer" }}>
+                  #2 NLH - 7 Handed
+                </td>
                 <td>$25,000</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
@@ -455,7 +461,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Saturday <br /> 29 July 2023
                 </td>
                 <td>2</td>
-                <td>#2 NLH - 7 Handed</td>
+                <td onClick={EventModal2} style={{ cursor: "pointer" }}>
+                  #2 NLH - 7 Handed
+                </td>
                 <td>$25,000</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
@@ -466,7 +474,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Saturday <br /> 29 July 2023
                 </td>
                 <td>1</td>
-                <td>#3 NLH - 7 Handed - Mystery Bounty</td>
+                <td onClick={EventModal3} style={{ cursor: "pointer" }}>
+                  #3 NLH - 7 Handed - Mystery Bounty
+                </td>
                 <td>$40,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
@@ -477,7 +487,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sunday <br /> 30 July 2023
                 </td>
                 <td>2</td>
-                <td>#3 NLH - 7 Handed - Mystery Bounty</td>
+                <td onClick={EventModal3} style={{ cursor: "pointer" }}>
+                  #3 NLH - 7 Handed - Mystery Bounty
+                </td>
                 <td>$40,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
@@ -488,7 +500,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sunday <br /> 30 July 2023
                 </td>
                 <td>1</td>
-                <td>#5 NLH - 8 Handed</td>
+                <td onClick={EventModal5} style={{ cursor: "pointer" }}>
+                  #5 NLH - 8 Handed
+                </td>
                 <td>$50,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
@@ -499,7 +513,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Monday <br /> 31 July 2023
                 </td>
                 <td>2</td>
-                <td>#5 NLH - 8 Handed</td>
+                <td onClick={EventModal5} style={{ cursor: "pointer" }}>
+                  #5 NLH - 8 Handed
+                </td>
                 <td>$50,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
@@ -510,7 +526,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Monday <br /> 31 July 2023
                 </td>
                 <td>1</td>
-                <td>#6 NLH - 7 Handed</td>
+                <td onClick={EventModal6} style={{ cursor: "pointer" }}>
+                  #6 NLH - 7 Handed
+                </td>
                 <td>$60,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
@@ -521,7 +539,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Tuesday <br /> 1 August 2023
                 </td>
                 <td>2</td>
-                <td>#6 NLH - 7 Handed</td>
+                <td onClick={EventModal6} style={{ cursor: "pointer" }}>
+                  #6 NLH - 7 Handed
+                </td>
                 <td>$60,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
@@ -532,7 +552,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Tuesday <br /> 1 August 2023
                 </td>
                 <td>1</td>
-                <td>#7 NLH - 8 Handed</td>
+                <td onClick={EventModal7} style={{ cursor: "pointer" }}>
+                  #7 NLH - 8 Handed
+                </td>
                 <td>$200,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
@@ -543,7 +565,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Wednesday <br /> 2 August 2023
                 </td>
                 <td>2</td>
-                <td>#7 NLH - 8 Handed</td>
+                <td onClick={EventModal7} style={{ cursor: "pointer" }}>
+                  #7 NLH - 8 Handed
+                </td>
                 <td>$200,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
@@ -554,7 +578,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Wednesday <br /> 2 August 2023
                 </td>
                 <td>SINGLE</td>
-                <td>#8 NLH - TURBO (10k Bounty)</td>
+                <td onClick={EventModal8} style={{ cursor: "pointer" }}>
+                  #8 NLH - TURBO (10k Bounty)
+                </td>
                 <td>$30,000</td>
                 <td>200,000</td>
                 <td>20 MIN </td>
@@ -565,7 +591,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Thursday <br /> 3 August 2023
                 </td>
                 <td>1</td>
-                <td>#9 NLH - Invitational Event</td>
+                <td onClick={EventModal9} style={{ cursor: "pointer" }}>
+                  #9 NLH - Invitational Event
+                </td>
                 <td>$250,000</td>
                 <td>300,000</td>
                 <td>50 MIN </td>
@@ -576,7 +604,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Friday <br /> 4 August 2023
                 </td>
                 <td>2</td>
-                <td>#9 NLH - Invitational Event</td>
+                <td onClick={EventModal9} style={{ cursor: "pointer" }}>
+                  #9 NLH - Invitational Event
+                </td>
                 <td>$250,000</td>
                 <td>300,000</td>
                 <td>50 MIN </td>
@@ -587,7 +617,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Friday <br /> 4 August 2023
                 </td>
                 <td>1</td>
-                <td>#10 Pot Limit Omaha</td>
+                <td onClick={EventModal10} style={{ cursor: "pointer" }}>
+                  #10 Pot Limit Omaha
+                </td>
                 <td>$25,000</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
@@ -598,7 +630,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Saturday <br /> 5 August 2023
                 </td>
                 <td>FT</td>
-                <td>#9 NLH - Invitational Event</td>
+                <td onClick={EventModal9} style={{ cursor: "pointer" }}>
+                  #9 NLH - Invitational Event
+                </td>
                 <td>$250,000</td>
                 <td>300,000</td>
                 <td>50 MIN </td>
@@ -609,7 +643,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Saturday <br /> 5 August 2023
                 </td>
                 <td>2</td>
-                <td>#10 Pot Limit Omaha</td>
+                <td onClick={EventModal10} style={{ cursor: "pointer" }}>
+                  #10 Pot Limit Omaha
+                </td>
                 <td>$25,000</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
@@ -620,7 +656,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Saturday <br /> 5 August 2023
                 </td>
                 <td>1</td>
-                <td>#11 NLH - Main Event</td>
+                <td onClick={EventModal11} style={{ cursor: "pointer" }}>
+                  #11 NLH - Main Event
+                </td>
                 <td>$125,000</td>
                 <td>250,000</td>
                 <td>50 MIN </td>
@@ -631,7 +669,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sunday <br /> 6 August 2023
                 </td>
                 <td>2</td>
-                <td>#11 NLH - Main Event</td>
+                <td onClick={EventModal11} style={{ cursor: "pointer" }}>
+                  #11 NLH - Main Event
+                </td>
                 <td>$125,000</td>
                 <td>250,000</td>
                 <td>50 MIN</td>
@@ -642,7 +682,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sunday <br /> 6 August 2023
                 </td>
                 <td>SINGLE</td>
-                <td>#12 NLH - TURBO</td>
+                <td onClick={EventModal12} style={{ cursor: "pointer" }}>
+                  #12 NLH - TURBO
+                </td>
                 <td>$60,000</td>
                 <td>200,000</td>
                 <td>20 MIN </td>
@@ -653,7 +695,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Monday <br /> 7 August 2023
                 </td>
                 <td>FT</td>
-                <td>#11 NLH - Main Event</td>
+                <td onClick={EventModal11} style={{ cursor: "pointer" }}>
+                  #11 NLH - Main Event
+                </td>
                 <td>$125,000</td>
                 <td>250,000</td>
                 <td>50 MIN </td>
@@ -664,7 +708,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Monday <br /> 7 August 2023
                 </td>
                 <td>1</td>
-                <td>#13 NLH - 8 Handed</td>
+                <td onClick={EventModal13} style={{ cursor: "pointer" }}>
+                  #13 NLH - 8 Handed
+                </td>
                 <td>$60,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
@@ -675,7 +721,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Tuesday <br /> 8 August 2023
                 </td>
                 <td>2</td>
-                <td>#13 NLH - 8 Handed</td>
+                <td onClick={EventModal13} style={{ cursor: "pointer" }}>
+                  #13 NLH - 8 Handed
+                </td>
                 <td>$60,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
@@ -686,7 +734,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Tuesday <br /> 8 August 2023
                 </td>
                 <td>1</td>
-                <td>#15 Short Deck Ante-Only</td>
+                <td onClick={EventModal15} style={{ cursor: "pointer" }}>
+                  #15 Short Deck Ante-Only
+                </td>
                 <td>$30,000</td>
                 <td>
                   150,000 <span style={{ textTransform: "lowercase" }}>x2</span>
@@ -699,7 +749,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Wednesday <br /> 9 August 2023
                 </td>
                 <td>2</td>
-                <td>#15 Short Deck Ante-Only</td>
+                <td onClick={EventModal15} style={{ cursor: "pointer" }}>
+                  #15 Short Deck Ante-Only
+                </td>
                 <td>$30,000</td>
                 <td>
                   150,000 <span style={{ textTransform: "lowercase" }}>x2</span>
@@ -712,7 +764,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Wednesday <br /> 9 August 2023
                 </td>
                 <td>1</td>
-                <td>#16 SD - Main Event</td>
+                <td onClick={EventModal16} style={{ cursor: "pointer" }}>
+                  #16 SD - Main Event
+                </td>
                 <td>$60,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
@@ -725,7 +779,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Thursday <br /> 10 August 2023
                 </td>
                 <td>2</td>
-                <td>#16 SD - Main Event</td>
+                <td onClick={EventModal16} style={{ cursor: "pointer" }}>
+                  #16 SD - Main Event
+                </td>
                 <td>$60,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
@@ -738,7 +794,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Thursday <br /> 10 August 2023
                 </td>
                 <td>SINGLE</td>
-                <td>#17 Short Deck Ante-Only</td>
+                <td onClick={EventModal17} style={{ cursor: "pointer" }}>
+                  #17 Short Deck Ante-Only
+                </td>
                 <td>$25,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
@@ -783,7 +841,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   THU <br /> 27 July
                 </td>
                 <td>1</td>
-                <td>#1 GGMillion$ Live</td>
+                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
+                  #1 GGMillion$ Live
+                </td>
                 <td>$25K</td>
                 <td>250K</td>
                 <td>40 MIN </td>
@@ -794,7 +854,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   FRI <br /> 28 July
                 </td>
                 <td>2</td>
-                <td>#1 GGMillion$ Live</td>
+                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
+                  #1 GGMillion$ Live
+                </td>
                 <td>$25K</td>
                 <td>250K</td>
                 <td>40 MIN </td>
@@ -805,7 +867,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   FRI <br /> 28 July
                 </td>
                 <td>1</td>
-                <td>#2 NLH - 7 Handed</td>
+                <td onClick={EventModal2} style={{ cursor: "pointer" }}>
+                  #2 NLH - 7 Handed
+                </td>
                 <td>$25K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
@@ -816,7 +880,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   SAT <br /> 29 July
                 </td>
                 <td>2</td>
-                <td>#2 NLH - 7 Handed</td>
+                <td onClick={EventModal2} style={{ cursor: "pointer" }}>
+                  #2 NLH - 7 Handed
+                </td>
                 <td>$25K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
@@ -827,7 +893,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   SAT <br /> 29 July
                 </td>
                 <td>1</td>
-                <td>#3 NLH - 7 Handed - Mystery Bounty</td>
+                <td onClick={EventModal3} style={{ cursor: "pointer" }}>
+                  #3 NLH - 7 Handed - Mystery Bounty
+                </td>
                 <td>$40K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
@@ -838,7 +906,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   SUN <br /> 30 July
                 </td>
                 <td>2</td>
-                <td>#3 NLH - 7 Handed - Mystery Bounty</td>
+                <td onClick={EventModal3} style={{ cursor: "pointer" }}>
+                  #3 NLH - 7 Handed - Mystery Bounty
+                </td>
                 <td>$40K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
@@ -849,7 +919,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   SUN <br /> 30 July
                 </td>
                 <td>1</td>
-                <td>#5 NLH - 8 Handed</td>
+                <td onClick={EventModal5} style={{ cursor: "pointer" }}>
+                  #5 NLH - 8 Handed
+                </td>
                 <td>$50K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
@@ -860,7 +932,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   MON <br /> 31 July
                 </td>
                 <td>2</td>
-                <td>#5 NLH - 8 Handed</td>
+                <td onClick={EventModal5} style={{ cursor: "pointer" }}>
+                  #5 NLH - 8 Handed
+                </td>
                 <td>$50K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
@@ -871,7 +945,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   MON <br /> 31 July
                 </td>
                 <td>1</td>
-                <td>#6 NLH - 7 Handed</td>
+                <td onClick={EventModal6} style={{ cursor: "pointer" }}>
+                  #6 NLH - 7 Handed
+                </td>
                 <td>$60K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
@@ -882,7 +958,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   TUE <br /> 1 August
                 </td>
                 <td>2</td>
-                <td>#6 NLH - 7 Handed</td>
+                <td onClick={EventModal6} style={{ cursor: "pointer" }}>
+                  #6 NLH - 7 Handed
+                </td>
                 <td>$60K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
@@ -893,7 +971,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   TUE <br /> 1 August
                 </td>
                 <td>1</td>
-                <td>#7 NLH - 8 Handed</td>
+                <td onClick={EventModal7} style={{ cursor: "pointer" }}>
+                  #7 NLH - 8 Handed
+                </td>
                 <td>$200K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
@@ -904,7 +984,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   WED <br /> 2 August
                 </td>
                 <td>2</td>
-                <td>#7 NLH - 8 Handed</td>
+                <td onClick={EventModal7} style={{ cursor: "pointer" }}>
+                  #7 NLH - 8 Handed
+                </td>
                 <td>$200K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
@@ -915,7 +997,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   WED <br /> 2 August
                 </td>
                 <td>SINGLE</td>
-                <td>#8 NLH - TURBO (10k Bounty)</td>
+                <td onClick={EventModal8} style={{ cursor: "pointer" }}>
+                  #8 NLH - TURBO (10k Bounty)
+                </td>
                 <td>$30K</td>
                 <td>200K</td>
                 <td>20 MIN </td>
@@ -926,7 +1010,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   THU <br /> 3 August
                 </td>
                 <td>1</td>
-                <td>#9 NLH - Invitational Event</td>
+                <td onClick={EventModal9} style={{ cursor: "pointer" }}>
+                  #9 NLH - Invitational Event
+                </td>
                 <td>$250K</td>
                 <td>300K</td>
                 <td>50 MIN </td>
@@ -937,7 +1023,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   FRI <br /> 4 August
                 </td>
                 <td>2</td>
-                <td>#9 NLH - Invitational Event</td>
+                <td onClick={EventModal9} style={{ cursor: "pointer" }}>
+                  #9 NLH - Invitational Event
+                </td>
                 <td>$250K</td>
                 <td>300K</td>
                 <td>50 MIN </td>
@@ -948,7 +1036,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   FRI <br /> 4 August
                 </td>
                 <td>1</td>
-                <td>#10 Pot Limit Omaha</td>
+                <td onClick={EventModal10} style={{ cursor: "pointer" }}>
+                  #10 Pot Limit Omaha
+                </td>
                 <td>$25K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
@@ -959,7 +1049,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   SAT <br /> 5 August
                 </td>
                 <td>FT</td>
-                <td>#9 NLH - Invitational Event</td>
+                <td onClick={EventModal9} style={{ cursor: "pointer" }}>
+                  #9 NLH - Invitational Event
+                </td>
                 <td>$250K</td>
                 <td>300K</td>
                 <td>50 MIN </td>
@@ -970,7 +1062,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   SAT <br /> 5 August
                 </td>
                 <td>2</td>
-                <td>#10 Pot Limit Omaha</td>
+                <td onClick={EventModal10} style={{ cursor: "pointer" }}>
+                  #10 Pot Limit Omaha
+                </td>
                 <td>$25K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
@@ -981,7 +1075,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   SAT <br /> 5 August
                 </td>
                 <td>1</td>
-                <td>#11 NLH - Main Event</td>
+                <td onClick={EventModal11} style={{ cursor: "pointer" }}>
+                  #11 NLH - Main Event
+                </td>
                 <td>$125k</td>
                 <td>250K</td>
                 <td>50 MIN </td>
@@ -992,7 +1088,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   SUN <br /> 6 August
                 </td>
                 <td>2</td>
-                <td>#11 NLH - Main Event</td>
+                <td onClick={EventModal11} style={{ cursor: "pointer" }}>
+                  #11 NLH - Main Event
+                </td>
                 <td>$125k</td>
                 <td>250K</td>
                 <td>50 MIN</td>
@@ -1003,7 +1101,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   SUN <br /> 6 August
                 </td>
                 <td>SINGLE</td>
-                <td>#12 NLH - TURBO</td>
+                <td onClick={EventModal12} style={{ cursor: "pointer" }}>
+                  #12 NLH - TURBO
+                </td>
                 <td>$60K</td>
                 <td>200K</td>
                 <td>20 MIN </td>
@@ -1014,7 +1114,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   MON <br /> 7 August
                 </td>
                 <td>FT</td>
-                <td>#11 NLH - Main Event</td>
+                <td onClick={EventModal11} style={{ cursor: "pointer" }}>
+                  #11 NLH - Main Event
+                </td>
                 <td>$125k</td>
                 <td>250K</td>
                 <td>50 MIN </td>
@@ -1025,7 +1127,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   MON <br /> 7 August
                 </td>
                 <td>1</td>
-                <td>#13 NLH - 8 Handed</td>
+                <td onClick={EventModal13} style={{ cursor: "pointer" }}>
+                  #13 NLH - 8 Handed
+                </td>
                 <td>$60K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
@@ -1036,7 +1140,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   TUE <br /> 8 August
                 </td>
                 <td>2</td>
-                <td>#13 NLH - 8 Handed</td>
+                <td onClick={EventModal13} style={{ cursor: "pointer" }}>
+                  #13 NLH - 8 Handed
+                </td>
                 <td>$60K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
@@ -1047,7 +1153,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   TUE <br /> 8 August
                 </td>
                 <td>1</td>
-                <td>#15 Short Deck Ante-Only </td>
+                <td onClick={EventModal15} style={{ cursor: "pointer" }}>
+                  #15 Short Deck Ante-Only{" "}
+                </td>
                 <td>$30K</td>
                 <td>
                   150K <span style={{ textTransform: "lowercase" }}>x2</span>
@@ -1060,7 +1168,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   WED <br /> 9 August
                 </td>
                 <td>2</td>
-                <td>#15 Short Deck Ante-Only </td>
+                <td onClick={EventModal15} style={{ cursor: "pointer" }}>
+                  #15 Short Deck Ante-Only{" "}
+                </td>
                 <td>$30K</td>
                 <td>
                   150K <span style={{ textTransform: "lowercase" }}>x2</span>
@@ -1073,7 +1183,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   WED <br /> 9 August
                 </td>
                 <td>1</td>
-                <td>#16 SD - Main Event</td>
+                <td onClick={EventModal16} style={{ cursor: "pointer" }}>
+                  #16 SD - Main Event
+                </td>
                 <td>$60K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3</span>
@@ -1086,7 +1198,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   THU <br /> 10 August
                 </td>
                 <td>2</td>
-                <td>#16 SD - Main Event</td>
+                <td onClick={EventModal16} style={{ cursor: "pointer" }}>
+                  #16 SD - Main Event
+                </td>
                 <td>$60K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3</span>
@@ -1099,7 +1213,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   THU <br /> 10 August
                 </td>
                 <td>SINGLE</td>
-                <td>#17 Short Deck Ante-Only</td>
+                <td onClick={EventModal17} style={{ cursor: "pointer" }}>
+                  #17 Short Deck Ante-Only
+                </td>
                 <td>$25K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3</span>
