@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const PartnerSectionWrapper = styled.section`
-  padding: 120px 0;
+  padding: 0 0;
   background-color: #000;
 
   @media (max-width: 990px) {
