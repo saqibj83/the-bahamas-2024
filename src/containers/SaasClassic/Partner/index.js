@@ -9,7 +9,8 @@ import NextImage from "common/components/NextImage";
 import Container from "common/components/UI/Container";
 
 import PartnerSectionWrapper from "./partner.style";
-import Partner from "common/assets/image/saasClassic/partner.png";
+import LondonDesk from "common/assets/image/saasClassic/london-desk.svg";
+import LondonMob from "common/assets/image/saasClassic/london-mob.svg";
 
 const PartnerSection = ({
   row,
@@ -22,31 +23,18 @@ const PartnerSection = ({
 }) => {
   return (
     <PartnerSectionWrapper id="join_section">
-      <Container>
-        <Box {...row}>
-          <Box {...col} {...imageArea}>
-            <NextImage src={Partner} alt="Domain Image" />
-          </Box>
-          <Box {...col} {...textArea}>
-            <Heading
-              {...title}
-              content=" TOURNAMENT STRUCTURE
-              "
-            />
-            <Text
-              {...description}
-              content="You can trust us for any kind of services and some of the world class companies have also trusted us.So have faith and keep in touch with us ."
-            />
-            <Box>
-              <Link href="#" className="btn_download">
-                <a>
-                  <Button {...button} title="Download Tournament Structure" />
-                </a>
-              </Link>
-            </Box>
-          </Box>
-        </Box>
-      </Container>
+      <Box {...row}>
+        <NextImage
+          className="hidden md:block"
+          src={LondonDesk}
+          alt="NHL SPECIAL CAHS GAME LIVE STREAMING"
+        />
+        <NextImage
+          className="block md:hidden"
+          src={LondonMob}
+          alt="NHL SPECIAL CAHS GAME LIVE STREAMING"
+        />
+      </Box>
     </PartnerSectionWrapper>
   );
 };

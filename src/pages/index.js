@@ -11,6 +11,7 @@ import {
 } from "containers/SaasClassic/saasClassic.style";
 
 import BannerSection from "containers/SaasClassic/Banner";
+import PartnerSection from "containers/SaasClassic/Partner";
 import CountDown from "containers/CryptoModern/CountDown";
 import Navbar from "containers/SaasClassic/Navbar";
 import ServiceSection from "containers/SaasClassic/Service";
@@ -48,10 +49,10 @@ const SaasClassic = () => {
             </DrawerProvider>
           </Sticky>
           <BannerSection />
+          <PartnerSection />
           <ServiceSection />
           <CountDown />
           <UpdateScreen />
-          {/* <PartnerSection /> */}
           <TrialSection />
           <Newsletter />
           <Footer />
