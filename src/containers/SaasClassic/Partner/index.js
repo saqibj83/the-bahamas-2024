@@ -22,8 +22,8 @@ const PartnerSection = ({
   imageArea,
 }) => {
   return (
-    <PartnerSectionWrapper id="join_section">
-      <Box {...row}>
+    <PartnerSectionWrapper>
+      <Box {...row} id="join_section">
         <NextImage
           className="hidden md:block"
           src={LondonDesk}
