@@ -10,7 +10,7 @@ export const MENU_ITEMS = [
   },
   {
     label: "CASH GAME",
-    path: "#join_section",
+    path: "#st_section",
     offset: "0",
   },
   {

@@ -23,7 +23,7 @@ const PartnerSection = ({
 }) => {
   return (
     <PartnerSectionWrapper>
-      <Box {...row} id="join_section">
+      <Box {...row} id="st_section">
         <NextImage
           className="hidden md:block"
           src={LondonDesk}
