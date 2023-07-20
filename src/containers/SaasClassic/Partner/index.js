@@ -52,7 +52,9 @@ PartnerSection.propTypes = {
 PartnerSection.defaultProps = {
   row: {
     flexBox: true,
-    flexWrap: "wrap",
+    flexWrap: "nowrap",
+    alignItems: "center",
+    justifyContent: "center",
     ml: "-15px",
     mr: "-15px",
     alignItems: "center",
