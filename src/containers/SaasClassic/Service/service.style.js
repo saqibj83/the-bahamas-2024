@@ -143,8 +143,13 @@ const SectionWrapper = styled.section`
       display: none;
     }
 
+    table {
+      width: 600px;
+    }
+
     .non-mobile {
       display: block;
+      overflow-x: scroll;
     }
     .container {
       padding: 0 !important;
@@ -185,7 +190,7 @@ const SectionWrapper = styled.section`
     }
     td:nth-child(4),
     th:nth-child(4) {
-      width: 44px !important;
+      width: 90px !important;
       font-size: 10px !important;
     }
     td:nth-child(5),
@@ -195,11 +200,17 @@ const SectionWrapper = styled.section`
     }
     td:nth-child(6),
     th:nth-child(6) {
-      width: 40px !important;
+      width: 80px !important;
       font-size: 10px !important;
     }
     td:nth-child(7),
     th:nth-child(7) {
+      width: 40px !important;
+      font-size: 10px !important;
+      text-align: center;
+    }
+    td:nth-child(8),
+    th:nth-child(8) {
       width: 40px !important;
       font-size: 10px !important;
       text-align: center;
@@ -242,16 +253,16 @@ const SectionWrapper = styled.section`
   }
 
   thead tr {
-    height: 40px;
+    height: 60px;
     align-items: center;
-    margin-right: 15px;
+    margin-right: 0;
   }
 
   th,
   td {
     text-align: left;
     vertical-align: middle;
-    padding: 15px 0 15px 10px;
+    padding: 15px 0;
     color: #fff;
   }
 
@@ -261,7 +272,7 @@ const SectionWrapper = styled.section`
 
   td:nth-child(1),
   th:nth-child(1) {
-    width: 150px;
+    width: 100px;
     font-size: 18px;
     font-weight: bold;
     color: #eba800;
@@ -269,7 +280,7 @@ const SectionWrapper = styled.section`
   }
   td:nth-child(2),
   th:nth-child(2) {
-    width: 200px;
+    width: 130px;
     font-size: 18px;
     font-weight: bold;
     color: #eba800;
@@ -277,12 +288,12 @@ const SectionWrapper = styled.section`
   }
   td:nth-child(3),
   th:nth-child(3) {
-    width: 100px;
+    width: 70px;
     text-align: center;
   }
   td:nth-child(4),
   th:nth-child(4) {
-    width: 150px;
+    width: 135px;
     font-size: 18px;
     font-weight: bold;
     color: #eba800;
@@ -290,17 +301,21 @@ const SectionWrapper = styled.section`
   }
   td:nth-child(5),
   th:nth-child(5) {
-    width: 100px;
+    width: 130px;
     text-align: center;
   }
   td:nth-child(6),
   th:nth-child(6) {
-    width: 100px;
+    width: 130px;
     text-align: center;
   }
   td:nth-child(7),
   th:nth-child(7) {
-    width: 120px;
+    width: 50px;
+    text-align: center;
+  }
+  th:nth-child(8) {
+    width: 60px;
     text-align: center;
   }
   .service_item_col {

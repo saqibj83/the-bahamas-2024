@@ -405,7 +405,16 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   <h5>Event</h5>
                 </th>
                 <th>
-                  <h5>Buy-in</h5>
+                  <h5>
+                    Buy-in <br />
+                    1st Entry
+                  </h5>
+                </th>
+                <th>
+                  <h5>
+                    Buy-in <br />
+                    Re-Entry
+                  </h5>
                 </th>
                 <th>
                   <h5>Stack</h5>
@@ -425,7 +434,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal1} style={{ cursor: "pointer" }}>
                   #1 GGMillion$ Live
                 </td>
-                <td>$25,000</td>
+                <td>$26,500</td>
+                <td>$26,500</td>
                 <td>250,000</td>
                 <td>40 MIN </td>
               </tr>
@@ -438,7 +448,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal1} style={{ cursor: "pointer" }}>
                   #1 GGMillion$ Live
                 </td>
-                <td>$25,000</td>
+                <td>$26,500</td>
+                <td>$26,500</td>
                 <td>250,000</td>
                 <td>40 MIN </td>
               </tr>
@@ -451,7 +462,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal2} style={{ cursor: "pointer" }}>
                   #2 NLH - 7 Handed
                 </td>
-                <td>$25,000</td>
+                <td>$26,500</td>
+                <td>$26,500</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
               </tr>
@@ -464,7 +476,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal2} style={{ cursor: "pointer" }}>
                   #2 NLH - 7 Handed
                 </td>
-                <td>$25,000</td>
+                <td>$26,500</td>
+                <td>$26,500</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
               </tr>
@@ -477,7 +490,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal3} style={{ cursor: "pointer" }}>
                   #3 NLH - 7 Handed - Mystery Bounty
                 </td>
-                <td>$40,000</td>
+                <td>$42,400</td>
+                <td>$42,400</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
               </tr>
@@ -490,7 +504,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal3} style={{ cursor: "pointer" }}>
                   #3 NLH - 7 Handed - Mystery Bounty
                 </td>
-                <td>$40,000</td>
+                <td>$42,400</td>
+                <td>$42,400</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
               </tr>
@@ -503,7 +518,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal5} style={{ cursor: "pointer" }}>
                   #5 NLH - 8 Handed
                 </td>
-                <td>$50,000</td>
+                <td>$53,000</td>
+                <td>$52,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
               </tr>
@@ -516,7 +532,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal5} style={{ cursor: "pointer" }}>
                   #5 NLH - 8 Handed
                 </td>
-                <td>$50,000</td>
+                <td>$53,000</td>
+                <td>$52,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
               </tr>
@@ -529,7 +546,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal6} style={{ cursor: "pointer" }}>
                   #6 NLH - 7 Handed
                 </td>
-                <td>$60,000</td>
+                <td>$63,600</td>
+                <td>$62,400</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
               </tr>
@@ -542,7 +560,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal6} style={{ cursor: "pointer" }}>
                   #6 NLH - 7 Handed
                 </td>
-                <td>$60,000</td>
+                <td>$63,600</td>
+                <td>$62,400</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
               </tr>
@@ -555,7 +574,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal7} style={{ cursor: "pointer" }}>
                   #7 NLH - 8 Handed
                 </td>
-                <td>$200,000</td>
+                <td>$212,000</td>
+                <td>$208,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
               </tr>
@@ -568,7 +588,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal7} style={{ cursor: "pointer" }}>
                   #7 NLH - 8 Handed
                 </td>
-                <td>$200,000</td>
+                <td>$212,000</td>
+                <td>$208,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
               </tr>
@@ -581,7 +602,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal8} style={{ cursor: "pointer" }}>
                   #8 NLH - TURBO (10k Bounty)
                 </td>
-                <td>$30,000</td>
+                <td>$31,200</td>
+                <td>$31,200</td>
                 <td>200,000</td>
                 <td>20 MIN </td>
               </tr>
@@ -594,7 +616,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal9} style={{ cursor: "pointer" }}>
                   #9 NLH - Invitational Event
                 </td>
-                <td>$250,000</td>
+                <td>$262,500</td>
+                <td>$262,500</td>
                 <td>300,000</td>
                 <td>50 MIN </td>
               </tr>
@@ -607,7 +630,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal9} style={{ cursor: "pointer" }}>
                   #9 NLH - Invitational Event
                 </td>
-                <td>$250,000</td>
+                <td>$262,500</td>
+                <td>$262,500</td>
                 <td>300,000</td>
                 <td>50 MIN </td>
               </tr>
@@ -620,7 +644,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal10} style={{ cursor: "pointer" }}>
                   #10 Pot Limit Omaha
                 </td>
-                <td>$25,000</td>
+                <td>$26,000</td>
+                <td>$26,000</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
               </tr>
@@ -633,7 +658,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal9} style={{ cursor: "pointer" }}>
                   #9 NLH - Invitational Event
                 </td>
-                <td>$250,000</td>
+                <td>$262,500</td>
+                <td>$262,500</td>
                 <td>300,000</td>
                 <td>50 MIN </td>
               </tr>
@@ -646,7 +672,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal10} style={{ cursor: "pointer" }}>
                   #10 Pot Limit Omaha
                 </td>
-                <td>$25,000</td>
+                <td>$26,000</td>
+                <td>$26,000</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
               </tr>
@@ -659,7 +686,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal11} style={{ cursor: "pointer" }}>
                   #11 NLH - Main Event
                 </td>
-                <td>$125,000</td>
+                <td>$132,500</td>
+                <td>$130,000</td>
                 <td>250,000</td>
                 <td>50 MIN </td>
               </tr>
@@ -672,7 +700,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal11} style={{ cursor: "pointer" }}>
                   #11 NLH - Main Event
                 </td>
-                <td>$125,000</td>
+                <td>$132,500</td>
+                <td>$130,000</td>
                 <td>250,000</td>
                 <td>50 MIN</td>
               </tr>
@@ -685,7 +714,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal12} style={{ cursor: "pointer" }}>
                   #12 NLH - TURBO
                 </td>
-                <td>$60,000</td>
+                <td>$62,400</td>
+                <td>$62,400</td>
                 <td>200,000</td>
                 <td>20 MIN </td>
               </tr>
@@ -698,7 +728,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal11} style={{ cursor: "pointer" }}>
                   #11 NLH - Main Event
                 </td>
-                <td>$125,000</td>
+                <td>$132,500</td>
+                <td>$130,000</td>
                 <td>250,000</td>
                 <td>50 MIN </td>
               </tr>
@@ -711,7 +742,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal13} style={{ cursor: "pointer" }}>
                   #13 NLH - 8 Handed
                 </td>
-                <td>$60,000</td>
+                <td>$63,600</td>
+                <td>$62,400</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
               </tr>
@@ -724,7 +756,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal13} style={{ cursor: "pointer" }}>
                   #13 NLH - 8 Handed
                 </td>
-                <td>$60,000</td>
+                <td>$63,600</td>
+                <td>$62,400</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
               </tr>
@@ -737,7 +770,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal15} style={{ cursor: "pointer" }}>
                   #15 Short Deck Ante-Only
                 </td>
-                <td>$30,000</td>
+                <td>$31,500</td>
+                <td>$30,900</td>
                 <td>
                   150,000 <span style={{ textTransform: "lowercase" }}>x2</span>
                 </td>
@@ -752,7 +786,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal15} style={{ cursor: "pointer" }}>
                   #15 Short Deck Ante-Only
                 </td>
-                <td>$30,000</td>
+                <td>$31,500</td>
+                <td>$30,900</td>
                 <td>
                   150,000 <span style={{ textTransform: "lowercase" }}>x2</span>
                 </td>
@@ -767,7 +802,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal16} style={{ cursor: "pointer" }}>
                   #16 SD - Main Event
                 </td>
-                <td>$60,000</td>
+                <td>$63,000</td>
+                <td>$61,800</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
@@ -782,7 +818,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal16} style={{ cursor: "pointer" }}>
                   #16 SD - Main Event
                 </td>
-                <td>$60,000</td>
+                <td>$63,000</td>
+                <td>$61,800</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
@@ -797,7 +834,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal17} style={{ cursor: "pointer" }}>
                   #17 Short Deck Ante-Only
                 </td>
-                <td>$25,000</td>
+                <td>$26,500</td>
+                <td>$26,500</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
@@ -824,7 +862,16 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   <h5>Event</h5>
                 </th>
                 <th>
-                  <h5>Buy-in</h5>
+                  <h5>
+                    Buy-in <br />
+                    1st Entry
+                  </h5>
+                </th>
+                <th>
+                  <h5>
+                    Buy-in <br />
+                    Re-Entry
+                  </h5>
                 </th>
                 <th>
                   <h5>Stack</h5>
@@ -844,7 +891,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal1} style={{ cursor: "pointer" }}>
                   #1 GGMillion$ Live
                 </td>
-                <td>$25K</td>
+                <td>$26.5K</td>
+                <td>$26.5K</td>
                 <td>250K</td>
                 <td>40 MIN </td>
               </tr>
@@ -857,7 +905,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal1} style={{ cursor: "pointer" }}>
                   #1 GGMillion$ Live
                 </td>
-                <td>$25K</td>
+                <td>$26.5K</td>
+                <td>$26.5K</td>
                 <td>250K</td>
                 <td>40 MIN </td>
               </tr>
@@ -870,7 +919,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal2} style={{ cursor: "pointer" }}>
                   #2 NLH - 7 Handed
                 </td>
-                <td>$25K</td>
+                <td>$26.5K</td>
+                <td>$26.5K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
               </tr>
@@ -883,7 +933,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal2} style={{ cursor: "pointer" }}>
                   #2 NLH - 7 Handed
                 </td>
-                <td>$25K</td>
+                <td>$26.5K</td>
+                <td>$26.5K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
               </tr>
@@ -896,7 +947,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal3} style={{ cursor: "pointer" }}>
                   #3 NLH - 7 Handed - Mystery Bounty
                 </td>
-                <td>$40K</td>
+                <td>$42.4K</td>
+                <td>$42.4K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
               </tr>
@@ -909,7 +961,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal3} style={{ cursor: "pointer" }}>
                   #3 NLH - 7 Handed - Mystery Bounty
                 </td>
-                <td>$40K</td>
+                <td>$42.4K</td>
+                <td>$42.4K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
               </tr>
@@ -922,7 +975,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal5} style={{ cursor: "pointer" }}>
                   #5 NLH - 8 Handed
                 </td>
-                <td>$50K</td>
+                <td>$53K</td>
+                <td>$52K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
               </tr>
@@ -935,7 +989,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal5} style={{ cursor: "pointer" }}>
                   #5 NLH - 8 Handed
                 </td>
-                <td>$50K</td>
+                <td>$53K</td>
+                <td>$52K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
               </tr>
@@ -948,7 +1003,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal6} style={{ cursor: "pointer" }}>
                   #6 NLH - 7 Handed
                 </td>
-                <td>$60K</td>
+                <td>$63.6K</td>
+                <td>$62.4K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
               </tr>
@@ -961,7 +1017,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal6} style={{ cursor: "pointer" }}>
                   #6 NLH - 7 Handed
                 </td>
-                <td>$60K</td>
+                <td>$63.6K</td>
+                <td>$62.4K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
               </tr>
@@ -974,7 +1031,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal7} style={{ cursor: "pointer" }}>
                   #7 NLH - 8 Handed
                 </td>
-                <td>$200K</td>
+                <td>$212K</td>
+                <td>$208K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
               </tr>
@@ -987,7 +1045,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal7} style={{ cursor: "pointer" }}>
                   #7 NLH - 8 Handed
                 </td>
-                <td>$200K</td>
+                <td>$212K</td>
+                <td>$208K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
               </tr>
@@ -1000,7 +1059,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal8} style={{ cursor: "pointer" }}>
                   #8 NLH - TURBO (10k Bounty)
                 </td>
-                <td>$30K</td>
+                <td>$31.2K</td>
+                <td>$31.2K</td>
                 <td>200K</td>
                 <td>20 MIN </td>
               </tr>
@@ -1013,7 +1073,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal9} style={{ cursor: "pointer" }}>
                   #9 NLH - Invitational Event
                 </td>
-                <td>$250K</td>
+                <td>$262.5K</td>
+                <td>$262.5K</td>
                 <td>300K</td>
                 <td>50 MIN </td>
               </tr>
@@ -1026,7 +1087,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal9} style={{ cursor: "pointer" }}>
                   #9 NLH - Invitational Event
                 </td>
-                <td>$250K</td>
+                <td>$262.5K</td>
+                <td>$262.5K</td>
                 <td>300K</td>
                 <td>50 MIN </td>
               </tr>
@@ -1039,7 +1101,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal10} style={{ cursor: "pointer" }}>
                   #10 Pot Limit Omaha
                 </td>
-                <td>$25K</td>
+                <td>$26K</td>
+                <td>$26K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
               </tr>
@@ -1052,7 +1115,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal9} style={{ cursor: "pointer" }}>
                   #9 NLH - Invitational Event
                 </td>
-                <td>$250K</td>
+                <td>$262.5K</td>
+                <td>$262.5K</td>
                 <td>300K</td>
                 <td>50 MIN </td>
               </tr>
@@ -1065,7 +1129,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal10} style={{ cursor: "pointer" }}>
                   #10 Pot Limit Omaha
                 </td>
-                <td>$25K</td>
+                <td>$26K</td>
+                <td>$26K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
               </tr>
@@ -1078,7 +1143,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal11} style={{ cursor: "pointer" }}>
                   #11 NLH - Main Event
                 </td>
-                <td>$125k</td>
+                <td>$132.5k</td>
+                <td>$130k</td>
                 <td>250K</td>
                 <td>50 MIN </td>
               </tr>
@@ -1091,7 +1157,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal11} style={{ cursor: "pointer" }}>
                   #11 NLH - Main Event
                 </td>
-                <td>$125k</td>
+                <td>$132.5k</td>
+                <td>$130k</td>
                 <td>250K</td>
                 <td>50 MIN</td>
               </tr>
@@ -1104,7 +1171,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal12} style={{ cursor: "pointer" }}>
                   #12 NLH - TURBO
                 </td>
-                <td>$60K</td>
+                <td>$62.4K</td>
+                <td>$62.4K</td>
                 <td>200K</td>
                 <td>20 MIN </td>
               </tr>
@@ -1117,7 +1185,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal11} style={{ cursor: "pointer" }}>
                   #11 NLH - Main Event
                 </td>
-                <td>$125k</td>
+                <td>$132.5k</td>
+                <td>$130k</td>
                 <td>250K</td>
                 <td>50 MIN </td>
               </tr>
@@ -1130,7 +1199,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal13} style={{ cursor: "pointer" }}>
                   #13 NLH - 8 Handed
                 </td>
-                <td>$60K</td>
+                <td>$63.6K</td>
+                <td>$62.4K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
               </tr>
@@ -1143,7 +1213,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal13} style={{ cursor: "pointer" }}>
                   #13 NLH - 8 Handed
                 </td>
-                <td>$60K</td>
+                <td>$63.6K</td>
+                <td>$62.4K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
               </tr>
@@ -1156,7 +1227,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal15} style={{ cursor: "pointer" }}>
                   #15 Short Deck Ante-Only{" "}
                 </td>
-                <td>$30K</td>
+                <td>$31.5K</td>
+                <td>$30.9K</td>
                 <td>
                   150K <span style={{ textTransform: "lowercase" }}>x2</span>
                 </td>
@@ -1171,7 +1243,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal15} style={{ cursor: "pointer" }}>
                   #15 Short Deck Ante-Only{" "}
                 </td>
-                <td>$30K</td>
+                <td>$31.5K</td>
+                <td>$30.9K</td>
                 <td>
                   150K <span style={{ textTransform: "lowercase" }}>x2</span>
                 </td>
@@ -1186,7 +1259,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal16} style={{ cursor: "pointer" }}>
                   #16 SD - Main Event
                 </td>
-                <td>$60K</td>
+                <td>$63K</td>
+                <td>$61.8K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
@@ -1201,7 +1275,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal16} style={{ cursor: "pointer" }}>
                   #16 SD - Main Event
                 </td>
-                <td>$60K</td>
+                <td>$63K</td>
+                <td>$61.8K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
@@ -1216,7 +1291,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal17} style={{ cursor: "pointer" }}>
                   #17 Short Deck Ante-Only
                 </td>
-                <td>$25K</td>
+                <td>$26.5K</td>
+                <td>$26.5K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
