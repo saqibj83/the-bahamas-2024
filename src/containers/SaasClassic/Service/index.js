@@ -770,8 +770,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal15} style={{ cursor: "pointer" }}>
                   #15 Short Deck Ante-Only
                 </td>
-                <td>$31,500</td>
-                <td>$30,900</td>
+                <td>$31,800</td>
+                <td>$31,200</td>
                 <td>
                   150,000 <span style={{ textTransform: "lowercase" }}>x2</span>
                 </td>
@@ -786,8 +786,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal15} style={{ cursor: "pointer" }}>
                   #15 Short Deck Ante-Only
                 </td>
-                <td>$31,500</td>
-                <td>$30,900</td>
+                <td>$31,800</td>
+                <td>$31,200</td>
                 <td>
                   150,000 <span style={{ textTransform: "lowercase" }}>x2</span>
                 </td>
@@ -1227,8 +1227,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal15} style={{ cursor: "pointer" }}>
                   #15 Short Deck Ante-Only{" "}
                 </td>
-                <td>$31.5K</td>
-                <td>$30.9K</td>
+                <td>$31.8K</td>
+                <td>$31.2K</td>
                 <td>
                   150K <span style={{ textTransform: "lowercase" }}>x2</span>
                 </td>
@@ -1243,8 +1243,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td onClick={EventModal15} style={{ cursor: "pointer" }}>
                   #15 Short Deck Ante-Only{" "}
                 </td>
-                <td>$31.5K</td>
-                <td>$30.9K</td>
+                <td>$31.8K</td>
+                <td>$31.2K</td>
                 <td>
                   150K <span style={{ textTransform: "lowercase" }}>x2</span>
                 </td>
@@ -1313,7 +1313,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
           </div> */}
           <div className="prime-cta">
             <Link
-              href="https://cdn.triton-series.com/wp-content/uploads/2019/12/06153733/TritonPoker-2023-London-Booklet-EventStructure.pdf"
+              href="https://cdn.triton-series.com/wp-content/uploads/2019/12/23185433/TritonPoker-2023-London-Booklet-E.pdf"
               legacyBehavior
             >
               <a target="_blank">
