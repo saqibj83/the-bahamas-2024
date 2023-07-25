@@ -9,8 +9,8 @@ import NextImage from "common/components/NextImage";
 import Container from "common/components/UI/Container";
 
 import PartnerSectionWrapper from "./partner.style";
-import LondonDesk from "common/assets/image/saasClassic/london-desk.svg";
-import LondonMob from "common/assets/image/saasClassic/london-mob.svg";
+import LondonDesk from "common/assets/image/saasClassic/london-desk.png";
+import LondonMob from "common/assets/image/saasClassic/london-mob.png";
 
 const PartnerSection = ({
   row,
