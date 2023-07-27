@@ -129,6 +129,32 @@ const TrialSection = ({
                   />
                 </a>
               </div>
+              <div className="sponsor1">
+                <a href="https://firstlandofpoker.com/" target="_blank">
+                  {" "}
+                  <img
+                    src="https://cdn.triton-series.com/wp-content/uploads/2023/07/27173015/full-land-white.svg"
+                    alt="g"
+                    style={{
+                      display: "inline",
+                      marginTop: "40px",
+                    }}
+                  />
+                </a>
+              </div>
+              <div className="sponsor1">
+                <a href="https://betacr.eu/" target="_blank">
+                  {" "}
+                  <img
+                    src="https://cdn.triton-series.com/wp-content/uploads/2023/07/27173503/BetACR_White.svg"
+                    alt="g"
+                    style={{
+                      display: "inline",
+                      marginTop: "60px",
+                    }}
+                  />
+                </a>
+              </div>
             </Box>
 
             {/* <Box className="sponsor">
