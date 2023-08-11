@@ -8,7 +8,7 @@ import Button from "common/components/Button";
 import NextImage from "common/components/NextImage";
 import Container from "common/components/UI/Container";
 import { BannerWrapper, VideoWrapper } from "./banner.style";
-import Cyprus from "common/assets/image/saasClassic/logo2.png";
+import Cyprus from "common/assets/image/saasClassic/logo-new.svg";
 import Video from "common/assets/image/video.jpg";
 
 // close button for modal
@@ -84,8 +84,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
           </div>
           <Box {...contentWrapper}>
             <div className="text-st">
-              <span>JW MARRIOTT GROSVENOR HOUSE</span> <br />
-              July 27<sup>th</sup> - AUGUST 10<sup>th</sup>, 2023
+              <span>AUGUST 11<sup>th</sup>, 2023</span> 
             </div>
           </Box>
         </Box>

@@ -1,6 +1,6 @@
 import styled, { keyframes } from "styled-components";
-import BgIMage from "common/assets/image/main-bg.jpeg";
-import MobIMage from "common/assets/image/mobile-bg.png";
+import BgIMage from "common/assets/image/main2.png";
+import MobIMage from "common/assets/image/main-mob.png";
 
 const Bubble = keyframes`
   0% {
