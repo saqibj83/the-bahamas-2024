@@ -8,11 +8,7 @@ export const MENU_ITEMS = [
     path: "#banner_section",
     offset: "0",
   },
-  {
-    label: "CASH GAME",
-    path: "#st_section",
-    offset: "0",
-  },
+
   {
     label: "EVENT SCHEDULE",
     path: "#event_section",
