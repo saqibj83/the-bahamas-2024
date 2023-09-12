@@ -315,7 +315,8 @@ const SectionWrapper = styled.section`
     width: 50px;
     text-align: center;
   }
-  th:nth-child(8) {
+  th:nth-child(8),
+  td:nth-child(8) {
     width: 60px;
     text-align: center;
   }
