@@ -65,7 +65,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             />
           </Box>
           <div className="video-section">
-            <Fade bottom>
+            {/* <Fade bottom>
               <ReactPlayer
                 url="https://www.youtube.com/embed/q-qYjg2POxk"
                 // light="https://cdn.triton-series.com/wp-content/uploads/2019/12/29120652/video-banner.png"
@@ -75,12 +75,12 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 height="400px"
                 controls
               />
-            </Fade>
-            {/* <NextImage
+            </Fade> */}
+            <NextImage
               src={Video}
               alt="Video image"
               style={{ display: "inline" }}
-            /> */}
+            />
           </div>
           <Box {...contentWrapper}>
             <div className="text-st">
