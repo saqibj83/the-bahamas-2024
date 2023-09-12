@@ -25,7 +25,7 @@ const SaasClassic = () => {
     <ThemeProvider theme={saasClassicTheme}>
       <Fragment>
         <Head>
-          <title>Triton Poker Series | London 2023 </title>
+          <title>Triton Poker Series | Monte-Carlo 2023 </title>
           <meta
             name="Description"
             content="Triton Super High Roller Series 2023"

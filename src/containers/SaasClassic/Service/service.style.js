@@ -12,7 +12,7 @@ const SectionWrapper = styled.section`
     text-decoration: none;
     color: #000;
     margin: 20px 20px;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
     padding: 15px 40px 15px;
     background: linear-gradient(
@@ -70,7 +70,7 @@ const SectionWrapper = styled.section`
     color: #000;
     margin: 20px 20px;
     min-width: 350px;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
     padding: 15px 40px 15px;
     background: linear-gradient(
@@ -273,7 +273,7 @@ const SectionWrapper = styled.section`
   td:nth-child(1),
   th:nth-child(1) {
     width: 100px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     color: #eba800;
     text-align: center;
@@ -281,7 +281,7 @@ const SectionWrapper = styled.section`
   td:nth-child(2),
   th:nth-child(2) {
     width: 130px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     color: #eba800;
     text-align: center;
@@ -294,7 +294,7 @@ const SectionWrapper = styled.section`
   td:nth-child(4),
   th:nth-child(4) {
     width: 135px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     color: #eba800;
     text-align: center;

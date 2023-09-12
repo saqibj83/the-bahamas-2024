@@ -82,7 +82,7 @@ const TrialSection = ({
                 </div>
               </Box>
 
-              <Box className="sponsor1">
+              {/* <Box className="sponsor1">
                 <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
                   Venue Partner
                 </h3>
@@ -98,7 +98,7 @@ const TrialSection = ({
                     />
                   </a>
                 </div>
-              </Box>
+              </Box> */}
             </div>
 
             <Box className="sponsor-2">
@@ -129,7 +129,7 @@ const TrialSection = ({
                   />
                 </a>
               </div>
-              <div className="sponsor1">
+              {/* <div className="sponsor1">
                 <a href="https://firstlandofpoker.com/" target="_blank">
                   {" "}
                   <img
@@ -141,7 +141,7 @@ const TrialSection = ({
                     }}
                   />
                 </a>
-              </div>
+              </div> */}
               <div className="sponsor1">
                 <a href="https://betacr.eu/" target="_blank">
                   {" "}
@@ -150,7 +150,7 @@ const TrialSection = ({
                     alt="g"
                     style={{
                       display: "inline",
-                      marginTop: "60px",
+                      marginTop: "35px",
                     }}
                   />
                 </a>

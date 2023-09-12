@@ -244,7 +244,7 @@ export const ContentWrapper = styled.div`
       li {
         display: inline-block;
         padding-left: 5px;
-        padding-right: 13px;
+        padding-right: 32px;
         &:first-child {
           padding-left: 0;
         }
