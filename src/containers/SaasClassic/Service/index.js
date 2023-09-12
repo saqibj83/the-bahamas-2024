@@ -1040,7 +1040,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               </a>
             </Link>
           </div> */}
-
           <Link
             href="https://triton-series.com/tournament-rules/"
             legacyBehavior
