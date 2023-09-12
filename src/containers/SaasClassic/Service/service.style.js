@@ -249,7 +249,8 @@ const SectionWrapper = styled.section`
   tbody tr {
     display: flex;
     justify-content: space-between;
-    padding: 3px 5px;
+    padding: 3px 20px;
+    align-items: center;
   }
 
   thead tr {

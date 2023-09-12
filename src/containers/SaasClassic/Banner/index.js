@@ -85,7 +85,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
           <Box {...contentWrapper}>
             <div className="text-st">
               <span>Monte-Carlo Sporting - Salle Des Étoiles</span> <br />
-              OCTOBER 24<sup>th</sup> - NOVEMBER 04<sup>th</sup>, 2023
+              OCTOBER 24<sup>th</sup> - NOVEMBER 4<sup>th</sup>, 2023
             </div>
           </Box>
         </Box>

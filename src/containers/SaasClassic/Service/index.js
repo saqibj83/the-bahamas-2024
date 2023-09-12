@@ -693,7 +693,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>$26,000</td>
                 <td>$26,000</td>
                 <td>200,000</td>
-                <td>20/15 MIN</td>
+                <td>
+                  20/15 <br /> MIN
+                </td>
               </tr>
             </tbody>
           </table>

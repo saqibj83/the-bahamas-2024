@@ -58,6 +58,7 @@ const TrialSection = ({
                       style={{
                         display: "inline",
                         width: "270px",
+                        marginTop: "-25px",
                       }}
                     />
                   </a>

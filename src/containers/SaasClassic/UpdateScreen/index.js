@@ -36,12 +36,12 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
           <TabPane tab="Accommodation" key="2">
             <ul>
               <li>
-                Arrival: 23<sup>rd</sup> of OCTOBER 2023
+                Arrival: 23<sup>rd</sup> of October 2023
               </li>
               <li>
-                Departure: 05<sup>th</sup> of NOVEMBER 2023
+                Departure: 5<sup>th</sup> of November 2023
               </li>
-              <li>ACCOMMODATION: Monte-Carlo Bay Hotel & Resort</li>
+              <li>Accommodation: Monte-Carlo Bay Hotel & Resort</li>
               {/* <li>
                 During Triton Series CYPRUS complimentary accommodation is
                 offered to players who will qualify for the USD 300K combined
