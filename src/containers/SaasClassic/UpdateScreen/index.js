@@ -48,13 +48,16 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                 spend in tournament buy-ins. We are pleased to offer
                 complimentary accommodations at the Merit Royal Diamond Hotel
               </li> */}
-              {/* <li>
-                <Link href="#" legacyBehavior>
+              <li>
+                <Link
+                  href="https://triton-series.com/triton-poker-monte-carlo-2023-accommodation-tc/"
+                  legacyBehavior
+                >
                   <a target="_blank">
                     Click here for accommodation terms and conditions
                   </a>
                 </Link>
-              </li> */}
+              </li>
             </ul>
           </TabPane>
           <TabPane tab="Travel Information" key="3">

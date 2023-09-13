@@ -485,26 +485,6 @@ export const DOMAIN_NAMES = [
     value: "event12",
     nname: "Event 12",
   },
-  {
-    label: "Event 13",
-    value: "event13",
-    name: "Event 13",
-  },
-  {
-    label: "Event 15",
-    value: "event15",
-    name: "Event 15",
-  },
-  {
-    label: "Event 16",
-    value: "event16",
-    name: "Event 16",
-  },
-  {
-    label: "Event 17",
-    value: "event17",
-    name: "Event 17",
-  },
 ];
 
 export const DOMAIN_PRICE = [
