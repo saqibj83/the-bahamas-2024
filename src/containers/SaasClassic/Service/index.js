@@ -370,8 +370,18 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
             </Link>
           </div>
         </Box> */}
-        <Box>
+        <Box className="cta-btn">
           <div className="prime-cta">
+            <div
+              className="primary-cta"
+              style={{ marginTop: "10px", width: "340px" }}
+            >
+              INVITATIONAL HOMEPAGE
+            </div>
+            <span class="tooltiptext">Coming Soon</span>
+          </div>
+
+          {/* <div className="prime-cta">
             <Link href="#" legacyBehavior>
               <a target="_blank">
                 <Button
@@ -380,7 +390,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 />
               </a>
             </Link>
-          </div>
+          </div> */}
         </Box>
         <Box className="non-desktop">
           <table className="tble">
