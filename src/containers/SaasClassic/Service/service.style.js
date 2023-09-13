@@ -256,7 +256,7 @@ const SectionWrapper = styled.section`
   thead tr {
     height: 60px;
     align-items: center;
-    margin-right: 0;
+    margin-right: 20px;
   }
 
   th,
