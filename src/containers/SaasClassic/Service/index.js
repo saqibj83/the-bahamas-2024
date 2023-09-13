@@ -422,280 +422,274 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               <tr>
                 <td>2:00 PM</td>
                 <td>
-                  Tuesday <br /> 24 OCT 2023
+                  TUESDAY <br /> 24 OCT 2023
                 </td>
                 <td>1</td>
-                <td>#1 NLH - Invitational</td>
-                <td>$210,000</td>
-                <td>$210,000</td>
+                <td>#1 NLH - INVITATIONAL</td>
+                <td>$200,000</td>
+                <td>$200,000</td>
                 <td>250,000</td>
                 <td>50 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Wednesday <br /> 25 OCT 2023
+                  WEDNESDAY <br /> 25 OCT 2023
                 </td>
                 <td>2</td>
-                <td>#1 NLH - Invitational</td>
-                <td>$210,000</td>
-                <td>$210,000</td>
+                <td>#1 NLH - INVITATIONAL</td>
+                <td>$200,000</td>
+                <td>$200,000</td>
                 <td>250,000</td>
                 <td>50 MIN </td>
               </tr>
               <tr>
                 <td>4:00 PM</td>
                 <td>
-                  Wednesday <br /> 25 OCT 2023
+                  WEDNESDAY <br /> 25 OCT 2023
                 </td>
                 <td>SINGLE</td>
-                <td>#2 NLH - TURBO (20k Bounty)</td>
-                <td>$52,000</td>
-                <td>$52,000</td>
+                <td>#2 NLH - TURBO (20K BOUNTY)</td>
+                <td>$50,000</td>
+                <td>$50,000</td>
+                <td>200,000</td>
+                <td>20 MIN </td>
+              </tr>
+              <tr>
+                <td>1:00 PM</td>
+                <td>THURSDAY , 26 OCT 2023</td>
+                <td>FT</td>
+                <td>#1 NLH - INVITATIONAL</td>
+                <td>$200,000</td>
+                <td>$200,000</td>
+                <td>250,000</td>
+                <td>50 MIN </td>
+              </tr>
+              <tr>
+                <td>2:00 PM</td>
+                <td>THURSDAY , 26 OCT 2023</td>
+                <td>1</td>
+                <td>#3 NLH - MAIN EVENT</td>
+                <td>$125,000</td>
+                <td>$125,000</td>
+                <td>250,000</td>
+                <td>50 MIN </td>
+              </tr>
+              <tr>
+                <td>1:00 PM</td>
+                <td>
+                  FRIDAY <br /> 27 OCT 2023
+                </td>
+                <td>2</td>
+                <td>#3 NLH - MAIN EVENT</td>
+                <td>$125,000</td>
+                <td>$125,000</td>
+                <td>250,000</td>
+                <td>50 MIN </td>
+              </tr>
+              <tr>
+                <td>3:00 PM</td>
+                <td>
+                  FRIDAY <br /> 27 OCT 2023
+                </td>
+                <td>SINGLE</td>
+                <td>#5 NLH - TURBO</td>
+                <td>$25,000</td>
+                <td>$25,000</td>
                 <td>200,000</td>
                 <td>20 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Thursday <br /> 26 OCT 2023
+                  SATURDAY <br /> 28 OCT 2023
                 </td>
                 <td>FT</td>
-                <td>#1 NLH - Invitational</td>
-                <td>$52,000</td>
-                <td>$52,000</td>
+                <td>#3 NLH - MAIN EVENT</td>
+                <td>$125,000</td>
+                <td>$125,000</td>
                 <td>250,000</td>
                 <td>50 MIN </td>
               </tr>
               <tr>
                 <td>2:00 PM</td>
                 <td>
-                  Thursday <br /> 26 OCT 2023
+                  SATURDAY <br /> 28 OCT 2023
                 </td>
                 <td>1</td>
-                <td>#3 NLH - Main Event</td>
-                <td>$132,500</td>
-                <td>$130,000</td>
-                <td>250,000</td>
-                <td>50 MIN </td>
+                <td>#6 NLH - 8 HANDED</td>
+                <td>$100,000</td>
+                <td>$100,000</td>
+                <td>200,000</td>
+                <td>40 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Friday <br /> 27 OCT 2023
+                  SUNDAY <br /> 29 OCT 2023
                 </td>
                 <td>2</td>
-                <td>#3 NLH - Main Event</td>
-                <td>$132,500</td>
-                <td>$130,000</td>
-                <td>250,000</td>
-                <td>50 MIN </td>
+                <td>#6 NLH - 8 HANDED</td>
+                <td>$100,000</td>
+                <td>$100,000</td>
+                <td>200,000</td>
+                <td>40 MIN </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
                 <td>
-                  Friday <br /> 27 OCT 2023
+                  SUNDAY <br /> 29 OCT 2023
                 </td>
-                <td>SINGLE</td>
-                <td>#5 NLH - TURBO </td>
-                <td>$26,000</td>
-                <td>$26,000</td>
+                <td>1</td>
+                <td>#7 NLH - 7 HANDED</td>
+                <td>$30,000</td>
+                <td>$30,000</td>
                 <td>200,000</td>
-                <td>20 MIN </td>
+                <td>30 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Saturday <br /> 28 OCT 2023
+                  MONDAY <br /> 30 OCT 2023
                 </td>
-                <td>FT</td>
-                <td>#3 NLH - Main Event</td>
-                <td>$26,000</td>
-                <td>$26,000</td>
-                <td>250,000</td>
-                <td>50 MIN </td>
+                <td>2</td>
+                <td>#7 NLH - 7 HANDED</td>
+                <td>$30,000</td>
+                <td>$30,000</td>
+                <td>200,000</td>
+                <td>30 MIN </td>
               </tr>
               <tr>
                 <td>2:00 PM</td>
                 <td>
-                  Saturday <br /> 28 OCT 2023
+                  MONDAY <br /> 30 OCT 2023
                 </td>
                 <td>1</td>
-                <td>#6 NLH - 8 Handed</td>
-                <td>$106,000</td>
-                <td>$104,000</td>
-                <td>200,000</td>
-                <td>40 MIN </td>
-              </tr>
-              <tr>
-                <td>1:00 PM</td>
-                <td>
-                  Sunday <br /> 29 OCT 2023
-                </td>
-                <td>2</td>
-                <td>#6 NLH - 8 Handed</td>
-                <td>$106,000</td>
-                <td>$104,000</td>
-                <td>200,000</td>
-                <td>40 MIN </td>
-              </tr>
-              <tr>
-                <td>3:00 PM</td>
-                <td>
-                  Sunday <br /> 29 OCT 2023
-                </td>
-                <td>1</td>
-                <td>#7 NLH - 7 Handed</td>
-                <td>$31,800</td>
-                <td>$31,800</td>
-                <td>200,000</td>
-                <td>30 MIN </td>
-              </tr>
-              <tr>
-                <td>1:00 PM</td>
-                <td>
-                  Monday <br /> 30 OCT 2023
-                </td>
-                <td>2</td>
-                <td>#7 NLH - 7 Handed</td>
-                <td>$31,800</td>
-                <td>$31,800</td>
-                <td>200,000</td>
-                <td>30 MIN </td>
-              </tr>
-              <tr>
-                <td>3:00 PM</td>
-                <td>
-                  Monday <br /> 30 OCT 2023
-                </td>
-                <td>1</td>
-                <td>#8 NLH - 7 Handed - Mystery Bounty</td>
-                <td>$42,400</td>
-                <td>$42,400</td>
+                <td>#8 NLH - 7 HANDED (MYSTERY BOUNTY)</td>
+                <td>$40,000</td>
+                <td>$40,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Tuesday <br /> 31 OCT 2023
+                  TUESDAY <br /> 31 OCT 2023
                 </td>
                 <td>2</td>
-                <td>#8 NLH - 7 Handed - Mystery Bounty</td>
-                <td>$42,400</td>
-                <td>$42,400</td>
+                <td>#8 NLH - 7 HANDED (MYSTERY BOUNTY)</td>
+                <td>$40,000</td>
+                <td>$40,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
                 <td>
-                  Tuesday <br /> 31 OCT 2023
+                  TUESDAY <br /> 31 OCT 2023
                 </td>
                 <td>1</td>
-                <td>#9 NLH - 8 Handed</td>
-                <td>$53,000</td>
-                <td>$52,000</td>
+                <td>#9 NLH - 8 HANDED </td>
+                <td>$50,000</td>
+                <td>$50,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Wednesday <br /> 1 NOV 2023
+                  WEDNESDAY <br /> 1 NOV 2023
                 </td>
                 <td>2</td>
-                <td>#9 NLH - 8 Handed</td>
-                <td>$53,000</td>
-                <td>$52,000</td>
+                <td>#9 NLH - 8 HANDED </td>
+                <td>$50,000</td>
+                <td>$50,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
               </tr>
               <tr>
                 <td>1:30 PM</td>
                 <td>
-                  Wednesday <br /> 1 NOV 2023
+                  WEDNESDAY <br /> 1 NOV 2023
                 </td>
                 <td>1</td>
-                <td>#10 GG Million$ Live</td>
-                <td>$26,500</td>
-                <td>$26,500</td>
+                <td>#10 GG MILLION$ LIVE</td>
+                <td>$25,000</td>
+                <td>$25,000</td>
                 <td>250,000</td>
                 <td>40 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Thursday <br /> 2 NOV 2023
+                  THURSDAY <br /> 2 NOV 2023
                 </td>
                 <td>2</td>
-                <td>#10 GG Million$ Live</td>
-                <td>$26,500</td>
-                <td>$26,500</td>
+                <td>#10 GG MILLION$ LIVE</td>
+                <td>$25,000</td>
+                <td>$25,000</td>
                 <td>250,000</td>
                 <td>40 MIN </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
                 <td>
-                  Thursday <br /> 2 NOV 2023
+                  THURSDAY <br /> 2 NOV 2023
                 </td>
-                <td>2</td>
-                <td>#11 Pot Limit Omaha (10k Bounty)</td>
-                <td>$31,200</td>
-                <td>$31,200</td>
+                <td>1</td>
+                <td>#11 POT LIMIT OMAHA (10K BOUNTY)</td>
+                <td>$30,000</td>
+                <td>$30,000</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
               </tr>
               <tr>
                 <td>1:30 PM</td>
                 <td>
-                  Friday <br /> 3 NOV 2023
+                  FRIDAY <br /> 3 NOV 2023
                 </td>
                 <td>2</td>
-                <td>#11 Pot Limit Omaha (10k Bounty)</td>
-                <td>$31,200</td>
-                <td>$31,200</td>
+                <td>#11 POT LIMIT OMAHA (10K BOUNTY)</td>
+                <td>$30,000</td>
+                <td>$30,000</td>
                 <td>200,000</td>
                 <td>30 MIN</td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
                 <td>
-                  Friday <br /> 3 NOV 2023
+                  FRIDAY <br /> 3 NOV 2023
                 </td>
                 <td>1</td>
-                <td>#12 Pot Limit Omaha</td>
-                <td>$52,000</td>
-                <td>$52,000</td>
+                <td>#12 POT LIMIT OMAHA</td>
+                <td>$50,000</td>
+                <td>$50,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  Saturday <br /> 4 NOV 2023
+                  SATURDAY <br /> 4 NOV 2023
                 </td>
                 <td>2</td>
-                <td>#12 Pot Limit Omaha</td>
-                <td>$52,000</td>
-                <td>$52,000</td>
+                <td>#12 POT LIMIT OMAHA</td>
+                <td>$50,000</td>
+                <td>$50,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
               </tr>
               <tr>
                 <td>2:00 PM</td>
                 <td>
-                  Saturday <br /> NOV 4, 2023
+                  SATURDAY <br /> 4 NOV 2023
                 </td>
                 <td>SINGLE</td>
-                <td>#13 PLO - TURBO </td>
-                <td>$26,000</td>
-                <td>$26,000</td>
+                <td>#13 PLO - TURBO</td>
+                <td>$25,000</td>
+                <td>$25,000</td>
                 <td>200,000</td>
-                <td>
-                  20/15 <br /> MIN
-                </td>
+                <td>20/15 MIN</td>
               </tr>
             </tbody>
           </table>
@@ -744,9 +738,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   TUE <br /> 24 OCT
                 </td>
                 <td>1</td>
-                <td>#1 NLH - Invitational</td>
-                <td>$210K</td>
-                <td>$210K</td>
+                <td>#1 NLH - INVITATIONAL</td>
+                <td>$200K</td>
+                <td>$200K</td>
                 <td>250K</td>
                 <td>50 MIN </td>
               </tr>
@@ -756,9 +750,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   WED <br /> 25 OCT
                 </td>
                 <td>2</td>
-                <td>#1 NLH - Invitational</td>
-                <td>$210K</td>
-                <td>$210K</td>
+                <td>#1 NLH - INVITATIONAL</td>
+                <td>$200K</td>
+                <td>$200K</td>
                 <td>250K</td>
                 <td>50 MIN </td>
               </tr>
@@ -768,33 +762,33 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   WED <br /> 25 OCT
                 </td>
                 <td>SINGLE</td>
-                <td>#2 NLH - TURBO (20k Bounty)</td>
-                <td>$52K</td>
-                <td>$52K</td>
+                <td>#2 NLH - TURBO (20K BOUNTY)</td>
+                <td>$50K</td>
+                <td>$50K</td>
                 <td>200K</td>
                 <td>20 MIN </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
                 <td>
-                  THU <br /> 26 OCT
+                  THU <br /> 26 OCT{" "}
                 </td>
                 <td>FT</td>
-                <td>#1 NLH - Invitational</td>
-                <td>$52K</td>
-                <td>$52K</td>
+                <td>#1 NLH - INVITATIONAL</td>
+                <td>$200K</td>
+                <td>$200K</td>
                 <td>250K</td>
                 <td>50 MIN </td>
               </tr>
               <tr>
                 <td>2:00 PM</td>
                 <td>
-                  THU <br /> 26 OCT
+                  THU <br /> 26 OCT{" "}
                 </td>
                 <td>1</td>
-                <td>#3 NLH - Main Event</td>
-                <td>$132.5K</td>
-                <td>$130K</td>
+                <td>#3 NLH - MAIN EVENT</td>
+                <td>$125K</td>
+                <td>$125K</td>
                 <td>250K</td>
                 <td>50 MIN </td>
               </tr>
@@ -804,9 +798,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   FRI <br /> 27 OCT
                 </td>
                 <td>2</td>
-                <td>#3 NLH - Main Event</td>
-                <td>$132.5K</td>
-                <td>$130K</td>
+                <td>#3 NLH - MAIN EVENT</td>
+                <td>$125K</td>
+                <td>$125K</td>
                 <td>250K</td>
                 <td>50 MIN </td>
               </tr>
@@ -816,9 +810,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   FRI <br /> 27 OCT
                 </td>
                 <td>SINGLE</td>
-                <td>#5 NLH - TURBO </td>
-                <td>$26K</td>
-                <td>$26K</td>
+                <td>#5 NLH - TURBO</td>
+                <td>$25K</td>
+                <td>$25K</td>
                 <td>200K</td>
                 <td>20 MIN </td>
               </tr>
@@ -828,9 +822,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   SAT <br /> 28 OCT
                 </td>
                 <td>FT</td>
-                <td>#3 NLH - Main Event</td>
-                <td>$26K</td>
-                <td>$26K</td>
+                <td>#3 NLH - MAIN EVENT</td>
+                <td>$125K</td>
+                <td>$125K</td>
                 <td>250K</td>
                 <td>50 MIN </td>
               </tr>
@@ -840,9 +834,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   SAT <br /> 28 OCT
                 </td>
                 <td>1</td>
-                <td>#6 NLH - 8 Handed</td>
-                <td>$106K</td>
-                <td>$104K</td>
+                <td>#6 NLH - 8 HANDED</td>
+                <td>$100K</td>
+                <td>$100K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
               </tr>
@@ -852,9 +846,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   SUN <br /> 29 OCT
                 </td>
                 <td>2</td>
-                <td>#6 NLH - 8 Handed</td>
-                <td>$106K</td>
-                <td>$104K</td>
+                <td>#6 NLH - 8 HANDED</td>
+                <td>$100K</td>
+                <td>$100K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
               </tr>
@@ -864,9 +858,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   SUN <br /> 29 OCT
                 </td>
                 <td>1</td>
-                <td>#7 NLH - 7 Handed</td>
-                <td>$31.8K</td>
-                <td>$31.8K</td>
+                <td>#7 NLH - 7 HANDED</td>
+                <td>$30K</td>
+                <td>$30K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
               </tr>
@@ -876,21 +870,21 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   MON <br /> 30 OCT
                 </td>
                 <td>2</td>
-                <td>#7 NLH - 7 Handed</td>
-                <td>$31.8K</td>
-                <td>$31.8K</td>
+                <td>#7 NLH - 7 HANDED</td>
+                <td>$30K</td>
+                <td>$30K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
               </tr>
               <tr>
-                <td>3:00 PM</td>
+                <td>2:00 PM</td>
                 <td>
                   MON <br /> 30 OCT
                 </td>
                 <td>1</td>
-                <td>#8 NLH - 7 Handed - Mystery Bounty</td>
-                <td>$42.4K</td>
-                <td>$42.4K</td>
+                <td>#8 NLH - 7 HANDED (MYSTERY BOUNTY)</td>
+                <td>$40K</td>
+                <td>$40K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
               </tr>
@@ -900,9 +894,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   TUE <br /> 31 OCT
                 </td>
                 <td>2</td>
-                <td>#8 NLH - 7 Handed - Mystery Bounty</td>
-                <td>$42.4K</td>
-                <td>$42.4K</td>
+                <td>#8 NLH - 7 HANDED (MYSTERY BOUNTY)</td>
+                <td>$40K</td>
+                <td>$40K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
               </tr>
@@ -912,9 +906,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   TUE <br /> 31 OCT
                 </td>
                 <td>1</td>
-                <td>#9 NLH - 8 Handed</td>
-                <td>$53K</td>
-                <td>$52K</td>
+                <td>#9 NLH - 8 HANDED </td>
+                <td>$50K</td>
+                <td>$50K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
               </tr>
@@ -924,9 +918,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   WED <br /> 1 NOV
                 </td>
                 <td>2</td>
-                <td>#9 NLH - 8 Handed</td>
-                <td>$53K</td>
-                <td>$52K</td>
+                <td>#9 NLH - 8 HANDED </td>
+                <td>$50K</td>
+                <td>$50K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
               </tr>
@@ -936,9 +930,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   WED <br /> 1 NOV
                 </td>
                 <td>1</td>
-                <td>#10 GG Million$ Live</td>
-                <td>$26.5K</td>
-                <td>$26.5K</td>
+                <td>#10 GG MILLION$ LIVE</td>
+                <td>$25K</td>
+                <td>$25K</td>
                 <td>250K</td>
                 <td>40 MIN </td>
               </tr>
@@ -948,9 +942,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   THU <br /> 2 NOV
                 </td>
                 <td>2</td>
-                <td>#10 GG Million$ Live</td>
-                <td>$26.5K</td>
-                <td>$26.5K</td>
+                <td>#10 GG MILLION$ LIVE</td>
+                <td>$25K</td>
+                <td>$25K</td>
                 <td>250K</td>
                 <td>40 MIN </td>
               </tr>
@@ -959,10 +953,10 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>
                   THU <br /> 2 NOV
                 </td>
-                <td>2</td>
-                <td>#11 Pot Limit Omaha (10k Bounty)</td>
-                <td>$31.2K</td>
-                <td>$31.2K</td>
+                <td>1</td>
+                <td>#11 POT LIMIT OMAHA (10K BOUNTY)</td>
+                <td>$30K</td>
+                <td>$30K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
               </tr>
@@ -972,9 +966,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   FRI <br /> 3 NOV
                 </td>
                 <td>2</td>
-                <td>#11 Pot Limit Omaha (10k Bounty)</td>
-                <td>$31.2K</td>
-                <td>$31.2K</td>
+                <td>#11 POT LIMIT OMAHA (10K BOUNTY)</td>
+                <td>$30K</td>
+                <td>$30K</td>
                 <td>200K</td>
                 <td>30 MIN</td>
               </tr>
@@ -984,9 +978,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   FRI <br /> 3 NOV
                 </td>
                 <td>1</td>
-                <td>#12 Pot Limit Omaha</td>
-                <td>$52K</td>
-                <td>$52K</td>
+                <td>#12 POT LIMIT OMAHA</td>
+                <td>$50K</td>
+                <td>$50K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
               </tr>
@@ -996,9 +990,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   SAT <br /> 4 NOV
                 </td>
                 <td>2</td>
-                <td>#12 Pot Limit Omaha</td>
-                <td>$52K</td>
-                <td>$52K</td>
+                <td>#12 POT LIMIT OMAHA</td>
+                <td>$50K</td>
+                <td>$50K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
               </tr>
@@ -1008,9 +1002,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   SAT <br /> 4 NOV
                 </td>
                 <td>SINGLE</td>
-                <td>#13 PLO - TURBO </td>
-                <td>$26K</td>
-                <td>$26K</td>
+                <td>#13 PLO - TURBO</td>
+                <td>$25K</td>
+                <td>$25K</td>
                 <td>200K</td>
                 <td>20/15 MIN</td>
               </tr>
@@ -1029,7 +1023,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
           </div>
           {/* <div className="prime-cta">
             <Link
-              href="https://cdn.triton-series.com/wp-content/uploads/2019/12/23185433/TritonPoker-2023-London-Booklet-E.pdf"
+              href="https://cdn.triton-series.com/wp-content/uploads/2019/12/23185433/TritonPoker--London-Booklet-E.pdf"
               legacyBehavior
             >
               <a target="_blank">
