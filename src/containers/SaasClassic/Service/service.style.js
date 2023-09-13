@@ -312,7 +312,7 @@ const SectionWrapper = styled.section`
   }
   td:nth-child(7),
   th:nth-child(7) {
-    width: 50px;
+    width: 80px;
     text-align: center;
   }
   th:nth-child(8),
