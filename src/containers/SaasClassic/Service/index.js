@@ -356,7 +356,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
             "
           />
         </Box>
-        <Box>
+        {/* <Box>
           <div className="prime-cta" style={{ marginTop: "-40px" }}>
             <Link href="#" legacyBehavior>
               <a target="_blank">
@@ -369,13 +369,13 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               </a>
             </Link>
           </div>
-        </Box>
+        </Box> */}
         <Box>
           <div className="prime-cta">
             <Link href="#" legacyBehavior>
               <a target="_blank">
                 <Button
-                  title="LUXON INVITATIONAL HOMEPAGE"
+                  title=" INVITATIONAL HOMEPAGE"
                   className="primary-cta"
                 />
               </a>
@@ -1073,7 +1073,7 @@ ServiceSection.propTypes = {
 
 ServiceSection.defaultProps = {
   secTitleWrapper: {
-    mb: ["60px", "80px"],
+    mb: ["20px", "20px"],
   },
   secText: {
     as: "span",
