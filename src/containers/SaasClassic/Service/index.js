@@ -425,7 +425,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Tuesday <br /> 24 OCT 2023
                 </td>
                 <td>1</td>
-                <td>#1 NLH - Luxon Invitational</td>
+                <td>#1 NLH - Invitational</td>
                 <td>$210,000</td>
                 <td>$210,000</td>
                 <td>250,000</td>
@@ -437,7 +437,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Wednesday <br /> 25 OCT 2023
                 </td>
                 <td>2</td>
-                <td>#1 NLH - Luxon Invitational</td>
+                <td>#1 NLH - Invitational</td>
                 <td>$210,000</td>
                 <td>$210,000</td>
                 <td>250,000</td>
@@ -461,7 +461,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Thursday <br /> 26 OCT 2023
                 </td>
                 <td>FT</td>
-                <td>#1 NLH - Luxon Invitational</td>
+                <td>#1 NLH - Invitational</td>
                 <td>$52,000</td>
                 <td>$52,000</td>
                 <td>250,000</td>
@@ -744,7 +744,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   TUE <br /> 24 OCT
                 </td>
                 <td>1</td>
-                <td>#1 NLH - Luxon Invitational</td>
+                <td>#1 NLH - Invitational</td>
                 <td>$210K</td>
                 <td>$210K</td>
                 <td>250K</td>
@@ -756,7 +756,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   WED <br /> 25 OCT
                 </td>
                 <td>2</td>
-                <td>#1 NLH - Luxon Invitational</td>
+                <td>#1 NLH - Invitational</td>
                 <td>$210K</td>
                 <td>$210K</td>
                 <td>250K</td>
@@ -780,7 +780,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   THU <br /> 26 OCT
                 </td>
                 <td>FT</td>
-                <td>#1 NLH - Luxon Invitational</td>
+                <td>#1 NLH - Invitational</td>
                 <td>$52K</td>
                 <td>$52K</td>
                 <td>250K</td>
