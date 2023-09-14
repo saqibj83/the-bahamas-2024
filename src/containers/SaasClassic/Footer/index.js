@@ -44,14 +44,14 @@ const Footer = ({
                       </a>
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="#event_section" legacyBehavior>
                       <a>
                         <i className="icon-arrow-sm"></i>
                         Event schedule
                       </a>
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="#channel_section" legacyBehavior>
                       <a>
