@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const SectionWrapper = styled.section`
-  padding: 75px 0 75px 0;
+  padding: 75px 0 1px 0;
   background: #000;
   .prime-cta1 {
     text-align: center;
@@ -30,6 +30,17 @@ const SectionWrapper = styled.section`
     transform: scale(1);
     transition: transform 0.2s ease-in-out;
     height: 60px;
+  }
+  .cetered {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .title-img {
+    display: inline !important;
+    width: 500px !important;
+    margin-top: 20px !important;
   }
   .cta-btn {
     text-align: center;
