@@ -349,6 +349,13 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
   return (
     <SectionWrapper id="event_section">
       <Container>
+        <Box {...secTitleWrapper}>
+          <Heading
+            {...secHeading}
+            content=" EVENT SCHEDULE
+            "
+          />
+        </Box>
         <div className="cetered">
           <img
             className="title-img"
@@ -365,39 +372,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
           </Link>
         </div>
 
-        {/* <Box {...secTitleWrapper}>
-          <Heading
-            {...secHeading}
-            content=" EVENT SCHEDULE
-            "
-          />
-        </Box> */}
-        {/* <Box>
-          <div className="prime-cta" style={{ marginTop: "-40px" }}>
-            <Link href="#" legacyBehavior>
-              <a target="_blank">
-                <NextImage
-                  className="img-cta"
-                  style={{ cursor: "pointer", display: "inline" }}
-                  src={Coin}
-                  alt="Event - 1"
-                />
-              </a>
-            </Link>
-          </div>
-        </Box> */}
-        {/* <Box className="cta-btn">
-          <div className="prime-cta">
-            <div
-              className="primary-cta"
-              style={{ marginTop: "10px", width: "340px" }}
-            >
-              INVITATIONAL HOMEPAGE
-            </div>
-            <span class="tooltiptext">Coming Soon</span>
-          </div>
-        </Box> */}
-        {/* <Box className="non-desktop">
+        <Box className="non-desktop">
           <table className="tble">
             <thead>
               <tr>
@@ -441,7 +416,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#1 NLH - INVITATIONAL</td>
-                <td>$210,000</td>
+                <td>$200,000</td>
                 <td>$210,000</td>
                 <td>250,000</td>
                 <td>50 MIN </td>
@@ -453,7 +428,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#1 NLH - INVITATIONAL</td>
-                <td>$210,000</td>
+                <td>$200,000</td>
                 <td>$210,000</td>
                 <td>250,000</td>
                 <td>50 MIN </td>
@@ -465,7 +440,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>SINGLE</td>
                 <td>#2 NLH - TURBO (20K BOUNTY)</td>
-                <td>$52,000</td>
+                <td>$50,000</td>
                 <td>$52,000</td>
                 <td>200,000</td>
                 <td>20 MIN </td>
@@ -475,7 +450,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>THURSDAY , 26 OCT 2023</td>
                 <td>FT</td>
                 <td>#1 NLH - INVITATIONAL</td>
-                <td>$210,000</td>
+                <td>$200,000</td>
                 <td>$210,000</td>
                 <td>250,000</td>
                 <td>50 MIN </td>
@@ -485,7 +460,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>THURSDAY , 26 OCT 2023</td>
                 <td>1</td>
                 <td>#3 NLH - MAIN EVENT</td>
-                <td>$132,000</td>
+                <td>$125,000</td>
                 <td>$130,000</td>
                 <td>250,000</td>
                 <td>50 MIN </td>
@@ -497,7 +472,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#3 NLH - MAIN EVENT</td>
-                <td>$132,000</td>
+                <td>$125,000</td>
                 <td>$130,000</td>
                 <td>250,000</td>
                 <td>50 MIN </td>
@@ -509,7 +484,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>SINGLE</td>
                 <td>#5 NLH - TURBO</td>
-                <td>$26,000</td>
+                <td>$25,000</td>
                 <td>$26,000</td>
                 <td>200,000</td>
                 <td>20 MIN </td>
@@ -521,7 +496,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>FT</td>
                 <td>#3 NLH - MAIN EVENT</td>
-                <td>$132,000</td>
+                <td>$125,000</td>
                 <td>$130,000</td>
                 <td>250,000</td>
                 <td>50 MIN </td>
@@ -533,7 +508,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#6 NLH - 8 HANDED</td>
-                <td>$106,000</td>
+                <td>$100,000</td>
                 <td>$104,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
@@ -545,7 +520,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#6 NLH - 8 HANDED</td>
-                <td>$106,000</td>
+                <td>$100,000</td>
                 <td>$104,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
@@ -557,7 +532,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#7 NLH - 7 HANDED</td>
-                <td>$31,800</td>
+                <td>$30,000</td>
                 <td>$31,800</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
@@ -569,7 +544,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#7 NLH - 7 HANDED</td>
-                <td>$31,800</td>
+                <td>$30,000</td>
                 <td>$31,800</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
@@ -581,7 +556,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#8 NLH - 7 HANDED (MYSTERY BOUNTY)</td>
-                <td>$42,400</td>
+                <td>$40,000</td>
                 <td>$42,400</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
@@ -593,7 +568,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#8 NLH - 7 HANDED (MYSTERY BOUNTY)</td>
-                <td>$42,400</td>
+                <td>$40,000</td>
                 <td>$42,400</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
@@ -605,7 +580,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#9 NLH - 8 HANDED </td>
-                <td>$53,000</td>
+                <td>$50,000</td>
                 <td>$52,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
@@ -617,7 +592,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#9 NLH - 8 HANDED </td>
-                <td>$53,000</td>
+                <td>$50,000</td>
                 <td>$52,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
@@ -629,7 +604,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#10 GG MILLION$ LIVE</td>
-                <td>$25,500</td>
+                <td>$25,000</td>
                 <td>$26,500</td>
                 <td>250,000</td>
                 <td>40 MIN </td>
@@ -642,7 +617,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>2</td>
                 <td>#10 GG MILLION$ LIVE</td>
                 <td>$25,000</td>
-                <td>$25,000</td>
+                <td>$26,500</td>
                 <td>250,000</td>
                 <td>40 MIN </td>
               </tr>
@@ -653,7 +628,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#11 POT LIMIT OMAHA (10K BOUNTY)</td>
-                <td>$31,200</td>
+                <td>$30,000</td>
                 <td>$31,200</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
@@ -665,7 +640,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#11 POT LIMIT OMAHA (10K BOUNTY)</td>
-                <td>$31,200</td>
+                <td>$30,000</td>
                 <td>$31,200</td>
                 <td>200,000</td>
                 <td>30 MIN</td>
@@ -677,7 +652,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#12 POT LIMIT OMAHA</td>
-                <td>$52,000</td>
+                <td>$50,000</td>
                 <td>$52,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
@@ -689,7 +664,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#12 POT LIMIT OMAHA</td>
-                <td>$52,000</td>
+                <td>$50,000</td>
                 <td>$52,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
@@ -701,16 +676,16 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>SINGLE</td>
                 <td>#13 PLO - TURBO</td>
-                <td>$26,000</td>
+                <td>$25,000</td>
                 <td>$26,000</td>
                 <td>200,000</td>
                 <td>20/15 MIN</td>
               </tr>
             </tbody>
           </table>
-        </Box> */}
+        </Box>
 
-        {/* <Box className="non-mobile">
+        <Box className="non-mobile">
           <table>
             <thead>
               <tr>
@@ -754,7 +729,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#1 NLH - INVITATIONAL</td>
-                <td>$210K</td>
+                <td>$200K</td>
                 <td>$210K</td>
                 <td>250K</td>
                 <td>50 MIN </td>
@@ -766,7 +741,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#1 NLH - INVITATIONAL</td>
-                <td>$210K</td>
+                <td>$200K</td>
                 <td>$210K</td>
                 <td>250K</td>
                 <td>50 MIN </td>
@@ -778,7 +753,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>SINGLE</td>
                 <td>#2 NLH - TURBO (20K BOUNTY)</td>
-                <td>$52K</td>
+                <td>$50K</td>
                 <td>$52K</td>
                 <td>210K</td>
                 <td>20 MIN </td>
@@ -790,7 +765,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>FT</td>
                 <td>#1 NLH - INVITATIONAL</td>
-                <td>$210K</td>
+                <td>$200K</td>
                 <td>$210K</td>
                 <td>250K</td>
                 <td>50 MIN </td>
@@ -802,7 +777,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#3 NLH - MAIN EVENT</td>
-                <td>$132.5K</td>
+                <td>$125K</td>
                 <td>$130K</td>
                 <td>250K</td>
                 <td>50 MIN </td>
@@ -814,7 +789,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#3 NLH - MAIN EVENT</td>
-                <td>$132.5K</td>
+                <td>$125K</td>
                 <td>$130K</td>
                 <td>250K</td>
                 <td>50 MIN </td>
@@ -826,7 +801,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>SINGLE</td>
                 <td>#5 NLH - TURBO</td>
-                <td>$26K</td>
+                <td>$25K</td>
                 <td>$26K</td>
                 <td>200K</td>
                 <td>20 MIN </td>
@@ -838,7 +813,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>FT</td>
                 <td>#3 NLH - MAIN EVENT</td>
-                <td>$132K</td>
+                <td>$125K</td>
                 <td>$130K</td>
                 <td>250K</td>
                 <td>50 MIN </td>
@@ -850,7 +825,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#6 NLH - 8 HANDED</td>
-                <td>$106K</td>
+                <td>$100K</td>
                 <td>$104K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
@@ -862,7 +837,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#6 NLH - 8 HANDED</td>
-                <td>$106K</td>
+                <td>$100K</td>
                 <td>$104K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
@@ -874,7 +849,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#7 NLH - 7 HANDED</td>
-                <td>$31.8K</td>
+                <td>$30K</td>
                 <td>$31.8K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
@@ -886,7 +861,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#7 NLH - 7 HANDED</td>
-                <td>$31.8K</td>
+                <td>$30K</td>
                 <td>$31.8K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
@@ -898,7 +873,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#8 NLH - 7 HANDED (MYSTERY BOUNTY)</td>
-                <td>$42.4K</td>
+                <td>$40K</td>
                 <td>$42.4K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
@@ -910,7 +885,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#8 NLH - 7 HANDED (MYSTERY BOUNTY)</td>
-                <td>$42.4K</td>
+                <td>$40K</td>
                 <td>$42.4K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
@@ -922,7 +897,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#9 NLH - 8 HANDED </td>
-                <td>$53K</td>
+                <td>$50K</td>
                 <td>$52K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
@@ -934,7 +909,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#9 NLH - 8 HANDED </td>
-                <td>$53K</td>
+                <td>$50K</td>
                 <td>$52K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
@@ -946,7 +921,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#10 GG MILLION$ LIVE</td>
-                <td>$26.5K</td>
+                <td>$25K</td>
                 <td>$26.5K</td>
                 <td>250K</td>
                 <td>40 MIN </td>
@@ -958,7 +933,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#10 GG MILLION$ LIVE</td>
-                <td>$26.5K</td>
+                <td>$25K</td>
                 <td>$26.5K</td>
                 <td>250K</td>
                 <td>40 MIN </td>
@@ -970,7 +945,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#11 POT LIMIT OMAHA (10K BOUNTY)</td>
-                <td>$31.2K</td>
+                <td>$30K</td>
                 <td>$31.2K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
@@ -982,7 +957,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#11 POT LIMIT OMAHA (10K BOUNTY)</td>
-                <td>$31.2K</td>
+                <td>$30K</td>
                 <td>$31.2K</td>
                 <td>200K</td>
                 <td>30 MIN</td>
@@ -994,7 +969,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#12 POT LIMIT OMAHA</td>
-                <td>$52K</td>
+                <td>$50K</td>
                 <td>$52K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
@@ -1006,7 +981,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#12 POT LIMIT OMAHA</td>
-                <td>$52K</td>
+                <td>$50K</td>
                 <td>$52K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
@@ -1018,16 +993,16 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>SINGLE</td>
                 <td>#13 PLO - TURBO</td>
-                <td>$26K</td>
+                <td>$25K</td>
                 <td>$26K</td>
                 <td>200K</td>
                 <td>20/15 MIN</td>
               </tr>
             </tbody>
           </table>
-        </Box> */}
+        </Box>
         <Box className="cta-btn">
-          {/* <div className="prime-cta">
+          <div className="prime-cta">
             <div
               className="primary-cta"
               style={{ marginTop: "10px", width: "340px" }}
@@ -1035,7 +1010,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               TOURNAMENT STRUCTURES
             </div>
             <span class="tooltiptext">Coming Soon</span>
-          </div> */}
+          </div>
           {/* <div className="prime-cta">
             <Link
               href="https://cdn.triton-series.com/wp-content/uploads/2019/12/23185433/TritonPoker--London-Booklet-E.pdf"
@@ -1051,7 +1026,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               </a>
             </Link>
           </div> */}
-          {/* <Link
+          <Link
             href="https://triton-series.com/tournament-rules/"
             legacyBehavior
           >
@@ -1063,7 +1038,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 TOURNAMENT RULES
               </div>
             </a>
-          </Link> */}
+          </Link>
         </Box>
       </Container>
     </SectionWrapper>
