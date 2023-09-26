@@ -31,14 +31,14 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
       <Container>
         <Box {...row}>
           <Logo
-            href="https://www.triton-series.com/"
+            href="#"
             logoSrc={LogoImage}
             title="Portfolio"
             logoStyle={logoStyle}
             className="main-logo"
           />
           <Logo
-            href="https://www.triton-series.com/"
+            href="#"
             logoSrc={LogoImageAlt}
             title="Portfolio"
             logoStyle={logoStyle}
