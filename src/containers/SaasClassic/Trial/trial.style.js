@@ -36,7 +36,7 @@ const SectionWrapper = styled.section`
     display: inline;
   }
   .sponsor1 {
-    width: 25%;
+    width: 32%;
   }
   .logoh {
     height: 150px;

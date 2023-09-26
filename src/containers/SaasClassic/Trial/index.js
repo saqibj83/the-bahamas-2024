@@ -104,11 +104,6 @@ const TrialSection = ({
 
             <Box className="sponsor-2">
               <div className="sponsor1" style={{ display: "inline" }}>
-                <a href="https://luxon.com/" target="_blank">
-                  <NextImage src={VendorLogos2} alt="Luxon" />
-                </a>
-              </div>
-              <div className="sponsor1" style={{ display: "inline" }}>
                 <a href="https://bombay.io/" target="_blank">
                   <NextImage
                     src={VendorLogos4}
