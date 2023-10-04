@@ -153,7 +153,9 @@ const SectionWrapper = styled.section`
     .non-desktop {
       display: none;
     }
-
+    .video-modal {
+      min-width: 350px !important;
+    }
     table {
       width: 600px;
     }
