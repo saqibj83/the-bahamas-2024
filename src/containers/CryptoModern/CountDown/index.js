@@ -25,20 +25,20 @@ const CountDownSection = () => {
               <NormalClock countdown={deadline} divider="true" />
             </div>
           </Fade> */}
-          <h2>LIVE CHANNELS</h2>
-          <Link href="https://twitch.tv/tritonpoker" legacyBehavior>
-            <a target="_blank">
-              <button class="btn btn-twitch">
-                <Icon size={30} icon={twitch} />
-                <span>Twitch</span>
-              </button>
-            </a>
-          </Link>
+          <h2>LIVESTREAM CHANNELS</h2>
           <Link href="https://www.youtube.com/c/TritonPoker/" legacyBehavior>
             <a target="_blank">
               <button class="btn btn-youtube">
                 <Icon size={30} icon={youtube} />
                 <span>Youtube</span>
+              </button>
+            </a>
+          </Link>
+          <Link href="https://twitch.tv/tritonpoker" legacyBehavior>
+            <a target="_blank">
+              <button class="btn btn-twitch">
+                <Icon size={30} icon={twitch} />
+                <span>Twitch</span>
               </button>
             </a>
           </Link>
