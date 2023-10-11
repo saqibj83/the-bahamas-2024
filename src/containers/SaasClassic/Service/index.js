@@ -446,7 +446,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               </tr>
               <tr>
                 <td>1:00 PM</td>
-                <td>THURSDAY , 26 OCT 2023</td>
+                <td>
+                  THURSDAY <br /> 26 OCT 2023
+                </td>
                 <td>FT</td>
                 <td onClick={EventModal1} style={{ cursor: "pointer" }}>
                   #1 NLH - INVITATIONAL
@@ -458,7 +460,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               </tr>
               <tr>
                 <td>2:00 PM</td>
-                <td>THURSDAY , 26 OCT 2023</td>
+                <td>
+                  THURSDAY <br /> 26 OCT 2023
+                </td>
                 <td>1</td>
                 <td onClick={EventModal3} style={{ cursor: "pointer" }}>
                   #3 NLH - MAIN EVENT
