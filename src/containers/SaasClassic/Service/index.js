@@ -571,7 +571,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>30 MIN </td>
               </tr>
               <tr>
-                <td>2:00 PM</td>
+                <td>3:00 PM</td>
                 <td>
                   MONDAY <br /> 30 OCT 2023
                 </td>
@@ -627,7 +627,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>35 MIN </td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>1:30 PM</td>
                 <td>
                   WEDNESDAY <br /> 1 NOV 2023
                 </td>
@@ -934,7 +934,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>30 MIN </td>
               </tr>
               <tr>
-                <td>2:00 PM</td>
+                <td>3:00 PM</td>
                 <td>
                   MON <br /> 30 OCT
                 </td>
@@ -1004,7 +1004,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>40 MIN </td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>1:30 PM</td>
                 <td>
                   THU <br /> 2 NOV
                 </td>
