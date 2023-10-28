@@ -25,7 +25,7 @@ const ModalContent = () => (
   <VideoWrapper>
     <iframe
       title="Video"
-      src="https://www.youtube.com/embed/KdPf2hiTe54"
+      src="https://www.youtube.com/embed/mGfoLo1-aZY"
       frameBorder="0"
     />
   </VideoWrapper>
@@ -67,7 +67,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
           <div className="video-section">
             <Fade bottom>
               <ReactPlayer
-                url="https://www.youtube.com/embed/KdPf2hiTe54"
+                url="https://www.youtube.com/embed/mGfoLo1-aZY"
                 // light="https://cdn.triton-series.com/wp-content/uploads/2019/12/29120652/video-banner.png"
                 playing={true}
                 playsinline
