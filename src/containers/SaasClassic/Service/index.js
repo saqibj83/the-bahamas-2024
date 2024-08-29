@@ -349,21 +349,21 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
             "
           />
         </Box>
-        {/* <div className="cetered">
+        <div className="cetered">
           <img
             className="title-img"
             src="https://triton-aws-s3-images-bucket.s3.ap-southeast-1.amazonaws.com/title_70004969ce.png"
             alt=""
           />
-        </div> */}
+        </div>
 
-        {/* <div className="prime-cta">
-          <Link href="http://mc-invitational.triton-series.com" legacyBehavior>
+        <div className="prime-cta">
+          <Link href="#" legacyBehavior>
             <a target="_blank">
               <Button title=" INVITATIONAL HOMEPAGE" className="primary-cta" />
             </a>
           </Link>
-        </div> */}
+        </div>
 
         <Box className="non-desktop">
           <table className="tble">
