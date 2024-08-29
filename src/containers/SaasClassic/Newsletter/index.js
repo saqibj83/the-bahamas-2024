@@ -22,8 +22,8 @@ const Newsletter = ({
   title,
   description,
 }) => {
-  const [startDate, setStartDate] = useState(new Date("10/01/2023"));
-  const [endDate, setEndDate] = useState(new Date("10/01/2023"));
+  const [startDate, setStartDate] = useState(new Date("10/01/2024"));
+  const [endDate, setEndDate] = useState(new Date("10/01/2024"));
   const [message, setmessage] = useState();
   const form = useRef();
 
