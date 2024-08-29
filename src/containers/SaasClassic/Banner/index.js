@@ -65,7 +65,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             />
           </Box>
           <div className="video-section">
-            <Fade bottom>
+            {/* <Fade bottom>
               <ReactPlayer
                 url="https://www.youtube.com/embed/uq9pc9-u5Qg"
                 // light="https://cdn.triton-series.com/wp-content/uploads/2019/12/29120652/video-banner.png"
@@ -75,17 +75,17 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 height="400px"
                 controls
               />
-            </Fade>
-            {/* <NextImage
+            </Fade> */}
+            <NextImage
               src={Video}
               alt="Video image"
               style={{ display: "inline" }}
-            /> */}
+            />
           </div>
           <Box {...contentWrapper}>
             <div className="text-st">
               <span>Monte-Carlo Sporting - Salle Des Étoiles</span> <br />
-              OCTOBER 24<sup>th</sup> - NOVEMBER 4<sup>th</sup>, 2023
+              OCTOBER 31<sup>th</sup> - NOVEMBER 15<sup>th</sup>, 2024
             </div>
           </Box>
         </Box>

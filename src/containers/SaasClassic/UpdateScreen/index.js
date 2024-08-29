@@ -36,10 +36,10 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
           <TabPane tab="Accommodation" key="2">
             <ul>
               <li>
-                Arrival: 23<sup>rd</sup> of October 2023
+                Arrival: 30<sup>th</sup> of October 2024
               </li>
               <li>
-                Departure: 5<sup>th</sup> of November 2023
+                Departure: 16<sup>th</sup> of November 2024
               </li>
               <li>Accommodation: Monte-Carlo Bay Hotel & Resort</li>
               {/* <li>
