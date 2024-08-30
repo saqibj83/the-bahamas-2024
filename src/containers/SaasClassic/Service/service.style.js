@@ -15,6 +15,7 @@ const SectionWrapper = styled.section`
     font-size: 16px;
     text-transform: uppercase;
     padding: 15px 40px 15px;
+
     background: linear-gradient(
       90deg,
       rgba(190, 123, 14, 1) 0%,
@@ -105,6 +106,8 @@ const SectionWrapper = styled.section`
     padding: 75px 0 5px 0;
     .prime-cta {
       flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
     }
     .primary-cta {
       margin: 0px;
