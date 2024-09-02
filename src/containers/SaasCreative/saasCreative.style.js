@@ -1,5 +1,5 @@
-import styled, { createGlobalStyle, keyframes } from 'styled-components';
-import { themeGet } from '@styled-system/theme-get';
+import styled, { createGlobalStyle, keyframes } from "styled-components";
+import { themeGet } from "@styled-system/theme-get";
 
 const Fade = keyframes`
   0% {
@@ -72,7 +72,7 @@ export const GlobalStyle = createGlobalStyle`
             position: relative;
             transition: 0.15s ease-in-out;
             @media (max-width: 767px) {
-              font-size: 18px;
+              font-size: 16px;
             }
             &:hover {
               color: #ff4361;
@@ -206,18 +206,18 @@ export const ContentWrapper = styled.div`
         }
         &.is-current {
           a {
-            color: ${themeGet('colors.primary')};
+            color: ${themeGet("colors.primary")};
           }
         }
         a {
-          color: ${themeGet('colors.white')};
+          color: ${themeGet("colors.white")};
           font-size: 15px;
           line-height: 2.2;
           font-weight: 500;
           padding: 5px;
           transition: 0.15s ease-in-out;
           &:hover {
-            color: ${themeGet('colors.primary')};
+            color: ${themeGet("colors.primary")};
           }
         }
       }
@@ -259,7 +259,7 @@ export const ContentWrapper = styled.div`
       }
       .hamburgMenu__bar {
         > span {
-          background-color: ${themeGet('colors.white')};
+          background-color: ${themeGet("colors.white")};
         }
       }
     }
@@ -267,7 +267,7 @@ export const ContentWrapper = styled.div`
 
   .sticky-nav-active {
     .sass_creative_navbar {
-      background-color: ${themeGet('colors.white')};
+      background-color: ${themeGet("colors.white")};
       box-shadow: 0px 3px 8px 0px rgba(43, 83, 135, 0.08);
       padding: 15px 0;
       .main-logo {
@@ -277,7 +277,7 @@ export const ContentWrapper = styled.div`
         display: block;
       }
       .main_menu li a {
-        color: ${themeGet('colors.headingColor')};
+        color: ${themeGet("colors.headingColor")};
       }
       .main_menu li:hover a,
       .main_menu li.is-current a {
@@ -286,12 +286,12 @@ export const ContentWrapper = styled.div`
       .reusecore-drawer__handler {
         .hamburgMenu__bar {
           > span {
-            background-color: ${themeGet('colors.headingColor')};
+            background-color: ${themeGet("colors.headingColor")};
           }
         }
       }
       .navbar_button_one button {
-        color: ${themeGet('colors.headingColor')};
+        color: ${themeGet("colors.headingColor")};
       }
       .navbar_button_two button {
       }

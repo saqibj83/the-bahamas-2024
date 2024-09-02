@@ -46,6 +46,7 @@ const ResetCSS = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    font-family:Montserrat, sans-serif !important;
   }
 
   body {
