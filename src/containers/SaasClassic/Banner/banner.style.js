@@ -17,12 +17,13 @@ const Bubble = keyframes`
 
 export const BannerWrapper = styled.section`
   padding: 100px 0 50px 0;
-  background-image: url(${BgIMage?.src});
+  background-image: url("https://cdn.triton-series.com/wp-content/uploads/2019/12/02135525/main-banner.png");
   background-size: cover;
   background-position: top center;
   overflow: hidden;
   background-repeat: no-repeat;
   background-color: #000;
+  min-height: 100vh;
   .video-section {
     width: 100%;
     display: flex;
@@ -39,7 +40,8 @@ export const BannerWrapper = styled.section`
   @media (max-width: 575px) {
     padding: 120px 0 0 0;
     background-size: contain;
-    background-image: url(${MobIMage?.src});
+    background-image: url("https://cdn.triton-series.com/wp-content/uploads/2019/12/02135522/mobile-banner.png");
+    min-height: 80vh;
     .react-reveal > div {
       width: 400px !important;
       height: 225px !important;

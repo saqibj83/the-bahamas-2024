@@ -57,15 +57,15 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
       <Container>
         <Box {...row}>
           <Box {...contentWrapper} className="text-center">
-            <NextImage
+            {/* <NextImage
               className="cyprus-img"
               src={Cyprus}
               alt="cyprus image"
               style={{ display: "inline" }}
-            />
+            /> */}
           </Box>
-          <div className="video-section">
-            {/* <Fade bottom>
+          {/* <div className="video-section">
+            <Fade bottom>
               <ReactPlayer
                 url="https://www.youtube.com/embed/uq9pc9-u5Qg"
                 // light="https://cdn.triton-series.com/wp-content/uploads/2019/12/29120652/video-banner.png"
@@ -75,7 +75,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 height="400px"
                 controls
               />
-            </Fade> */}
+            </Fade>
             <NextImage
               src={Video}
               alt="Video image"
@@ -87,7 +87,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
               <span>Monte-Carlo Sporting - Salle Des Étoiles</span> <br />
               NOVEMBER 1<sup>st</sup> - NOVEMBER 14<sup>th</sup>, 2024
             </div>
-          </Box>
+          </Box> */}
         </Box>
       </Container>
     </BannerWrapper>
