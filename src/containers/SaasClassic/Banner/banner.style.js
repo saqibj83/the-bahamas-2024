@@ -17,13 +17,13 @@ const Bubble = keyframes`
 
 export const BannerWrapper = styled.section`
   padding: 100px 0 50px 0;
-  background-image: url("https://cdn.triton-series.com/wp-content/uploads/2019/12/02151737/web-cover.png");
+  background-image: url("https://cdn.triton-series.com/wp-content/uploads/2019/12/03122436/banner-2main.png");
   background-size: cover;
   background-position: top center;
   overflow: hidden;
   background-repeat: no-repeat;
   background-color: #000;
-  min-height: 100vh;
+  min-height: 90vh;
   .video-section {
     width: 100%;
     display: flex;
