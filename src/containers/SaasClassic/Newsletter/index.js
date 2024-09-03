@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import DatePicker from "react-datepicker";
 import PropTypes from "prop-types";
+import Link from "next/link";
 import Box from "common/components/Box";
 import Text from "common/components/Text";
 import Heading from "common/components/Heading";
@@ -22,8 +23,8 @@ const Newsletter = ({
   title,
   description,
 }) => {
-  const [startDate, setStartDate] = useState(new Date("10/01/2024"));
-  const [endDate, setEndDate] = useState(new Date("10/01/2024"));
+  const [startDate, setStartDate] = useState(new Date("05/01/2024"));
+  const [endDate, setEndDate] = useState(new Date("05/01/2024"));
   const [message, setmessage] = useState();
   const form = useRef();
 
@@ -50,131 +51,48 @@ const Newsletter = ({
   };
 
   return (
-    <Box {...sectionWrapper} as="section" id="join_section">
+    <Box
+      {...sectionWrapper}
+      as="section"
+      id="join_section"
+      style={{
+        textAlign: "center",
+        background:
+          "url(https://cdn.triton-series.com/wp-content/uploads/2019/12/08151254/Triton-Live-Stream-Set_2023-Triton-Monte-Carlo-SHRS_EV01-200K-NLH-Invitational_Day-1_Giron_JG84640-2.jpg)",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <Container>
         <Box style={{ paddingTop: "100px" }}>
           <Heading
-            style={{ marginBottom: "80px" }}
+            style={{
+              marginBottom: "10px",
+              paddingTop: "50px",
+              fontSize: "60px",
+            }}
             {...title}
-            content="WANT TO JOIN THE ACTION? 
-"
+            content="WANT TO JOIN THE ACTION? "
           />
         </Box>
         <NewsletterWrapper>
-          <form ref={form} onSubmit={sendEmail}>
-            <Box {...textArea}>
-              <ContactFormWrapper>
-                <Container>
-                  <Input
-                    inputType="text"
-                    label="NAME"
-                    iconPosition="right"
-                    isMaterial={true}
-                    className="email_input"
-                    required
-                  />
-                  <Input
-                    inputType="text"
-                    label="AGE"
-                    iconPosition="right"
-                    isMaterial={true}
-                    className="email_input"
-                    required
-                  />
-                  <Box>
-                    {" "}
-                    <label htmlFor="">MESSAGE</label>
-                  </Box>
-                  <textarea
-                    name="message"
-                    label="Message"
-                    cols="40"
-                    rows="5"
-                    class="email_input"
-                    style={{
-                      marginTop: "20px",
-                      width: "100%",
-                      background: "transparent",
-                      border: "1px solid #514f50",
-                    }}
-                  ></textarea>
-                </Container>
-              </ContactFormWrapper>
-            </Box>
-            <Box {...buttonArea}>
-              <ContactFormWrapper>
-                <Container>
-                  <Input
-                    inputType="email"
-                    label="EMAIL"
-                    iconPosition="right"
-                    isMaterial={true}
-                    className="email_input emil"
-                    required
-                  />
-                  <Select
-                    options={DOMAIN_NAMES}
-                    placeholder="Event To Join"
-                    className="domain_search_select"
-                    aria-label="select options"
-                    name="event"
-                  />
-                  <Input
-                    inputType="text"
-                    label="REFERRAL"
-                    iconPosition="right"
-                    isMaterial={true}
-                    className="email_input"
-                    style={{ marginTop: "40px" }}
-                  />
-                  <Box>
-                    {" "}
-                    <label htmlFor="">LENGTH OF STAY*</label>
-                  </Box>
-                  <DatePicker
-                    selected={startDate}
-                    name="start_date"
-                    className="date_input"
-                    dateFormat="dd/MM/yyyy"
-                    onChange={(date) => setStartDate(date)}
-                    selectsStart
-                    startDate={startDate}
-                    endDate={endDate}
-                  />
-                  <span className="to">To</span>
-
-                  <DatePicker
-                    selected={endDate}
-                    name="end_date"
-                    className="date_input"
-                    dateFormat="dd/MM/yyyy"
-                    onChange={(date) => setEndDate(date)}
-                    selectsEnd
-                    startDate={startDate}
-                    endDate={endDate}
-                    minDate={startDate}
-                  />
-                  <Box>
-                    <div
-                      style={{
-                        color: "#EBA800",
-                        color: "rgb(235, 168, 0)",
-                        marginBottom: "0px",
-                        fontWeight: "700",
-                      }}
-                    >
-                      {message}
-                    </div>
-                    <Button
-                      {...buttonStyle}
-                      title="Send    "
-                      style={{ marginTop: "30px", background: "#000" }}
-                    />
-                  </Box>
-                </Container>
-              </ContactFormWrapper>
-            </Box>
-          </form>
+          <Box className="join">
+            <p style={{ color: "#fff", fontSize: "22px" }}>
+              Take your seat at the table by completing our player application
+              form.
+            </p>
+            <div className="prime-cta">
+              <Link
+                href="https://triton-series.com/player-registration/"
+                legacyBehavior
+              >
+                <a target="_blank">
+                  <div className="primary-cta">REGISTER NOW</div>
+                </a>
+              </Link>
+              <p className="small">*Terms & Conditions apply.</p>
+            </div>
+          </Box>
         </NewsletterWrapper>
       </Container>
     </Box>
@@ -209,9 +127,9 @@ Newsletter.defaultProps = {
     letterSpacing: "-0.025em",
   },
   description: {
-    fontSize: ["14px", "14px"],
+    fontSize: ["22px", "22px"],
     fontWeight: "400",
-    color: "#fefefe",
+    color: "#fff",
     lineHeight: "1.7",
     mb: 0,
     textAlign: ["center", "center", "center", "left", "left"],

@@ -1,23 +1,36 @@
 import styled from "styled-components";
-
 const NewsletterWrapper = styled.div`
-  position: relative;
-  background: #fff !important;
-  border: 3px solid #eba800 !important;
-  padding: 60px 80px 30px;
-  border-radius: 10px;
+.join {
   display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  form {
-    display: flex;
-  }
-  @media (max-width: 1220px) {
-    padding: 35px 40px;
-  }
-  section#join_section {
-    background: #000 !important;
-  }
+}
+.small {
+color:#fff;
+font-size:14px;
+margin-top:100px;
+margin-bottom:100px
+}
+  align-items: center;
+  .primary-cta {
+    text-decoration: none;
+    color: #000;
+    margin: 100px 20px 0px;
+    min-width: 350px;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 15px 40px 15px;
+    background: linear-gradient(
+      90deg,
+      rgba(190, 123, 14, 1) 0%,
+      rgba(213, 149, 42, 1) 17%,
+      rgba(203, 158, 71, 1) 35%,
+      rgba(235, 194, 113, 1) 50%,
+      rgba(199, 133, 28, 1) 90%,
+      rgba(215, 131, 0, 1) 100%
+    );
   .react-datepicker-wrapper {
     position: relative;
     width: 40% !important;
