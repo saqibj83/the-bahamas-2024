@@ -352,7 +352,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         <div className="cetered">
           <img
             className="title-img"
-            src="https://triton-aws-s3-images-bucket.s3.ap-southeast-1.amazonaws.com/title_70004969ce.png"
+            src="https://cdn.triton-series.com/wp-content/uploads/2019/12/03112319/invitationn-text.png"
             alt=""
           />
         </div>
