@@ -442,7 +442,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>
                   Sunday <br /> Nov 3, 2024
                 </td>
-                <td>FINAL (IF NEC)</td>
+                <td>Final Day</td>
                 <td>#1 NLH 8-Handed</td>
                 <td>$25,000</td>
                 <td>250,000</td>
@@ -673,7 +673,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>
                   Wednesday <br /> Nov 13, 2024
                 </td>
-                <td>FINAL (IF NEC)</td>
+                <td>Final Day</td>
                 <td>#12 NLH - 8 Handed</td>
                 <td>$150,000</td>
                 <td>200,000</td>
@@ -794,7 +794,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>
                   Sun <br /> Nov 3, 2024
                 </td>
-                <td>FINAL (IF NEC)</td>
+                <td>Final Day</td>
                 <td>#1 NLH 8-Handed</td>
                 <td>$25K</td>
                 <td>250K</td>
@@ -1025,7 +1025,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>
                   Wed <br /> Nov 13, 2024
                 </td>
-                <td>FINAL (IF NEC)</td>
+                <td>Final Day</td>
                 <td>#12 NLH - 8 Handed</td>
                 <td>$150K</td>
                 <td>200K</td>
