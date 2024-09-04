@@ -17,7 +17,7 @@ const Bubble = keyframes`
 
 export const BannerWrapper = styled.section`
   padding: 100px 0 50px 0;
-  background-image: url("https://cdn.triton-series.com/wp-content/uploads/2019/12/03122436/banner-2main.png");
+  background-image: url("https://cdn.triton-series.com/wp-content/uploads/2019/12/04133121/web-min-v2.png");
   background-size: cover;
   background-position: top center;
   overflow: hidden;
@@ -40,7 +40,7 @@ export const BannerWrapper = styled.section`
   @media (max-width: 575px) {
     padding: 120px 0 0 0;
     background-size: contain;
-    background-image: url("https://cdn.triton-series.com/wp-content/uploads/2019/12/02135522/mobile-banner.png");
+    background-image: url("https://cdn.triton-series.com/wp-content/uploads/2019/12/04133128/mobile-main-v2.png");
     min-height: 80vh;
     .react-reveal > div {
       width: 400px !important;
