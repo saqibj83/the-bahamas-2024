@@ -410,7 +410,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Friday <br /> Nov 1, 2024
                 </td>
                 <td>1</td>
-                <td>#1 NLH 8-Handed 25k</td>
+                <td>#1 NLH 8-Handed</td>
                 <td>$25,000</td>
                 <td>250,000</td>
                 <td>40 MIN </td>
@@ -421,7 +421,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Saturday <br /> Nov 2, 2024
                 </td>
                 <td>2</td>
-                <td>#1 NLH 8-Handed 25k</td>
+                <td>#1 NLH 8-Handed</td>
                 <td>$25,000</td>
                 <td>250,000</td>
                 <td>40 MIN </td>
@@ -443,7 +443,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sunday <br /> Nov 3, 2024
                 </td>
                 <td>FINAL (IF NEC)</td>
-                <td>#1 NLH 8-Handed 25k</td>
+                <td>#1 NLH 8-Handed</td>
                 <td>$25,000</td>
                 <td>250,000</td>
                 <td>40 MIN </td>
@@ -762,7 +762,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Fri <br /> Nov 1, 2024
                 </td>
                 <td>1</td>
-                <td>#1 NLH 8-Handed 25k</td>
+                <td>#1 NLH 8-Handed</td>
                 <td>$25K</td>
                 <td>250K</td>
                 <td>40 MIN </td>
@@ -773,7 +773,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sat <br /> Nov 2, 2024
                 </td>
                 <td>2</td>
-                <td>#1 NLH 8-Handed 25k</td>
+                <td>#1 NLH 8-Handed</td>
                 <td>$25K</td>
                 <td>250K</td>
                 <td>40 MIN </td>
@@ -795,7 +795,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sun <br /> Nov 3, 2024
                 </td>
                 <td>FINAL (IF NEC)</td>
-                <td>#1 NLH 8-Handed 25k</td>
+                <td>#1 NLH 8-Handed</td>
                 <td>$25K</td>
                 <td>250K</td>
                 <td>40 MIN </td>
