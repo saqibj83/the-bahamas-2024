@@ -42,20 +42,20 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                 Departure: 15<sup>th</sup> of November 2024
               </li>
               <li>Accommodation: Monte-Carlo Bay Hotel & Resort</li>
-              {/* <li>
-                During Triton Series CYPRUS complimentary accommodation is
-                offered to players who will qualify for the USD 300K combined
-                spend in tournament buy-ins. We are pleased to offer
-                complimentary accommodations at the Merit Royal Diamond Hotel
-              </li> */}
               <li>
                 <Link
-                  href="https://triton-series.com/triton-poker-monte-carlo-2023-accommodation-tc/"
+                  href="https://triton-series.com/accommodation-monte-carlo-2024-en/"
                   legacyBehavior
                 >
-                  <a target="_blank">
-                    Click here for accommodation terms and conditions
-                  </a>
+                  <a target="_blank">EN - Hotel Promo T&C</a>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://triton-series.com/accommodation-monte-carlo-2024-cn/"
+                  legacyBehavior
+                >
+                  <a target="_blank">CN - Hotel Promo T&C</a>
                 </Link>
               </li>
             </ul>
