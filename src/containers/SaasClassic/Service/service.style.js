@@ -206,7 +206,7 @@ const SectionWrapper = styled.section`
     }
     td:nth-child(4),
     th:nth-child(4) {
-      width: 90px !important;
+      width: 100px !important;
       font-size: 10px !important;
     }
     td:nth-child(5),
