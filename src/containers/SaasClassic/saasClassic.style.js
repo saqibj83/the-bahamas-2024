@@ -31,6 +31,7 @@ export const GlobalStyle = createGlobalStyle`
   h5,
   h6 {
    font-family:Montserrat, sans-serif;
+   font-weight:800;
     text-transform: uppercase;
   }
 
