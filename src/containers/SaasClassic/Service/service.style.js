@@ -310,7 +310,7 @@ const SectionWrapper = styled.section`
   }
   td:nth-child(4),
   th:nth-child(4) {
-    width: 135px;
+    width: 150px;
     font-size: 16px;
     font-weight: bold;
     color: #eba800;
