@@ -75,45 +75,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
               </li>
             </ul>
           </TabPane>
-          <TabPane tab="Travel Information" key="3">
-            <h3 className="mb-3"> Arrival & Transfers</h3>
-            <p className="mb-3">
-              The hotel is 20 km from Nice’s International Airport. We are
-              pleased to offer airport transfers with preferential rates. Please
-              get in touch with our VIP services for information on rates and
-              booking.
-            </p>
-            <p>Visa: TBC</p>
-            {/* <ul style={{ paddingLeft: "20px" }}>
-              <li>
-                VISA INFORMATION: Passport holders of most countries require a
-                visa to enter the United Kingdom. To check your if you require a
-                UK visa, please visit &nbsp;
-                <Link href="https://www.gov.uk/check-uk-visa/y " legacyBehavior>
-                  <a target="_blank">https://www.gov.uk/check-uk-visa/y</a>
-                </Link>{" "}
-                . &nbsp; Once you know your visa requirement, you may apply for
-                a UK visa at &nbsp;
-                <Link
-                  href="https://visas-immigration.service.gov.uk/product/uk-visit-visa "
-                  legacyBehavior
-                >
-                  <a target="_blank">
-                    https://visas-immigration.service.gov.uk/product/uk-visit-visa
-                  </a>
-                </Link>{" "}
-                . &nbsp; The online visa application will guide you through the
-                payment options and will email you a receipt once you complete
-                the payment. For further information on Visa Application
-                Procedure, please visit &nbsp;
-                <Link href="https://www.gov.uk/check-uk-visa " legacyBehavior>
-                  <a target="_blank">https://www.gov.uk/check-uk-visa</a>
-                </Link>
-              </li>
-            </ul> */}
-            <br />
-            <p></p>
-          </TabPane>
+
           <TabPane tab="Faq" key="4">
             <FaqWrapper id="faq_section">
               <Accordion>
