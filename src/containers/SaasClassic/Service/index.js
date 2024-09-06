@@ -357,14 +357,17 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
           />
         </div>
 
-        {/* <div className="prime-cta">
-          <Link href="#" legacyBehavior>
+        <div className="prime-cta">
+          <Link
+            href="https://invitational-monte-carlo-2024.vercel.app"
+            legacyBehavior
+          >
             <a target="_blank">
               <Button title=" INVITATIONAL HOMEPAGE" className="primary-cta" />
             </a>
           </Link>
-        </div> */}
-        <div className="prime-cta">
+        </div>
+        {/* <div className="prime-cta">
           <div
             className="primary-cta"
             style={{ marginTop: "10px", width: "340px" }}
@@ -372,7 +375,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
             INVITATIONAL HOMEPAGE
           </div>
           <span class="tooltiptext">Coming Soon</span>
-        </div>
+        </div> */}
 
         <Box className="non-desktop">
           <table className="tble">
