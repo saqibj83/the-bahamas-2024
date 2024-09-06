@@ -359,7 +359,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
 
         <div className="prime-cta">
           <Link
-            href="https://invitational-monte-carlo-2024.vercel.app"
+            href="https://invitational-monte-carlo-2024.triton-series.com/"
             legacyBehavior
           >
             <a target="_blank">
