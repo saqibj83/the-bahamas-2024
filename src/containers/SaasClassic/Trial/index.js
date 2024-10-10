@@ -8,7 +8,7 @@ import NextImage from "common/components/NextImage";
 import Container from "common/components/UI/Container";
 
 import SectionWrapper from "./trial.style";
-import VendorLogos from "common/assets/image/saasClassic/wpt-global1.png";
+import VendorLogos from "common/assets/image/saasClassic/wpt-global.png";
 import VendorLogos1 from "common/assets/image/saasClassic/marit.png";
 import VendorLogos2 from "common/assets/image/saasClassic/luxon-pay-h.png";
 import VendorLogos3 from "common/assets/image/saasClassic/lesambassadeurs_lesambassadeurs.svg";
