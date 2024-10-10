@@ -8,7 +8,7 @@ import NextImage from "common/components/NextImage";
 import Container from "common/components/UI/Container";
 
 import SectionWrapper from "./trial.style";
-import VendorLogos from "common/assets/image/saasClassic/gg-h.svg";
+import VendorLogos from "common/assets/image/saasClassic/wpt-global1.png";
 import VendorLogos1 from "common/assets/image/saasClassic/marit.png";
 import VendorLogos2 from "common/assets/image/saasClassic/luxon-pay-h.png";
 import VendorLogos3 from "common/assets/image/saasClassic/lesambassadeurs_lesambassadeurs.svg";
@@ -45,7 +45,7 @@ const TrialSection = ({
             </div>
 
             <div className="sponsor-2">
-              <Box className="sponsor" style={{ padding: "0 22px" }}>
+              {/* <Box className="sponsor" style={{ padding: "0 22px" }}>
                 <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
                   OFFICIAL STAKING PARTNER
                 </h3>
@@ -63,7 +63,7 @@ const TrialSection = ({
                     />
                   </a>
                 </div>
-              </Box>
+              </Box> */}
               <Box className="sponsor" style={{ marginRigh: "50px" }}>
                 <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
                   OFFICIAL TIMEKEEPER
@@ -103,16 +103,6 @@ const TrialSection = ({
             </div>
 
             <Box className="sponsor-2">
-              <div className="sponsor1" style={{ display: "inline" }}>
-                <a href="https://bombay.io/" target="_blank">
-                  <NextImage
-                    src={VendorLogos4}
-                    style={{ width: "135px" }}
-                    alt="bombay"
-                  />
-                </a>
-              </div>
-
               <div className="sponsor1">
                 <a href="https://gtowizard.com/en/" target="_blank">
                   {" "}
