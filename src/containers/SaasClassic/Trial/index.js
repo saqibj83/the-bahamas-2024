@@ -37,7 +37,7 @@ const TrialSection = ({
                   TITLE SPONSOR
                 </h3>
                 <div className="logoh">
-                  <a href="https://en.ggpoker.com/" target="_blank">
+                  <a href="https://wptglobal.com//" target="_blank">
                     <NextImage src={VendorLogos} alt="GG Poker" />
                   </a>
                 </div>
