@@ -494,7 +494,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>
                   Monday <br /> Nov 4, 2024
                 </td>
-                <td>1</td>
+                <td>2</td>
                 <td onClick={EventModal3} style={{ cursor: "pointer" }}>
                   #3 NLH - 7 Handed - Mystery Bounty
                 </td>
@@ -565,7 +565,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$30,000</td>
                 <td>200,000</td>
-                <td>20/15 MIN </td>
+                <td>20 MIN </td>
               </tr>
               <tr>
                 <td>12:30 PM</td>
@@ -786,7 +786,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$25,000</td>
                 <td>200,000</td>
-                <td>20/15 MIN</td>
+                <td>20 MIN</td>
               </tr>
             </tbody>
           </table>
@@ -904,7 +904,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>
                   Mon <br /> Nov 4, 2024
                 </td>
-                <td>1</td>
+                <td>2</td>
                 <td onClick={EventModal3} style={{ cursor: "pointer" }}>
                   #3 NLH - 7 Handed - Mystery Bounty
                 </td>
@@ -975,7 +975,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$30K</td>
                 <td>200K</td>
-                <td>20/15 MIN </td>
+                <td>20 MIN </td>
               </tr>
               <tr>
                 <td>12:30 PM</td>
@@ -1196,7 +1196,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$25K</td>
                 <td>200K</td>
-                <td>20/15 MIN</td>
+                <td>20 MIN</td>
               </tr>
             </tbody>
           </table>

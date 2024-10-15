@@ -17,7 +17,7 @@ const Bubble = keyframes`
 
 export const BannerWrapper = styled.section`
   padding: 100px 0 50px 0;
-  background-image: url("https://cdn.triton-series.com/wp-content/uploads/2019/12/04185715/web-main-v3.png");
+  background-image: url("https://cdn.triton-series.com/wp-content/uploads/2019/12/15140414/TPSHRS-Monte-Carlo-Landing-Page-Header.png");
   background-size: cover;
   background-position: top center;
   overflow: hidden;
