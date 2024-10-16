@@ -1202,15 +1202,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
           </table>
         </Box>
         <Box className="cta-btn">
-          {/* <div className="prime-cta">
-            <div
-              className="primary-cta"
-              style={{ marginTop: "10px", width: "340px" }}
-            >
-              TOURNAMENT STRUCTURES
-            </div>
-            <span class="tooltiptext">Coming Soon</span>
-          </div> */}
           <div className="prime-cta">
             <Link
               href="https://cdn.triton-series.com/wp-content/uploads/2019/12/27150104/TritonPoker-2024-MonteCarlo-Booklet-EventStructure.pdf"
@@ -1226,6 +1217,15 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               </a>
             </Link>
           </div>
+          {/* <div className="prime-cta">
+            <div
+              className="primary-cta"
+              style={{ marginTop: "10px", width: "340px" }}
+            >
+              TOURNAMENT STRUCTURES
+            </div>
+            <span class="tooltiptext">Coming Soon</span>
+          </div> */}
           <Link
             href="https://triton-series.com/tournament-rules/"
             legacyBehavior
