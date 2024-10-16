@@ -1204,7 +1204,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         <Box className="cta-btn">
           <div className="prime-cta">
             <Link
-              href="https://cdn.triton-series.com/wp-content/uploads/2019/12/27150104/TritonPoker-2024-MonteCarlo-Booklet-EventStructure.pdf"
+              href="https://cdn.triton-series.com/wp-content/uploads/2019/12/16173950/TritonPoker-2024-MonteCarlo-EventStructure.pdf"
               legacyBehavior
             >
               <a target="_blank">
