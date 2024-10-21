@@ -8,16 +8,15 @@ const NewsletterWrapper = styled.div`
   align-items: center;
 }
 .small {
-color:#fff;
-font-size:14px;
-margin-top:100px;
-margin-bottom:100px
+  color: var(--foreground);
+  font-size:12px;
+  margin-top: 2px;
+  text-align: center;
 }
   align-items: center;
   .primary-cta {
     text-decoration: none;
     color: #000;
-    margin: 100px 20px 0px;
     min-width: 350px;
     font-size: 30px;
     text-transform: uppercase;
@@ -53,6 +52,7 @@ margin-bottom:100px
   @media (max-width: 990px) {
     flex-wrap: wrap;
     justify-content: center;
+  }
   }
 `;
 

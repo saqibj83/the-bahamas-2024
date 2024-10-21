@@ -1,20 +1,17 @@
-import React, { useContext } from "react";
-import Link from "next/link";
-import PropTypes from "prop-types";
-import NavbarWrapper from "common/components/Navbar";
-import Drawer from "common/components/Drawer";
-import Button from "common/components/Button";
-import Logo from "common/components/UIElements/Logo";
 import Box from "common/components/Box";
+import Drawer from "common/components/Drawer";
 import HamburgMenu from "common/components/HamburgMenu";
+import NavbarWrapper from "common/components/Navbar";
 import Container from "common/components/UI/Container";
+import Logo from "common/components/UIElements/Logo";
 import { DrawerContext } from "common/contexts/DrawerContext";
+import PropTypes from "prop-types";
+import { useContext } from "react";
 
-import { MENU_ITEMS } from "common/data/SaasClassic";
 import ScrollSpyMenu from "common/components/ScrollSpyMenu";
+import { MENU_ITEMS } from "common/data/SaasClassic";
 
-import LogoImage from "common/assets/image/saasClassic/triton-logo.png";
-import LogoImageAlt from "common/assets/image/saasClassic/triton-logo.png";
+import { default as LogoImage, default as LogoImageAlt } from "common/assets/image/saasClassic/TPS-LOGO-2024_HORIZONTAL-FLAT-RGB.png";
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   const { state, dispatch } = useContext(DrawerContext);
@@ -29,7 +26,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   return (
     <NavbarWrapper {...navbarStyle} className="saas_navbar">
       <Container>
-        <Box {...row}>
+        <Box {...row} className='row'>
           <Logo
             href="https://www.triton-series.com/"
             logoSrc={LogoImage}
@@ -50,14 +47,6 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
               menuItems={MENU_ITEMS}
               offset={-70}
             />
-            <Link
-              href="https://triton-series.com/media-application/"
-              legacyBehavior
-            >
-              <a className="navbar_button" target="_blank">
-                <Button {...button} title="MEDIA APPLICATION" />
-              </a>
-            </Link>
             <Drawer
               width="420px"
               placement="right"
@@ -71,18 +60,6 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                 drawerClose={true}
                 offset={-100}
               />
-              <Link
-                href="https://triton-series.com/media-application/"
-                legacyBehavior
-              >
-                <a className="navbar_drawer_button" target="_blank">
-                  <Button
-                    {...button}
-                    title="MEDIA APPLICATION"
-                    style={{ color: "#000" }}
-                  />
-                </a>
-              </Link>
             </Drawer>
           </Box>
         </Box>

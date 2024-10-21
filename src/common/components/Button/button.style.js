@@ -1,8 +1,8 @@
-import styled from "styled-components";
-import { variant, alignItems, boxShadow } from "styled-system";
 import { themeGet } from "@styled-system/theme-get";
-import { buttonStyle, colorStyle, sizeStyle } from "../customVariant";
+import styled from "styled-components";
+import { alignItems, boxShadow, variant } from "styled-system";
 import { base } from "../base";
+import { buttonStyle, colorStyle, sizeStyle } from "../customVariant";
 
 const ButtonStyle = styled.button`
   /* button default style */
@@ -11,16 +11,10 @@ const ButtonStyle = styled.button`
   align-items: center;
   justify-content: center;
   color: ${themeGet("#000", "#000")};
-  background: linear-gradient(
-    90deg,
-    rgb(245, 191, 64),
-    rgb(255, 225, 156) 50%,
-    rgb(245, 191, 64) 100%,
-    rgb(245, 191, 64) 0px
-  );
+  background: linear-gradient(90deg, #cf933f, #deb378 50%, #ce923e 75%);
   min-height: ${themeGet("heights.3", "48")}px;
   min-width: ${themeGet("widths.3", "48")}px;
-  border-radius: ${themeGet("radius.0", "3")}px;
+  border-radius: ${themeGet("radius.2", "3")}px;
   font-family: inherit;
   font-size: ${themeGet("fontSizes.4", "16")}px;
   font-weight: ${themeGet("fontWeights.4", "500")};
@@ -49,8 +43,8 @@ const ButtonStyle = styled.button`
 
   /* Material style goes here */
   &.is-material {
-    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),
-      0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+      0px 3px 1px -2px rgba(0, 0, 0, 0.12);
   }
 
   /* When button on loading stage */

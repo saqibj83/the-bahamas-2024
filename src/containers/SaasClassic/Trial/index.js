@@ -1,18 +1,11 @@
-import React from "react";
-import PropTypes from "prop-types";
 import Box from "common/components/Box";
-import Text from "common/components/Text";
 import Heading from "common/components/Heading";
-import Button from "common/components/Button";
 import NextImage from "common/components/NextImage";
 import Container from "common/components/UI/Container";
+import PropTypes from "prop-types";
 
-import SectionWrapper from "./trial.style";
 import VendorLogos from "common/assets/image/saasClassic/wpt-global.png";
-import VendorLogos1 from "common/assets/image/saasClassic/marit.png";
-import VendorLogos2 from "common/assets/image/saasClassic/luxon-pay-h.png";
-import VendorLogos3 from "common/assets/image/saasClassic/lesambassadeurs_lesambassadeurs.svg";
-import VendorLogos4 from "common/assets/image/saasClassic/bombay.svg";
+import SectionWrapper from "./trial.style";
 
 const TrialSection = ({
   row,
@@ -33,7 +26,7 @@ const TrialSection = ({
             <Heading {...title} content="Our Sponsors and Partners" />
             <div className="sponsor-2">
               <Box className="sponsor" style={{ padding: "0 30px" }}>
-                <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
+                <h3 className="text-primary" style={{ fontSize: "18px" }}>
                   TITLE SPONSOR
                 </h3>
                 <div className="logoh">
@@ -65,7 +58,7 @@ const TrialSection = ({
                 </div>
               </Box> */}
               <Box className="sponsor" style={{ marginRigh: "50px" }}>
-                <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
+                <h3 className="text-primary" style={{ fontSize: "18px" }}>
                   OFFICIAL TIMEKEEPER
                 </h3>
                 <div className="logoh">
@@ -181,7 +174,7 @@ TrialSection.defaultProps = {
   title: {
     fontSize: ["20px", "24px", "36px", "36px"],
     fontWeight: "700",
-    color: "#fff",
+    color: "var(--primary)",
     letterSpacing: "-0.025em",
     mb: "80px",
     textAlign: "center",

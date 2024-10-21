@@ -1,15 +1,11 @@
-import React from "react";
-import Link from "next/link";
-import PropTypes from "prop-types";
-import Box from "common/components/Box";
-import Heading from "common/components/Heading";
-import Container from "common/components/UI/Container";
-import SectionWrapper from "./service.style";
-import { openModal, closeModal } from "@redq/reuse-modal";
-import Button from "common/components/Button";
-import NextImage from "common/components/NextImage";
-import { SERVICE_ITEMS } from "common/data/SaasClassic";
+import { closeModal, openModal } from "@redq/reuse-modal";
 import Event1 from "common/assets/image/booklet/event-1.png";
+import Event10 from "common/assets/image/booklet/event-10.png";
+import Event11 from "common/assets/image/booklet/event-11.png";
+import Event12 from "common/assets/image/booklet/event-12.png";
+import Event13 from "common/assets/image/booklet/event-13.png";
+import Event15 from "common/assets/image/booklet/event-15.png";
+import Event16 from "common/assets/image/booklet/event-16.png";
 import Event2 from "common/assets/image/booklet/event-2.png";
 import Event3 from "common/assets/image/booklet/event-3.png";
 import Event5 from "common/assets/image/booklet/event-5.png";
@@ -17,12 +13,14 @@ import Event6 from "common/assets/image/booklet/event-6.png";
 import Event7 from "common/assets/image/booklet/event-7.png";
 import Event8 from "common/assets/image/booklet/event-8.png";
 import Event9 from "common/assets/image/booklet/event-9.png";
-import Event10 from "common/assets/image/booklet/event-10.png";
-import Event11 from "common/assets/image/booklet/event-11.png";
-import Event12 from "common/assets/image/booklet/event-12.png";
-import Event13 from "common/assets/image/booklet/event-13.png";
-import Event15 from "common/assets/image/booklet/event-15.png";
-import Event16 from "common/assets/image/booklet/event-16.png";
+import Box from "common/components/Box";
+import Button from "common/components/Button";
+import Heading from "common/components/Heading";
+import NextImage from "common/components/NextImage";
+import Container from "common/components/UI/Container";
+import Link from "next/link";
+import PropTypes from "prop-types";
+import SectionWrapper from "./service.style";
 
 const CloseModalButton = () => (
   <Button
@@ -58,7 +56,7 @@ const EventThirteen = () => <NextImage src={Event13} alt="Event - 13" />;
 const EventFifteen = () => <NextImage src={Event15} alt="Event - 15" />;
 const EventSixteen = () => <NextImage src={Event16} alt="Event - 16" />;
 
-const ServiceSection = ({ secTitleWrapper, secHeading }) => {
+const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
   // modal handler
   const EventModal1 = () => {
     openModal({
@@ -347,25 +345,14 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
     <SectionWrapper id="event_section">
       <Container>
         <Box {...secTitleWrapper}>
-          <Heading
-            {...secHeading}
-            content=" EVENT SCHEDULE
-            "
-          />
+          <Heading {...secHeading} content="EVENT SCHEDULE" />
         </Box>
-        <div className="cetered">
-          <img
-            className="title-img"
-            src="https://cdn.triton-series.com/wp-content/uploads/2019/12/03112319/invitationn-text.png"
-            alt=""
-          />
-        </div>
+        <Box {...secText} className="justify-center flex">
+          The special triton invitation
+        </Box>
 
         <div className="prime-cta">
-          <Link
-            href="https://invitational-monte-carlo-2024.triton-series.com/"
-            legacyBehavior
-          >
+          <Link href="https://invitational-monte-carlo-2024.triton-series.com/" legacyBehavior>
             <a target="_blank">
               <Button title=" INVITATIONAL HOMEPAGE" className="primary-cta" />
             </a>
@@ -422,7 +409,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$25,000</td>
                 <td>250,000</td>
-                <td>40 MIN </td>
+                <td>40 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -435,7 +422,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$25,000</td>
                 <td>250,000</td>
-                <td>40 MIN </td>
+                <td>40 MINS </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
@@ -448,7 +435,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$30,000</td>
                 <td>200,000</td>
-                <td>30 MIN </td>
+                <td>30 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -461,7 +448,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$25,000</td>
                 <td>250,000</td>
-                <td>40 MIN </td>
+                <td>40 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -474,7 +461,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$30,000</td>
                 <td>200,000</td>
-                <td>30 MIN </td>
+                <td>30 MINS </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
@@ -487,7 +474,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$40,000</td>
                 <td>200,000</td>
-                <td>35 MIN </td>
+                <td>35 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -500,7 +487,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$40,000</td>
                 <td>200,000</td>
-                <td>35 MIN </td>
+                <td>35 MINS </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
@@ -513,7 +500,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$50,000</td>
                 <td>200,000</td>
-                <td>35 MIN </td>
+                <td>35 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -526,7 +513,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$50,000</td>
                 <td>200,000</td>
-                <td>35 MIN </td>
+                <td>35 MINS </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
@@ -539,7 +526,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$100,000</td>
                 <td>200,000</td>
-                <td>40 MIN </td>
+                <td>40 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -552,7 +539,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$100,000</td>
                 <td>200,000</td>
-                <td>40 MIN </td>
+                <td>40 MINS </td>
               </tr>
               <tr>
                 <td>4:00 PM</td>
@@ -565,7 +552,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$30,000</td>
                 <td>200,000</td>
-                <td>20 MIN </td>
+                <td>20 MINS </td>
               </tr>
               <tr>
                 <td>12:30 PM</td>
@@ -578,7 +565,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$200,000</td>
                 <td>300,000</td>
-                <td>50 MIN </td>
+                <td>50 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -591,7 +578,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$200,000</td>
                 <td>300,000</td>
-                <td>50 MIN </td>
+                <td>50 MINS </td>
               </tr>
               <tr>
                 <td>5:00 PM</td>
@@ -604,7 +591,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$50,000</td>
                 <td>200,000</td>
-                <td>30 MIN </td>
+                <td>30 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -617,7 +604,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$200,000</td>
                 <td>300,000</td>
-                <td>50 MIN </td>
+                <td>50 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -630,7 +617,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$50,000</td>
                 <td>200,000</td>
-                <td>30 MIN </td>
+                <td>30 MINS </td>
               </tr>
               <tr>
                 <td>2:00 PM</td>
@@ -643,7 +630,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$125,000</td>
                 <td>250,000</td>
-                <td>50 MIN </td>
+                <td>50 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -656,7 +643,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$125,000</td>
                 <td>250,000</td>
-                <td>50 MIN </td>
+                <td>50 MINS </td>
               </tr>
               <tr>
                 <td>4:00 PM</td>
@@ -669,7 +656,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$60,000</td>
                 <td>200,000</td>
-                <td>20 MIN</td>
+                <td>20 MINS</td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -682,7 +669,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$125,000</td>
                 <td>250,000</td>
-                <td>50 MIN </td>
+                <td>50 MINS </td>
               </tr>
               <tr>
                 <td>2:00 PM</td>
@@ -695,7 +682,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$150,000</td>
                 <td>200,000</td>
-                <td>45 MIN </td>
+                <td>45 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -708,7 +695,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$150,000</td>
                 <td>200,000</td>
-                <td>45 MIN </td>
+                <td>45 MINS </td>
               </tr>
               <tr>
                 <td>4:00 PM</td>
@@ -721,7 +708,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$50,000</td>
                 <td>200,000</td>
-                <td>35 MIN </td>
+                <td>35 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -734,7 +721,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$150,000</td>
                 <td>200,000</td>
-                <td>45 MIN </td>
+                <td>45 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -747,7 +734,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$50,000</td>
                 <td>200,000</td>
-                <td>35 MIN </td>
+                <td>35 MINS </td>
               </tr>
               <tr>
                 <td>4:00 PM</td>
@@ -760,7 +747,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$100,000</td>
                 <td>250,000</td>
-                <td>45 MIN </td>
+                <td>45 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -773,7 +760,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$100,000</td>
                 <td>250,000</td>
-                <td>45 MIN </td>
+                <td>45 MINS </td>
               </tr>
               <tr>
                 <td>5:00 PM</td>
@@ -786,7 +773,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$25,000</td>
                 <td>200,000</td>
-                <td>20 MIN</td>
+                <td>20 MINS</td>
               </tr>
             </tbody>
           </table>
@@ -832,7 +819,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$25K</td>
                 <td>250K</td>
-                <td>40 MIN </td>
+                <td>40 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -845,7 +832,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$25K</td>
                 <td>250K</td>
-                <td>40 MIN </td>
+                <td>40 MINS </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
@@ -858,7 +845,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$30K</td>
                 <td>200K</td>
-                <td>30 MIN </td>
+                <td>30 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -871,7 +858,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$25K</td>
                 <td>250K</td>
-                <td>40 MIN </td>
+                <td>40 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -884,7 +871,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$30K</td>
                 <td>200K</td>
-                <td>30 MIN </td>
+                <td>30 MINS </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
@@ -897,7 +884,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$40K</td>
                 <td>200K</td>
-                <td>35 MIN </td>
+                <td>35 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -910,7 +897,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$40K</td>
                 <td>200K</td>
-                <td>35 MIN </td>
+                <td>35 MINS </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
@@ -923,7 +910,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$50K</td>
                 <td>200K</td>
-                <td>35 MIN </td>
+                <td>35 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -936,7 +923,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$50K</td>
                 <td>200K</td>
-                <td>35 MIN </td>
+                <td>35 MINS </td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
@@ -949,7 +936,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$100K</td>
                 <td>200K</td>
-                <td>40 MIN </td>
+                <td>40 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -962,7 +949,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$100K</td>
                 <td>200K</td>
-                <td>40 MIN </td>
+                <td>40 MINS </td>
               </tr>
               <tr>
                 <td>4:00 PM</td>
@@ -975,7 +962,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$30K</td>
                 <td>200K</td>
-                <td>20 MIN </td>
+                <td>20 MINS </td>
               </tr>
               <tr>
                 <td>12:30 PM</td>
@@ -988,7 +975,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$200K</td>
                 <td>300K</td>
-                <td>50 MIN </td>
+                <td>50 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -1001,7 +988,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$200K</td>
                 <td>300K</td>
-                <td>50 MIN </td>
+                <td>50 MINS </td>
               </tr>
               <tr>
                 <td>5:00 PM</td>
@@ -1014,7 +1001,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$50K</td>
                 <td>200K</td>
-                <td>30 MIN </td>
+                <td>30 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -1027,7 +1014,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$200K</td>
                 <td>300K</td>
-                <td>50 MIN </td>
+                <td>50 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -1040,7 +1027,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$50K</td>
                 <td>200K</td>
-                <td>30 MIN </td>
+                <td>30 MINS </td>
               </tr>
               <tr>
                 <td>2:00 PM</td>
@@ -1053,7 +1040,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$125K</td>
                 <td>250K</td>
-                <td>50 MIN </td>
+                <td>50 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -1066,7 +1053,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$125K</td>
                 <td>250K</td>
-                <td>50 MIN </td>
+                <td>50 MINS </td>
               </tr>
               <tr>
                 <td>4:00 PM</td>
@@ -1079,7 +1066,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$60K</td>
                 <td>200K</td>
-                <td>20 MIN</td>
+                <td>20 MINS</td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -1092,7 +1079,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$125K</td>
                 <td>250K</td>
-                <td>50 MIN </td>
+                <td>50 MINS </td>
               </tr>
               <tr>
                 <td>2:00 PM</td>
@@ -1105,7 +1092,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$150K</td>
                 <td>200K</td>
-                <td>45 MIN </td>
+                <td>45 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -1118,7 +1105,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$150K</td>
                 <td>200K</td>
-                <td>45 MIN </td>
+                <td>45 MINS </td>
               </tr>
               <tr>
                 <td>4:00 PM</td>
@@ -1131,7 +1118,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$50K</td>
                 <td>200K</td>
-                <td>35 MIN </td>
+                <td>35 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -1144,7 +1131,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$150K</td>
                 <td>200K</td>
-                <td>45 MIN </td>
+                <td>45 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -1157,7 +1144,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$50K</td>
                 <td>200K</td>
-                <td>35 MIN </td>
+                <td>35 MINS </td>
               </tr>
               <tr>
                 <td>4:00 PM</td>
@@ -1170,7 +1157,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$100K</td>
                 <td>250K</td>
-                <td>45 MIN </td>
+                <td>45 MINS </td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
@@ -1183,7 +1170,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$100K</td>
                 <td>250K</td>
-                <td>45 MIN </td>
+                <td>45 MINS </td>
               </tr>
               <tr>
                 <td>5:00 PM</td>
@@ -1196,7 +1183,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>$25K</td>
                 <td>200K</td>
-                <td>20 MIN</td>
+                <td>20 MINS</td>
               </tr>
             </tbody>
           </table>
@@ -1208,35 +1195,21 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               legacyBehavior
             >
               <a target="_blank">
-                <div
+                <Button
+                  title="TOURNAMENT STRUCTURES"
                   className="primary-cta"
                   style={{ marginTop: "10px", width: "340px" }}
-                >
-                  TOURNAMENT STRUCTURES
-                </div>
+                ></Button>
               </a>
             </Link>
           </div>
-          {/* <div className="prime-cta">
-            <div
-              className="primary-cta"
-              style={{ marginTop: "10px", width: "340px" }}
-            >
-              TOURNAMENT STRUCTURES
-            </div>
-            <span class="tooltiptext">Coming Soon</span>
-          </div> */}
-          <Link
-            href="https://triton-series.com/tournament-rules/"
-            legacyBehavior
-          >
+          <Link href="https://triton-series.com/tournament-rules/" legacyBehavior>
             <a target="_blank">
-              <div
-                className="prime-cta1"
+              <Button
+                title="TOURNAMENT RULES"
+                className="primary-cta"
                 style={{ marginTop: "10px", width: "340px" }}
-              >
-                TOURNAMENT RULES
-              </div>
+              ></Button>
             </a>
           </Link>
         </Box>
@@ -1261,19 +1234,18 @@ ServiceSection.defaultProps = {
   },
   secText: {
     as: "span",
-    display: "block",
-    textAlign: "center",
-    fontSize: "14px",
+    margin: "0 auto",
+    fontSize: ["20px", "24px", "36px", "36px"],
     letterSpacing: "0.15em",
-    fontWeight: "700",
-    color: "#EBA800",
+    color: "#DFA95A",
     mb: "12px",
+    textTransform: "uppercase",
   },
   secHeading: {
     textAlign: "center",
     fontSize: ["20px", "24px", "36px", "36px"],
     fontWeight: "700",
-    color: "#fff",
+    color: "#DFA95A",
     letterSpacing: "-0.025em",
     mb: "0",
     ml: "auto",

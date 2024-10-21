@@ -1,11 +1,13 @@
-import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
-import Scrollspy from 'react-scrollspy';
+import { useContext } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import Scrollspy from 'react-scrollspy';
 
+import Link from 'next/link';
 import { DrawerContext } from '../../contexts/DrawerContext';
+import Button from '../Button';
 
-const ScrollSpyMenu = ({ className, menuItems, drawerClose, ...props }) => {
+const ScrollSpyMenu = ({ className, menuItems, drawerClose, button, ...props }) => {
   const { dispatch } = useContext(DrawerContext);
   // empty array for scrollspy items
   const scrollItems = [];
@@ -33,7 +35,7 @@ const ScrollSpyMenu = ({ className, menuItems, drawerClose, ...props }) => {
   return (
     <Scrollspy
       items={scrollItems}
-      className={addAllClasses.join(' ')}
+      className={addAllClasses.join(" ")}
       drawerClose={drawerClose}
       {...props}
     >
@@ -44,11 +46,7 @@ const ScrollSpyMenu = ({ className, menuItems, drawerClose, ...props }) => {
           ) : (
             <>
               {drawerClose ? (
-                <AnchorLink
-                  href={menu.path}
-                  offset={menu.offset}
-                  onClick={toggleDrawer}
-                >
+                <AnchorLink href={menu.path} offset={menu.offset} onClick={toggleDrawer}>
                   {menu.label}
                 </AnchorLink>
               ) : (
@@ -60,6 +58,13 @@ const ScrollSpyMenu = ({ className, menuItems, drawerClose, ...props }) => {
           )}
         </li>
       ))}
+      <li>
+        <Link href="https://triton-series.com/media-application/" legacyBehavior>
+          <a className="navbar_button" target="_blank">
+            <Button {...button} title="MEDIA APPLICATION" />
+          </a>
+        </Link>
+      </li>
     </Scrollspy>
   );
 };
@@ -98,8 +103,11 @@ ScrollSpyMenu.propTypes = {
 };
 
 ScrollSpyMenu.defaultProps = {
-  componentTag: 'ul',
-  currentClassName: 'is-current',
+  componentTag: "ul",
+  currentClassName: "is-current",
+  button: {
+    minHeight: "fit-content"
+  },
 };
 
 export default ScrollSpyMenu;

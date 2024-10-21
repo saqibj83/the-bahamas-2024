@@ -1,4 +1,3 @@
-import React from 'react';
 import ContainerWrapper from './style';
 
 const Container = ({

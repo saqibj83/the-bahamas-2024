@@ -1,254 +1,159 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Link from "next/link";
-import Box from "common/components/Box";
-import Text from "common/components/Text";
-import Heading from "common/components/Heading";
-import Logo from "common/components/UIElements/Logo";
 import Container from "common/components/UI/Container";
-import FooterWrapper, { List, ListItem } from "./footer.style";
-import NextImage from "common/components/NextImage";
-import Button from "common/components/Button";
-import Input from "common/components/Input";
+import Link from "next/link";
+import PropTypes from "prop-types";
+import FooterWrapper from "./footer.style";
 
-import facebook from "common/assets/image/saasClassic/facebook.png";
-import twitter from "common/assets/image/saasClassic/twitter.png";
-import instagram from "common/assets/image/saasClassic/instagram.png";
-import youtube from "common/assets/image/saasClassic/youtube.png";
-import { FOOTER_WIDGET } from "common/data/SaasClassic";
-
-const Footer = ({
-  row,
-  col,
-  colOne,
-  colTwo,
-  buttonStyle,
-  titleStyle,
-  logoStyle,
-  textStyle,
-}) => {
+const Footer = ({ row, col, colOne, colTwo, buttonStyle, titleStyle, logoStyle, textStyle }) => {
   return (
     <FooterWrapper>
-      <Container className="footer_container">
-        <div className="footer-top">
-          <div className="flex flex-wrap -mx-2">
-            <div className="w-full lg:w-1/2 px-2">
-              <div className="footer-top__social">
-                <span className="footer-nav__col-title">SITEMAP</span>
-                <ul>
-                  <li>
-                    <Link href="#banner_section" legacyBehavior>
-                      <a>
-                        <i className="icon-arrow-sm"></i>
-                        Home
-                      </a>
-                    </Link>
-                  </li>
-                  {/* <li>
-                    <Link href="#event_section" legacyBehavior>
-                      <a>
-                        <i className="icon-arrow-sm"></i>
-                        Event schedule
-                      </a>
-                    </Link>
-                  </li> */}
-                  <li>
-                    <Link href="#channel_section" legacyBehavior>
-                      <a>
-                        <i className="icon-arrow-sm"></i>Live Channels
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#venue" legacyBehavior>
-                      <a>
-                        <i className="icon-arrow-sm"></i>Venue
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#sponsor_section" legacyBehavior>
-                      <a>
-                        <i className="icon-arrow-sm"></i>Sponsors
-                      </a>
-                    </Link>
-                  </li>
-                </ul>
+      <Container className="footer_container ">
+        <div className="footer-top ">
+          <div className="grid grid-cols-1 px-6 md:px-0 lg:grid-cols-2 gap-8  -mx-2">
+            <div className="px-2">
+              <div className="footer-top__social flex flex-col  mt-8 h-full">
+                <div>
+                  <span className="footer-nav__col-title">SITEMAP</span>
+                  <ul>
+                    <li>
+                      <Link href="#banner_section">
+                        <i className="icon-arrow-sm"></i>Home
+                      </Link>
+                    </li>
 
-                <div className="footer-nav_subscribe mt-8">
+                    <li>
+                      <Link href="#participants_section">
+                        <i className="icon-arrow-sm"></i>Participants
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="#general_section">
+                        <i className="icon-arrow-sm"></i> Schedule
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="#tournament_info">
+                        <i className="icon-arrow-sm"></i>Rules
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="#watch_live">
+                        <i className="icon-arrow-sm"></i> Live
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="footer-nav_subscribe mt-12">
                   <span className="footer-nav__col-title">NEWSLETTER</span>
-
-                  {/* <div class="box-field__row">
-                    <div id="mc_embed_signup">
-                      <form
-                        action="https://triton-series.us18.list-manage.com/subscribe/post?u=3957510c4fa663fcbc59da452&amp;id=1e0fdfae29"
-                        method="post"
-                        id="mc-embedded-subscribe-form"
-                        name="mc-embedded-subscribe-form"
-                        class="validate"
-                        target="_blank"
-                        novalidate
-                      >
-                        <div id="mc_embed_signup_scroll">
-                          <div class="box-field">
-                            <input
-                              type="email"
-                              value=""
-                              name="EMAIL"
-                              class="email"
-                              id="mce-EMAIL"
-                              placeholder="email address"
-                              required
-                            />
-                          </div>
-                          <div
-                            style={{ position: "absolute", left: "-5000px;" }}
-                            aria-hidden="true"
-                          >
-                            <input
-                              type="text"
-                              name="b_3957510c4fa663fcbc59da452_1e0fdfae29"
-                              tabindex="-1"
-                              value=""
-                            />
-                          </div>
-                          <div class="clear">
-                            <input
-                              type="submit"
-                              value="SUBSCRIBE"
-                              name="subscribe"
-                              id="mc-embedded-subscribe"
-                              class=" btn"
-                            />
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div> */}
 
                   <div className="box-field__row">
                     <div className="box-field">
-                      <input
-                        type="email"
-                        className="form-control"
-                        placeholder="Enter your email"
-                      />
+                      <input type="email" className="form-control" placeholder="Enter your email" />
                     </div>
-                    <button
-                      type="submit"
-                      className="btn"
-                      style={{ background: "#e9bc66" }}
-                    >
+                    <button type="submit" className="btn bg-[#DFA95B]">
                       subscribe
                     </button>
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="px-2 mb-4 flex flex-col justify-between">
               <div className="footer-nav_cotact mt-8">
                 <span className="footer-nav__col-title">CONTACT</span>
-                <div
+                <p
                   style={{
                     fontSize: "16px",
                     float: "left",
-                    color: "#fff",
                   }}
                 >
-                  <i className="icon-map-pin"></i> 85, Fenlex House, St. John
-                  Street, Valleta, VLT1165, Malta
-                </div>
-                <ul>
-                  <li>
-                    <i className="icon-mail"></i>
+                  85, Fenlex House, St. John Street, Valletta, VLT1165, Malta
+                </p>
+                <ul className="flex flex-wrap">
+                  <li className="me-4">
                     <a target="_blank" href="mailto:info@triton-series.com">
                       info@triton-series.com{" "}
                     </a>
                   </li>
                   <li>
-                    <i className="icon-mail"></i>
                     <a target="_blank" href="mailto:register@triton-series.com">
                       register@triton-series.com
                     </a>
                   </li>
-                  <li>
-                    <i className="icon-mail"></i>
-                    <a
-                      target="_blank"
-                      href="mailto:partnerships@triton-series.com"
-                    >
+                  <li className="w-full">
+                    <a target="_blank" href="mailto:partnerships@triton-series.com">
                       partnerships@triton-series.com
                     </a>
                   </li>
                 </ul>
               </div>
-            </div>
-
-            <div className="w-full md:w-1/2 lg:w-1/2 px-2 mb-4">
               <ul className="social">
-                <Link href="https://facebook.com/tritonpoker" legacyBehavior>
-                  <a target="_blank">
-                    <li className="facebook"></li>
-                  </a>
+                <Link target="_blank" href="https://facebook.com/tritonpoker">
+                  <li className="facebook"></li>
                 </Link>
-                <Link href="https://twitter.com/tritonpoker" legacyBehavior>
-                  <a target="_blank">
-                    <li className="twitter"></li>
-                  </a>
+                <Link target="_blank" href="https://twitter.com/tritonpoker">
+                  <li className="twitter"></li>
                 </Link>
-                <Link
-                  href="https://instagram.com/tritonpokerseries"
-                  legacyBehavior
-                >
-                  <a target="_blank">
-                    <li className="instagram"></li>
-                  </a>
+                <Link target="_blank" href="https://instagram.com/tritonpokerseries">
+                  <li className="instagram"></li>
                 </Link>
-                <Link href="https://www.twitch.tv/tritonpoker" legacyBehavior>
-                  <a target="_blank">
-                    <li className="twitch"></li>
-                  </a>
+                <Link target="_blank" href="https://www.twitch.tv/tritonpoker">
+                  <li className="twitch"></li>
                 </Link>
-                <Link href="https://youtube.com/tritonpoker" legacyBehavior>
-                  <a target="_blank">
-                    <li className="youtube"></li>
-                  </a>
+                <Link target="_blank" href="https://youtube.com/tritonpoker">
+                  <li className="youtube"></li>
                 </Link>
-                <Link href="https://discord.gg/tritonpoker" legacyBehavior>
-                  <a target="_blank">
-                    <li className="discord"></li>
-                  </a>
+                <Link target="_blank" href="https://discord.gg/tritonpoker">
+                  <li className="discord"></li>
+                </Link>
+                <Link target="_blank" href="https://www.tiktok.com/@tritonseries">
+                  <li className="tik-tok"></li>
                 </Link>
               </ul>
             </div>
           </div>
         </div>
         <div className="footer-copy">
-          <span>&copy; All rights reserved. Triton Series 2023</span>
-
-          <div>
+          <span>&copy; All rights reserved. Triton Series 2024</span>
+          <div className="flx">
             <Link
+              target="_blank"
+              className="linkFooter"
               href="https://triton-series.com/privacy-policy/"
-              legacyBehavior
             >
-              <a target="_blank" className="linkFooter">
-                Privacy Policy
-              </a>
+              Privacy Policy
             </Link>
             <Link
+              target="_blank"
+              className="linkFooter"
               href="https://triton-series.com/terms-and-conditions/"
-              legacyBehavior
             >
-              <a target="_blank" className="linkFooter">
-                Terms and Conditions
-              </a>
+              Terms and Conditions
             </Link>
             <Link
+              target="_blank"
+              className="linkFooter"
               href="https://triton-series.com/about-paul-phua"
-              legacyBehavior
             >
-              <a target="_blank" className="linkFooter">
-                About Paul Phua
+              About Paul Phua
+            </Link>
+            {/* <Link href="/en">
+              <a className="linkFooter">
+                <img
+                  class="flag-PlayerPhoto"
+                  src="https://prod-assets.tritonpoker.plus/flags/1x1/gb.svg"
+                  alt="player"
+                ></img>
               </a>
             </Link>
+            <Link href="cn">
+              <a className="linkFooter">
+                <img
+                  class="flag-PlayerPhoto"
+                  src="https://prod-assets.tritonpoker.plus/flags/1x1/cn.svg"
+                  alt="player"
+                ></img>
+              </a>
+            </Link> */}
           </div>
         </div>
       </Container>

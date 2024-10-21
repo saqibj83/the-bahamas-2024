@@ -6,6 +6,10 @@ module.exports = {
     extend: {
       amber: colors.amber,
       emerald: colors.emerald,
+      colors: {
+        foreground: "var(--foreground)",
+        primary: "var(--primary)",
+      },
     },
   },
   plugins: [],
