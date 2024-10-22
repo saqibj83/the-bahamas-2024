@@ -418,7 +418,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  1 NLH WPT Global Ultimate Slam
+                  #1 NLH WPT Global Ultimate Slam
                 </td>
                 <td>$25,000</td>
                 <td>250,000</td>
@@ -431,7 +431,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  1 NLH WPT Global Ultimate Slam
+                  #1 NLH WPT Global Ultimate Slam
                 </td>
                 <td>$25,000</td>
                 <td>250,000</td>
@@ -457,7 +457,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>Final Day</td>
                 <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  1 NLH WPT Global Ultimate Slam
+                  #1 NLH WPT Global Ultimate Slam
                 </td>
                 <td>$25,000</td>
                 <td>250,000</td>
@@ -828,7 +828,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  1 NLH WPT Global Ultimate Slam
+                  #1 NLH WPT Global Ultimate Slam
                 </td>
                 <td>$25K</td>
                 <td>250K</td>
@@ -841,7 +841,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  1 NLH WPT Global Ultimate Slam
+                  #1 NLH WPT Global Ultimate Slam
                 </td>
                 <td>$25K</td>
                 <td>250K</td>
@@ -867,7 +867,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>Final Day</td>
                 <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  1 NLH WPT Global Ultimate Slam
+                  #1 NLH WPT Global Ultimate Slam
                 </td>
                 <td>$25K</td>
                 <td>250K</td>
