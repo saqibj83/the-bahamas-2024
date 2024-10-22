@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const SectionWrapper = styled.section`
-  padding: 100px 0 100px 0;
+  padding: 65px 0 0px 0;
   .rc-tabs-content-holder {
   }
   @media (max-width: 990px) {

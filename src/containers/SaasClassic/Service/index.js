@@ -354,7 +354,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
         <div className="prime-cta">
           <Link href="https://invitational-monte-carlo-2024.triton-series.com/" legacyBehavior>
             <a target="_blank">
-              <Button title=" INVITATIONAL HOMEPAGE" className="!font-bold !px-11 !py-4" />
+              <Button title=" INVITATIONAL HOMEPAGE" className="!font-bold !px-11 !py-4 !my-3" />
             </a>
           </Link>
         </div>
