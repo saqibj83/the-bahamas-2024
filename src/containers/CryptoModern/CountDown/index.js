@@ -1,5 +1,5 @@
 import twitch from "common/assets/image/saasClassic/Twitch-Icon.png";
-import youtube from "common/assets/image/saasClassic/Youtube-Icon.png";
+import youtube from "common/assets/image/saasClassic/youtube-icon.svg";
 import { RulesBackground } from "common/components/RulesBackground";
 import Link from "next/link";
 import SectionWrapper from "./countdown.style";

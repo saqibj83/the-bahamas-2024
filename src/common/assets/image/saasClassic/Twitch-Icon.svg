@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 288 96">
+  <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #8224e3;
+      }
+
+      .st1, .st2 {
+        fill: #fff;
+      }
+
+      .st2 {
+        font-family: Montserrat-Bold, Montserrat;
+        font-size: 27.93px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <rect class="st0" x=".31" y="-.12" width="287.37" height="96.25" rx="8.92" ry="8.92"/>
+  <text class="st2" transform="translate(134.99 59.16)"><tspan x="0" y="0">Twitch</tspan></text>
+  <g>
+    <path class="st1" d="M70.36,15.47l-11.6,11.6v41.78h13.93v11.6l11.6-11.6h9.28l20.89-20.89V15.47h-44.1ZM109.82,45.64l-9.28,9.28h-9.28l-8.12,8.12v-8.12h-10.44V20.11h37.14v25.53Z"/>
+    <rect class="st1" x="98.21" y="28.23" width="4.64" height="13.93"/>
+    <rect class="st1" x="85.45" y="28.23" width="4.64" height="13.93"/>
+  </g>
+</svg>

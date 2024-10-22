@@ -61,7 +61,7 @@ const Newsletter = ({
               <div className="prime-cta mt-5">
                 <Link href="https://triton-series.com/player-registration/" legacyBehavior>
                   <a target="_blank">
-                    <Button title="REGISTER NOW" className="!min-w-[250px]"></Button>
+                    <Button title="REGISTER NOW" className="!w-[270px] !max-w-[90vw] !font-bold"></Button>
                   </a>
                 </Link>
                 <p className="small">*Terms & Conditions apply</p>

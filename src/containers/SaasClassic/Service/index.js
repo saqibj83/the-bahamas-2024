@@ -354,7 +354,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
         <div className="prime-cta">
           <Link href="https://invitational-monte-carlo-2024.triton-series.com/" legacyBehavior>
             <a target="_blank">
-              <Button title=" INVITATIONAL HOMEPAGE" className="primary-cta" />
+              <Button title=" INVITATIONAL HOMEPAGE" className="!font-bold !px-11 !py-4" />
             </a>
           </Link>
         </div>
@@ -1188,26 +1188,24 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
             </tbody>
           </table>
         </Box>
-        <Box className="cta-btn">
-          <div className="prime-cta">
-            <Link
-              href="https://cdn.triton-series.com/wp-content/uploads/2019/12/16173950/TritonPoker-2024-MonteCarlo-EventStructure.pdf"
-              legacyBehavior
-            >
-              <a target="_blank">
-                <Button
-                  title="TOURNAMENT STRUCTURES"
-                  className="primary-cta"
-                  style={{ marginTop: "10px", width: "340px" }}
-                ></Button>
-              </a>
-            </Link>
-          </div>
+        <Box className="flex flex-col md:gap-10 md:flex-row gap-5 mt-10 mb-20 px-5 justify-center">
+          <Link
+            href="https://cdn.triton-series.com/wp-content/uploads/2019/12/16173950/TritonPoker-2024-MonteCarlo-EventStructure.pdf"
+            legacyBehavior
+          >
+            <a target="_blank" className="flex justify-center">
+              <Button
+                title="TOURNAMENT STRUCTURES"
+                className="!font-bold !px-11 !py-4 max-w-full"
+                style={{ marginTop: "10px", width: "340px" }}
+              ></Button>
+            </a>
+          </Link>
           <Link href="https://triton-series.com/tournament-rules/" legacyBehavior>
-            <a target="_blank">
+            <a target="_blank" className="flex justify-center">
               <Button
                 title="TOURNAMENT RULES"
-                className="primary-cta"
+                className="!font-bold !px-11 !py-4 max-w-full"
                 style={{ marginTop: "10px", width: "340px" }}
               ></Button>
             </a>
