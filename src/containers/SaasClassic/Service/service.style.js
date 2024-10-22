@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 const SectionWrapper = styled.section`
   padding: 100px 0 1px 0;
-  background: #000;
   .prime-cta1 {
     text-align: center;
     display: flex;
@@ -15,16 +14,6 @@ const SectionWrapper = styled.section`
     font-size: 16px;
     text-transform: uppercase;
     padding: 15px 40px 15px;
-
-    background: linear-gradient(
-      90deg,
-      rgba(190, 123, 14, 1) 0%,
-      rgba(213, 149, 42, 1) 17%,
-      rgba(203, 158, 71, 1) 35%,
-      rgba(235, 194, 113, 1) 50%,
-      rgba(199, 133, 28, 1) 90%,
-      rgba(215, 131, 0, 1) 100%
-    );
     box-shadow: #000 3px 3px 6px 0;
     position: relative;
     overflow: hidden;
@@ -70,7 +59,7 @@ const SectionWrapper = styled.section`
     position: absolute;
     margin-top: -37px;
     padding: 4px;
-    border: 1px solid #eba800;
+    border: 1px solid var(--primary);
     z-index: 90;
     width: 150px;
   }
@@ -85,15 +74,8 @@ const SectionWrapper = styled.section`
     font-size: 16px;
     text-transform: uppercase;
     padding: 15px 40px 15px;
-    background: linear-gradient(
-      90deg,
-      rgba(190, 123, 14, 1) 0%,
-      rgba(213, 149, 42, 1) 17%,
-      rgba(203, 158, 71, 1) 35%,
-      rgba(235, 194, 113, 1) 50%,
-      rgba(199, 133, 28, 1) 90%,
-      rgba(215, 131, 0, 1) 100%
-    );
+    font-weight: bold;
+    border-radius: 6px;
     box-shadow: #000 3px 3px 6px 0;
     position: relative;
     overflow: hidden;
@@ -144,14 +126,24 @@ const SectionWrapper = styled.section`
   }
   .non-mobile {
     display: none;
+    max-width: 100vw;
+    border-radius: 6px;
+    overflow: hidden;
+    border-left: 1px solid var(--primary);
+    border-right: 1px solid var(--primary);
+    border-bottom: 1px solid var(--primary);
   }
   .non-desktop {
     display: block;
   }
   h5 {
+    font-weight: 700 !important;
     color: #000;
   }
-
+  table {
+    border-radius: 6px 6px 0 0;
+    overflow: hidden;
+  }
   @media (max-width: 550px) {
     .non-desktop {
       display: none;
@@ -165,7 +157,8 @@ const SectionWrapper = styled.section`
 
     .non-mobile {
       display: block;
-      overflow-x: scroll;
+      overflow-x: auto;
+      margin: 0 10px;
     }
     .container {
       padding: 0 !important;
@@ -241,23 +234,17 @@ const SectionWrapper = styled.section`
     }
   }
   thead {
-    background: linear-gradient(
-      to right,
-      #eba800 0%,
-      #ffe8b9 34%,
-      #f7a500 94%,
-      #d89127 100%
-    );
+    background: linear-gradient(90deg, #cf933f, #deb378 50%, #ce923e 90%);
   }
   tbody {
-    overflow: scroll;
-    width: 100vw;
+    overflow: auto;
     height: calc(100vh - 2rem - 50px);
     border-top: 1px solid grey;
     height: 550px;
-    border-left: 1px solid #eba800;
-    border-right: 1px solid #eba800;
-    border-bottom: 1px solid #eba800;
+    border-left: 1px solid var(--primary);
+    border-right: 1px solid var(--primary);
+    border-bottom: 1px solid var(--primary);
+    border-radius: 0 0 6px 6px;
   }
 
   /* Step 3: apply flex to all rows */
@@ -291,16 +278,14 @@ const SectionWrapper = styled.section`
   th:nth-child(1) {
     width: 100px;
     font-size: 16px;
-    font-weight: bold;
-    color: #eba800;
+    color: var(--primary);
     text-align: center;
   }
   td:nth-child(2),
   th:nth-child(2) {
     width: 130px;
     font-size: 16px;
-    font-weight: bold;
-    color: #eba800;
+    color: var(--primary);
     text-align: center;
   }
   td:nth-child(3),
@@ -312,9 +297,9 @@ const SectionWrapper = styled.section`
   th:nth-child(4) {
     width: 150px;
     font-size: 16px;
-    font-weight: bold;
-    color: #eba800;
+    color: var(--primary);
     text-align: center;
+    width: 160px;
   }
   td:nth-child(5),
   th:nth-child(5) {

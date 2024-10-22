@@ -1,5 +1,5 @@
+import bg from "common/assets/image/saasClassic/TPSHRS-Landing-Page-Background.png";
 import styled, { createGlobalStyle, keyframes } from "styled-components";
-
 const Fade = keyframes`
   0% {
 		opacity: 0;
@@ -55,7 +55,7 @@ export const GlobalStyle = createGlobalStyle`
     h3, h4 {
       font-size: 14px;
     }
- 
+
 
 
   }
@@ -64,7 +64,7 @@ export const GlobalStyle = createGlobalStyle`
       width: 300px!important;
     }
     .drawer-content {
-      padding: 60px;    
+      padding: 60px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -176,7 +176,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   .reuseModalOverlay,
   .modalCloseBtn{
-    
+
     animation: ${Fade} .5s ease-out forwards !important;
   }
 
@@ -196,10 +196,13 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const ContentWrapper = styled.div`
+  background: url(${bg.src});
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow: hidden;
   .sticky-nav-active {
     .saas_navbar {
-      background: #fff;
+      background: #000;
       box-shadow: 0px 3px 8px 0px rgba(43, 83, 135, 0.08);
       padding: 2px 0;
       .main-logo {
@@ -211,7 +214,7 @@ export const ContentWrapper = styled.div`
       .main_menu {
         li {
           a {
-            color: #000;
+            color: #fff;
             &:hover {
               color: rgb(235, 168, 0) !important;
             }
@@ -241,11 +244,20 @@ export const ContentWrapper = styled.div`
     .logo-alt {
       display: none;
     }
+    .row {
+      gap: 16px;
+      justify-content: center;
+      @media (max-width: 991px) {
+        justify-content: space-between;
+      }
+    }
     .main_menu {
+      display: flex;
+      gap: 16px;
       li {
-        display: inline-block;
-        padding-left: 5px;
-        padding-right: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         &:first-child {
           padding-left: 0;
         }
@@ -256,10 +268,13 @@ export const ContentWrapper = styled.div`
           }
         }
         a {
-          padding: 5px 0px;
-          font-size: 16px;
-          font-weight: 400;
+          font-size: 14px;
           color: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          min-width: max-content;
           transition: 0.15s ease-in-out;
           &:hover {
             color: #eba800 !important;
@@ -283,6 +298,15 @@ export const ContentWrapper = styled.div`
       .hamburgMenu__bar {
         > span {
         }
+      }
+    }
+    .navbar_button {
+      button {
+        margin: 0;
+        padding: 2px;
+        border-radius: 5px;
+        font-weight: bold;
+        min-width: max-content;
       }
     }
   }

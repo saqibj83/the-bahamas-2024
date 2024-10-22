@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const SectionWrapper = styled.section`
-  background: #000;
   padding: 100px 0 0 0;
 
   .sponsor-2 {
@@ -12,7 +11,6 @@ const SectionWrapper = styled.section`
     width: 100%;
     justify-content: center;
     text-align: center;
-    margin-bottom: 50px;
   }
 
   .sponsors-logo {
@@ -57,7 +55,7 @@ const SectionWrapper = styled.section`
     .sponsor1 {
       width: 100%;
       text-align: certer;
-      margin-top: 50px;
+      margin-top: 40px;
     }
     .sponsors-logo {
       grid-template-columns: 1fr;
@@ -75,11 +73,10 @@ const SectionWrapper = styled.section`
       margin-bottom: 10px !important;
     }
     .sponsor img {
-      padding-top: 30px !important;
       margin-bottom: 20px;
     }
     .sponsor-2 {
-      margin-bottom: 10px !important;
+      margin-bottom: 0px !important;
     }
   }
 

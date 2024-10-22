@@ -1,50 +1,42 @@
-import React from "react";
+import twitch from "common/assets/image/saasClassic/Twitch-Icon.png";
+import youtube from "common/assets/image/saasClassic/Youtube-Icon.png";
+import { RulesBackground } from "common/components/RulesBackground";
 import Link from "next/link";
-import Fade from "react-reveal/Fade";
-import Text from "common/components/Text";
-import Heading from "common/components/Heading";
-import Button from "common/components/Button";
-import Image from "common/components/Image";
-import Container from "common/components/UI/Container";
-import NormalClock from "./timer";
+import SectionWrapper from "./countdown.style";
 const deadline = new Date("2022/09/05 14:00:00 ");
-import SectionWrapper, { ContentWrapper } from "./countdown.style";
-import { Icon } from "react-icons-kit";
-import { facebook } from "react-icons-kit/icomoon/facebook";
-import { youtube } from "react-icons-kit/icomoon/youtube";
-import { twitch } from "react-icons-kit/icomoon/twitch";
 
 const CountDownSection = () => {
   return (
-    <SectionWrapper className="bg-event" id="channel_section">
-      <Container>
-        <ContentWrapper>
-          {/* <Heading content="COUNTDOWN To Event " />
+    <RulesBackground className={`bg-event`}>
+      <SectionWrapper
+        id="channel_section"
+        className="flex flex-col text-center items-center !p-12 gap-10"
+      >
+        {/* <Heading content="COUNTDOWN To Event " />
           <Fade up>
             <div className="timerCount">
               <NormalClock countdown={deadline} divider="true" />
             </div>
           </Fade> */}
-          <h2>LIVESTREAM CHANNELS</h2>
+        <h2 className="text-3xl text-primary font-bold">LIVESTREAM CHANNELS</h2>
+        <div className="flex gap-11 flex-wrap justify-center">
           <Link href="https://www.youtube.com/c/TritonPoker/" legacyBehavior>
-            <a target="_blank">
-              <button class="btn btn-youtube">
-                <Icon size={30} icon={youtube} />
-                <span>Youtube</span>
+            <a target="_blank" className="!h-fit">
+              <button class="btn btn-youtube h-16 aspect-[189.5/64]">
+                <img src={youtube.src} className="h-full" alt="youtube" />
               </button>
             </a>
           </Link>
           <Link href="https://twitch.tv/tritonpoker" legacyBehavior>
             <a target="_blank">
-              <button class="btn btn-twitch">
-                <Icon size={30} icon={twitch} />
-                <span>Twitch</span>
+              <button class="btn btn-twitch h-16 aspect-[189.5/64]">
+                <img src={twitch.src} className="h-full" alt="twitch" />
               </button>
             </a>
           </Link>
-        </ContentWrapper>
-      </Container>
-    </SectionWrapper>
+        </div>
+      </SectionWrapper>
+    </RulesBackground>
   );
 };
 

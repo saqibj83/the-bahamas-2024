@@ -2,11 +2,7 @@ import styled from "styled-components";
 
 const SectionWrapper = styled.section`
   padding: 100px 0 100px 0;
-  background: #000;
   .rc-tabs-content-holder {
-    background: #ffff;
-    border-radius: 0px 0px 10px 10px;
-    border: 3px solid #eba800;
   }
   @media (max-width: 990px) {
     padding: 80px 0 40px 0;
@@ -58,7 +54,7 @@ const SectionWrapper = styled.section`
     text-transform: none;
   }
   li a {
-    color: #eba800 !important;
+    color: var(--primary) !important;
     text-decoration: underline;
   }
   .update-screen-tab {
@@ -75,7 +71,6 @@ const SectionWrapper = styled.section`
       margin-bottom: 0;
       box-sizing: border-box;
       position: relative;
-      overflow: hidden;
       @media (max-width: 767px) {
         margin-bottom: 0;
       }
@@ -112,15 +107,20 @@ const SectionWrapper = styled.section`
       }
       .rc-tabs-tab {
         font-size: 18px;
-        color: #eba800;
+        color: var(--primary);
         font-weight: 400;
-        min-width: 230px;
+        flex: 1;
         padding: 10px 0 10px 0;
         text-align: center;
         background: transparent !important;
         transition: 0.25s ease-in-out;
-        display: inline-block;
-        border: 1px solid #eba800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #7a5a2c;
+        &:not(:first-child) {
+          border-left: none;
+        }
         float: none;
         &:hover {
           color: #fff;
@@ -137,44 +137,19 @@ const SectionWrapper = styled.section`
           }
         }
         &:after {
-          background: #eba800;
+          background: var(--primary);
           transform: scaleX(0);
           transform-origin: right center 0;
           transition: transform 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0s;
         }
         &.rc-tabs-tab-active {
           color: #000;
-          background: #eba800 !important;
+          background: linear-gradient(90deg, #cf933f, #deb378 50%, #ce923e 75%) !important;
 
           &:after {
             transform: scaleX(1);
             transform-origin: left center 0;
             transition: transform 0.35s cubic-bezier(0.43, 0.49, 0.51, 0.68);
-          }
-        }
-        > div {
-          margin-right: 8px;
-          i {
-            margin-right: 5px;
-            @media (max-width: 767px) {
-              margin-right: 7px;
-            }
-          }
-        }
-        @media (max-width: 1199px) {
-          font-size: 16px;
-          padding: 0 0 20px 0;
-          min-width: 170px;
-        }
-        @media (max-width: 990px) {
-          min-width: auto;
-          padding: 0 20px 15px 20px;
-        }
-        @media (max-width: 767px) {
-          font-size: 14px;
-          max-width: 50%;
-          svg {
-            width: 20px;
           }
         }
       }
@@ -185,6 +160,8 @@ const SectionWrapper = styled.section`
     .rc-tabs-content {
       .rc-tabs-tabpane {
         overflow: hidden;
+        border: 2px solid #7a5a2c;
+        border-top: none;
         box-shadow: 0px 5px 60px 0px rgba(27, 67, 111, 0.15);
         &.rc-tabs-tabpane-active {
           animation: 0.7s ScaleInUp;
@@ -222,6 +199,15 @@ const SectionWrapper = styled.section`
   }
   .update-screen-tab .rc-tabs-nav-wrap .rc-tabs-tab > div {
     margin-right: 0;
+  }
+  .accordion_item {
+    padding: 16px !important;
+    &:nth-child(2n+1) {
+      background: #1E1E1E
+    }
+    h2 {
+      padding: 0 !important;
+    }
   }
 `;
 

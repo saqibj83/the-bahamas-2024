@@ -1,19 +1,15 @@
-import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
-import DatePicker from "react-datepicker";
-import PropTypes from "prop-types";
-import Link from "next/link";
 import Box from "common/components/Box";
-import Text from "common/components/Text";
 import Heading from "common/components/Heading";
-import Button from "common/components/Button";
-import Input from "common/components/Input";
-import Select from "common/components/Select";
 import Container from "common/components/UI/Container";
+import Link from "next/link";
+import PropTypes from "prop-types";
+import { useRef, useState } from "react";
 import "react-datepicker/dist/react-datepicker.css";
 
-import NewsletterWrapper, { ContactFormWrapper } from "./newsletter.style";
-import { DOMAIN_NAMES } from "common/data/Hosting/data";
+import Button from "common/components/Button";
+import { RulesBackground } from "common/components/RulesBackground";
+import NewsletterWrapper from "./newsletter.style";
 
 const Newsletter = ({
   sectionWrapper,
@@ -51,50 +47,29 @@ const Newsletter = ({
   };
 
   return (
-    <Box
-      {...sectionWrapper}
-      as="section"
-      id="join_section"
-      style={{
-        textAlign: "center",
-        background:
-          "url(https://cdn.triton-series.com/wp-content/uploads/2019/12/08151254/Triton-Live-Stream-Set_2023-Triton-Monte-Carlo-SHRS_EV01-200K-NLH-Invitational_Day-1_Giron_JG84640-2.jpg)",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
-      <Container>
-        <Box style={{ paddingTop: "100px" }}>
-          <Heading
-            style={{
-              marginBottom: "10px",
-              paddingTop: "50px",
-              fontSize: "60px",
-            }}
-            {...title}
-            content="WANT TO JOIN THE ACTION? "
-          />
-        </Box>
-        <NewsletterWrapper>
-          <Box className="join">
-            <p style={{ color: "#fff", fontSize: "22px" }}>
-              Take your seat at the table by completing our player application
-              form.
-            </p>
-            <div className="prime-cta">
-              <Link
-                href="https://triton-series.com/player-registration/"
-                legacyBehavior
-              >
-                <a target="_blank">
-                  <div className="primary-cta">REGISTER NOW</div>
-                </a>
-              </Link>
-              <p className="small">*Terms & Conditions apply.</p>
-            </div>
+    <Box {...sectionWrapper} as="section" className="mt-10" id="join_section" style={{}}>
+      <RulesBackground>
+        <Container className="py-12">
+          <Box>
+            <Heading {...title} className="!mb-2" content="WANT TO JOIN THE ACTION? " />
           </Box>
-        </NewsletterWrapper>
-      </Container>
+          <NewsletterWrapper>
+            <Box className="join">
+              <p className="text-foreground font-bold">
+                Take your seat at the table by completing our player application form.
+              </p>
+              <div className="prime-cta mt-5">
+                <Link href="https://triton-series.com/player-registration/" legacyBehavior>
+                  <a target="_blank">
+                    <Button title="REGISTER NOW" className="!min-w-[250px]"></Button>
+                  </a>
+                </Link>
+                <p className="small">*Terms & Conditions apply</p>
+              </div>
+            </Box>
+          </NewsletterWrapper>
+        </Container>
+      </RulesBackground>
     </Box>
   );
 };
@@ -111,23 +86,20 @@ Newsletter.propTypes = {
 Newsletter.defaultProps = {
   sectionWrapper: {
     backgroundColor: "#000",
-    pb: "50px",
   },
   textArea: {
-    mb: ["40px", "40px", "40px", "50px", "50px"],
     pr: ["0", "0", "0", "80px", "20px"],
   },
   title: {
-    fontSize: ["20px", "24px", "36px", "36px"],
+    fontSize: ["20px", "24px", "34px"],
     fontWeight: "700",
     color: "#fff",
     lineHeight: "1.34",
-    mb: ["14px", "14px", "14px", "14px", "13px"],
     textAlign: ["center", "center", "center", "center", "center"],
     letterSpacing: "-0.025em",
   },
   description: {
-    fontSize: ["22px", "22px"],
+    fontSize: ["18px", "20px"],
     fontWeight: "400",
     color: "#fff",
     lineHeight: "1.7",

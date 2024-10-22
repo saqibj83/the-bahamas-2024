@@ -1,15 +1,9 @@
-import React from "react";
-import ReactPlayer from "react-player";
-import PropTypes from "prop-types";
-import Fade from "react-reveal/Fade";
-import { openModal, closeModal } from "@redq/reuse-modal";
+import { closeModal, openModal } from "@redq/reuse-modal";
 import Box from "common/components/Box";
 import Button from "common/components/Button";
-import NextImage from "common/components/NextImage";
 import Container from "common/components/UI/Container";
+import PropTypes from "prop-types";
 import { BannerWrapper, VideoWrapper } from "./banner.style";
-import Cyprus from "common/assets/image/saasClassic/logo2.png";
-import Video from "common/assets/image/video.jpg";
 
 // close button for modal
 const CloseModalButton = () => (
@@ -54,7 +48,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
 
   return (
     <BannerWrapper id="banner_section">
-      <Container>
+      <Container className="">
         <Box {...row}>
           <Box {...contentWrapper} className="text-center">
             {/* <NextImage
