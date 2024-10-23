@@ -18,7 +18,7 @@ const CountDownSection = () => {
               <NormalClock countdown={deadline} divider="true" />
             </div>
           </Fade> */}
-        <h2 className="text-3xl text-primary font-bold">LIVESTREAM CHANNELS</h2>
+        <h2 className="text-[20px] lg:text-3xl text-primary font-bold">LIVESTREAM CHANNELS</h2>
         <div className="flex gap-11 flex-wrap justify-center">
           <Link href="https://www.youtube.com/c/TritonPoker/" legacyBehavior>
             <a target="_blank" className="!h-fit">
