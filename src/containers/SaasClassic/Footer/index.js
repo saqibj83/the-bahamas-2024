@@ -68,23 +68,24 @@ const Footer = ({ row, col, colOne, colTwo, buttonStyle, titleStyle, logoStyle, 
                 >
                   85, Fenlex House, St. John Street, Valletta, VLT1165, Malta
                 </p>
-                <ul className="flex flex-wrap">
-                  <li className="me-4">
-                    <a target="_blank" href="mailto:info@triton-series.com">
-                      info@triton-series.com{" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a target="_blank" href="mailto:register@triton-series.com">
-                      register@triton-series.com
-                    </a>
-                  </li>
-                  <li className="w-full">
-                    <a target="_blank" href="mailto:partnerships@triton-series.com">
-                      partnerships@triton-series.com
-                    </a>
-                  </li>
+                <br />
+                <ul className="flex flex-wrap mb-5">
+                  <div className="flex flex-wrap">
+                    <div className="mr-7">
+                      <a target="_blank" href="mailto:info@triton-series.com">
+                        info@triton-series.com{" "}
+                      </a>
+                    </div>
+                    <div>
+                      <a target="_blank" href="mailto:register@triton-series.com">
+                        register@triton-series.com
+                      </a>
+                    </div>
+                  </div>
                 </ul>
+                <a target="_blank" href="mailto:partnerships@triton-series.com">
+                  partnerships@triton-series.com
+                </a>
               </div>
               <ul className="social">
                 <Link target="_blank" href="https://facebook.com/tritonpoker">
