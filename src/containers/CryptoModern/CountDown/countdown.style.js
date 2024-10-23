@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const SectionWrapper = styled.div`
   padding: 75px 0;
+  margin-top: -20px;
   overflow: hidden;
 
   @media only screen and (max-width: 1440px) {

@@ -26,7 +26,7 @@ const TrialSection = ({
             <Heading {...title} content="Our Sponsors and Partners" />
             <div className="sponsor-2">
               <Box className="sponsor" style={{ padding: "0 30px" }}>
-                <h3 className="text-primary" style={{ fontSize: "18px" }}>
+                <h3 className="text-primary" style={{ fontSize: "16px" }}>
                   TITLE SPONSOR
                 </h3>
                 <div className="logoh">
@@ -58,7 +58,7 @@ const TrialSection = ({
                 </div>
               </Box> */}
               <Box className="sponsor" style={{ marginRigh: "50px" }}>
-                <h3 className="text-primary" style={{ fontSize: "18px" }}>
+                <h3 className="text-primary mt-8" style={{ fontSize: "16px" }}>
                   OFFICIAL TIMEKEEPER
                 </h3>
                 <div className="logoh">
@@ -172,11 +172,11 @@ TrialSection.defaultProps = {
     justifyContent: "center",
   },
   title: {
-    fontSize: ["20px", "24px", "36px", "36px"],
+    fontSize: ["20px", "24px", "30px", "36px"],
     fontWeight: "700",
     color: "var(--primary)",
     letterSpacing: "-0.025em",
-    mb: "80px",
+    mb: ["20px", "22px"],
     textAlign: "center",
     lineHeight: "1.25",
   },

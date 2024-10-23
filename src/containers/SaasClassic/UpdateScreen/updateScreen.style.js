@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const SectionWrapper = styled.section`
-  padding: 100px 0 100px 0;
+  padding: 65px 0 0px 0;
   .rc-tabs-content-holder {
   }
   @media (max-width: 990px) {
@@ -39,7 +39,11 @@ const SectionWrapper = styled.section`
       transform: translateY(0) scale(1);
     }
   }
-  ul {
+  .accordion__item {
+    border-top: none !important;
+    border-bottom: none !important;
+  }
+   ul {
     line-height: 1.5em;
     margin: 5px 0 15px;
     padding: 0;
@@ -202,8 +206,8 @@ const SectionWrapper = styled.section`
   }
   .accordion_item {
     padding: 16px !important;
-    &:nth-child(2n+1) {
-      background: #1E1E1E
+    &:nth-child(2n + 1) {
+      background: #1e1e1e;
     }
     h2 {
       padding: 0 !important;

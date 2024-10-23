@@ -6,51 +6,54 @@ import FooterWrapper from "./footer.style";
 const Footer = ({ row, col, colOne, colTwo, buttonStyle, titleStyle, logoStyle, textStyle }) => {
   return (
     <FooterWrapper>
-      <Container className="footer_container ">
+      <Container className="footer_container sm:mt-20">
         <div className="footer-top ">
           <div className="grid grid-cols-1 px-6 md:px-0 lg:grid-cols-2 gap-8  -mx-2">
             <div className="px-2">
-              <div className="footer-top__social flex flex-col  mt-8 h-full">
+              <div className="footer-top__social flex flex-col  md:mt-8 h-full">
                 <div>
                   <span className="footer-nav__col-title">SITEMAP</span>
                   <ul>
                     <li>
-                      <Link href="#banner_section">
-                        <i className="icon-arrow-sm"></i>Home
+                      <Link href="#banner_section" >
+                          <i className="icon-arrow-sm"></i>
+                          Home
                       </Link>
                     </li>
-
+                    {/* <li>
+                    <Link href="#event_section" legacyBehavior>
+                      <a>
+                        <i className="icon-arrow-sm"></i>
+                        Event schedule
+                      </a>
+                    </Link>
+                  </li> */}
                     <li>
-                      <Link href="#participants_section">
-                        <i className="icon-arrow-sm"></i>Participants
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#general_section">
-                        <i className="icon-arrow-sm"></i> Schedule
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#tournament_info">
-                        <i className="icon-arrow-sm"></i>Rules
+                      <Link href="#channel_section" >
+                          <i className="icon-arrow-sm"></i>Live Channels
                       </Link>
                     </li>
                     <li>
-                      <Link href="#watch_live">
-                        <i className="icon-arrow-sm"></i> Live
+                      <Link href="#venue" >
+                          <i className="icon-arrow-sm"></i>Venue
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="#sponsor_section" >
+                          <i className="icon-arrow-sm"></i>Sponsors
                       </Link>
                     </li>
                   </ul>
                 </div>
 
                 <div className="footer-nav_subscribe mt-12">
-                  <span className="footer-nav__col-title">NEWSLETTER</span>
+                  <span className="footer-nav__col-title !mb-5 mt-5">NEWSLETTER</span>
 
                   <div className="box-field__row">
                     <div className="box-field">
                       <input type="email" className="form-control" placeholder="Enter your email" />
                     </div>
-                    <button type="submit" className="btn bg-[#DFA95B]">
+                    <button type="submit" className="btn !font-bold bg-[#DFA95B]">
                       subscribe
                     </button>
                   </div>

@@ -1,18 +1,23 @@
+import bg from "common/assets/image/saasClassic/Join-us-Banner.png";
 import styled from "styled-components";
+
 const NewsletterWrapper = styled.div`
-.join {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-}
-.small {
-  color: var(--foreground);
-  font-size:12px;
-  margin-top: 2px;
-  text-align: center;
-}
+  .bg {
+    background: url(${bg.src});
+  }
+  .join {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .small {
+    color: var(--foreground);
+    font-size: 12px;
+    margin-top: 2px;
+    text-align: center;
+  }
   align-items: center;
   .primary-cta {
     text-decoration: none;
@@ -30,29 +35,29 @@ const NewsletterWrapper = styled.div`
       rgba(199, 133, 28, 1) 90%,
       rgba(215, 131, 0, 1) 100%
     );
-  .react-datepicker-wrapper {
-    position: relative;
-    width: 40% !important;
-  }
-  // .emil {
-  //   margin-top: -25px;
-  // }
-  .join_section {
-    padding-top: 100px;
-  }
-  .join_section h2 {
-    margin-bottom: 50px;
-  }
-  @media (max-width: 575px) {
-    padding: 35px 20px;
-    form {
-      display: block;
+    .react-datepicker-wrapper {
+      position: relative;
+      width: 40% !important;
     }
-  }
-  @media (max-width: 990px) {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+    // .emil {
+    //   margin-top: -25px;
+    // }
+    .join_section {
+      padding-top: 100px;
+    }
+    .join_section h2 {
+      margin-bottom: 50px;
+    }
+    @media (max-width: 575px) {
+      padding: 35px 20px;
+      form {
+        display: block;
+      }
+    }
+    @media (max-width: 990px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 `;
 

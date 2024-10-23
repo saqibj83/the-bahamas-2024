@@ -11,14 +11,7 @@ import Button from "common/components/Button";
 import { RulesBackground } from "common/components/RulesBackground";
 import NewsletterWrapper from "./newsletter.style";
 
-const Newsletter = ({
-  sectionWrapper,
-  textArea,
-  buttonArea,
-  buttonStyle,
-  title,
-  description,
-}) => {
+const Newsletter = ({ sectionWrapper, textArea, buttonArea, buttonStyle, title, description }) => {
   const [startDate, setStartDate] = useState(new Date("05/01/2024"));
   const [endDate, setEndDate] = useState(new Date("05/01/2024"));
   const [message, setmessage] = useState();
@@ -27,33 +20,26 @@ const Newsletter = ({
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_jm13zdw",
-        "template_snk0woo",
-        form.current,
-        "FgtB5FqTc25g3XcAt"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          setmessage("Request Submited Successfully");
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm("service_jm13zdw", "template_snk0woo", form.current, "FgtB5FqTc25g3XcAt").then(
+      (result) => {
+        console.log(result.text);
+        setmessage("Request Submited Successfully");
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
     form.current.reset();
   };
 
   return (
-    <Box {...sectionWrapper} as="section" className="mt-10" id="join_section" style={{}}>
-      <RulesBackground>
-        <Container className="py-12">
-          <Box>
-            <Heading {...title} className="!mb-2" content="WANT TO JOIN THE ACTION? " />
-          </Box>
-          <NewsletterWrapper>
+    <NewsletterWrapper>
+      <RulesBackground className={"bg"} bgGradient={false}>
+        <Box {...sectionWrapper} as="section" className="mt-10" id="join_section" style={{}}>
+          <Container className=" py-12">
+            <Box>
+              <Heading {...title} className="!mb-2 " content="WANT TO JOIN THE ACTION? " />
+            </Box>
             <Box className="join">
               <p className="text-foreground font-bold">
                 Take your seat at the table by completing our player application form.
@@ -61,16 +47,19 @@ const Newsletter = ({
               <div className="prime-cta mt-5">
                 <Link href="https://triton-series.com/player-registration/" legacyBehavior>
                   <a target="_blank">
-                    <Button title="REGISTER NOW" className="!min-w-[250px]"></Button>
+                    <Button
+                      title="REGISTER NOW"
+                      className="!w-[270px] !max-w-[90vw] !font-bold"
+                    ></Button>
                   </a>
                 </Link>
                 <p className="small">*Terms & Conditions apply</p>
               </div>
             </Box>
-          </NewsletterWrapper>
-        </Container>
+          </Container>
+        </Box>
       </RulesBackground>
-    </Box>
+    </NewsletterWrapper>
   );
 };
 
@@ -84,14 +73,12 @@ Newsletter.propTypes = {
 };
 
 Newsletter.defaultProps = {
-  sectionWrapper: {
-    backgroundColor: "#000",
-  },
+  sectionWrapper: {},
   textArea: {
     pr: ["0", "0", "0", "80px", "20px"],
   },
   title: {
-    fontSize: ["20px", "24px", "34px"],
+    fontSize: ["20px", "24px", "36px"],
     fontWeight: "700",
     color: "#fff",
     lineHeight: "1.34",
