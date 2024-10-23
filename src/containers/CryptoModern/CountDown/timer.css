@@ -38,7 +38,7 @@ body {
 .NormalupperCard span,
 .NormallowerCard span {
   font-size: 4em;
-  font-family: 'Roboto', monospace;
+  font-family: "Roboto", monospace;
   font-weight: 300;
   color: #000;
 }
@@ -75,14 +75,14 @@ body {
   backface-visibility: hidden;
 }
 .NormalCard span {
-  font-family: 'Roboto', monospace;
+  font-family: "Roboto", monospace;
   font-size: 4em;
   font-weight: 300;
   color: #000;
 }
 .digitLabel {
   font-size: 14px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -90,5 +90,5 @@ body {
   text-align: center;
 }
 .bg-event {
-  background:url(../../../common/assets/image/saasClassic/livestream-banner.png);
+  background: url(../../../common/assets/image/saasClassic/Livestream-Banner.png);
 }

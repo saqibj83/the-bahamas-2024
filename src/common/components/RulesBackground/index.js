@@ -1,4 +1,4 @@
-export const RulesBackground = ({ children, className }) => {
+export const RulesBackground = ({ children, className, bgGradient = true }) => {
   return (
     <div className={"w-full relative" + (className ? " " + className : "")}>
       <div className="relative">
@@ -6,6 +6,7 @@ export const RulesBackground = ({ children, className }) => {
           className="absolute inset-0"
           style={{
             background:
+              bgGradient &&
               "linear-gradient(to right, transparent, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.8) 80%, transparent)",
           }}
         />
