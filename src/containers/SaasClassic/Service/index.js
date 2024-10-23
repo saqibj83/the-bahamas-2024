@@ -1228,7 +1228,7 @@ ServiceSection.propTypes = {
 
 ServiceSection.defaultProps = {
   secTitleWrapper: {
-    mb: ["20px", "20px"],
+    mb: ["20px", "22px"],
   },
   secText: {
     as: "span",

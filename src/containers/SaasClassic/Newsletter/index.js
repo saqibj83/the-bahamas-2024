@@ -78,7 +78,7 @@ Newsletter.defaultProps = {
     pr: ["0", "0", "0", "80px", "20px"],
   },
   title: {
-    fontSize: ["20px", "24px", "34px"],
+    fontSize: ["20px", "24px", "36px"],
     fontWeight: "700",
     color: "#fff",
     lineHeight: "1.34",

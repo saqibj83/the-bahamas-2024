@@ -2,7 +2,7 @@ import {
   Accordion,
   AccordionBody,
   AccordionItem,
-  AccordionTitle
+  AccordionTitle,
 } from "common/components/Accordion";
 import Box from "common/components/Box";
 import Heading from "common/components/Heading";
@@ -11,7 +11,6 @@ import Link from "next/link";
 import PropTypes from "prop-types";
 import Tabs, { TabPane } from "rc-tabs";
 import "rc-tabs/assets/index.css";
-
 
 import { FaqWrapper } from "../Faq/faq.style";
 
@@ -75,7 +74,6 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                   <AccordionTitle className="accordion_title">
                     <>
                       <Heading content="What are the visa requirements for entering Monaco?" />
-
                     </>
                   </AccordionTitle>
                   <AccordionBody className="accordion_body">
@@ -110,7 +108,6 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                   <AccordionTitle className="accordion_title">
                     <>
                       <Heading content="Where is the nearest airport to Monte Carlo Bay Hotel & Resort / Sporting Monte Carlo?" />
-
                     </>
                   </AccordionTitle>
                   <AccordionBody className="accordion_body">
@@ -128,7 +125,6 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                   <AccordionTitle className="accordion_title">
                     <>
                       <Heading content="How do I get to Monte Carlo Bay Hotel & Resort from the airport?" />
-
                     </>
                   </AccordionTitle>
                   <AccordionBody className="accordion_body">
@@ -171,7 +167,6 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                   <AccordionTitle className="accordion_title">
                     <>
                       <Heading content="How do I book accommodation at the Monte Carlo Bay Hotel & Resort?" />
-
                     </>
                   </AccordionTitle>
                   <AccordionBody className="accordion_body">
@@ -193,7 +188,6 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                   <AccordionTitle className="accordion_title">
                     <>
                       <Heading content="Is accommodation complimentary for players?" />
-
                     </>
                   </AccordionTitle>
                   <AccordionBody className="accordion_body">
@@ -216,7 +210,6 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                   <AccordionTitle className="accordion_title">
                     <>
                       <Heading content="Monte Carlo Bay Hotel & Resort has run out of rooms; where else can I stay?" />
-
                     </>
                   </AccordionTitle>
                   <AccordionBody className="accordion_body">
@@ -234,7 +227,6 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                   <AccordionTitle className="accordion_title">
                     <>
                       <Heading content="How do I register for the tournaments?" />
-
                     </>
                   </AccordionTitle>
                   <AccordionBody className="accordion_body">
@@ -265,7 +257,6 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                   <AccordionTitle className="accordion_title">
                     <>
                       <Heading content="Where can I find the tournament schedule and structures?" />
-
                     </>
                   </AccordionTitle>
                   <AccordionBody className="accordion_body">
@@ -300,7 +291,7 @@ UpdateScreen.propTypes = {
 
 UpdateScreen.defaultProps = {
   secTitleWrapper: {
-    mb: ["15px", "40px"],
+    mb: ["20px", "22px"],
   },
   secText: {
     as: "span",

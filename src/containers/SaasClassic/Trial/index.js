@@ -172,11 +172,11 @@ TrialSection.defaultProps = {
     justifyContent: "center",
   },
   title: {
-    fontSize: ["20px", "24px", "28px", "30px"],
+    fontSize: ["20px", "24px", "30px", "36px"],
     fontWeight: "700",
     color: "var(--primary)",
     letterSpacing: "-0.025em",
-    mb: "30px",
+    mb: ["20px", "22px"],
     textAlign: "center",
     lineHeight: "1.25",
   },

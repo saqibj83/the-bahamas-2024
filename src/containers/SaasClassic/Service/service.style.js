@@ -148,7 +148,7 @@ const SectionWrapper = styled.section`
     font-size: 16px !important;
   }
 
-  @media (max-width: 850px) {
+  @media (max-width: 990px) {
     td,
     h5,
     th {
@@ -262,7 +262,9 @@ const SectionWrapper = styled.section`
   thead tr {
     height: 60px;
     align-items: center;
-    margin-right: 20px;
+    @media (max-width: 1900px) {
+      margin-right: 10px;
+    }
   }
 
   th,
