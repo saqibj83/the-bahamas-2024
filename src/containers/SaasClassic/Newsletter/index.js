@@ -41,7 +41,7 @@ const Newsletter = ({ sectionWrapper, textArea, buttonArea, buttonStyle, title, 
               <Heading {...title} className="!mb-2 " content="WANT TO JOIN THE ACTION? " />
             </Box>
             <Box className="join">
-              <p className="text-foreground font-bold">
+              <p className="text-foreground font-bold text-center">
                 Take your seat at the table by completing our player application form.
               </p>
               <div className="prime-cta mt-5">

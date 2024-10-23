@@ -1,6 +1,4 @@
 import styled, { keyframes } from "styled-components";
-import BgIMage from "common/assets/image/main-bg.jpeg";
-import MobIMage from "common/assets/image/mobile-bg.png";
 
 const Bubble = keyframes`
   0% {
@@ -37,15 +35,27 @@ export const BannerWrapper = styled.section`
     border-color: transparent transparent transparent red !important;
     border-width: 36px 0px 36px 56px !important;
   }
-  @media (max-width: 575px) {
+  @media (max-width: 531px) {
     padding: 120px 0 0 0;
     background-size: contain;
     background-image: url("https://cdn.triton-series.com/wp-content/uploads/2019/12/04133128/mobile-main-v2.png");
-    min-height: 80vh;
+    min-height: 105vh;
     .react-reveal > div {
       width: 400px !important;
       height: 225px !important;
     }
+  }
+  @media (max-width: 500px) {
+    min-height: 97vh;
+  }
+  @media (max-width: 460px) {
+    min-height: 90vh;
+  }
+  @media (max-width: 430px) {
+    min-height: 83vh;
+  }
+  @media (max-width: 360px) {
+    min-height: 72vh;
   }
   .text-st {
     text-align: center;
@@ -97,7 +107,7 @@ export const VideoModal = styled.div`
     width: 100%;
     height: 100%;
     display: block;
-   
+
     );
     opacity: 0.2;
     pointer-events: none;
