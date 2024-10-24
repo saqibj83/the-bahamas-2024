@@ -2,6 +2,7 @@ import bg from "common/assets/image/saasClassic/Join-us-Banner.png";
 import styled from "styled-components";
 
 const NewsletterWrapper = styled.div`
+  margin-top: 60px;
   .bg {
     background: url(${bg.src});
   }

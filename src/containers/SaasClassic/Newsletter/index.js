@@ -35,10 +35,14 @@ const Newsletter = ({ sectionWrapper, textArea, buttonArea, buttonStyle, title, 
   return (
     <NewsletterWrapper>
       <RulesBackground className={"bg"} bgGradient={false}>
-        <Box {...sectionWrapper} as="section" className="mt-10" id="join_section" style={{}}>
+        <Box {...sectionWrapper} as="section" id="join_section" style={{}}>
           <Container className=" py-12">
             <Box>
-              <Heading {...title} className="!mb-2 !text-primary" content="WANT TO JOIN THE ACTION? " />
+              <Heading
+                {...title}
+                className="!mb-2 !text-primary"
+                content="WANT TO JOIN THE ACTION? "
+              />
             </Box>
             <Box className="join">
               <p className="text-foreground font-bold text-center">

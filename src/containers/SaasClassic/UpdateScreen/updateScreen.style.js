@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const SectionWrapper = styled.section`
-  padding: 65px 0 0px 0;
+  padding: 60px 0 0px 0;
   .rc-tabs-content-holder {
   }
   @media (max-width: 990px) {
@@ -43,7 +43,7 @@ const SectionWrapper = styled.section`
     border-top: none !important;
     border-bottom: none !important;
   }
-   ul {
+  ul {
     line-height: 1.5em;
     margin: 5px 0 15px;
     padding: 0;
@@ -180,9 +180,10 @@ const SectionWrapper = styled.section`
   }
 
   @media (max-width: 575px) {
-    padding: 60px 0 20px 0;
+    padding: 60px 0 0px 0;
     .container {
       padding: 10px;
+      padding-bottom: 0px;
     }
     .primary-cta {
       margin: 0 20px 20px !important;

@@ -16,7 +16,7 @@ const Bubble = keyframes`
 `;
 
 export const BannerWrapper = styled.section`
-  padding: 100px 0 50px 0;
+  padding: 100px 0 0 0;
   background-image: url(${desktopBg.src});
   background-size: cover;
   background-position: bottom;
