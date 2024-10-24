@@ -20,6 +20,7 @@ export const BannerWrapper = styled.section`
   background-image: url(${desktopBg.src});
   background-size: cover;
   background-position: bottom;
+  min-height: 90vh;
   overflow: hidden;
   background-repeat: no-repeat;
   background-color: #000;
@@ -36,7 +37,10 @@ export const BannerWrapper = styled.section`
     border-color: transparent transparent transparent red !important;
     border-width: 36px 0px 36px 56px !important;
   }
-  @media (max-width: 531px) {
+  @media (max-width: 1100px) {
+    min-height: auto;
+  }
+  @media (max-width: 731px) {
     background-image: url(${mobileBg.src});
     padding: 120px 0 0 0;
     .react-reveal > div {
