@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
 const SectionWrapper = styled.section`
-  padding: 60px 0 0 0;
+  padding: 100px 0 0 0;
+  @media (max-width: 575px) {
+    padding-top: 60px;
+  }
   margin-bottom: -50px;
 
   .sponsor-2 {
