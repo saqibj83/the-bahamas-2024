@@ -1,4 +1,5 @@
-import desktopBg from "common/assets/image/saasClassic/TPSHRS-Monte-Carlo-Landing-Page-Bg-Banner.png";
+import desktopBg from "common/assets/image/saasClassic/TPSHRS-Monte-Carlo-Landing-Page-Bg-Banner-desktop.png";
+import mobileBg from "common/assets/image/saasClassic/TPSHRS-Monte-Carlo-Landing-Page-Bg-Banner.png";
 import styled, { keyframes } from "styled-components";
 
 const Bubble = keyframes`
@@ -18,7 +19,7 @@ export const BannerWrapper = styled.section`
   padding: 100px 0 50px 0;
   background-image: url(${desktopBg.src});
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   overflow: hidden;
   background-repeat: no-repeat;
   background-color: #000;
@@ -36,6 +37,7 @@ export const BannerWrapper = styled.section`
     border-width: 36px 0px 36px 56px !important;
   }
   @media (max-width: 531px) {
+    background-image: url(${mobileBg.src});
     padding: 120px 0 0 0;
     .react-reveal > div {
       width: 400px !important;
