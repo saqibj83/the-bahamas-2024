@@ -7,7 +7,7 @@ const deadline = new Date("2022/09/05 14:00:00 ");
 
 const CountDownSection = () => {
   return (
-    <RulesBackground className={`bg-event`}>
+    <RulesBackground className={`bg-event`} bgGradient={false}>
       <SectionWrapper
         id="channel_section"
         className="flex flex-col text-center items-center !p-12 gap-10"
