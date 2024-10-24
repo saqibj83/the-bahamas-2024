@@ -1,3 +1,5 @@
+import desktopBg from "common/assets/image/saasClassic/TPSHRS-Monte-Carlo-Landing-Page-Bg-Banner.png";
+import mobileBg from "common/assets/image/saasClassic/Triton-Invitational-Header-mobile.png";
 import styled, { keyframes } from "styled-components";
 
 const Bubble = keyframes`
@@ -15,9 +17,9 @@ const Bubble = keyframes`
 
 export const BannerWrapper = styled.section`
   padding: 100px 0 50px 0;
-  background-image: url("https://cdn.triton-series.com/wp-content/uploads/2019/12/15140414/TPSHRS-Monte-Carlo-Landing-Page-Header.png");
+  background-image: url(${desktopBg.src});
   background-size: cover;
-  background-position: top center;
+  background-position: center;
   overflow: hidden;
   background-repeat: no-repeat;
   background-color: #000;
@@ -37,26 +39,13 @@ export const BannerWrapper = styled.section`
   }
   @media (max-width: 531px) {
     padding: 120px 0 0 0;
-    background-size: contain;
-    background-image: url("https://cdn.triton-series.com/wp-content/uploads/2019/12/04133128/mobile-main-v2.png");
-    min-height: 105vh;
+    background-image: url(${mobileBg.src});
     .react-reveal > div {
       width: 400px !important;
       height: 225px !important;
     }
   }
-  @media (max-width: 500px) {
-    min-height: 97vh;
-  }
-  @media (max-width: 460px) {
-    min-height: 90vh;
-  }
-  @media (max-width: 430px) {
-    min-height: 83vh;
-  }
-  @media (max-width: 360px) {
-    min-height: 72vh;
-  }
+
   .text-st {
     text-align: center;
     font-size: 18px;
