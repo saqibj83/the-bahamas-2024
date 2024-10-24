@@ -54,11 +54,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
               <p className="text-foreground font-bold text-[10px] sm:text-xs md:text-sm sm:-me-4">
                 TITLE SPONSOR
               </p>
-              <img
-                src={sponsor.src}
-                alt="Sponsor"
-                className="!max-w-24 sm:!max-w-32 md:!max-w-48"
-              />
+              <img  src={sponsor.src} alt="Sponsor" className="sponsor" />
             </div>
           </Box>
         </Box>

@@ -58,8 +58,14 @@ export const BannerWrapper = styled.section`
     }
   }
 
-  img {
-    max-width: 100%;
+  .sponsor {
+    max-width: 96px;
+    @media (min-width: 640px) {
+      max-width: 128px;
+    }
+    @media (min-width: 768px) {
+      max-width: 192px;
+    }
     height: auto;
     display: block;
   }
