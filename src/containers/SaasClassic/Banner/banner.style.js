@@ -60,8 +60,7 @@ export const BannerWrapper = styled.section`
       font-weight: bold;
     }
   }
-
-  .sponsor {
+  .sponsor img {
     max-width: 96px;
     @media (min-width: 640px) {
       max-width: 128px;

@@ -49,12 +49,12 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
       <Container className="">
         <Box {...row}>
           <Box {...contentWrapper} className="text-center">
-            <img src={logo.src} alt="Logo and Event" style={{ display: "inline" }} />
-            <div className="flex items-center justify-center">
-              <p className="text-foreground font-bold text-[10px] sm:text-xs md:text-sm sm:-me-4">
+            <img src={logo.src} alt="Logo and Event" className="logo w-full" />
+            <div className="sponsor flex items-center justify-center">
+              <p className="text-foreground font-bold text-[8px] xs:text-[10px] sm:text-xs md:text-sm sm:-me-4">
                 TITLE SPONSOR
               </p>
-              <img  src={sponsor.src} alt="Sponsor" className="sponsor" />
+              <img src={sponsor.src} alt="Sponsor" />
             </div>
           </Box>
         </Box>
@@ -84,7 +84,7 @@ BannerSection.defaultProps = {
     justifyContent: "center",
   },
   contentWrapper: {
-    width: ["100%", "100%", "80%", "55%", "50%"],
+    width: ["100%", "100%", "80%", "800px", "800px"],
     mb: "20px",
   },
   title: {
