@@ -1,5 +1,4 @@
 import desktopBg from "common/assets/image/saasClassic/TPSHRS-Monte-Carlo-Landing-Page-Bg-Banner.png";
-import mobileBg from "common/assets/image/saasClassic/Triton-Invitational-Header-mobile.png";
 import styled, { keyframes } from "styled-components";
 
 const Bubble = keyframes`
@@ -23,7 +22,6 @@ export const BannerWrapper = styled.section`
   overflow: hidden;
   background-repeat: no-repeat;
   background-color: #000;
-  min-height: 100vh;
   .video-section {
     width: 100%;
     display: flex;
@@ -39,7 +37,6 @@ export const BannerWrapper = styled.section`
   }
   @media (max-width: 531px) {
     padding: 120px 0 0 0;
-    background-image: url(${mobileBg.src});
     .react-reveal > div {
       width: 400px !important;
       height: 225px !important;
