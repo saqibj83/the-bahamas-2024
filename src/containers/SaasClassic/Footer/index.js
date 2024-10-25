@@ -15,9 +15,9 @@ const Footer = ({ row, col, colOne, colTwo, buttonStyle, titleStyle, logoStyle, 
                   <span className="footer-nav__col-title">SITEMAP</span>
                   <ul>
                     <li>
-                      <Link href="#banner_section" >
-                          <i className="icon-arrow-sm"></i>
-                          Home
+                      <Link href="#banner_section">
+                        <i className="icon-arrow-sm"></i>
+                        Home
                       </Link>
                     </li>
                     {/* <li>
@@ -29,18 +29,18 @@ const Footer = ({ row, col, colOne, colTwo, buttonStyle, titleStyle, logoStyle, 
                     </Link>
                   </li> */}
                     <li>
-                      <Link href="#channel_section" >
-                          <i className="icon-arrow-sm"></i>Live Channels
+                      <Link href="#channel_section">
+                        <i className="icon-arrow-sm"></i>Live Channels
                       </Link>
                     </li>
                     <li>
-                      <Link href="#venue" >
-                          <i className="icon-arrow-sm"></i>Venue
+                      <Link href="#venue">
+                        <i className="icon-arrow-sm"></i>Venue
                       </Link>
                     </li>
                     <li>
-                      <Link href="#sponsor_section" >
-                          <i className="icon-arrow-sm"></i>Sponsors
+                      <Link href="#sponsor_section">
+                        <i className="icon-arrow-sm"></i>Sponsors
                       </Link>
                     </li>
                   </ul>
@@ -60,58 +60,36 @@ const Footer = ({ row, col, colOne, colTwo, buttonStyle, titleStyle, logoStyle, 
                 </div>
               </div>
             </div>
-            <div className="px-2 mb-4 flex flex-col justify-between">
-              <div className="footer-nav_cotact mt-8">
-                <span className="footer-nav__col-title">CONTACT</span>
-                <p
-                  style={{
-                    fontSize: "16px",
-                    float: "left",
-                  }}
-                >
-                  85, Fenlex House, St. John Street, Valletta, VLT1165, Malta
-                </p>
-                <br />
-                <ul className="flex flex-wrap mb-5">
-                  <div className="flex flex-wrap">
-                    <div className="mr-7">
-                      <a target="_blank" href="mailto:info@triton-series.com">
-                        info@triton-series.com{" "}
-                      </a>
-                    </div>
-                    <div>
-                      <a target="_blank" href="mailto:register@triton-series.com">
-                        register@triton-series.com
-                      </a>
-                    </div>
-                  </div>
-                </ul>
-                <a target="_blank" href="mailto:partnerships@triton-series.com">
-                  partnerships@triton-series.com
-                </a>
-              </div>
-              <ul className="social">
-                <Link target="_blank" href="https://facebook.com/tritonpoker">
-                  <li className="facebook"></li>
-                </Link>
-                <Link target="_blank" href="https://twitter.com/tritonpoker">
-                  <li className="twitter"></li>
-                </Link>
-                <Link target="_blank" href="https://instagram.com/tritonpokerseries">
-                  <li className="instagram"></li>
-                </Link>
-                <Link target="_blank" href="https://www.twitch.tv/tritonpoker">
-                  <li className="twitch"></li>
-                </Link>
-                <Link target="_blank" href="https://youtube.com/tritonpoker">
-                  <li className="youtube"></li>
-                </Link>
-                <Link target="_blank" href="https://discord.gg/tritonpoker">
-                  <li className="discord"></li>
-                </Link>
-                <Link target="_blank" href="https://www.tiktok.com/@tritonseries">
-                  <li className="tik-tok"></li>
-                </Link>
+            <div className="footer-nav_cotact mt-8">
+              <span className="footer-nav__col-title">CONTACT</span>
+              <p
+                style={{
+                  fontSize: "16px",
+                  float: "left",
+                }}
+              >
+                <i className="icon-map-pin"></i> 85, Fenlex House, St. John Street, Valletta,
+                VLT1165, Malta
+              </p>
+              <ul>
+                <li>
+                  <i className="icon-mail"></i>
+                  <a target="_blank" href="mailto:info@triton-series.com">
+                    info@triton-series.com{" "}
+                  </a>
+                </li>
+                <li>
+                  <i className="icon-mail"></i>
+                  <a target="_blank" href="mailto:register@triton-series.com">
+                    register@triton-series.com
+                  </a>
+                </li>
+                <li>
+                  <i className="icon-mail"></i>
+                  <a target="_blank" href="mailto:partnerships@triton-series.com">
+                    partnerships@triton-series.com
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
