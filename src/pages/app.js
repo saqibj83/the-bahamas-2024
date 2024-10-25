@@ -56,7 +56,7 @@ const App = () => {
         <Head>
           <title>App | A react next landing page</title>
           <meta name="Description" content="React next landing page" />
-          <meta name="theme-color" content="#ec5555" />
+          <meta name="theme-color" content="#000" />
           <link
             href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
             rel="stylesheet"
