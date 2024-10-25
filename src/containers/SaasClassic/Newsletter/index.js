@@ -46,7 +46,7 @@ const Newsletter = ({ sectionWrapper, textArea, buttonArea, buttonStyle, title, 
             </Box>
             <Box className="join">
               <p className="text-foreground font-bold text-center">
-                Take your seat at the table by completing our player application form.
+                Take your seat at the table by completing our player application form
               </p>
               <div className="prime-cta mt-5">
                 <Link href="https://triton-series.com/player-registration/" legacyBehavior>
