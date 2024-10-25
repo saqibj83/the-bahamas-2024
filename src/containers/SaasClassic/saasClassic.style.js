@@ -1,4 +1,5 @@
-import bg from "common/assets/image/saasClassic/TPSHRS-Landing-Page-Background.png";
+import desktopBg from "common/assets/image/saasClassic/Main-Triton-Website-Background.png";
+import mobileBg from "common/assets/image/saasClassic/Mobile-Website-Background.png";
 import styled, { createGlobalStyle, keyframes } from "styled-components";
 const Fade = keyframes`
   0% {
@@ -196,10 +197,14 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const ContentWrapper = styled.div`
-  background: url(${bg.src});
+  background-image: url(${desktopBg.src});
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+  @media (max-width: 600px) {
+    background-image: url(${mobileBg.src});
+  }
+
   .sticky-nav-active {
     .saas_navbar {
       background: #000;
