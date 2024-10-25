@@ -1,24 +1,24 @@
-import React, { Fragment } from "react";
-import Head from "next/head";
-import { ThemeProvider } from "styled-components";
-import Sticky from "react-stickynode";
-import { DrawerProvider } from "common/contexts/DrawerContext";
-import { saasClassicTheme } from "common/theme/saasClassic";
-import ResetCSS from "common/assets/css/style";
+import React, { Fragment } from "react"
+import Head from "next/head"
+import { ThemeProvider } from "styled-components"
+import Sticky from "react-stickynode"
+import { DrawerProvider } from "common/contexts/DrawerContext"
+import { saasClassicTheme } from "common/theme/saasClassic"
+import ResetCSS from "common/assets/css/style"
 import {
   GlobalStyle,
   ContentWrapper,
-} from "containers/SaasClassic/saasClassic.style";
+} from "containers/SaasClassic/saasClassic.style"
 
-import BannerSection from "containers/SaasClassic/Banner";
-import PartnerSection from "containers/SaasClassic/Partner";
-import CountDown from "containers/CryptoModern/CountDown";
-import Navbar from "containers/SaasClassic/Navbar";
-import ServiceSection from "containers/SaasClassic/Service";
-import TrialSection from "containers/SaasClassic/Trial";
-import UpdateScreen from "containers/SaasClassic/UpdateScreen";
-import Newsletter from "containers/SaasClassic/Newsletter";
-import Footer from "containers/SaasClassic/Footer";
+import BannerSection from "containers/SaasClassic/Banner"
+import PartnerSection from "containers/SaasClassic/Partner"
+import CountDown from "containers/CryptoModern/CountDown"
+import Navbar from "containers/SaasClassic/Navbar"
+import ServiceSection from "containers/SaasClassic/Service"
+import TrialSection from "containers/SaasClassic/Trial"
+import UpdateScreen from "containers/SaasClassic/UpdateScreen"
+import Newsletter from "containers/SaasClassic/Newsletter"
+import Footer from "containers/SaasClassic/Footer"
 
 const SaasClassic = () => {
   return (
@@ -30,20 +30,30 @@ const SaasClassic = () => {
             name="Description"
             content="Triton Super High Roller Series 2024"
           />
-          <meta name="theme-color" content="#ec5555" />
+          <meta
+            name="theme-color"
+            content="#000"
+          />
           <meta
             name="google-site-verification"
             content="OUn2prDdnV-MyCWAa56nnZAV-dqzTiN7b3zaOyhPAUA"
           />
           {/* Load google fonts */}
-          <link href="https://use.typekit.net/wtc2zlg.css" rel="stylesheet" />
+          <link
+            href="https://use.typekit.net/wtc2zlg.css"
+            rel="stylesheet"
+          />
         </Head>
 
         <ResetCSS />
         <GlobalStyle />
 
         <ContentWrapper>
-          <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
+          <Sticky
+            top={0}
+            innerZ={9999}
+            activeClass="sticky-nav-active"
+          >
             <DrawerProvider>
               <Navbar />
             </DrawerProvider>
@@ -58,6 +68,6 @@ const SaasClassic = () => {
         </ContentWrapper>
       </Fragment>
     </ThemeProvider>
-  );
-};
-export default SaasClassic;
+  )
+}
+export default SaasClassic
