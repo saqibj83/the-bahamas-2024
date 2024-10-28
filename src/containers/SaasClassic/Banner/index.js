@@ -1,4 +1,6 @@
 import { closeModal, openModal } from "@redq/reuse-modal";
+import logo from "common/assets/image/saasClassic/Logo-and-Event-information.png";
+import sponsor from "common/assets/image/saasClassic/WPT_Global_Light_R_Stacked.png";
 import Box from "common/components/Box";
 import Button from "common/components/Button";
 import Container from "common/components/UI/Container";
@@ -17,11 +19,7 @@ const CloseModalButton = () => (
 
 const ModalContent = () => (
   <VideoWrapper>
-    <iframe
-      title="Video"
-      src="https://www.youtube.com/embed/uq9pc9-u5Qg"
-      frameBorder="0"
-    />
+    <iframe title="Video" src="https://www.youtube.com/embed/uq9pc9-u5Qg" frameBorder="0" />
   </VideoWrapper>
 );
 
@@ -51,37 +49,14 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
       <Container className="">
         <Box {...row}>
           <Box {...contentWrapper} className="text-center">
-            {/* <NextImage
-              className="cyprus-img"
-              src={Cyprus}
-              alt="cyprus image"
-              style={{ display: "inline" }}
-            /> */}
-          </Box>
-          {/* <div className="video-section">
-            <Fade bottom>
-              <ReactPlayer
-                url="https://www.youtube.com/embed/uq9pc9-u5Qg"
-                // light="https://cdn.triton-series.com/wp-content/uploads/2019/12/29120652/video-banner.png"
-                playing={true}
-                playsinline
-                width="711px"
-                height="400px"
-                controls
-              />
-            </Fade>
-            <NextImage
-              src={Video}
-              alt="Video image"
-              style={{ display: "inline" }}
-            />
-          </div>
-          <Box {...contentWrapper}>
-            <div className="text-st">
-              <span>Monte-Carlo Sporting - Salle Des Étoiles</span> <br />
-              NOVEMBER 1<sup>st</sup> - NOVEMBER 14<sup>th</sup>, 2024
+            <img src={logo.src} alt="Logo and Event" className="logo w-full" />
+            <div className="sponsor flex items-center justify-center">
+              <p className="text-foreground font-bold text-[8px] xs:text-[10px] sm:text-xs md:text-sm sm:-me-4">
+                TITLE SPONSOR
+              </p>
+              <img src={sponsor.src} alt="Sponsor" />
             </div>
-          </Box> */}
+          </Box>
         </Box>
       </Container>
     </BannerWrapper>
@@ -109,7 +84,7 @@ BannerSection.defaultProps = {
     justifyContent: "center",
   },
   contentWrapper: {
-    width: ["100%", "100%", "80%", "55%", "50%"],
+    width: ["100%", "100%", "80%", "800px", "800px"],
     mb: "20px",
   },
   title: {

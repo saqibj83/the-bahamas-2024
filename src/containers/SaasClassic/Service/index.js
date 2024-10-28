@@ -347,8 +347,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
         <Box {...secTitleWrapper}>
           <Heading {...secHeading} content="EVENT SCHEDULE" />
         </Box>
-        <Box {...secText} className="justify-center flex">
-          The special triton invitational
+        <Box {...secText} className="justify-center flex text-center">
+          The ultra exclusive triton invitational
         </Box>
 
         <div className="prime-cta">
@@ -1188,7 +1188,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
             </tbody>
           </table>
         </Box>
-        <Box className="flex flex-col md:gap-10 md:flex-row gap-5 mt-10 mb-20 px-5 justify-center">
+        <Box className="flex flex-col md:gap-10 md:flex-row gap-5 mt-10 px-5 justify-center">
           <Link
             href="https://cdn.triton-series.com/wp-content/uploads/2019/12/16173950/TritonPoker-2024-MonteCarlo-EventStructure.pdf"
             legacyBehavior

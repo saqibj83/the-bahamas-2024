@@ -1,21 +1,21 @@
-import React, { Fragment } from 'react';
-import Head from 'next/head';
-import Sticky from 'react-stickynode';
-import { ThemeProvider } from 'styled-components';
-import { cryptoTheme } from 'common/theme/crypto';
-import ResetCSS from 'common/assets/css/style';
-import { GlobalStyle, ContentWrapper } from 'containers/Crypto/crypto.style';
-import { DrawerProvider } from 'common/contexts/DrawerContext';
-import Navbar from 'containers/Crypto/Navbar';
-import Banner from 'containers/Crypto/BannerSection';
-import BannerSlider from 'containers/Crypto/BannerSlider';
-import Transactions from 'containers/Crypto/Transaction';
-import ControlSections from 'containers/Crypto/ControlSection';
-import TrustedProofSections from 'containers/Crypto/TrustedProof';
-import ScalableSections from 'containers/Crypto/ScalableSection';
-import SlideSections from 'containers/Crypto/CryptoSlides';
-import BetaSections from 'containers/Crypto/BetaSection';
-import Footer from 'containers/Crypto/Footer';
+import React, { Fragment } from "react"
+import Head from "next/head"
+import Sticky from "react-stickynode"
+import { ThemeProvider } from "styled-components"
+import { cryptoTheme } from "common/theme/crypto"
+import ResetCSS from "common/assets/css/style"
+import { GlobalStyle, ContentWrapper } from "containers/Crypto/crypto.style"
+import { DrawerProvider } from "common/contexts/DrawerContext"
+import Navbar from "containers/Crypto/Navbar"
+import Banner from "containers/Crypto/BannerSection"
+import BannerSlider from "containers/Crypto/BannerSlider"
+import Transactions from "containers/Crypto/Transaction"
+import ControlSections from "containers/Crypto/ControlSection"
+import TrustedProofSections from "containers/Crypto/TrustedProof"
+import ScalableSections from "containers/Crypto/ScalableSection"
+import SlideSections from "containers/Crypto/CryptoSlides"
+import BetaSections from "containers/Crypto/BetaSection"
+import Footer from "containers/Crypto/Footer"
 
 const Crypto = () => {
   return (
@@ -23,8 +23,14 @@ const Crypto = () => {
       <Fragment>
         <Head>
           <title>Cryptocurrency | A react next landing page</title>
-          <meta name="Description" content="React next landing page" />
-          <meta name="theme-color" content="#ec5555" />
+          <meta
+            name="Description"
+            content="React next landing page"
+          />
+          <meta
+            name="theme-color"
+            content="#000"
+          />
 
           {/* Load google fonts */}
           <link
@@ -35,7 +41,11 @@ const Crypto = () => {
         <ResetCSS />
         <GlobalStyle />
         <ContentWrapper>
-          <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
+          <Sticky
+            top={0}
+            innerZ={9999}
+            activeClass="sticky-nav-active"
+          >
             <DrawerProvider>
               <Navbar />
             </DrawerProvider>
@@ -52,6 +62,6 @@ const Crypto = () => {
         </ContentWrapper>
       </Fragment>
     </ThemeProvider>
-  );
-};
-export default Crypto;
+  )
+}
+export default Crypto

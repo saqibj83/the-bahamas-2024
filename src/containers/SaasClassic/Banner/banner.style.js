@@ -1,6 +1,6 @@
+import desktopBg from "common/assets/image/saasClassic/TPSHRS-Monte-Carlo-Landing-Page-Bg-Banner-desktop.png";
+import mobileBg from "common/assets/image/saasClassic/TPSHRS-Monte-Carlo-Landing-Page-Bg-Banner.png";
 import styled, { keyframes } from "styled-components";
-import BgIMage from "common/assets/image/main-bg.jpeg";
-import MobIMage from "common/assets/image/mobile-bg.png";
 
 const Bubble = keyframes`
   0% {
@@ -16,14 +16,14 @@ const Bubble = keyframes`
 `;
 
 export const BannerWrapper = styled.section`
-  padding: 100px 0 50px 0;
-  background-image: url("https://cdn.triton-series.com/wp-content/uploads/2019/12/15140414/TPSHRS-Monte-Carlo-Landing-Page-Header.png");
+  padding: 100px 0 0 0;
+  background-image: url(${desktopBg.src});
   background-size: cover;
-  background-position: top center;
+  background-position: bottom;
+  min-height: 90vh;
   overflow: hidden;
   background-repeat: no-repeat;
   background-color: #000;
-  min-height: 100vh;
   .video-section {
     width: 100%;
     display: flex;
@@ -37,16 +37,18 @@ export const BannerWrapper = styled.section`
     border-color: transparent transparent transparent red !important;
     border-width: 36px 0px 36px 56px !important;
   }
-  @media (max-width: 575px) {
+  @media (max-width: 1100px) {
+    min-height: auto;
+  }
+  @media (max-width: 731px) {
+    background-image: url(${mobileBg.src});
     padding: 120px 0 0 0;
-    background-size: contain;
-    background-image: url("https://cdn.triton-series.com/wp-content/uploads/2019/12/04133128/mobile-main-v2.png");
-    min-height: 80vh;
     .react-reveal > div {
       width: 400px !important;
       height: 225px !important;
     }
   }
+
   .text-st {
     text-align: center;
     font-size: 18px;
@@ -58,9 +60,14 @@ export const BannerWrapper = styled.section`
       font-weight: bold;
     }
   }
-
-  img {
-    max-width: 100%;
+  .sponsor img {
+    max-width: 96px;
+    @media (min-width: 640px) {
+      max-width: 128px;
+    }
+    @media (min-width: 768px) {
+      max-width: 192px;
+    }
     height: auto;
     display: block;
   }
@@ -97,7 +104,7 @@ export const VideoModal = styled.div`
     width: 100%;
     height: 100%;
     display: block;
-   
+
     );
     opacity: 0.2;
     pointer-events: none;

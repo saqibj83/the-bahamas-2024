@@ -1,0 +1,6 @@
+{
+  "edtiorformat.formatOnSave": false,
+  "conventionalCommits.scopes": [
+    "app title bar color update to black"
+  ]
+}

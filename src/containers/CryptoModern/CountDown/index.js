@@ -7,7 +7,7 @@ const deadline = new Date("2022/09/05 14:00:00 ");
 
 const CountDownSection = () => {
   return (
-    <RulesBackground className={`bg-event`}>
+    <RulesBackground className={`bg-event`} bgGradient={false}>
       <SectionWrapper
         id="channel_section"
         className="flex flex-col text-center items-center !p-12 gap-10"
@@ -18,7 +18,7 @@ const CountDownSection = () => {
               <NormalClock countdown={deadline} divider="true" />
             </div>
           </Fade> */}
-        <h2 className="text-3xl text-primary font-bold">LIVESTREAM CHANNELS</h2>
+        <h2 className="text-[20px] lg:text-3xl text-primary font-bold">LIVESTREAM CHANNELS</h2>
         <div className="flex gap-11 flex-wrap justify-center">
           <Link href="https://www.youtube.com/c/TritonPoker/" legacyBehavior>
             <a target="_blank" className="!h-fit">

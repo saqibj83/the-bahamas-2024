@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 const SectionWrapper = styled.section`
   padding: 100px 0 0 0;
+  @media (max-width: 575px) {
+    padding-top: 60px;
+  }
+  margin-bottom: -50px;
 
   .sponsor-2 {
     display: flex;
@@ -47,7 +51,7 @@ const SectionWrapper = styled.section`
     margin-bottom: 20px;
   }
   @media (max-width: 550px) {
-    padding: 65px 0 0 0;
+    margin-bottom: -10px;
     .sponsor {
       width: 100%;
       text-align: certer;
@@ -55,7 +59,6 @@ const SectionWrapper = styled.section`
     .sponsor1 {
       width: 100%;
       text-align: certer;
-      margin-top: 40px;
     }
     .sponsors-logo {
       grid-template-columns: 1fr;
@@ -77,6 +80,9 @@ const SectionWrapper = styled.section`
     }
     .sponsor-2 {
       margin-bottom: 0px !important;
+    }
+    h3 {
+      margin-bottom: 10px;
     }
   }
 

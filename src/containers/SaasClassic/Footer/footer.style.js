@@ -11,7 +11,7 @@ import styled from "styled-components";
 const FooterWrapper = styled.footer`
   position: relative;
   overflow: hidden;
-  padding: 15px 0 40px 0;
+  padding: 60px 0 40px 0;
   margin-top: 0;
 
 a {
@@ -90,7 +90,7 @@ a:hover {
   padding: 5px 5px 5px 0px;
 }
 .footer-top {
-  padding: 30px 0 0;
+  padding: 0;
   justify-content: space-between;
   border-bottom: 1px solid rgba(255,255,255,.1);
 }
@@ -267,7 +267,7 @@ li{
       height: 40px;
     }
     a.linkFooter {
-      padding: 0 5px;
+      padding: 0 15px;
       font-size: 12px;
     }
     .footer-copy {

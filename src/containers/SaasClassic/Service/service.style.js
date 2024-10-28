@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
 const SectionWrapper = styled.section`
-  padding: 100px 0 1px 0;
+  padding: 100px 0 0px 0;
+  @media (max-width: 575px) {
+    padding-top: 60px;
+  }
   .prime-cta1 {
     text-align: center;
     display: flex;
@@ -85,7 +88,6 @@ const SectionWrapper = styled.section`
     height: 60px;
   }
   @media (max-width: 550px) {
-    padding: 75px 0 5px 0;
     .prime-cta {
       flex-direction: column;
       justify-content: flex-start;

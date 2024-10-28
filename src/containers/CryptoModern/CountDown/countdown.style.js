@@ -3,9 +3,11 @@ import styled from "styled-components";
 
 const SectionWrapper = styled.div`
   padding: 75px 0;
-  margin-top: -20px;
+  margin-top: 100px;
   overflow: hidden;
-
+  @media (max-width: 575px) {
+    margin-top: 60px;
+  }
   @media only screen and (max-width: 1440px) {
     padding: 100px 0 50px;
   }
@@ -66,8 +68,7 @@ export const ContentWrapper = styled.div`
     width: 300px;
     border-radius: 20px;
     &:hover {
-      box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1),
-        0 3px 6px rgba(0, 0, 0, 0.08);
+      box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
       top: -5px;
     }
     span {

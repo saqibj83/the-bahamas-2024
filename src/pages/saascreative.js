@@ -1,28 +1,28 @@
-import React, { Fragment } from 'react';
-import Head from 'next/head';
-import { ThemeProvider } from 'styled-components';
-import Sticky from 'react-stickynode';
-import { DrawerProvider } from 'common/contexts/DrawerContext';
-import { theme } from 'common/theme/saasCreative';
-import ResetCSS from 'common/assets/css/style';
-import BannerSection from 'containers/SaasCreative/Banner';
-import Navbar from 'containers/SaasCreative/Navbar';
-import Clients from 'containers/SaasCreative/Clients';
-import HowItWorks from 'containers/SaasCreative/HowItWorks';
-import AdvancedAnalytics from 'containers/SaasCreative/AdvancedAnalytics';
-import Features from 'containers/SaasCreative/Features';
-import WalletExperience from 'containers/SaasCreative/WalletExperience';
-import Testimonial from 'containers/SaasCreative/Testimonial';
-import Pricing from 'containers/SaasCreative/Pricing';
-import OurCommunity from 'containers/SaasCreative/OurCommunity';
-import Faq from 'containers/SaasCreative/Faq';
-import CallToAction from 'containers/SaasCreative/CallToAction';
-import Footer from 'containers/SaasCreative/Footer';
+import React, { Fragment } from "react"
+import Head from "next/head"
+import { ThemeProvider } from "styled-components"
+import Sticky from "react-stickynode"
+import { DrawerProvider } from "common/contexts/DrawerContext"
+import { theme } from "common/theme/saasCreative"
+import ResetCSS from "common/assets/css/style"
+import BannerSection from "containers/SaasCreative/Banner"
+import Navbar from "containers/SaasCreative/Navbar"
+import Clients from "containers/SaasCreative/Clients"
+import HowItWorks from "containers/SaasCreative/HowItWorks"
+import AdvancedAnalytics from "containers/SaasCreative/AdvancedAnalytics"
+import Features from "containers/SaasCreative/Features"
+import WalletExperience from "containers/SaasCreative/WalletExperience"
+import Testimonial from "containers/SaasCreative/Testimonial"
+import Pricing from "containers/SaasCreative/Pricing"
+import OurCommunity from "containers/SaasCreative/OurCommunity"
+import Faq from "containers/SaasCreative/Faq"
+import CallToAction from "containers/SaasCreative/CallToAction"
+import Footer from "containers/SaasCreative/Footer"
 import {
   GlobalStyle,
   ContentWrapper,
-} from 'containers/SaasCreative/saasCreative.style';
-import 'animate.css';
+} from "containers/SaasCreative/saasCreative.style"
+import "animate.css"
 
 const SaasCreative = () => {
   return (
@@ -30,10 +30,19 @@ const SaasCreative = () => {
       <Fragment>
         <Head>
           <title>SaaS Creative | A react next landing page</title>
-          <meta name="Description" content="React next landing page" />
-          <meta name="theme-color" content="#ec5555" />
+          <meta
+            name="Description"
+            content="React next landing page"
+          />
+          <meta
+            name="theme-color"
+            content="#000"
+          />
           {/* Load google fonts */}
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+          />
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400;500;700;800&display=swap"
@@ -44,7 +53,11 @@ const SaasCreative = () => {
         <GlobalStyle />
 
         <ContentWrapper>
-          <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
+          <Sticky
+            top={0}
+            innerZ={9999}
+            activeClass="sticky-nav-active"
+          >
             <DrawerProvider>
               <Navbar />
             </DrawerProvider>
@@ -64,6 +77,6 @@ const SaasCreative = () => {
         </ContentWrapper>
       </Fragment>
     </ThemeProvider>
-  );
-};
-export default SaasCreative;
+  )
+}
+export default SaasCreative
