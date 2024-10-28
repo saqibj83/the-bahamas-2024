@@ -348,7 +348,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
           <Heading {...secHeading} content="EVENT SCHEDULE" />
         </Box>
         <Box {...secText} className="justify-center flex text-center">
-          The special triton invitational
+          The ultra exclusive triton invitational
         </Box>
 
         <div className="prime-cta">
