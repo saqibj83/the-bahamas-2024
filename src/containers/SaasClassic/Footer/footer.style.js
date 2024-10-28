@@ -267,7 +267,7 @@ li{
       height: 40px;
     }
     a.linkFooter {
-      padding: 0 5px;
+      padding: 0 15px;
       font-size: 12px;
     }
     .footer-copy {
