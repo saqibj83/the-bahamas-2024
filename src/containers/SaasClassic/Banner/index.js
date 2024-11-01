@@ -5,6 +5,8 @@ import Box from "common/components/Box";
 import Button from "common/components/Button";
 import Container from "common/components/UI/Container";
 import PropTypes from "prop-types";
+import Fade from "react-reveal/Fade";
+import ReactPlayer from "react-player";
 import { BannerWrapper, VideoWrapper } from "./banner.style";
 
 // close button for modal
@@ -54,10 +56,23 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
         <Box {...row}>
           <Box {...contentWrapper} className="text-center">
             <img src={logo.src} alt="Logo and Event" className="logo w-full" />
+            <div className="video-section">
+              <Fade bottom>
+                <ReactPlayer
+                  url="https://www.youtube.com/embed/UvpLrrhIvls"
+                  playing={true}
+                  playsinline
+                  width="711px"
+                  height="400px"
+                  controls
+                />
+              </Fade>
+            </div>
             <div className="sponsor flex items-center justify-center">
               <p className="text-foreground font-bold text-[8px] xs:text-[10px] sm:text-xs md:text-sm sm:-me-4">
                 TITLE SPONSOR
               </p>
+
               <img src={sponsor.src} alt="Sponsor" />
             </div>
           </Box>
