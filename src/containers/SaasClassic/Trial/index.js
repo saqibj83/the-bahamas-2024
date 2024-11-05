@@ -100,10 +100,11 @@ const TrialSection = ({
                 <a href="https://gtowizard.com/en/" target="_blank">
                   {" "}
                   <img
-                    src="https://cdn.triton-series.com/wp-content/uploads/2019/12/19151356/gto1.png"
+                    src="https://cdn.triton-series.com/wp-content/uploads/2019/12/06003012/Logo-green-white.png"
                     alt="g"
                     style={{
                       display: "inline",
+                      marginTop: "35px",
                     }}
                   />
                 </a>
