@@ -5,6 +5,7 @@ import Container from "common/components/UI/Container";
 import PropTypes from "prop-types";
 
 import VendorLogos from "common/assets/image/saasClassic/wpt-global.png";
+import jaco from "common/assets/image/saasClassic/logo/jacob.svg";
 import SectionWrapper from "./trial.style";
 
 const TrialSection = ({

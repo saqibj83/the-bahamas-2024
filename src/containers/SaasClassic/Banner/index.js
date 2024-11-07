@@ -59,7 +59,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             <div className="video-section">
               <Fade bottom>
                 <ReactPlayer
-                  url="https://www.youtube.com/embed/Q0RW802eEAE"
+                  url="https://www.youtube.com/embed/e5e3m9snNKw"
                   playing={true}
                   playsinline
                   width="711px"
