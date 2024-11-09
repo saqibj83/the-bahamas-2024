@@ -70,7 +70,8 @@ const TrialSection = ({
                       alt="J&Co."
                       style={{
                         display: "inline",
-                       /* width: "130",*/
+                       width: "130",
+                      marginTop: "35px",
                       }}
                     />
                   </a>
