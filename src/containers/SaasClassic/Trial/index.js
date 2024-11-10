@@ -66,11 +66,12 @@ const TrialSection = ({
                   {" "}
                   <a href="https://jacobandco.com/" target="_blank">
                     <img
-                      src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172617/jacobco-h.svg"
+                      src="https://cdn.triton-series.com/wp-content/uploads/2019/12/09230413/IMG_5295.png"
                       alt="J&Co."
                       style={{
                         display: "inline",
-                        width: "90px",
+                       width: "130",
+                      marginTop: "35px",
                       }}
                     />
                   </a>
