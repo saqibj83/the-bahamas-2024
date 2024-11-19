@@ -68,13 +68,13 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 />
               </Fade>
             </div>
-            <div className="sponsor flex items-center justify-center">
+            {/* <div className="sponsor flex items-center justify-center">
               <p className="text-foreground font-bold text-[8px] xs:text-[10px] sm:text-xs md:text-sm sm:-me-4">
                 TITLE SPONSOR
               </p>
 
               <img src={sponsor.src} alt="Sponsor" />
-            </div>
+            </div> */}
           </Box>
         </Box>
       </Container>
