@@ -56,6 +56,10 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
         <Box {...row}>
           <Box {...contentWrapper} className="text-center">
             <img src={logo.src} alt="Logo and Event" className="logo w-full" />
+            <p className="text-foreground  mb-12">
+              ATLANTIS, BAHAMAS <br />
+              6th - 19th December 2024
+            </p>
             <div className="video-section">
               <Fade bottom>
                 <ReactPlayer

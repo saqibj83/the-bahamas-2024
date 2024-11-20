@@ -13,6 +13,8 @@ import Event6 from "common/assets/image/booklet/event-6.png";
 import Event7 from "common/assets/image/booklet/event-7.png";
 import Event8 from "common/assets/image/booklet/event-8.png";
 import Event9 from "common/assets/image/booklet/event-9.png";
+import logoMain from "common/assets/image/saasClassic/logo2.png";
+import logoMillio from "common/assets/image/saasClassic/logo-million.png";
 import Box from "common/components/Box";
 import Button from "common/components/Button";
 import Heading from "common/components/Heading";
@@ -348,16 +350,25 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
           <Heading {...secHeading} content="EVENT SCHEDULE" />
         </Box>
         <Box {...secText} className="justify-center flex text-center">
-          The ultra exclusive triton invitational
+          <img src={logoMillio.src} alt="Logo and Event" className="logo" />
         </Box>
 
         <div className="prime-cta">
-          <Link href="https://invitational-monte-carlo-2024.triton-series.com/" legacyBehavior>
+          <Link
+            href="https://invitational-monte-carlo-2024.triton-series.com/"
+            legacyBehavior
+          >
             <a target="_blank">
-              <Button title=" INVITATIONAL HOMEPAGE" className="!font-bold !px-11 !py-4 !my-3" />
+              <Button
+                title=" INVITATIONAL HOMEPAGE"
+                className="!font-bold !px-11 !py-4 !my-3"
+              />
             </a>
           </Link>
         </div>
+        <Box {...secText} className="justify-center flex text-center">
+          <img src={logoMain.src} alt="Logo and Event" className="logo" />
+        </Box>
         {/* <div className="prime-cta">
           <div
             className="primary-cta"
@@ -1201,7 +1212,10 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
               ></Button>
             </a>
           </Link>
-          <Link href="https://triton-series.com/tournament-rules/" legacyBehavior>
+          <Link
+            href="https://triton-series.com/tournament-rules/"
+            legacyBehavior
+          >
             <a target="_blank" className="flex justify-center">
               <Button
                 title="TOURNAMENT RULES"
