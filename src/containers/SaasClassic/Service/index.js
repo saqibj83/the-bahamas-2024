@@ -360,7 +360,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
           >
             <a target="_blank">
               <Button
-                title=" Triton Million Homepage"
+                title=" TRITON MILLION HOMEPAGE"
                 className="!font-bold !px-11 !py-4 !my-3"
               />
             </a>
