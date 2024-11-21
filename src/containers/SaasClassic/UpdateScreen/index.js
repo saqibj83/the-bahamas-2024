@@ -30,7 +30,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
         <Tabs className="update-screen-tab">
           <TabPane tab="Venue" key="1">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2882.2273527023285!2d7.43519157669217!3d43.74737537109779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdc28787641953%3A0x86d104ab1fa681b!2sMonte-Carlo%20Sporting%20%2F%20Salle%20Des%20%C3%89toiles!5e0!3m2!1sen!2s!4v1694424977740!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.533768821618!2d-77.3237729244081!3d25.083786736284516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x892f7da4cf39538f%3A0x6a76b269857686d4!2sAtlantis%20Paradise%20Island%20Bahamas!5e0!3m2!1sen!2smy!4v1732158236567!5m2!1sen!2smy"
               width="100%"
               height="450"
               style={{ border: "0" }}
@@ -39,7 +39,11 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </TabPane>
-          <TabPane tab="Accommodation" key="2" className="bg-[#1E1E1E] p-3 text-sm">
+          <TabPane
+            tab="Accommodation"
+            key="2"
+            className="bg-[#1E1E1E] p-3 text-sm"
+          >
             <ul className="[&_*]:!text-foreground [&>li]:!pt-0.5">
               <li>
                 Arrival: 31<sup>st</sup> of October 2024
@@ -70,7 +74,11 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
           <TabPane tab="Faq" key="4" className="[&_*]:!text-foreground">
             <FaqWrapper id="faq_section">
               <Accordion>
-                <AccordionItem className="accordion_item" key="1" expanded="expend">
+                <AccordionItem
+                  className="accordion_item"
+                  key="1"
+                  expanded="expend"
+                >
                   <AccordionTitle className="accordion_title">
                     <>
                       <Heading content="What are the visa requirements for entering Monaco?" />
@@ -88,23 +96,28 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                         </a>
                       </li>
                       <li>
-                        Nationals of the European Economic Area do not require a visa to enter
-                        Monaco.
+                        Nationals of the European Economic Area do not require a
+                        visa to enter Monaco.
                       </li>
                       <li>
-                        Nationals of countries outside the European Economic Area may be required to
-                        acquire a valid Schengen visa. Kindly consult your respective embassy for
-                        specific requirements.
+                        Nationals of countries outside the European Economic
+                        Area may be required to acquire a valid Schengen visa.
+                        Kindly consult your respective embassy for specific
+                        requirements.
                       </li>
                       <li>
-                        Triton Poker Series is pleased to provide personalized invitations for visa
-                        purposes upon request.
+                        Triton Poker Series is pleased to provide personalized
+                        invitations for visa purposes upon request.
                       </li>
                     </ul>
                   </AccordionBody>
                 </AccordionItem>
 
-                <AccordionItem className="accordion_item" key="2" expanded="expend">
+                <AccordionItem
+                  className="accordion_item"
+                  key="2"
+                  expanded="expend"
+                >
                   <AccordionTitle className="accordion_title">
                     <>
                       <Heading content="Where is the nearest airport to Monte Carlo Bay Hotel & Resort / Sporting Monte Carlo?" />
@@ -113,15 +126,19 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                   <AccordionBody className="accordion_body">
                     <ul>
                       <li>
-                        <strong> Nice Côte d'Azur Airport (NCE)</strong> is the nearest airport,
-                        approximately 50 minutes drive from Monte Carlo Bay Hotel & Resort /
-                        Sporting Monte Carlo.
+                        <strong> Nice Côte d'Azur Airport (NCE)</strong> is the
+                        nearest airport, approximately 50 minutes drive from
+                        Monte Carlo Bay Hotel & Resort / Sporting Monte Carlo.
                       </li>
                     </ul>
                   </AccordionBody>
                 </AccordionItem>
 
-                <AccordionItem className="accordion_item" key="3" expanded="expend">
+                <AccordionItem
+                  className="accordion_item"
+                  key="3"
+                  expanded="expend"
+                >
                   <AccordionTitle className="accordion_title">
                     <>
                       <Heading content="How do I get to Monte Carlo Bay Hotel & Resort from the airport?" />
@@ -131,39 +148,51 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                     <ul>
                       <li>
                         {" "}
-                        <strong>Private Transfer:</strong> We offer private airport transfer
-                        services. For further assistance, please contact our Event Concierge Team at{" "}
-                        <a href="mailto:concierge@triton-series.com">concierge@triton-series.com</a>
+                        <strong>Private Transfer:</strong> We offer private
+                        airport transfer services. For further assistance,
+                        please contact our Event Concierge Team at{" "}
+                        <a href="mailto:concierge@triton-series.com">
+                          concierge@triton-series.com
+                        </a>
                         or Whatsapp at +60125119615.
                       </li>
                       <li>
                         {" "}
-                        <strong>Taxi:</strong> Taxi ranks are conveniently located outside Terminals
-                        1 and 2 at Nice Airport, and taxis are available 24 hours a day. A one-way
-                        transfer from the airport to Monaco would cost between €90 - €100.
+                        <strong>Taxi:</strong> Taxi ranks are conveniently
+                        located outside Terminals 1 and 2 at Nice Airport, and
+                        taxis are available 24 hours a day. A one-way transfer
+                        from the airport to Monaco would cost between €90 -
+                        €100.
                       </li>
                       <li>
-                        <strong>Ride-hailing App (Uber): </strong>Use the app and head to the
-                        Kiss-and-Fly section of the terminal, where your ride will be waiting. Note
-                        that Uber is only available one way (Nice to Monaco). Once in Monaco, Uber
+                        <strong>Ride-hailing App (Uber): </strong>Use the app
+                        and head to the Kiss-and-Fly section of the terminal,
+                        where your ride will be waiting. Note that Uber is only
+                        available one way (Nice to Monaco). Once in Monaco, Uber
                         service is unavailable (Monaco to Nice).
                       </li>
                       <li>
-                        <strong>Bus and Tram:</strong> The tram and bus combination is a
-                        cost-effective and eco-friendly option. First, take Tram 2 from Nice Airport
-                        to Nice Port, followed by Bus Number 100 to Monaco. This option costs €3 and
-                        takes approximately 1 hour and 45 minutes.
+                        <strong>Bus and Tram:</strong> The tram and bus
+                        combination is a cost-effective and eco-friendly option.
+                        First, take Tram 2 from Nice Airport to Nice Port,
+                        followed by Bus Number 100 to Monaco. This option costs
+                        €3 and takes approximately 1 hour and 45 minutes.
                       </li>
                       <li>
-                        <strong>Helicopter:</strong> Many service providers offer helicopter
-                        transfers between Nice Côte d’Azur Airport (NCE) and the hotel. Players are
-                        advised to make their arrangements.
+                        <strong>Helicopter:</strong> Many service providers
+                        offer helicopter transfers between Nice Côte d’Azur
+                        Airport (NCE) and the hotel. Players are advised to make
+                        their arrangements.
                       </li>
                     </ul>
                   </AccordionBody>
                 </AccordionItem>
 
-                <AccordionItem className="accordion_item" key="4" expanded="expend">
+                <AccordionItem
+                  className="accordion_item"
+                  key="4"
+                  expanded="expend"
+                >
                   <AccordionTitle className="accordion_title">
                     <>
                       <Heading content="How do I book accommodation at the Monte Carlo Bay Hotel & Resort?" />
@@ -172,9 +201,10 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                   <AccordionBody className="accordion_body">
                     <ul>
                       <li>
-                        We offer preferential rates and complimentary accommodation promos for
-                        players who confirm their participation. For booking and further
-                        information, please contact our Event Concierge Team at &nbsp;
+                        We offer preferential rates and complimentary
+                        accommodation promos for players who confirm their
+                        participation. For booking and further information,
+                        please contact our Event Concierge Team at &nbsp;
                         <a href="mailto:concierge@triton-series.com ">
                           concierge@triton-series.com
                         </a>
@@ -184,7 +214,11 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                   </AccordionBody>
                 </AccordionItem>
 
-                <AccordionItem className="accordion_item" key="5" expanded="expend">
+                <AccordionItem
+                  className="accordion_item"
+                  key="5"
+                  expanded="expend"
+                >
                   <AccordionTitle className="accordion_title">
                     <>
                       <Heading content="Is accommodation complimentary for players?" />
@@ -193,8 +227,9 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                   <AccordionBody className="accordion_body">
                     <ul>
                       <li>
-                        We offer complimentary accommodation promos to players subject to terms and
-                        conditions. Information can be found&nbsp;
+                        We offer complimentary accommodation promos to players
+                        subject to terms and conditions. Information can be
+                        found&nbsp;
                         <a
                           href="https://triton-series.com/accommodation-monte-carlo-2024-en/"
                           target="_blank"
@@ -206,7 +241,11 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                   </AccordionBody>
                 </AccordionItem>
 
-                <AccordionItem className="accordion_item" key="6" expanded="expend">
+                <AccordionItem
+                  className="accordion_item"
+                  key="6"
+                  expanded="expend"
+                >
                   <AccordionTitle className="accordion_title">
                     <>
                       <Heading content="Monte Carlo Bay Hotel & Resort has run out of rooms; where else can I stay?" />
@@ -215,15 +254,19 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                   <AccordionBody className="accordion_body">
                     <ul>
                       <li>
-                        Le Méridien Beach Plaza is an excellent option for a stay as it is
-                        conveniently located 350m from the Sporting Monte Carlo, which is about a
-                        5-minute walk.
+                        Le Méridien Beach Plaza is an excellent option for a
+                        stay as it is conveniently located 350m from the
+                        Sporting Monte Carlo, which is about a 5-minute walk.
                       </li>
                     </ul>
                   </AccordionBody>
                 </AccordionItem>
 
-                <AccordionItem className="accordion_item" key="06" expanded="expend">
+                <AccordionItem
+                  className="accordion_item"
+                  key="06"
+                  expanded="expend"
+                >
                   <AccordionTitle className="accordion_title">
                     <>
                       <Heading content="How do I register for the tournaments?" />
@@ -240,20 +283,26 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                         >
                           <b>this registration form</b>
                         </a>{" "}
-                        to be added to the Triton Player Database. Once in the database, one of our
-                        Triton Concierge Team members will contact you to provide further
-                        information on buy-ins, payouts, and other services.
+                        to be added to the Triton Player Database. Once in the
+                        database, one of our Triton Concierge Team members will
+                        contact you to provide further information on buy-ins,
+                        payouts, and other services.
                       </li>
                       <li>
-                        For returning players, you may contact the Triton Concierge Team members
-                        assigned to you directly for further information on buy-ins, payouts, and
-                        other services.
+                        For returning players, you may contact the Triton
+                        Concierge Team members assigned to you directly for
+                        further information on buy-ins, payouts, and other
+                        services.
                       </li>
                     </ul>
                   </AccordionBody>
                 </AccordionItem>
 
-                <AccordionItem className="accordion_item" key="7" expanded="expend">
+                <AccordionItem
+                  className="accordion_item"
+                  key="7"
+                  expanded="expend"
+                >
                   <AccordionTitle className="accordion_title">
                     <>
                       <Heading content="Where can I find the tournament schedule and structures?" />
@@ -262,7 +311,8 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                   <AccordionBody className="accordion_body">
                     <ul>
                       <li>
-                        You may find the tournament schedule and structures&nbsp;
+                        You may find the tournament schedule and
+                        structures&nbsp;
                         <a href="/#event_section" rel="noopener">
                           <b>here</b>
                         </a>

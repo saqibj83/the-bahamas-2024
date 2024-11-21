@@ -360,7 +360,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
           >
             <a target="_blank">
               <Button
-                title=" INVITATIONAL HOMEPAGE"
+                title=" Triton Million Homepage"
                 className="!font-bold !px-11 !py-4 !my-3"
               />
             </a>
@@ -410,84 +410,84 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
             <tbody>
               {" "}
               <tr>
-                <td>1:00 PM</td>
+                <td>12:00 PM</td>
                 <td>
-                  Friday <br /> Nov 1, 2024
+                  Saturday <br /> Dec 7, 2024
                 </td>
                 <td>1</td>
                 <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #1 NLH WPT Global Ultimate Slam
+                  #2 TRITON MILLION
                 </td>
-                <td>$25,000</td>
+                <td>2 X $500,000</td>
                 <td>250,000</td>
                 <td>40 MINS </td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>12:00 PM</td>
                 <td>
-                  Saturday <br /> Nov 2, 2024
+                  Sunday <br /> Dec 9, 2024
                 </td>
                 <td>2</td>
                 <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #1 NLH WPT Global Ultimate Slam
+                  #2 TRITON MILLION
                 </td>
-                <td>$25,000</td>
+                <td>2 X $500,000</td>
                 <td>250,000</td>
                 <td>40 MINS </td>
               </tr>
               <tr>
-                <td>3:00 PM</td>
+                <td>12:00 PM</td>
                 <td>
-                  Saturday <br /> Nov 2, 2024
+                  Monday <br /> Dec 10, 2024
+                </td>
+                <td>FINAL DAY</td>
+                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
+                  #2 TRITON MILLION
+                </td>
+                <td>2 X $500,000</td>
+                <td>250,000</td>
+                <td>40 MINS </td>
+              </tr>
+              <tr>
+                <td>12:00 PM</td>
+                <td>
+                  Tuseday <br /> Dec 11, 2024
                 </td>
                 <td>1</td>
-                <td onClick={EventModal2} style={{ cursor: "pointer" }}>
-                  #2 NLH - 8 Handed
-                </td>
-                <td>$30,000</td>
-                <td>200,000</td>
-                <td>30 MINS </td>
-              </tr>
-              <tr>
-                <td>1:00 PM</td>
-                <td>
-                  Sunday <br /> Nov 3, 2024
-                </td>
-                <td>Final Day</td>
                 <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #1 NLH WPT Global Ultimate Slam
+                  #7 TRITON MAIN EVENT
                 </td>
-                <td>$25,000</td>
+                <td>$100,000</td>
                 <td>250,000</td>
                 <td>40 MINS </td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>12:00 PM</td>
                 <td>
-                  Sunday <br /> Nov 3, 2024
+                  Wednesday <br /> Dec 12, 2024
                 </td>
                 <td>2</td>
-                <td onClick={EventModal2} style={{ cursor: "pointer" }}>
-                  #2 NLH - 8 Handed
+                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
+                  #7 TRITON MAIN EVENT
                 </td>
-                <td>$30,000</td>
-                <td>200,000</td>
-                <td>30 MINS </td>
+                <td>$100,000</td>
+                <td>250,000</td>
+                <td>40 MINS </td>
               </tr>
               <tr>
-                <td>3:00 PM</td>
+                <td>12:00 PM</td>
                 <td>
-                  Sunday <br /> Nov 3, 2024
+                  Thursday <br /> Dec 13, 2024
                 </td>
                 <td>1</td>
-                <td onClick={EventModal3} style={{ cursor: "pointer" }}>
-                  #3 NLH - 7 Handed - Mystery Bounty
+                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
+                  #7 TRITON MAIN EVENT
                 </td>
-                <td>$40,000</td>
-                <td>200,000</td>
-                <td>35 MINS </td>
+                <td>$100,000</td>
+                <td>250,000</td>
+                <td>40 MINS </td>
               </tr>
-              <tr>
+              {/* <tr>
                 <td>1:00 PM</td>
                 <td>
                   Monday <br /> Nov 4, 2024
@@ -785,7 +785,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
                 <td>$25,000</td>
                 <td>200,000</td>
                 <td>20 MINS</td>
-              </tr>
+              </tr> */}
             </tbody>
           </table>
         </Box>
@@ -820,381 +820,82 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
             </thead>
             <tbody>
               <tr>
-                <td>1:00 PM</td>
+                <td>12:00 PM</td>
                 <td>
-                  Fri <br /> Nov 1, 2024
+                  Sat <br /> Dec 7, 2024
                 </td>
                 <td>1</td>
                 <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #1 NLH WPT Global Ultimate Slam
+                  #2 TRITON MILLION
                 </td>
-                <td>$25K</td>
-                <td>250K</td>
+                <td>2 X $500,000</td>
+                <td>250,000</td>
                 <td>40 MINS </td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>12:00 PM</td>
                 <td>
-                  Sat <br /> Nov 2, 2024
+                  Sun <br /> Dec 9, 2024
                 </td>
                 <td>2</td>
                 <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #1 NLH WPT Global Ultimate Slam
+                  #2 TRITON MILLION
                 </td>
-                <td>$25K</td>
-                <td>250K</td>
+                <td>2 X $500,000</td>
+                <td>250,000</td>
                 <td>40 MINS </td>
               </tr>
               <tr>
-                <td>3:00 PM</td>
+                <td>12:00 PM</td>
                 <td>
-                  Sat <br /> Nov 2, 2024
+                  Mon <br /> Dec 10, 2024
                 </td>
-                <td>1</td>
-                <td onClick={EventModal2} style={{ cursor: "pointer" }}>
-                  #2 NLH - 8 Handed
-                </td>
-                <td>$30K</td>
-                <td>200K</td>
-                <td>30 MINS </td>
-              </tr>
-              <tr>
-                <td>1:00 PM</td>
-                <td>
-                  Sun <br /> Nov 3, 2024
-                </td>
-                <td>Final Day</td>
+                <td>FINAL DAY</td>
                 <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #1 NLH WPT Global Ultimate Slam
+                  #2 TRITON MILLION
                 </td>
-                <td>$25K</td>
-                <td>250K</td>
+                <td>2 X $500,000</td>
+                <td>250,000</td>
                 <td>40 MINS </td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>12:00 PM</td>
                 <td>
-                  Sun <br /> Nov 3, 2024
-                </td>
-                <td>2</td>
-                <td onClick={EventModal2} style={{ cursor: "pointer" }}>
-                  #2 NLH - 8 Handed
-                </td>
-                <td>$30K</td>
-                <td>200K</td>
-                <td>30 MINS </td>
-              </tr>
-              <tr>
-                <td>3:00 PM</td>
-                <td>
-                  Sun <br /> Nov 3, 2024
+                  Tus <br /> Dec 11, 2024
                 </td>
                 <td>1</td>
-                <td onClick={EventModal3} style={{ cursor: "pointer" }}>
-                  #3 NLH - 7 Handed - Mystery Bounty
+                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
+                  #7 TRITON MAIN EVENT
                 </td>
-                <td>$40K</td>
-                <td>200K</td>
-                <td>35 MINS </td>
-              </tr>
-              <tr>
-                <td>1:00 PM</td>
-                <td>
-                  Mon <br /> Nov 4, 2024
-                </td>
-                <td>2</td>
-                <td onClick={EventModal3} style={{ cursor: "pointer" }}>
-                  #3 NLH - 7 Handed - Mystery Bounty
-                </td>
-                <td>$40K</td>
-                <td>200K</td>
-                <td>35 MINS </td>
-              </tr>
-              <tr>
-                <td>3:00 PM</td>
-                <td>
-                  Mon <br /> Nov 4, 2024
-                </td>
-                <td>1</td>
-                <td onClick={EventModal5} style={{ cursor: "pointer" }}>
-                  #5 NLH - 8 Handed
-                </td>
-                <td>$50K</td>
-                <td>200K</td>
-                <td>35 MINS </td>
-              </tr>
-              <tr>
-                <td>1:00 PM</td>
-                <td>
-                  Tue <br /> Nov 5, 2024
-                </td>
-                <td>2</td>
-                <td onClick={EventModal5} style={{ cursor: "pointer" }}>
-                  #5 NLH - 8 Handed
-                </td>
-                <td>$50K</td>
-                <td>200K</td>
-                <td>35 MINS </td>
-              </tr>
-              <tr>
-                <td>3:00 PM</td>
-                <td>
-                  Tue <br /> Nov 5, 2024
-                </td>
-                <td>1</td>
-                <td onClick={EventModal6} style={{ cursor: "pointer" }}>
-                  #6 NLH - 8 Handed
-                </td>
-                <td>$100K</td>
-                <td>200K</td>
+                <td>$100,000</td>
+                <td>250,000</td>
                 <td>40 MINS </td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>12:00 PM</td>
                 <td>
-                  Wed <br /> Nov 6, 2024
+                  Wed <br /> Dec 12, 2024
                 </td>
                 <td>2</td>
-                <td onClick={EventModal6} style={{ cursor: "pointer" }}>
-                  #6 NLH - 8 Handed
+                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
+                  #7 TRITON MAIN EVENT
                 </td>
-                <td>$100K</td>
-                <td>200K</td>
+                <td>$100,000</td>
+                <td>250,000</td>
                 <td>40 MINS </td>
               </tr>
               <tr>
-                <td>4:00 PM</td>
+                <td>12:00 PM</td>
                 <td>
-                  Wed <br /> Nov 6, 2024
-                </td>
-                <td>SINGLE</td>
-                <td onClick={EventModal7} style={{ cursor: "pointer" }}>
-                  #7 NLH - TURBO Bounty Quattro
-                </td>
-                <td>$30K</td>
-                <td>200K</td>
-                <td>20 MINS </td>
-              </tr>
-              <tr>
-                <td>12:30 PM</td>
-                <td>
-                  Thu <br /> Nov 7, 2024
+                  Thu <br /> Dec 13, 2024
                 </td>
                 <td>1</td>
-                <td onClick={EventModal8} style={{ cursor: "pointer" }}>
-                  #8 NLH - Triton Invitational
+                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
+                  #7 TRITON MAIN EVENT
                 </td>
-                <td>$200K</td>
-                <td>300K</td>
-                <td>50 MINS </td>
-              </tr>
-              <tr>
-                <td>1:00 PM</td>
-                <td>
-                  Fri <br /> Nov 8, 2024
-                </td>
-                <td>2</td>
-                <td onClick={EventModal8} style={{ cursor: "pointer" }}>
-                  #8 NLH - Triton Invitational
-                </td>
-                <td>$200K</td>
-                <td>300K</td>
-                <td>50 MINS </td>
-              </tr>
-              <tr>
-                <td>5:00 PM</td>
-                <td>
-                  Fri <br /> Nov 8, 2024
-                </td>
-                <td>1</td>
-                <td onClick={EventModal9} style={{ cursor: "pointer" }}>
-                  #9 NLH - 7 Handed
-                </td>
-                <td>$50K</td>
-                <td>200K</td>
-                <td>30 MINS </td>
-              </tr>
-              <tr>
-                <td>1:00 PM</td>
-                <td>
-                  Sat <br /> Nov 9, 2024
-                </td>
-                <td>FT</td>
-                <td onClick={EventModal8} style={{ cursor: "pointer" }}>
-                  #8 NLH - Triton Invitational
-                </td>
-                <td>$200K</td>
-                <td>300K</td>
-                <td>50 MINS </td>
-              </tr>
-              <tr>
-                <td>1:00 PM</td>
-                <td>
-                  Sat <br /> Nov 9, 2024
-                </td>
-                <td>2</td>
-                <td onClick={EventModal9} style={{ cursor: "pointer" }}>
-                  #9 NLH - 7 Handed
-                </td>
-                <td>$50K</td>
-                <td>200K</td>
-                <td>30 MINS </td>
-              </tr>
-              <tr>
-                <td>2:00 PM</td>
-                <td>
-                  Sat <br /> Nov 9, 2024
-                </td>
-                <td>1</td>
-                <td onClick={EventModal10} style={{ cursor: "pointer" }}>
-                  #10 NLH - Main Event
-                </td>
-                <td>$125K</td>
-                <td>250K</td>
-                <td>50 MINS </td>
-              </tr>
-              <tr>
-                <td>1:00 PM</td>
-                <td>
-                  Sun <br /> Nov 10, 2024
-                </td>
-                <td>2</td>
-                <td onClick={EventModal10} style={{ cursor: "pointer" }}>
-                  #10 NLH - Main Event
-                </td>
-                <td>$125K</td>
-                <td>250K</td>
-                <td>50 MINS </td>
-              </tr>
-              <tr>
-                <td>4:00 PM</td>
-                <td>
-                  Sun <br /> Nov 10, 2024
-                </td>
-                <td>SINGLE</td>
-                <td onClick={EventModal11} style={{ cursor: "pointer" }}>
-                  #11 NLH - TURBO
-                </td>
-                <td>$60K</td>
-                <td>200K</td>
-                <td>20 MINS</td>
-              </tr>
-              <tr>
-                <td>1:00 PM</td>
-                <td>
-                  Mon <br /> Nov 11, 2024
-                </td>
-                <td>FT</td>
-                <td onClick={EventModal10} style={{ cursor: "pointer" }}>
-                  #10 NLH - Main Event
-                </td>
-                <td>$125K</td>
-                <td>250K</td>
-                <td>50 MINS </td>
-              </tr>
-              <tr>
-                <td>2:00 PM</td>
-                <td>
-                  Mon <br /> Nov 11, 2024
-                </td>
-                <td>1</td>
-                <td onClick={EventModal12} style={{ cursor: "pointer" }}>
-                  #12 NLH - 8 Handed
-                </td>
-                <td>$150K</td>
-                <td>200K</td>
-                <td>45 MINS </td>
-              </tr>
-              <tr>
-                <td>1:00 PM</td>
-                <td>
-                  Tue <br /> Nov 12, 2024
-                </td>
-                <td>2</td>
-                <td onClick={EventModal12} style={{ cursor: "pointer" }}>
-                  #12 NLH - 8 Handed
-                </td>
-                <td>$150K</td>
-                <td>200K</td>
-                <td>45 MINS </td>
-              </tr>
-              <tr>
-                <td>4:00 PM</td>
-                <td>
-                  Tue <br /> Nov 12, 2024
-                </td>
-                <td>1</td>
-                <td onClick={EventModal13} style={{ cursor: "pointer" }}>
-                  #13 PLO - 6 Handed
-                </td>
-                <td>$50K</td>
-                <td>200K</td>
-                <td>35 MINS </td>
-              </tr>
-              <tr>
-                <td>1:00 PM</td>
-                <td>
-                  Wed <br /> Nov 13, 2024
-                </td>
-                <td>Final Day</td>
-                <td onClick={EventModal12} style={{ cursor: "pointer" }}>
-                  #12 NLH - 8 Handed
-                </td>
-                <td>$150K</td>
-                <td>200K</td>
-                <td>45 MINS </td>
-              </tr>
-              <tr>
-                <td>1:00 PM</td>
-                <td>
-                  Wed <br /> Nov 13, 2024
-                </td>
-                <td>2</td>
-                <td onClick={EventModal13} style={{ cursor: "pointer" }}>
-                  #13 PLO - 6 Handed
-                </td>
-                <td>$50K</td>
-                <td>200K</td>
-                <td>35 MINS </td>
-              </tr>
-              <tr>
-                <td>4:00 PM</td>
-                <td>
-                  Wed <br /> Nov 13, 2024
-                </td>
-                <td>1</td>
-                <td onClick={EventModal15} style={{ cursor: "pointer" }}>
-                  #15 PLO - Main Event
-                </td>
-                <td>$100K</td>
-                <td>250K</td>
-                <td>45 MINS </td>
-              </tr>
-              <tr>
-                <td>1:00 PM</td>
-                <td>
-                  Thu <br /> Nov 14, 2024
-                </td>
-                <td>2</td>
-                <td onClick={EventModal15} style={{ cursor: "pointer" }}>
-                  #15 PLO - Main Event
-                </td>
-                <td>$100K</td>
-                <td>250K</td>
-                <td>45 MINS </td>
-              </tr>
-              <tr>
-                <td>5:00 PM</td>
-                <td>
-                  Thu <br /> Nov 14, 2024
-                </td>
-                <td>SINGLE</td>
-                <td onClick={EventModal16} style={{ cursor: "pointer" }}>
-                  #16 PLO Turbo BOUNTY Quattro
-                </td>
-                <td>$25K</td>
-                <td>200K</td>
-                <td>20 MINS</td>
+                <td>$100,000</td>
+                <td>250,000</td>
+                <td>40 MINS </td>
               </tr>
             </tbody>
           </table>
