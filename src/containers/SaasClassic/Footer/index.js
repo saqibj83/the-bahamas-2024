@@ -3,7 +3,16 @@ import Link from "next/link";
 import PropTypes from "prop-types";
 import FooterWrapper from "./footer.style";
 
-const Footer = ({ row, col, colOne, colTwo, buttonStyle, titleStyle, logoStyle, textStyle }) => {
+const Footer = ({
+  row,
+  col,
+  colOne,
+  colTwo,
+  buttonStyle,
+  titleStyle,
+  logoStyle,
+  textStyle,
+}) => {
   return (
     <FooterWrapper>
       <Container className="footer_container sm:mt-20">
@@ -46,14 +55,23 @@ const Footer = ({ row, col, colOne, colTwo, buttonStyle, titleStyle, logoStyle, 
                   </ul>
                 </div>
 
-                <div className="footer-nav_subscribe mt-12">
-                  <span className="footer-nav__col-title !mb-5 mt-5">NEWSLETTER</span>
+                <div className="footer-nav_subscribe mt-12 mb-6">
+                  <span className="footer-nav__col-title !mb-5 mt-5">
+                    NEWSLETTER
+                  </span>
 
                   <div className="box-field__row">
                     <div className="box-field">
-                      <input type="email" className="form-control" placeholder="Enter your email" />
+                      <input
+                        type="email"
+                        className="form-control"
+                        placeholder="Enter your email"
+                      />
                     </div>
-                    <button type="submit" className="btn !font-bold bg-[#DFA95B]">
+                    <button
+                      type="submit"
+                      className="btn !font-bold bg-[#DFA95B]"
+                    >
                       subscribe
                     </button>
                   </div>
@@ -68,8 +86,8 @@ const Footer = ({ row, col, colOne, colTwo, buttonStyle, titleStyle, logoStyle, 
                   float: "left",
                 }}
               >
-                <i className="icon-map-pin"></i> 85, Fenlex House, St. John Street, Valletta,
-                VLT1165, Malta
+                <i className="icon-map-pin"></i> 85, Fenlex House, St. John
+                Street, Valletta, VLT1165, Malta
               </p>
               <ul>
                 <li>
@@ -86,7 +104,10 @@ const Footer = ({ row, col, colOne, colTwo, buttonStyle, titleStyle, logoStyle, 
                 </li>
                 <li>
                   <i className="icon-mail"></i>
-                  <a target="_blank" href="mailto:partnerships@triton-series.com">
+                  <a
+                    target="_blank"
+                    href="mailto:partnerships@triton-series.com"
+                  >
                     partnerships@triton-series.com
                   </a>
                 </li>
