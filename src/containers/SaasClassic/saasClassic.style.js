@@ -200,6 +200,7 @@ export const ContentWrapper = styled.div`
   background-image: url(${desktopBg.src});
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom;
   overflow: hidden;
   @media (max-width: 600px) {
     background-image: url(${mobileBg.src});

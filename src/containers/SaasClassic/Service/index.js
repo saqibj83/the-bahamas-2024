@@ -354,10 +354,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
         </Box>
 
         <div className="prime-cta">
-          <Link
-            href="https://invitational-monte-carlo-2024.triton-series.com/"
-            legacyBehavior
-          >
+          <Link href="#" legacyBehavior>
             <a target="_blank">
               <Button
                 title=" TRITON MILLION HOMEPAGE"
@@ -902,7 +899,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
         </Box>
         <Box className="flex flex-col md:gap-10 md:flex-row gap-5 mt-10 px-5 justify-center">
           <Link
-            href="https://cdn.triton-series.com/wp-content/uploads/2019/12/16173950/TritonPoker-2024-MonteCarlo-EventStructure.pdf"
+            href="https://cdn.triton-series.com/wp-content/uploads/2019/12/26142153/Triton-Poker-X-WSOP-Paradise_Structure_241019.pdf"
             legacyBehavior
           >
             <a target="_blank" className="flex justify-center">
