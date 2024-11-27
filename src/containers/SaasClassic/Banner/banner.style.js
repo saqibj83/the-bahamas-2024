@@ -1,5 +1,5 @@
 import desktopBg from "common/assets/image/saasClassic/TPSHRS-Monte-Carlo-Landing-Page-Bg-Banner-desktop.png";
-import mobileBg from "common/assets/image/saasClassic/TPSHRS-Monte-Carlo-Landing-Page-Bg-Banner.png";
+import mobileBg from "common/assets/image/saasClassic/Triton-Invitational-Header.png";
 import styled, { keyframes } from "styled-components";
 
 const Bubble = keyframes`
