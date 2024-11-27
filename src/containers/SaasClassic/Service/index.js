@@ -826,7 +826,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
                   #2 TRITON MILLION INVITATIONAL
                 </td>
                 <td>$500K</td>
-                <td>100K</td>
+                <td>1M</td>
                 <td>50 MINS </td>
               </tr>
               <tr>
@@ -839,7 +839,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
                   #2 TRITON MILLION INVITATIONAL
                 </td>
                 <td>$500K</td>
-                <td>100K</td>
+                <td>1M</td>
                 <td>50 MINS </td>
               </tr>
               <tr>
@@ -852,7 +852,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
                   #2 TRITON MILLION INVITATIONAL
                 </td>
                 <td>$500K</td>
-                <td>100K</td>
+                <td>1M</td>
                 <td>50 MINS </td>
               </tr>
               <tr>
