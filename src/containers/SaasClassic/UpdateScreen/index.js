@@ -28,6 +28,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
             content="Event Venue"
           />
         </Box>
+
         <Box style={{ border: "5px solid #dfa95a" }}>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.533768821618!2d-77.3237729244081!3d25.083786736284516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x892f7da4cf39538f%3A0x6a76b269857686d4!2sAtlantis%20Paradise%20Island%20Bahamas!5e0!3m2!1sen!2smy!4v1732158236567!5m2!1sen!2smy"
