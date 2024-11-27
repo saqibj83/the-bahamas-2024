@@ -474,7 +474,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
               <tr>
                 <td>12:00 PM</td>
                 <td>
-                  Thursday <br /> Dec 132, 2024
+                  Thursday <br /> Dec 12, 2024
                 </td>
                 <td>FINAL TABLE</td>
                 <td onClick={EventModal1} style={{ cursor: "pointer" }}>
@@ -884,7 +884,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
               <tr>
                 <td>12:00 PM</td>
                 <td>
-                  Thu <br /> Dec 132, 2024
+                  Thu <br /> Dec 12, 2024
                 </td>
                 <td>FINAL TABLE</td>
                 <td onClick={EventModal1} style={{ cursor: "pointer" }}>
