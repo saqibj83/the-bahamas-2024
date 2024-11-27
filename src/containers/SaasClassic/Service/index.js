@@ -355,7 +355,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
 
         <div className="prime-cta">
           <Link href="#" legacyBehavior>
-            <a target="_blank">
+            <a target="_blank" href="https://paradisemillion.triton-series.com">
               <Button
                 title=" TRITON MILLION HOMEPAGE"
                 className="!font-bold !px-11 !py-4 !my-3"
