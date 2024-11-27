@@ -355,7 +355,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
 
         <div className="prime-cta">
           <Link href="#" legacyBehavior>
-            <a target="_blank">
+            <a target="_blank" href="https://paradisemillion.triton-series.com">
               <Button
                 title=" TRITON MILLION HOMEPAGE"
                 className="!font-bold !px-11 !py-4 !my-3"
@@ -416,7 +416,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
                   #2 TRITON MILLION INVITATIONAL
                 </td>
                 <td>$500,000</td>
-                <td>100,000</td>
+                <td>1,000,000</td>
                 <td>50 MINS </td>
               </tr>
               <tr>
@@ -429,7 +429,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
                   #2 TRITON MILLION INVITATIONAL
                 </td>
                 <td>$500,000</td>
-                <td>100,000</td>
+                <td>1,000,000</td>
                 <td>50 MINS </td>
               </tr>
               <tr>
@@ -442,7 +442,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
                   #2 TRITON MILLION INVITATIONAL
                 </td>
                 <td>$500,000</td>
-                <td>100,000</td>
+                <td>1,000,000</td>
                 <td>50 MINS </td>
               </tr>
               <tr>
@@ -474,7 +474,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
               <tr>
                 <td>12:00 PM</td>
                 <td>
-                  Thursday <br /> Dec 132, 2024
+                  Thursday <br /> Dec 12, 2024
                 </td>
                 <td>FINAL TABLE</td>
                 <td onClick={EventModal1} style={{ cursor: "pointer" }}>
@@ -884,7 +884,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
               <tr>
                 <td>12:00 PM</td>
                 <td>
-                  Thu <br /> Dec 132, 2024
+                  Thu <br /> Dec 12, 2024
                 </td>
                 <td>FINAL TABLE</td>
                 <td onClick={EventModal1} style={{ cursor: "pointer" }}>

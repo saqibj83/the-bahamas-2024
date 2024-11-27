@@ -197,7 +197,7 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const ContentWrapper = styled.div`
-  background-image: url(${desktopBg.src});
+  background-image: linear-gradient(to bottom, black 0%, black 0%, transparent 40%), url(${desktopBg.src});
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
