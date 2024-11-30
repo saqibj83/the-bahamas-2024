@@ -412,9 +412,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
                   Saturday <br /> Dec 7, 2024
                 </td>
                 <td>1</td>
-                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #2 TRITON MILLION INVITATIONAL
-                </td>
+                <td>#2 TRITON MILLION INVITATIONAL</td>
                 <td>$500,000</td>
                 <td>1,000,000</td>
                 <td>50 MINS </td>
@@ -425,9 +423,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
                   Sunday <br /> Dec 8, 2024
                 </td>
                 <td>2</td>
-                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #2 TRITON MILLION INVITATIONAL
-                </td>
+                <td>#2 TRITON MILLION INVITATIONAL</td>
                 <td>$500,000</td>
                 <td>1,000,000</td>
                 <td>50 MINS </td>
@@ -438,9 +434,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
                   Monday <br /> Dec 9, 2024
                 </td>
                 <td>FINAL TABLE</td>
-                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #2 TRITON MILLION INVITATIONAL
-                </td>
+                <td>#2 TRITON MILLION INVITATIONAL</td>
                 <td>$500,000</td>
                 <td>1,000,000</td>
                 <td>50 MINS </td>
@@ -451,9 +445,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
                   Tuesday <br /> Dec 10, 2024
                 </td>
                 <td>1</td>
-                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #7 NLH MAIN EVENT
-                </td>
+                <td>#7 NLH MAIN EVENT</td>
                 <td>$100,000</td>
                 <td>250,000</td>
                 <td>50 MINS </td>
@@ -464,9 +456,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
                   Wednesday <br /> Dec 11, 2024
                 </td>
                 <td>2</td>
-                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #7 NLH MAIN EVENT
-                </td>
+                <td>#7 NLH MAIN EVENT</td>
                 <td>$100,000</td>
                 <td>250,000</td>
                 <td>50 MINS </td>
@@ -477,9 +467,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
                   Thursday <br /> Dec 12, 2024
                 </td>
                 <td>FINAL TABLE</td>
-                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #7 NLH MAIN EVENT
-                </td>
+                <td>#7 NLH MAIN EVENT</td>
                 <td>$100,000</td>
                 <td>250,000</td>
                 <td>50 MINS </td>
@@ -822,9 +810,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
                   Sat <br /> Dec 7, 2024
                 </td>
                 <td>1</td>
-                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #2 TRITON MILLION INVITATIONAL
-                </td>
+                <td>#2 TRITON MILLION INVITATIONAL</td>
                 <td>$500K</td>
                 <td>1M</td>
                 <td>50 MINS </td>
@@ -835,9 +821,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
                   Sun <br /> Dec 8, 2024
                 </td>
                 <td>2</td>
-                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #2 TRITON MILLION INVITATIONAL
-                </td>
+                <td>#2 TRITON MILLION INVITATIONAL</td>
                 <td>$500K</td>
                 <td>1M</td>
                 <td>50 MINS </td>
@@ -848,9 +832,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
                   Mon <br /> Dec 9, 2024
                 </td>
                 <td>FINAL TABLE</td>
-                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #2 TRITON MILLION INVITATIONAL
-                </td>
+                <td>#2 TRITON MILLION INVITATIONAL</td>
                 <td>$500K</td>
                 <td>1M</td>
                 <td>50 MINS </td>
@@ -861,9 +843,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
                   Tue <br /> Dec 10, 2024
                 </td>
                 <td>1</td>
-                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #7 NLH MAIN EVENT
-                </td>
+                <td>#7 NLH MAIN EVENT</td>
                 <td>$100K</td>
                 <td>250K</td>
                 <td>50 MINS </td>
@@ -874,9 +854,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
                   Wed <br /> Dec 11, 2024
                 </td>
                 <td>2</td>
-                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #7 NLH MAIN EVENT
-                </td>
+                <td>#7 NLH MAIN EVENT</td>
                 <td>$100K</td>
                 <td>250K</td>
                 <td>50 MINS </td>
@@ -887,9 +865,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading, secText }) => {
                   Thu <br /> Dec 12, 2024
                 </td>
                 <td>FINAL TABLE</td>
-                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
-                  #7 NLH MAIN EVENT
-                </td>
+                <td>#7 NLH MAIN EVENT</td>
                 <td>$100K</td>
                 <td>250K</td>
                 <td>50 MINS </td>
