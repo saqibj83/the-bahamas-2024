@@ -24,11 +24,11 @@ export const MENU_ITEMS = [
     path: "#venue",
     offset: "0",
   },
-  {
-    label: "SPONSORS",
-    path: "#sponsor_section",
-    offset: "0",
-  },
+  // {
+  //   label: "SPONSORS",
+  //   path: "#sponsor_section",
+  //   offset: "0",
+  // },
   {
     label: "JOIN",
     path: "#join_section",

@@ -47,11 +47,11 @@ const Footer = ({
                         <i className="icon-arrow-sm"></i>Venue
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="#sponsor_section">
                         <i className="icon-arrow-sm"></i>Sponsors
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
 
