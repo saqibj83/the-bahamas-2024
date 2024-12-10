@@ -23,7 +23,7 @@ const ModalContent = () => (
   <VideoWrapper>
     <iframe
       title="Video"
-      src="https://www.youtube.com/embed/Hh-9Vm7eIWA"
+      src="https://www.youtube.com/embed/y9seElQqWMY"
       frameBorder="0"
     />
   </VideoWrapper>
@@ -63,7 +63,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             <div className="video-section">
               <Fade bottom>
                 <ReactPlayer
-                  url="https://www.youtube.com/embed/Hh-9Vm7eIWA"
+                  url="https://www.youtube.com/embed/y9seElQqWMY"
                   playing={true}
                   playsinline
                   width="711px"
